@@ -47,8 +47,7 @@ results/
 docs/
   CROSS_MODEL_ANALYSIS.md  CROSS_MODEL_ANALYSIS_API.md  COST_SENSITIVE_AND_COMPUTE.md
   REALDOC_ANALYSIS.md  ENVIRONMENT_AND_COST.md
-LICENSE (Apache-2.0, code)   LICENSE-DATA (CC BY 4.0, data)   SOURCE_REPORTS.md   MANIFEST.md
-```
+LICENSE (Apache-2.0, code)   LICENSE-DATA (CC BY 4.0, data)   SOURCE_REPORTS.md ```
 
 ## Reproduce — open-weight (exact)
 ```bash
