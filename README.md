@@ -1,34 +1,35 @@
 # Evidence-Constrained LLM Decision-Making — Reproducibility Package
 
-Code, data, and raw model outputs for
-**"Navigating the Certainty Gap: The Hydraulic Effect of Evidence-Constrained LLMs in Professional Decision-Making"** (IEEE Access, accompanying the script).
+Code, data, and raw model outputs accompanying the paper **"Navigating the Certainty Gap: The Hydraulic Effect of Evidence-Constrained LLMs in Professional Decision-Making"**.
 
 ## Overview
 
 This repository contains the complete reproducibility package for the experiments reported in the paper, including:
 
-- the 40-case ambiguity benchmark,
-- Evidence-Constrained prompt implementations,
+- the 40-case construction-delay ambiguity benchmark,
+- Evidence-Constrained prompting implementations,
 - evaluation and analysis scripts,
-- raw outputs from all twelve evaluated models (six proprietary and six open-weight models),
-- human evaluation data,
+- raw outputs from all twelve evaluated models (six proprietary and six open-weight),
+- anonymized human evaluation data,
 - figure generation scripts,
 - supporting documentation.
+
+The repository is organized so that the principal experiments, figures, and quantitative analyses reported in the paper can be independently reproduced from the released code, benchmark, and raw outputs.
 
 ## What this reproduces  
 - The empirical analyses supporting the observed **Hydraulic Effect** under the evaluated benchmark conditions, including the reduction of the False Confirmation Rate (FCR) to ≤3.4% using Strict EC while increasing abstention across the twelve evaluated models.
 - All **baselines**: Selective Prediction (risk–coverage), Self-Consistency (k=5),
   Retrieval-Augmented ICL (+leave-one-category-out), Log-Probability uncertainty,
   Calibration (ECE/Brier).
-- The **cost-sensitive** (R4#9), **computational-cost** (R4#11), **cross-model**,
-  **real-document** (R3.1), failure-taxonomy re-annotation (R4#12), and human-evaluation
+- The **cost-sensitive**, **computational-cost**, **cross-model**,
+  **real-document**, failure-taxonomy re-annotation, and human-evaluation
   re-analyses.
 
-## Layout (assembled by `make_release.sh`)
+## Repository Layout 
 ```
 code/
   run_open_models.py        harness (Ollama / OpenAI-compatible); suites core|sp|sc|lp|rag|strict|rag_loco
-  prompts_core.py           ALL prompt templates (ED, Strict EC=EC2_A_FULL, Normalcy EC, SP, SC, RAG, LP)
+  prompts_core.py           Prompt implementations (ED, Strict EC=EC2_A_FULL, Normalcy EC, SP, SC, RAG, LP)
   run_openai_batch.py       OpenAI Batch runner          run_claude_batch.py    Anthropic Batch runner
   run_gemini_batch.py       Gemini Batch runner          real_doc_run.py        real-document runner
   analyze_open.py           metrics (Acc, FCR, abstention, SP/LP risk–coverage, ECE/Brier, EC-vs-SP)
@@ -49,7 +50,7 @@ docs/
   REALDOC_ANALYSIS.md  ENVIRONMENT_AND_COST.md
 LICENSE (Apache-2.0, code)   LICENSE-DATA (CC BY 4.0, data)   SOURCE_REPORTS.md ```
 
-## Reproduce — open-weight (exact)
+## Reproducing the Open-Weight Experiments)
 ```bash
 python -m venv venv && source venv/bin/activate && pip install -r code/requirements.txt
 ollama pull gemma3:27b            # full model list + digests in docs/CROSS_MODEL_ANALYSIS.md
@@ -71,16 +72,13 @@ resolved model IDs + run config are in `docs/ENVIRONMENT_AND_COST.md`.
 
 ## Citation
 
-If you use this repository, please cite
+If you use this repository, please cite the accompanying paper:
 
-Florence Gundidza,
-Masato Kikuchi,
-Tadachika Ozono.
+Florence Gundidza, Masato Kikuchi, and Tadachika Ozono.
 
-Navigating the Certainty Gap: The Hydraulic Effect of Evidence-Constrained LLMs in Professional Decision-Making.
+**Navigating the Certainty Gap: The Hydraulic Effect of Evidence-Constrained LLMs in Professional Decision-Making.**
 
-IEEE Access.
+*Under review at IEEE Access.*
 
-DOI: To be added after publication.
+The DOI and BibTeX entry will be added after publication.
 
-A BibTeX entry will be added upon publication.

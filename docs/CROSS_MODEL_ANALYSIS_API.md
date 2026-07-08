@@ -1,4 +1,4 @@
-# API (proprietary) cross-model results — IEEE Access resubmission
+# API (proprietary) cross-model results 
 Strict EC = EC2_A_FULL. Suites: core(ED/Strict/Normalcy)+SP+SC(k=5)+RAG; LP excluded (Claude/Gemini expose no logprobs). RAG embeddings: OpenAI text-embedding-3-small. gpt-5.5 + all Claude/Gemini via Batch API (50%).
 NOTE: gemini-2.5-pro was run but EXCLUDED as a pathological outlier (degenerate ED = all 'No Delay'); archived under results_api/_excluded/.
 
