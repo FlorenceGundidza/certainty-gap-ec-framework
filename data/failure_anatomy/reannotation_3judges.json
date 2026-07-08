@@ -1,0 +1,232 @@
+[
+  {
+    "case_id": "case_01",
+    "gold": "Delay",
+    "pred": "No Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope-Change Conflation",
+      "claude-sonnet-4-6": "Scope-Change Conflation",
+      "gemini-3.5-flash": "Scope-Change Conflation"
+    }
+  },
+  {
+    "case_id": "case_14",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "labels": {
+      "gpt-5.4-mini": "Temporal & Modality Confusion",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Temporal & Modality Confusion"
+    }
+  },
+  {
+    "case_id": "case_15",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope & Granularity Mismatch",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_25",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Temporal & Modality Confusion",
+      "claude-sonnet-4-6": "Temporal & Modality Confusion",
+      "gemini-3.5-flash": "Temporal & Modality Confusion"
+    }
+  },
+  {
+    "case_id": "case_31",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope-Change Conflation",
+      "claude-sonnet-4-6": "Scope-Change Conflation",
+      "gemini-3.5-flash": "Scope-Change Conflation"
+    }
+  },
+  {
+    "case_id": "case_32",
+    "gold": "No Delay",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope-Change Conflation",
+      "claude-sonnet-4-6": "Scope-Change Conflation",
+      "gemini-3.5-flash": "Scope-Change Conflation"
+    }
+  },
+  {
+    "case_id": "case_36",
+    "gold": "No Delay",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Recovery Neglect",
+      "claude-sonnet-4-6": "Recovery Neglect",
+      "gemini-3.5-flash": "Recovery Neglect"
+    }
+  },
+  {
+    "case_id": "case_40",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_11",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Lexical Overheating",
+      "claude-sonnet-4-6": "Lexical Overheating",
+      "gemini-3.5-flash": "Lexical Overheating"
+    }
+  },
+  {
+    "case_id": "case_12",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope & Granularity Mismatch",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_13",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "labels": {
+      "gpt-5.4-mini": "Lexical Overheating",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_28",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope & Granularity Mismatch",
+      "claude-sonnet-4-6": "Temporal & Modality Confusion",
+      "gemini-3.5-flash": "Temporal & Modality Confusion"
+    }
+  },
+  {
+    "case_id": "case_01",
+    "gold": "Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_07",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_08",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_37",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_38",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_39",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_04",
+    "gold": "Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Excessive Conservatism (Over-Abstention)",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  },
+  {
+    "case_id": "case_28",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope & Granularity Mismatch",
+      "claude-sonnet-4-6": "Temporal & Modality Confusion",
+      "gemini-3.5-flash": "Temporal & Modality Confusion"
+    }
+  },
+  {
+    "case_id": "case_15",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Scope & Granularity Mismatch",
+      "claude-sonnet-4-6": "Lexical Overheating",
+      "gemini-3.5-flash": "Temporal & Modality Confusion"
+    }
+  },
+  {
+    "case_id": "case_13",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "labels": {
+      "gpt-5.4-mini": "Lexical Overheating",
+      "claude-sonnet-4-6": "Lexical Overheating",
+      "gemini-3.5-flash": "Temporal & Modality Confusion"
+    }
+  },
+  {
+    "case_id": "case_36",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "labels": {
+      "gpt-5.4-mini": "Recovery Neglect",
+      "claude-sonnet-4-6": "Excessive Conservatism (Over-Abstention)",
+      "gemini-3.5-flash": "Excessive Conservatism (Over-Abstention)"
+    }
+  }
+]

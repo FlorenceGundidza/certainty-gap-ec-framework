@@ -1,0 +1,1887 @@
+[
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The excerpt contains only administrative/authorship metadata about who prepared the report and contact information. There are no statements regarding schedule, milestones, progress, or any project activity status—neither Reported Facts nor Policy/Risk items.",
+      "scope_recovery_analysis": "No mention of any timeline, milestone, delay, recovery, or scope change. There is nothing to assess regarding schedule slippage or resolution.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' Here there is no project work described at all—only metadata about report authorship. With zero schedule-relevant information, the appropriate classification is 'Uncertain' due to genuinely missing information.",
+      "label": "Uncertain"
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-p__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Appraisal Jan.-March 1986",
+        "Loan signed 16.7.1986",
+        "Tenders closed, 17.2.1987",
+        "Loan effective 1.4.1987",
+        "First disbursement 26.6.1987",
+        "Award of Contract 16.7.1987",
+        "Final Completion 9.7.1990",
+        "last disbursement 22.9.1994",
+        "deadline last disbursement December 1995"
+      ],
+      "modality_check": "All entries are 'Reported Facts' — dated milestones paired with exchange rate values (UA to M). These record what happened (appraisal, loan signing, tender close, loan effectiveness, first disbursement, contract award, final completion, last disbursement). There are no policy or risk statements. However, the data is purely a chronological/financial ledger and contains no explicit assessment of whether these milestones met their planned dates.",
+      "scope_recovery_analysis": "No baseline/planned dates are provided for comparison against actual dates, so it is impossible to determine slippage. 'Final Completion 9.7.1990' is recorded as a fact, but disbursements continued until 22.9.1994, with a stated deadline of December 1995. The gap between final completion (1990) and last disbursement (1994) could reflect normal financial closeout rather than schedule delay. No explicit mention of delay, recovery, or scope extension exists.",
+      "commitment_rationale": "Although the Normalcy Rule pushes toward 'No Delay' when work proceeds without mention of problems, this excerpt is not a narrative of healthy project flow — it is a bare list of dates and exchange-rate figures with no qualitative status. There is no statement of progress being on-track, nor of any milestone being met as planned, nor any delay language. Without planned-vs-actual context, the schedule status is genuinely indeterminate. This is missing-information territory, not a description of ongoing successful work, so 'Uncertain' is appropriate.",
+      "label": "Uncertain"
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-p__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "also been reviewed by JICA Experts",
+        "In DPR, there are 3 sections which have more than 10km length between adjacent interchanges",
+        "The corridor along the proposed BPRR will be developed and urbanized after the completion of the road",
+        "JICA Experts proposed three (3) additional interchanges at above mentioned sections",
+        "The traffic volume on the additional interchanges has been estimated by the traffic demand forecast"
+      ],
+      "modality_check": "The excerpt describes technical design review and planning activities: reviewing the DPR, identifying sections with long interchange spacing, and proposing additional interchanges. These are reported facts about ongoing engineering/design work. There is no mention of schedule milestones, deadlines, slippage, or timeline status. The content is purely descriptive of design recommendations and traffic forecasting—neither a delay fact nor a future schedule risk/policy.",
+      "scope_recovery_analysis": "No timeline change is discussed. The proposal of three additional interchanges could imply a scope adjustment, but there is no indication this affects the schedule, nor whether it is approved or causing delay. No delays mentioned and none to recover.",
+      "commitment_rationale": "The text describes ongoing, successful design and review work (DPR review, interchange proposals, traffic forecasting) with no mention of delay, missed deadlines, or unresolved schedule issues. Under the Normalcy Rule, healthy project flow without delay indicators is inferred as 'No Delay.' There is no contradictory or missing schedule information that would force 'Uncertain'—the work described is proceeding normally.",
+      "label": "No Delay"
+    },
+    "case_id": "12246781__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The section of the bridges at two (2) railway crossings was extended to avoid the high retaining wall (approximately 18m height) at the approach sections of the bridges on swampy land.",
+        "Other structure design such as box culvert, etc. was also reviewed and the technical suggestions were provided."
+      ],
+      "modality_check": "Both statements are Reported Facts describing completed/ongoing design activities. The first reports a design modification (extending bridge sections) for engineering reasons (avoiding a tall retaining wall on swampy land). The second reports completed review work with technical suggestions provided. Neither statement references schedule slippage, missed milestones, or critical-path delays.",
+      "scope_recovery_analysis": "The bridge section extension represents a design/scope adjustment driven by site conditions (swampy land, high retaining wall avoidance), not an unapproved schedule delay. There is no mention of timeline impact, milestone slippage, or any delay needing recovery. This is a technical optimization, not a delay event.",
+      "commitment_rationale": "Applying the Normalcy Rule: the report describes healthy, ongoing engineering work (design review and technical suggestions delivered) without any mention of delay, missed deadlines, or unresolved issues. The absence of an explicit 'on-schedule' statement does not justify 'Uncertain' when the described activities reflect normal project progress. The design changes are scope-related, not delay-related.",
+      "label": "No Delay"
+    },
+    "case_id": "12246781__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The financing for this project benefits from an EU guarantee to the Bank under DECISION No 466/2014/EU",
+        "the Bank shall require the project Promoters to carry out thorough monitoring during project implementation until completion",
+        "The EIB shall verify on a regular basis the information provided by the project Promoters"
+      ],
+      "modality_check": "Every statement in this excerpt is a Policy/Regulatory obligation, not a Reported Fact. The language uses 'shall require,' 'shall verify,' 'shall be published'—all describing legal/procedural requirements under EU Decision No 466/2014/EU. There is no description of actual construction progress, milestone status, or work performed. Nothing here reports whether activities happened on time or were slipped.",
+      "scope_recovery_analysis": "No timeline information of any kind is present. There are no milestones, critical-path activities, completion dates, or progress indicators to assess. No delay is mentioned, and no recovery or scope change is described. The 'Normalcy Rule' cannot apply because there is no description of ongoing successful work—only a regulatory framework statement.",
+      "commitment_rationale": "This is the genuine case for 'Uncertain.' The text discusses monitoring policies and regulatory obligations (future/procedural) without any current status on the schedule. There is no healthy project flow described to invoke the Normalcy Rule, nor any explicit on-track or delay statement. Information regarding schedule is genuinely absent.",
+      "label": "Uncertain"
+    },
+    "case_id": "20070316-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "It was assumed at appraisal that by the forecast time for completion of the project, the market for road maintenance would be competitive.",
+        "However, to date, such arrangements have not be fully established in the county and the project is largely maintained by Makedonija Pat.",
+        "PESR has been designated as the Tunnel Safety Manager for the two long tunnels on the project.",
+        "The tunnel control centre at Negotino is accordingly staffed with PESR personnel."
+      ],
+      "modality_check": "The excerpt focuses on institutional/market reform issues (reorganisation and privatisation of Makedonija Pat) rather than the construction schedule itself. The statement that competitive market 'arrangements have not be fully established' is a Reported Fact, but it concerns a policy/structural assumption about road maintenance markets, not a missed construction milestone or critical-path activity. There is no mention of the physical project's completion being late, only that the assumed competitive maintenance market did not materialise.",
+      "scope_recovery_analysis": "There is no discussion of construction milestones slipping or being recovered. The unmet condition relates to a sector reform assumption (privatisation of MP), which is outside the project's physical schedule. The project itself appears operational—tunnels are designated and the control centre is staffed—indicating the works are complete enough to be in operation.",
+      "commitment_rationale": "The text does not provide any direct statement about the project's schedule being delayed or on-track in terms of construction milestones. The only shortfall concerns an external institutional assumption (competitive maintenance market), not the project timeline. Since this is a policy/assumption matter rather than a confirmed schedule slippage, and there is no evidence the construction itself was delayed, 'Delay' cannot be committed to. However, there is also insufficient information to confidently apply the Normalcy Rule to schedule status. The genuine absence of schedule-specific information warrants 'Uncertain'.",
+      "label": "Uncertain"
+    },
+    "case_id": "20070316-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the degree of completion of the outputs is considered to be generally high",
+        "Problems that occurred during the period between the project completion and the ex-post evaluation are described in '3.5.4 Current Status of Operation and Maintenance' below"
+      ],
+      "modality_check": "The statement 'degree of completion of the outputs is considered to be generally high' is a Reported Fact indicating successful delivery of project outputs. The reference to 'Problems that occurred...' relates to the post-completion operation and maintenance phase, not to schedule slippage during execution. This is descriptive cross-referencing, not a report of delay.",
+      "scope_recovery_analysis": "There is no mention of timeline changes, milestone slippage, or scope extensions. The problems referenced are tied to the operation and maintenance phase after completion, which is separate from schedule performance. No unapproved delay is indicated.",
+      "commitment_rationale": "The report describes a healthy project outcome with high completion of outputs and no mention of missed deadlines, slippage, or schedule-related issues. Under the Normalcy Rule, ongoing successful work without any delay indicators should be inferred as 'No Delay.' The referenced 'problems' are operational/maintenance issues post-completion, not schedule delays, so they do not warrant 'Uncertain' or 'Delay.'",
+      "label": "No Delay"
+    },
+    "case_id": "2015_SL-P97_4_f__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads, i.e., outputs, from planned 300km (approximate) at the appraisal to actual 376.68km (ratio against the plan: 126%)",
+        "Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding",
+        "a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule"
+      ],
+      "modality_check": "The longer project period (124%) is a Reported Fact, but it is explicitly attributed to an approved increase in outputs (376.68km vs. planned 300km). The mention of a mobilization delay and flood interruptions are Reported Facts of past disruptions, but the final statement confirms these were managed.",
+      "scope_recovery_analysis": "The timeline extension was proportional to and tied to an expansion of scope (road length increased to 126% of plan). This is an approved scope extension, not unapproved slippage. Critically, the report states that 'a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule,' indicating the project stayed within its revised, scope-adjusted timeline.",
+      "commitment_rationale": "Although past disruptions (mobilization delay, flooding) occurred, the report explicitly confirms these did not result in slippage beyond the revised schedule. The extended period is justified by scope expansion. This is a healthy, controlled project flow with delays resolved, fitting the Recovery/Scope-extension framework rather than genuine ambiguity. Therefore 'No Delay' is appropriate over 'Uncertain.'",
+      "label": "No Delay"
+    },
+    "case_id": "2015_SL-P97_4_f__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Japan has been assisting the development and improvement of rural roads in Morocco since it extended a Yen loan for 'Road Improvement Project' in 1995.",
+        "In 2004, the Moroccan government established the Fund for Road Finance (CFR) to develop and maintain rural roads.",
+        "the Moroccan government secured government budget, Special Road Funds (FSR), local government budget, domestic funds... and funds from aid donors."
+      ],
+      "modality_check": "All quotes are 'Reported Facts' about historical funding mechanisms, donor involvement, and institutional arrangements (loan extended in 1995, CFR established in 2004, funds secured). However, none of these facts pertain to the schedule status, milestones, or progress of any specific construction activity. The text is purely background/contextual on financing structures, not on the execution timeline of a project.",
+      "scope_recovery_analysis": "No timeline changes, milestones, or delays are mentioned. There is no reference to scheduled completion dates, slippage, or scope extensions. The excerpt describes the financial and institutional landscape rather than physical work progress.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of 'ongoing, successful work' on a project's execution. This excerpt contains no description of construction work progress at all—only background on funding sources and policy/institutional setup. There is no schedule-related fact to classify as on-track or delayed. Because the text provides genuinely no information about current execution status, 'Uncertain' is the correct choice rather than inferring 'No Delay' from absent progress data.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P27_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "As of July 2017, most of the road sections were completed, so these are the total costs.",
+        "the total project cost was 9,976 million yen"
+      ],
+      "modality_check": "The statement 'most of the road sections were completed' is a Reported Fact describing actual progress at the time of ex-post evaluation. The cost figures are also reported facts. There is no Policy/Risk language about potential future slippage, nor any mention of missed deadlines, schedule extensions, or unresolved issues.",
+      "scope_recovery_analysis": "No delays are mentioned in the excerpt. There is no indication of timeline changes, scope extensions, or recovery from prior slippage. The report simply documents that the work is largely finished and totals the final costs.",
+      "commitment_rationale": "Applying the Normalcy Rule: the excerpt describes successful, near-complete work ('most of the road sections were completed') without any mention of delay, missed milestones, or unresolved problems. While the word 'on-schedule' is absent, the healthy project flow and completion status warrant a 'No Delay' classification rather than retreating to 'Uncertain.' The excerpt does not introduce future risks or contradictory information.",
+      "label": "No Delay"
+    },
+    "case_id": "2016_MR-P27_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "coast of the Mediterranean Sea, thereby contributing to redress of regional disparities",
+        "This project addressed the need to develop the northern area where infrastructure development has been left behind due to the isolation of the mountainous area",
+        "Coordination with other donors such as the EC was also planned"
+      ],
+      "modality_check": "The excerpt contains no Reported Facts about schedule progress, milestones, or activity completion. It describes the project's strategic rationale and objectives (redressing regional disparities, developing the northern area) and a planned coordination effort ('Coordination with other donors... was also planned'). The phrase 'was also planned' is a Policy/Intent statement, not a status report of progress or slippage.",
+      "scope_recovery_analysis": "No timeline change, delay, recovery, or scope extension is mentioned. There is no schedule-related fact to assess for resolution or scope tie-in.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because the text does not describe ongoing or successful execution of work—it describes the project's background and intended purpose. There is no schedule status (positive or negative) to infer from. Since the excerpt discusses planning/intent without any current progress status, 'Uncertain' is the correct classification rather than 'No Delay.'",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P30_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the sections Japan supported were the section left behind in terms of development",
+        "There were no particular problems when Japan selected its target sections and coordinated with other donors",
+        "While there were not any choices left in section selection, the sections assigned could complete all the Mediterranean roads",
+        "This possible connection of the 'missing links' matched Morocco's development needs"
+      ],
+      "modality_check": "The excerpt is a relevance assessment, not a schedule status report. The phrase 'left behind in terms of development' refers to the sections' starting condition relative to other donors' work, not to a delay in Japan's project execution. 'There were no particular problems' is a Reported Fact about coordination, not about timeline. No reported facts about milestone slippage, missed deadlines, or critical-path delays in the project's own implementation exist here.",
+      "scope_recovery_analysis": "No timeline changes, delays, or recoveries are discussed. The text addresses project relevance and section selection rationale, not schedule performance. The 'missing links' concept describes a scope/coordination matter, not a delay condition.",
+      "commitment_rationale": "The excerpt focuses entirely on relevance/justification rather than schedule. There is no information—neither facts nor risks—about the timeliness of construction. Because the text genuinely lacks any schedule-related status (positive or negative), this is a true case of missing information rather than a healthy-flow description. The 'left behind' phrasing concerns pre-project conditions of other donors, not Japan's progress, so the Normalcy Rule cannot be applied to infer 'No Delay.'",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P30_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the construction of new roads between urban areas and other main cities had been delayed",
+        "there were many arterial roads between the main cities and road networks in the rural areas that had needed rehabilitation or widening",
+        "the transportation efficiency of existing roads has remained low"
+      ],
+      "modality_check": "These statements are Reported Facts describing the general state of Sri Lanka's road sector, not the status of a specific project's schedule. The phrase 'construction of new roads...had been delayed' refers to a sector-wide, background condition (the rationale/justification for an intervention), not the progress of a particular project being audited. This is contextual background describing why a project is needed, not a milestone slippage report.",
+      "scope_recovery_analysis": "No specific project timeline, milestone, or scope is discussed. The 'delay' mentioned is a macro-level description of the country's infrastructure backlog rather than an unapproved slippage of a tracked critical-path activity. There is no project schedule to assess for recovery or scope extension.",
+      "commitment_rationale": "While the word 'delayed' appears, it characterizes the general national road development situation (the problem statement/justification context) rather than the schedule status of the project under audit. There is no information about any specific project's current progress, so the Normalcy Rule cannot be applied (no healthy project flow is described), nor can a confirmed project-level delay be asserted. The excerpt is purely background context with no current project status, making 'Uncertain' the appropriate classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_SL-P96_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the Country Assistance Program for Sri Lanka (April 2004) had not yet been prepared",
+        "the priority areas of Japan's ODA policy to Sri Lanka at that time focused on the two main pillars of 'support for the establishment and restoration of peace' and a 'support plan with a vision for mid and longterm development'",
+        "JICA's Country Assistance Strategy for Sri Lanka (2002) included its policy to support the improvement of skills of the executing agencies in planning and maintenance for the development of the provincial/rural road network which was one of the factors that had caused delay in rural development"
+      ],
+      "modality_check": "The text is entirely about policy framing and strategic context. The phrases describe ODA policy 'pillars' and JICA 'Country Assistance Strategy' — these are Policy statements, not Reported Facts about the project's own schedule. The only mention of 'delay' refers to a general sectoral issue ('one of the factors that had caused delay in rural development'), which is a contextual rationale for the policy, not a report on the construction project's actual milestone status.",
+      "scope_recovery_analysis": "No information is provided about whether any project milestones slipped or were recovered. The 'delay in rural development' is a generalized background condition motivating the assistance strategy, not an unresolved slippage of this project's critical-path activities.",
+      "commitment_rationale": "This excerpt provides no current status on the Rural Road Improvement Project's own schedule. It discusses policy context and a general sectoral delay condition, with no report of healthy project flow either (so the Normalcy Rule does not apply). Because the text addresses policy and background risk factors without any current schedule status for the project itself, 'Uncertain' is the appropriate label.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_SL-P96_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "After the completion of this project, traffic volume on the section of the Saigon East-West Highway... has been on the rise",
+        "HCMCPC is planning further to develop transportation infrastructure in the vicinity",
+        "HCMCPC commenced a road expansion project in 2015... with the aim of coping with increasing transportation demand"
+      ],
+      "modality_check": "The excerpt discusses a project that is already completed ('After the completion of this project') and a separate follow-on expansion project that 'commenced... in 2015.' These are Reported Facts about post-completion outcomes and the start of a new initiative, not Policy/Risk statements. There is no mention of any milestone slippage, missed deadline, or unresolved scheduling issue. The 'planning to develop' language refers to future infrastructure ambitions, not the schedule status of the reported project.",
+      "scope_recovery_analysis": "No timeline change, delay, or recovery is mentioned. The original project is described as complete, and a new expansion project is described as having begun on its stated start year (2015). There is no indication of unapproved delays or approved scope extensions affecting the core project's schedule.",
+      "commitment_rationale": "Applying the Normalcy Rule: the report describes a completed project with positive outcomes (rising traffic usage) and the healthy launch of a follow-on project. The absence of any delay language, combined with confirmed completion and on-time commencement, supports 'No Delay' rather than retreating to 'Uncertain.'",
+      "label": "No Delay"
+    },
+    "case_id": "2016_VN10-P1_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The total project cost planned at the time of the appraisal for Phase 1 (initial plan) was 67,055 million yen.",
+        "The actual costs totaled 79,209 million yen, exceeding the plan (118% compared to the plan).",
+        "An increase in the number of land owners and residents eligible for land acquisition and resettlement",
+        "During the project, construction costs rose caused directly by soaring worldwide prices of construction materials",
+        "Unexpected costs requiring soil improvement work because soft ground was discovered at the project site"
+      ],
+      "modality_check": "All extracted quotes are 'Reported Facts' relating to cost figures and their causes (cost overrun of 118%). However, the entire excerpt focuses exclusively on COST, not on schedule/timeline. There are no quotes referring to milestones, project duration, completion dates, or critical-path activities. The discussion of soft ground discovery and additional resettlement could plausibly impact schedule, but no schedule impact is stated as a fact.",
+      "scope_recovery_analysis": "The report addresses cost overrun, not schedule slippage. There is no mention of any delay being incurred, recovered, or resolved. The note that 'there was little change in the actual outputs' suggests scope was largely as planned, but this concerns outputs/cost-efficiency, not timeline.",
+      "commitment_rationale": "This is a genuine case for 'Uncertain' rather than a retreat from a healthy-flow description. The excerpt is entirely about cost performance and provides no information—positive or negative—about the schedule. The Normalcy Rule cannot apply because there is no description of ongoing successful work or schedule status at all; the text is silent on time. Inferring 'No Delay' would be unfounded, and inferring 'Delay' from cost causes alone would be speculative. Therefore information regarding schedule is genuinely missing.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_VN10-P1_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank, ADTA = advisory technical assistance, PCR = project completion report, PPER = project performance evaluation report, PPTA = project preparatory technical assistance, SDR = special drawing rights, TA = technical assistance."
+      ],
+      "modality_check": "The provided excerpt contains only a glossary/abbreviation list. There are no Reported Facts about schedule progress, milestones, or activities. There are no Policy/Risk statements either. The text is purely definitional and carries no information about the project's schedule status.",
+      "scope_recovery_analysis": "No timeline changes, delays, recoveries, or scope extensions are mentioned. There is no basis to assess delay resolution or scope adjustment.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow—only an abbreviations key. With genuinely missing schedule information, 'Uncertain' is the appropriate label rather than inferring a healthy or delayed status from a glossary.",
+      "label": "Uncertain"
+    },
+    "case_id": "36068953__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "one of the packages (Contract C) experienced pavement failures that required rectification",
+        "This was a key factor, causing a delay in project completion",
+        "The Project scope was also revised to include several additional works, which contributed to this delay",
+        "Contract C failures have continued to drain MCTPC's maintenance resources"
+      ],
+      "modality_check": "The statement 'causing a delay in project completion' is a Reported Fact, not a policy or future risk. The pavement failures requiring rectification are confirmed events that have occurred. The continued drain on maintenance resources is also a present-tense reported fact, indicating the issue is unresolved.",
+      "scope_recovery_analysis": "There is a mix here. The scope revision to include additional works could be viewed as an approved scope extension. However, the text explicitly attributes the delay to BOTH the Contract C pavement failures (an unapproved performance failure) AND the additional works. Critically, the Contract C failures are described as ongoing ('have continued to drain'), with no language suggesting recovery, resolution, or being back on track. The delay is explicitly stated, not recovered.",
+      "commitment_rationale": "This is not 'Uncertain' because the text contains an explicit, confirmed statement of delay ('causing a delay in project completion'). The cause (pavement failures) is a reported fact, and the consequences remain unresolved. There is no contradiction or missing critical information about the schedule status itself.",
+      "label": "Delay"
+    },
+    "case_id": "36068953__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Appraisal – Date started 2 March 2007 – Date completed 28 July 2007",
+        "Loan negotiations Loan 2400/2401 –Tranche 1 – Date started 11 October 2007 – Date completed 12 October 2007",
+        "Loan 3121/Grant 0434 – Tranche 2 – Date started 28 November 2013 – Date completed 28 November 2013",
+        "Loan 3197/Grant 0435 – Tranche 3 – Date started 3 October 2014 – Date completed 3 October 2014",
+        "Date of Approval... Tranche 1 17 December 2007... Tranche 2 1 April 2014... Tranche 3 25 November 2014"
+      ],
+      "modality_check": "All entries are Reported Facts—milestone activities (appraisal, loan negotiations, approvals) with concrete start and completion dates. There are no Policy/Risk statements or future projections. However, these are administrative/processing milestones, not construction schedule milestones. Critically, there is no baseline or planned date provided against which to measure these actuals.",
+      "scope_recovery_analysis": "The excerpt is a chronological log of completed financing milestones across three tranches. No delay is mentioned, but neither is there any planned-versus-actual comparison. There is no evidence of slippage, recovery, or scope extension. The multi-tranche structure spanning 2007–2014 reflects a phased financing approach rather than any reported delay.",
+      "commitment_rationale": "The Normalcy Rule could suggest 'No Delay' since all activities were successfully completed with no mention of slippage. However, this excerpt is purely a factual date ledger with no schedule status, no planned dates, and no narrative on progress health. Without any baseline to confirm these completions were on time, and given the record is administrative rather than describing active project flow, there is insufficient basis to confirm either delay or on-track status. This is genuinely missing schedule-status information, warranting 'Uncertain' rather than an inference of healthy flow.",
+      "label": "Uncertain"
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The Asian Development Bank (ADB) approved a multitranche financing facility (MFF) for loans of up to $900 million to Pakistan for the National Trade Corridor Highway Investment Program (NTCHIP) in October 2007.",
+        "Tranche 1, approved in December 2007...",
+        "For tranche 2, a loan of $200 million from ADB’s OCR was approved in April 2014.",
+        "For tranche 3, a loan of $127 million from ADB’s OCR was approved in November 2014.",
+        "This facility completion report considers the performance of tranche 3 and the NTCHIP."
+      ],
+      "modality_check": "All quotes are 'Reported Facts' describing the approval timeline of the MFF and its tranches. None describe actual physical construction progress, milestone completion, or schedule adherence. There is no statement, explicit or implicit, about whether work was on-track, delayed, or recovered.",
+      "scope_recovery_analysis": "The text only documents the financing structure and approval dates. While there is a notable gap between tranche 1 (2007) and tranches 2/3 (2014), this is a financing approval sequence, not a confirmed schedule slippage of construction milestones. No delay or recovery is mentioned, and the financing intervals cannot be interpreted as construction delay without supporting context.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because the excerpt does not describe ongoing successful construction work—it only describes loan approvals. There is no health-of-project narrative to infer from, nor any explicit schedule status. The text is purely background/financing information, so the schedule status is genuinely undetermined.",
+      "label": "Uncertain"
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Separate schedule for titled and non-titled RP has been initiated to speed up payments for non-titled entities without limiting their entitlements.",
+        "All affected entities will be eligible to receive compensation as per resettlement framework and entitlement matrix of the project.",
+        "Updated RP will ensure entitlements as per ARIPA 2017 and ADB SPS 2009.",
+        "Affected households will be eligible to receive livelihood restoration measures as ensured by the project.",
+        "Meaningful consultation and information disclosure will be ensured including addressing any grievances through GRC as deemed eligible by the project."
+      ],
+      "modality_check": "Nearly all statements are framed in the future/conditional tense ('will be eligible,' 'will ensure,' 'will be ensured'). These are Policy/Commitment statements describing intended frameworks and entitlements, not Reported Facts about actual progress. The only Reported Fact is that a 'separate schedule... has been initiated to speed up payments.' This describes an administrative process action but provides no current status on whether milestones are being met, payments are completed, or the project is on or behind schedule.",
+      "scope_recovery_analysis": "No specific delay is mentioned, nor is any recovery claimed. The 'separate schedule' is a procedural mechanism to expedite payments, not a confirmed slippage or a documented recovery from delay. There is no evidence tying this to an approved scope extension or an unapproved delay.",
+      "commitment_rationale": "The Normalcy Rule cannot confidently apply because the text does not describe ongoing, successful execution of construction/resettlement work with measurable progress. Instead, it is dominated by future policy assurances about entitlements and frameworks—classic Policy/Risk language without current schedule status. The phrase 'to speed up payments' hints at a desire to accelerate but does not confirm whether payments are currently on-time or behind. This matches the 'Uncertain' criterion: future-oriented policy discussion lacking concrete current schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "40540-017-rp-en_2__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The break-up list of total activities to be performed by the INGO is very long and these have been grouped under 15 broad heads.",
+        "Broad head-wise RP Implementation Schedule of the total activities is shown below:"
+      ],
+      "modality_check": "The excerpt only describes the structure/organization of the implementation schedule (activities grouped under 15 broad heads). There are no Reported Facts about progress, completion status, or missed milestones. There is also no Policy/Risk statement about potential future delays. The text is purely descriptive of a planned schedule structure, and the referenced schedule table itself ('shown below') is not included.",
+      "scope_recovery_analysis": "No timeline changes, delays, scope extensions, or recovery events are mentioned. The excerpt simply introduces how activities are categorized for scheduling purposes.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' Here, there is no description of actual work progress at all—only a framing of the schedule's organizational structure. The actual status data resides in a table that is not provided. With no facts about progress and no risk/policy statements, the information is genuinely missing, which is precisely the condition for 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "40540-017-rp-en_2__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Minor change approved on 24 April 2015 to: (i) amend the financing plan to reflect additional financing; (ii) reallocate funds; and (iii) second extension of loan closing date from 30 June 2015 to 31 August 2016."
+      ],
+      "modality_check": "The text reports a 'Reported Fact': a minor change was formally approved on 24 April 2015. This includes a 'second extension' of the loan closing date by approximately 14 months (from 30 June 2015 to 31 August 2016). The word 'second' indicates this is a repeated extension, suggesting a pattern of timeline slippage rather than a one-off planned adjustment.",
+      "scope_recovery_analysis": "While the change was formally 'approved,' the extension of the loan closing date is not clearly tied to a scope increase. The amendment mentions additional financing and fund reallocation, but the repeated extension of the closing date (a 'second extension') strongly implies the project is taking longer than originally planned. There is no language indicating recovery or that the project is back on track; rather, this is the second time the deadline has been pushed out.",
+      "commitment_rationale": "This is not chosen as 'Uncertain' because there is concrete, factual evidence of a timeline change. The repeated nature ('second extension') of pushing the loan closing date out by over a year indicates confirmed, unresolved slippage. Although approved administratively, an approved extension does not equal recovery — it formalizes a delay. The absence of any scope-driven justification for the date change tips this toward Delay rather than an approved scope extension.",
+      "label": "Delay"
+    },
+    "case_id": "44281-013-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Date of grant effectiveness – In grant agreement – Actual – Number of extensions",
+        "Project completion date – Appraisal – Actual"
+      ],
+      "modality_check": "This excerpt is a blank template/form structure listing data fields (e.g., appraisal dates, grant negotiation dates, effectiveness dates, number of extensions, completion dates). There are no actual values, dates, or narrative reports. No Reported Facts and no Policy/Risk statements are present—only field labels.",
+      "scope_recovery_analysis": "No actual data is provided. The template contains placeholders for 'Number of extensions' and 'Actual' completion dates, but none are filled in. Without populated values, it is impossible to assess whether any delay occurred, was recovered, or was tied to scope changes.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing successful work or any project flow whatsoever—only empty field labels. With genuinely missing information (no status reported), this falls squarely into the 'Uncertain' category as defined by the criteria.",
+      "label": "Uncertain"
+    },
+    "case_id": "44281-013-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "— = not calculated",
+        "ADB = Asian Development Bank",
+        "ADTA = advisory technical assistance",
+        "JSF = Japan Special Fund",
+        "PCR = project completion report",
+        "PPER = project performance evaluation report",
+        "PPTA = project preparatory technical assistance",
+        "TA = technical assistance"
+      ],
+      "modality_check": "The excerpt contains only a glossary/abbreviation key. There are no Reported Facts about progress, milestones, or activities, nor any Policy/Risk statements about the schedule. It is purely definitional metadata.",
+      "scope_recovery_analysis": "No timeline information, delays, scope changes, or recovery statements are present. There is nothing to assess regarding schedule slippage or resolution.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' This excerpt describes no work at all—only abbreviations. With no schedule-relevant content whatsoever, there is no basis to commit to either 'Delay' or 'No Delay.' This is a genuine case of missing information, which is the legitimate use of 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "47144944__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project was completed in August 2006.",
+        "The project had three main components funded by ADB: (i) improvement of 245.8 kilometers (km) of rural roads, (ii) improvement of 66.7 km of feeder roads (connecting remote areas to main roads), and (iii) periodic maintenance of 163 km of selected national roads.",
+        "ADB provided a loan of $25 million to cofinance the project"
+      ],
+      "modality_check": "All statements are Reported Facts describing the project's scope, funding, and completion. The text reports that the project 'was completed in August 2006' — a factual statement of accomplishment. There are no Policy/Risk statements about potential future slippage, and no mention of missed deadlines or schedule problems.",
+      "scope_recovery_analysis": "No timeline changes, delays, or scope extensions are mentioned. The excerpt provides no baseline schedule against which to measure slippage, but reports successful completion of all defined components. There is no indication of any unresolved delay.",
+      "commitment_rationale": "Applying the Normalcy Rule: the report describes a completed project with all components delivered and no mention of delay, missed deadlines, or unresolved issues. Although the word 'on-schedule' is absent, the description reflects a healthy, completed project flow. Defaulting to 'Uncertain' would be inappropriate given the clear completion statement and absence of any negative schedule indicators.",
+      "label": "No Delay"
+    },
+    "case_id": "47144944__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The original implementation period was 12 months up to 31 October 2019.",
+        "The TA was extended by one year to 31 October 2020 due to late availability of complete project design documentation and to expand procurement support to cover procurement activities until contract award."
+      ],
+      "modality_check": "Both quotes are 'Reported Facts' — actual events that have occurred. The extension is a completed action (the TA 'was extended'), and the cause is stated as a fact: 'late availability of complete project design documentation.' This is not a future risk or policy; it is a confirmed change to the timeline.",
+      "scope_recovery_analysis": "The one-year extension has two stated drivers: (1) 'late availability of complete project design documentation' — this is a clear slippage cause indicating the work could not proceed on the original schedule; and (2) 'to expand procurement support to cover procurement activities until contract award' — this is a scope extension. The mixed rationale means part of the extension reflects genuine delay (late documentation), not purely an approved scope expansion. There is no indication that the underlying delay was recovered or resolved; instead, the timeline was pushed out to accommodate it.",
+      "commitment_rationale": "This is not 'Uncertain' because the text provides concrete, factual confirmation of a timeline change driven at least in part by an unresolved slippage cause ('late availability of complete project design documentation'). The extension absorbing this delay, with no statement of recovery, constitutes a confirmed schedule slip rather than a healthy project flow or a purely scope-based extension.",
+      "label": "Delay"
+    },
+    "case_id": "52043-002-tcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The consultants received the draft detailed design of the 9.1 km Bishkek–Naryn–Torugart section on 5 August 2019.",
+        "Design documentation for the 24.3 km Almaty–Bishkek–Tashkent section was provided on 18 November 2019. The delayed submission was caused by the fact that KDTP was not paid by MOTR for the BNB road design work.",
+        "Despite an assurance given by MOTR in October 2019 that the issue was resolved, KDTP had not been paid during the TA’s implementation for any of the design work delivered.",
+        "The design of utilities and lighting had to be outsourced, but since KDTP was not able to pay for these services, related design documents were never received."
+      ],
+      "modality_check": "These are all 'Reported Facts.' The text explicitly states a 'delayed submission' occurred and identifies its cause (non-payment to KDTP). The non-payment is reported as an ongoing fact ('had not been paid during the TA's implementation'). The failure to receive utility/lighting design documents ('never received') is also a reported fact, not a risk.",
+      "scope_recovery_analysis": "MOTR provided an assurance in October 2019 that the payment issue was 'resolved,' which could suggest recovery. However, the text immediately contradicts this by stating KDTP was never actually paid during the TA's implementation. Thus the supposed recovery did not materialize—the delay and its consequences (staffing problems, missing design documents) persisted and remained unresolved. This is not an approved scope extension; it is unresolved slippage in deliverables.",
+      "commitment_rationale": "The text explicitly uses the term 'delayed submission' and documents cascading consequences (staffing problems, missing utility/lighting designs) that remained unresolved. The claimed 'resolution' was explicitly negated by subsequent facts. This is a confirmed, unresolved delay—not a future risk or contradictory information warranting 'Uncertain.'",
+      "label": "Delay"
+    },
+    "case_id": "52043-002-tcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "services that were initially scheduled to start in April 2004 finally commenced in December 2008 and ended in September 2009, representing a four-year slippage",
+        "works on rural roads and boreholes could not start before 30 April 2010, the extended final disbursement deadline",
+        "Completion of these works required a new extension of the final disbursement deadline",
+        "the Government and the Bank decided to cancel these components"
+      ],
+      "modality_check": "The quotes are overwhelmingly 'Reported Facts': a confirmed four-year slippage on rural road studies, procurement bottlenecks, and an inability to start works before the extended deadline. The cancellation decision is also a reported fact, not a future policy. These are not hypothetical risks—they are documented schedule failures.",
+      "scope_recovery_analysis": "There is no recovery here. The delays were never resolved; instead, the components were canceled outright because completion would have required yet another deadline extension that would harm portfolio performance. Cancellation due to unrecoverable slippage is not an approved scope extension—it is the terminal consequence of confirmed delay.",
+      "commitment_rationale": "This is not 'Uncertain' because the text provides explicit, quantified, confirmed slippage ('four-year slippage') and a definitive negative outcome (cancellation of components). The delay is unambiguous and unresolved at the time of the events, making 'Delay' the only defensible label despite the components ultimately being canceled rather than completed late.",
+      "label": "Delay"
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The initial project schedule provided for the commencement of works on the main road in December 2003 and on the rural roads in March 2005",
+        "The respective works were scheduled for completion in December 2005 and March 2006",
+        "The commencement of road works was subject to the recruitment of a consultancy firm...",
+        "Considering the procurement delays recorded, it would have been more judicious to group awareness-raising, studies and road works control within the same consultancy contract, to shorten procurement timeframe"
+      ],
+      "modality_check": "The phrase 'Considering the procurement delays recorded' is a Reported Fact — it explicitly confirms that delays occurred during the procurement phase. The subsequent recommendation to group contracts is a Policy/lesson-learned suggestion, but it is grounded in the factual acknowledgment that delays already happened. This is not merely a hypothetical future risk; it references slippage that has already been recorded.",
+      "scope_recovery_analysis": "There is no indication that the procurement delays were recovered, resolved, or absorbed. The text frames them as a problem that affected the commencement of works, with no statement of recovery or back-on-track status. The delays are tied to procurement timeframes, not to an approved scope extension.",
+      "commitment_rationale": "The explicit mention of 'procurement delays recorded' confirms an unresolved slippage affecting the critical-path activity (commencement of road works, which was contingent on consultant recruitment). Since the delay is stated as fact and no recovery is reported, this is classified as 'Delay' rather than 'Uncertain.'",
+      "label": "Delay"
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the DjougouN’dali Road Improvement Project completed in 2009",
+        "the N’dali-Nikki-Chicandou-Nigeria Border Road Asphalting Project completed in 2016",
+        "the Parakou Urban Transport Project approved in 2014"
+      ],
+      "modality_check": "All statements here are 'Reported Facts' describing the Bank's prior engagement history (projects completed in 2009 and 2016, and one approved in 2014). None of these statements pertain to the schedule status of the current project under review. There is no mention of milestones, critical-path activities, progress, or timelines for the project in question.",
+      "scope_recovery_analysis": "No timeline change, delay, or recovery is discussed. The excerpt is purely a rationale/justification section describing historical context for the Bank's involvement, not a status update on the active project's schedule.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing, successful work on the current project. Here, the text provides no information about the current project's schedule or progress at all—it only lists past projects to justify engagement. With no schedule-relevant facts to evaluate, this is a genuine case of missing information regarding the project's status, making 'Uncertain' the correct classification rather than inferring 'No Delay' from unrelated historical context.",
+      "label": "Uncertain"
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara___p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "This excerpt is purely descriptive of the project's geographic and regional significance. It discusses how the project roads serve as a regional link and shortcut for travelers between Benin and neighboring countries. There are no statements of fact about schedule progress, milestones, completion, or work activities. There are also no policy or risk statements regarding timing.",
+      "scope_recovery_analysis": "No timeline, milestone, delay, or scope change is mentioned. The text only defines the project's impact area and regional connectivity context.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' This excerpt contains no progress information whatsoever—it is contextual/background material about regional significance. With no schedule-related facts to classify, there is genuinely missing information, which is the proper trigger for 'Uncertain' rather than a forced inference.",
+      "label": "Uncertain"
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara___p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The first one (on AfDB financing) was approved on November 27, 2018 and almost all related activities started in February 2018.",
+        "the technical assistance contract was negotiated and targeted with UN Women/Cameroon",
+        "the short lists of consultancy offices have already been constituted",
+        "the short lists of consultancies have already been established"
+      ],
+      "modality_check": "All statements are 'Reported Facts' describing completed or ongoing actions: financing was approved, activities started, contracts negotiated, shortlists constituted/established. There are no Policy/Risk statements about future possibilities of delay, nor any mention of missed deadlines or slippage.",
+      "scope_recovery_analysis": "No timeline change, delay, or recovery is mentioned. The financing being committed in two installments is a structural funding decision, not an unapproved schedule delay. There is no indication of slipped milestones.",
+      "commitment_rationale": "Per the Normalcy Rule, this excerpt describes a healthy project flow—approvals obtained, activities initiated, and procurement steps (shortlists, contract negotiations) progressing. The absence of explicit 'on-schedule' language should not push this to 'Uncertain' since the work is clearly advancing without any reported issues.",
+      "label": "No Delay"
+    },
+    "case_id": "cameroon_-_transport_sector_support_prog__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "implementation performance indicators have been established in relation to the Bank's institutional performance indicators",
+        "(i) loan agreement signature timeframes; (ii) procurement timeframes; (iii) average programme implementation progress (IP) indicator; and (iv) changes in the disbursement rate",
+        "These indicators will be monitored during supervision missions and day-to-day programme management."
+      ],
+      "modality_check": "All statements here are 'Policy/Framework' in nature, not 'Reported Facts' about actual progress. The text describes that indicators 'have been established' (a setup action) and 'will be monitored' (future intent). There is no actual reporting of timeframes met or missed, no current implementation progress value, no disbursement rate status—only the definition of metrics to be tracked.",
+      "scope_recovery_analysis": "No timeline change, delay, or recovery is mentioned. The excerpt is purely about the monitoring methodology and the categories of indicators, not their measured values or current schedule status.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because the text does not describe any ongoing work or healthy project flow—it only outlines a monitoring framework with no actual status data. There is no reported fact of progress to infer 'No Delay' from, and no slippage to label 'Delay.' This is a genuine absence of current status information, which is precisely what the 'Uncertain' category covers (future-oriented policy without current status).",
+      "label": "Uncertain"
+    },
+    "case_id": "cameroon_-_transport_sector_support_prog__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The excerpt contains no schedule, progress, milestone, or timeline information. It is purely descriptive of geographic and demographic characteristics of the project area (DPA/EPA, surface area, population distribution). There are no 'Reported Facts' about progress and no 'Policy/Risk' statements about future schedule outcomes.",
+      "scope_recovery_analysis": "No mention of any timeline, delay, recovery, or scope change. The text only defines the spatial scope of project areas for descriptive purposes, not as a schedule-relevant scope adjustment.",
+      "commitment_rationale": "The Normalcy Rule applies only when a report describes ongoing, successful work. Here there is no description of work activity or progress at all—only background context. With genuinely missing schedule information, 'Uncertain' is the correct classification rather than inferring health from absence of relevant content.",
+      "label": "Uncertain"
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_ro__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the transport sector operations financed by the Bank were relatively well executed",
+        "The main implementation problems are: (i) the poor quality of studies; (ii) weak implementation capacity; and (iii) delays in procurement due to poor mastery of Bank rules and procedures, and fiduciary risks",
+        "advance contracting will shorten the procurement timeframes and thus avoid protracted delays",
+        "the 2011 studies were updated in 2018"
+      ],
+      "modality_check": "The delays referenced ('delays in procurement') are described as lessons learned from PAST projects, not as a current status of the project under review. The current project section is entirely composed of forward-looking mitigation measures ('will shorten', 'will be organised', 'will rely on') — these are Policy/Risk statements, not Reported Facts about the current schedule. There is no statement indicating the current project is presently behind schedule.",
+      "scope_recovery_analysis": "No delay is attributed to the current project. The delays cited are historical/sector-wide and have been explicitly addressed via design measures (updated studies, advance contracting, training). The text describes risk mitigation rather than an unresolved current slippage.",
+      "commitment_rationale": "This excerpt is purely retrospective lessons-learned and prospective mitigation planning. It provides no current execution status for the project itself — neither confirming on-track progress nor reporting present slippage. Because the only delays are historical and the rest is future policy without a current factual schedule state, the Normalcy Rule cannot apply (no ongoing successful work is described for THIS project), and no current delay exists. This places it in the 'discusses future risks/policies without current status' category.",
+      "label": "Uncertain"
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_ro__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Knowledge management will be carried out through the project's 'monitoring and evaluation' component by the National Institute of Statistics (INS)",
+        "The INS will refine and update information on the key impact indicators",
+        "This knowledge will be incorporated in the country's road data base"
+      ],
+      "modality_check": "All statements are forward-looking policy/process descriptions ('will be carried out', 'will refine and update', 'will be incorporated', 'will be disseminated'). There are no Reported Facts about actual progress, milestones achieved, or activities completed. The entire excerpt describes a planned knowledge management framework, not the current state of project execution.",
+      "scope_recovery_analysis": "No timeline information is present. There is no mention of milestones, deadlines, slippage, recovery, or scope changes. This section concerns information dissemination and impact assessment methodology only.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing, successful work. Here, there is no described work flow at all—only a future-oriented policy/methodology statement with no current schedule status. Since there is no indication of either healthy progress on the ground or any delay, and the content is purely procedural/policy, this falls into the genuine 'information genuinely missing' category for schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The total project cost, ETCD, to be fully financed under the ADF 12 country allocation, is estimated at UA 53.55 million, including compensation.",
+        "Provisions for price escalation representing 8.21% of the total base cost and for physical contingencies have taken into account the inflation rate in DR Congo and the works implementation schedule."
+      ],
+      "modality_check": "All quotes are financial planning statements (cost estimates, contingency provisions, escalation factors). The mention of 'works implementation schedule' is referenced only as an input to cost calculations, not as a status report on progress. None of these are 'Reported Facts' about actual progress or milestone achievement; they are budgetary policy/planning provisions.",
+      "scope_recovery_analysis": "No delays, slippages, or recoveries are mentioned. The text concerns financing structure and contingency provisions, with no information about whether the project is ahead, on, or behind schedule.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing successful work, but this excerpt contains no description of work progress at all—only financial estimates. There is no evidence of healthy project flow nor of delay. Since the text provides no current schedule status and only discusses planning/financial provisions, 'Uncertain' is the appropriate label rather than inferring 'No Delay' from absence of any progress narrative.",
+      "label": "Uncertain"
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "it financed the detailed design studies of the road to be rehabilitated",
+        "it has already financed 4 sections of RN1 (Nsele-Lufimi, Kwango-Kenge, LoangeLovua and Lovua-Tshikapa), PARSAR, PRESAR and PADIR",
+        "It will consolidate the rural development activities initiated by the Bank through already completed projects (PARSAR and PRESAR) and those being implemented (e.g. PICAGEL)"
+      ],
+      "modality_check": "The excerpt is entirely a justification/rationale for the Bank's involvement. It discusses the Bank's strategic role, past financed projects, and future expected benefits (transit corridor, rural development). None of these are 'Reported Facts' about the schedule status of the current project's milestones or critical-path activities. The statements are descriptive of the Bank's experience and the project's strategic importance, not progress reporting.",
+      "scope_recovery_analysis": "There is no mention of any timeline, milestone, delay, recovery, or scope change. The text only references completed prior projects and ongoing related projects (PICAGEL), but provides no schedule information about the project under review.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because the excerpt does not describe any actual ongoing work or progress on the project's schedule. It is purely a strategic/contextual justification with no schedule-relevant facts. Without any current status indicator regarding milestones or progress, the schedule status is genuinely indeterminable from this text, warranting 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_a__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The knowledge gained under the project will be managed through the 'monitoringevaluation' component.",
+        "The National Institute of Statistics (INS) will implement the component, including assessing the impact on beneficiaries.",
+        "it will have to complete and readjust the key impact indicators to facilitate an effective assessment of the Bukavu-Goma project"
+      ],
+      "modality_check": "All statements are forward-looking policy/process descriptions using future tense ('will be managed', 'will implement', 'will have to complete'). None of these are 'Reported Facts' about actual schedule progress or milestone completion. They describe how knowledge management and monitoring-evaluation are intended to operate.",
+      "scope_recovery_analysis": "There is no mention of any timeline, milestone, slippage, delay, recovery, or scope change in this excerpt. The text concerns knowledge management and impact assessment frameworks, not schedule status of construction activities.",
+      "commitment_rationale": "The Normalcy Rule applies when a report describes ongoing successful work. However, this excerpt contains no description of construction progress at all—only descriptions of future monitoring/evaluation policy and institutional responsibilities. There is no actual work being reported as proceeding healthily, nor any schedule reference. With no current status information present and only forward-looking policy described, this falls squarely into the 'Uncertain' category (future policies without current status).",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_a__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "PROADER is consistent with the 2013-2017 Country Strategy Paper (CSP), extended respectively to the end of 2018 and the end of 2020",
+        "The project will help to strengthen the structural transformation of the rural and agricultural sector",
+        "The project design is in line with the Bank's 'Feed Africa' strategy"
+      ],
+      "modality_check": "All statements are descriptions of strategic alignment and project design rationale (Policy/Strategic Context), not Reported Facts about construction progress or milestone completion. The text discusses how the project fits within broader strategies and uses future-oriented language ('will help to strengthen'). There is no reference to actual work performed, milestones achieved, or schedule tracking. The CSP extensions mentioned refer to the strategic framework's validity period, not to project timeline slippage.",
+      "scope_recovery_analysis": "The 'extended to the end of 2018 and the end of 2020' refers to extensions of the Country Strategy Paper (a programmatic framework), not to any delay or scope change in the PROADER project schedule itself. No project delays are mentioned, and there is no recovery language because there is nothing to recover from in this excerpt.",
+      "commitment_rationale": "The Normalcy Rule cannot be invoked because this excerpt contains no description of ongoing project execution or work flow—it is purely a strategic alignment statement. There is no schedule status, no progress reporting, and no milestone information of any kind. This is a genuine absence of schedule-relevant facts, which falls under the Uncertain criterion (information is genuinely missing regarding schedule status).",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_rural_economy_integrated_developme__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The operations currently being carried out by the Bank on RN1 in coordination with other technical and financial partners (TFPs)... will help to open up this major corridor.",
+        "The project's intervention area is a continuation of the Bank's previous operations in the agricultural and rural development sector"
+      ],
+      "modality_check": "This excerpt is descriptive/contextual rather than a schedule status report. The statement 'operations currently being carried out' is a Reported Fact about ongoing work, but it contains no timeline, milestone, or progress metric. The reference to 'will help to open up this major corridor' is a forward-looking benefit statement (Policy/Aspiration), not a progress indicator. There is no mention of deadlines, milestones, or completion percentages.",
+      "scope_recovery_analysis": "No delays, recoveries, or scope changes are discussed. The text describes the strategic context and regional importance of the corridor, coordination with the EU and World Bank, and continuity with prior Bank operations. No schedule-related events are reported.",
+      "commitment_rationale": "While the Normalcy Rule encourages inferring 'No Delay' from descriptions of healthy ongoing work, this excerpt provides no actual schedule or progress information—it is purely contextual/background narrative about regional connectivity and partner coordination. There is no basis to confirm milestones are progressing on time, nor any evidence of slippage. Because schedule status information is genuinely absent, 'Uncertain' is the appropriate label rather than forcing 'No Delay' from non-schedule content.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_rural_economy_integrated_developme__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The two roads are part of larger Regional corridors, the North - South Corridor (Iringa - Dodoma) and the Mtwara corridor (Namtumbo - Tunduru)",
+        "in the longer term as the ports of Mtwara, Mbamba Bay and Nkhata Bay get developed and the Unity Bridge over the Ruvuma River has been completed",
+        "It is noted that the Project fits very well in three (3) of the current Bank High 5s Priorities"
+      ],
+      "modality_check": "None of the extracted quotes are 'Reported Facts' about schedule or progress of the road construction. The text exclusively describes the strategic/regional context, beneficiaries, future developments ('in the longer term'), and alignment with Bank priorities. There is no statement—explicit or implied—about milestones, deadlines, or the actual pace of work on the project.",
+      "scope_recovery_analysis": "No timeline changes, delays, or recoveries are mentioned. The references to future port development and the Unity Bridge are framed as longer-term regional aspirations, not as scope changes to the current project schedule.",
+      "commitment_rationale": "The Normalcy Rule applies only when the text describes ongoing, successful work. Here, the excerpt contains no description of actual project execution or progress at all—it is purely a strategic/contextual passage. Because there is no current status information on schedule (neither healthy flow nor delay), this is a genuine case of missing schedule information, warranting 'Uncertain' rather than inferring 'No Delay' from absence of evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The completed Project Roads serve a population of more than 8 million spread in 5 regions",
+        "the Project roads have contributed to the socio-economic well-being of the people in those 5 regions"
+      ],
+      "modality_check": "All statements are Reported Facts describing a completed project and its realized benefits (reduced travel costs, enhanced production, etc.). There are no Policy/Risk statements about future possibilities. However, the excerpt is entirely retrospective/impact-focused and contains no information about the schedule, milestones, or whether completion occurred on time.",
+      "scope_recovery_analysis": "No timeline changes, delays, scope extensions, or recovery actions are mentioned. The text only confirms the project is 'completed' but provides no comparison to the planned schedule or original deadlines.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing successful work or healthy project flow. Here, the project is reported as 'completed' with positive outcomes, which suggests successful delivery and no active delay. While there is no explicit schedule data, the report describes a finished project delivering its intended benefits with no hint of slippage, missed deadlines, or unresolved issues. This aligns with inferring 'No Delay' rather than retreating to 'Uncertain.'",
+      "label": "No Delay"
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Rehabilitation of these roads, if delayed, shall result in the total collapse of a significant part of the regional road network thereby raising consequent capital cost for rehabilitation",
+        "Due to the bad roads, access to markets for agricultural products and farmers access to inputs for enhanced productivity becomes impossible.",
+        "Communities along the route are usually cutoff from the remaining parts of the country during heavy rains"
+      ],
+      "modality_check": "All schedule-related statements are conditional/hypothetical Policy/Risk statements, not Reported Facts about the current schedule. The phrase 'if delayed, shall result in' is a future conditional warning about consequences of a potential delay, not a report that a delay has occurred. The descriptions of bad roads and cut-off communities are justifications for the project's existence (rationale for rehabilitation), not statements about the project's own schedule performance.",
+      "scope_recovery_analysis": "There is no mention of any milestone slippage, missed deadline, or actual progress status of the rehabilitation work itself. No scope changes or recovery actions are described. The excerpt focuses entirely on the socio-economic context and the risks of inaction.",
+      "commitment_rationale": "This excerpt contains no current schedule status — neither positive ('on-track') nor negative ('slipped'). The only schedule reference is a hypothetical future risk ('if delayed'). Per the Fact vs. Policy filter, this is a Policy/Risk statement with no reported status. The Normalcy Rule cannot apply because there is no description of ongoing project work or progress — only contextual justification. This genuinely matches the 'Uncertain' criterion: discussion of future risks without any current status indicator.",
+      "label": "Uncertain"
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_devel__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "This excerpt is a logframe/indicator framework listing output indicators and activity descriptions (e.g., 'Length of road constructed', 'No. of audit reports submitted', 'PCU personnel trained'). It contains no Reported Facts about actual progress, completion dates, or status. There are no statements describing whether work happened, was completed, or slipped. These are definitional/planned indicator entries, not status reports.",
+      "scope_recovery_analysis": "No timeline information, no mention of delays, recoveries, scope changes, or approved extensions. The text is purely a list of measurable deliverables and their indicators with no associated progress data.",
+      "commitment_rationale": "The Normalcy Rule requires descriptions of ongoing, successful work to infer 'No Delay'. Here, however, there is no description of work being performed at all—only a structural list of indicators/activities. Without any reported facts on progress or status, there is no basis to infer either 'Delay' or healthy 'No Delay' flow. This is a genuine case of missing status information, which maps to 'Uncertain'.",
+      "label": "Uncertain"
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_devel__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is entirely a list of abbreviations and acronyms (e.g., ADB, EIRR, PCR, RDA). There are no statements, reported facts, or policy/risk descriptions related to project schedule or progress. No quotes can be classified as either 'Reported Fact' or 'Policy/Risk' because no narrative content exists.",
+      "scope_recovery_analysis": "No timeline information, milestones, or activity descriptions are present. There is nothing to assess regarding delays, recovery, or scope changes.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the text does not describe any ongoing project work or healthy project flow—it is purely a glossary of terms. With genuinely missing schedule information, the correct classification per the criteria is 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "in265-10__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provided text appears to be a glossary/list of abbreviations only (ADB, ADF, IED1, OCR, OPEC, PCR).",
+        "No schedule, milestone, progress, or status information is present."
+      ],
+      "modality_check": "There are no statements of fact or policy regarding project schedule. The excerpt consists solely of definitions for abbreviations (Asian Development Bank, Asian Development Fund, Independent Evaluation Division 1, ordinary capital resources, Organization of the Petroleum Exporting Countries, project completion report). There is nothing to filter as Reported Fact vs. Policy/Risk.",
+      "scope_recovery_analysis": "No timeline changes, delays, recoveries, or scope extensions are mentioned. The Recovery Rule and scope-scaling analysis cannot be applied because no schedule events are described.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' Here there is no description of any work activity at all—only an abbreviations key. With genuinely missing schedule information, the correct classification per the criteria is 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "in265-10__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project is planned to be implemented over a period of four years starting from 2013 to 2017.",
+        "The project duration includes 12 months of design review, preparation of bidding documents and procurement of civil works, 24 months construction period, and 12 months defects liability period."
+      ],
+      "modality_check": "All statements are forward-looking planning descriptions ('is planned to be implemented'). There are no Reported Facts about actual progress, milestone completion, or current execution status. The excerpt is purely a project overview describing scope, cost, and the intended schedule breakdown. No activity is reported as started, completed, ongoing, delayed, or recovered.",
+      "scope_recovery_analysis": "No timeline change, delay, or scope extension is mentioned. The text only outlines the original planned phasing (12 + 24 + 12 months). There is nothing to assess regarding recovery or scope adjustment.",
+      "commitment_rationale": "The Normalcy Rule requires descriptions of ongoing, successful work to infer 'No Delay.' Here there is no description of any actual work progress at all—only a static plan with no current status indicator. Without any Reported Fact about execution, I cannot apply the Normalcy Rule, nor is there evidence of slippage. This places the excerpt squarely in the 'Uncertain' category, as it discusses planned timelines without any current status.",
+      "label": "Uncertain"
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilit__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Delays in procurement works: At the moment, the Procurement Unit at RA has only 2 staff serving several departments. This results in delays in procurement.",
+        "To reduce this risk, the RA has undertaken to strengthen the Unit by increasing staff levels",
+        "Cost overrun: To reduce the risk of cost over-run...the project will provide adequate contingent funds"
+      ],
+      "modality_check": "The procurement section mixes a Reported Fact and a Policy. The phrase 'This results in delays in procurement' is stated in present tense as a current condition arising from understaffing — a Reported Fact of ongoing delay. However, the framing 'To reduce this risk' suggests the document treats procurement delay as a risk item with mitigation measures. The cost overrun section is purely a Policy/Risk (future potential, mitigated by contingency funds).",
+      "scope_recovery_analysis": "The staffing remedy ('has undertaken to strengthen the Unit') is a planned future mitigation, not a confirmed resolution. There is no statement that the delay has been recovered or that the procurement schedule is back on track. The delay is presented as currently active ('At the moment...This results in delays').",
+      "commitment_rationale": "Although embedded in a risk register format, the text explicitly states a current factual condition: insufficient staff is presently causing procurement delays ('This results in delays in procurement'). This is a confirmed, unresolved slippage on procurement activities, with only prospective mitigation. This goes beyond a pure future risk, so 'Uncertain' is not appropriate, and the mitigation is not yet realized, so 'No Delay' is not warranted.",
+      "label": "Delay"
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilit__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "fielded a project preparation mission in June 2001, followed by an appraisal mission in April 2002 and an appraisal report update mission in April 2003",
+        "This project was completed within the prescribed timeframe and without cost overrun.",
+        "The Bank drew inspiration partly from this edifying experience during preparation and appraisal of the Rosso-Boghé Road Construction Project."
+      ],
+      "modality_check": "The text contains Reported Facts about a sequence of preparatory missions (2001-2003) executed as planned. The reference to a prior project ('completed within the prescribed timeframe and without cost overrun') is a historical Reported Fact about a different, finished project (the Trans-Maghreb Section). There are no Policy/Risk statements about future schedule slippage for the Rosso-Boghé project — the excerpt is descriptive of preparation/appraisal activities.",
+      "scope_recovery_analysis": "No delays are mentioned for the Rosso-Boghé Road Construction Project. The only timeline statement ('completed within the prescribed timeframe') refers to a separate prior project (1996 Trans-Maghreb Section), which was completed on time without cost overrun — indicating no delay there. No approved scope extensions or unapproved delays are present.",
+      "commitment_rationale": "Per the Normalcy Rule, the excerpt describes an orderly, successful flow of preparation and appraisal missions with no mention of slippage, missed deadlines, or unresolved issues. The referenced prior project was explicitly on time. Although the excerpt is largely background/preparatory and does not give a current construction status for Rosso-Boghé itself, nothing signals a delay, so 'Uncertain' is avoided in favor of 'No Delay' for the described healthy project flow.",
+      "label": "No Delay"
+    },
+    "case_id": "mauritania_-_pcr_road_project_1__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "works were to start in November 2003 and end in October 2006, representing an implementation timeframe of 36 months",
+        "The actual schedule reveals the following dates:"
+      ],
+      "modality_check": "The excerpt establishes a 'Reported Fact' baseline: the appraisal projected a start in November 2003 and completion in October 2006 (36 months). However, the text introduces 'the actual schedule reveals the following dates:' but provides no actual dates. There is no completed Fact regarding what the actual schedule was—the comparison is set up but never delivered.",
+      "scope_recovery_analysis": "No information is available about whether any timeline change occurred, whether it was an approved scope extension or an unapproved delay. The actual dates that would allow a comparison against the appraisal baseline are missing entirely.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because there is no description of ongoing successful work or healthy project flow—the sentence is cut off precisely where the critical comparative data (actual dates) would appear. This is a genuine case of missing information, not a healthy project narrative lacking the phrase 'on-schedule.' Without the actual dates, neither Delay nor No Delay can be substantiated.",
+      "label": "Uncertain"
+    },
+    "case_id": "mauritania_-_pcr_road_project_1__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "This report is prepared to update the status of all project components and their implementation progress.",
+        "It is designed to feed ADB's internal Project Progress Report and will form the basis of the draft Project Completion Report upon project completion."
+      ],
+      "modality_check": "Both quotes are administrative descriptions of the report's purpose, not Reported Facts about schedule performance nor Policy/Risk statements. There is no statement indicating whether milestones were met, missed, or are on-track. The text only explains what the document is for.",
+      "scope_recovery_analysis": "No mention of any timeline change, delay, recovery, or scope extension. There is no basis to assess delay resolution or scope modification.",
+      "commitment_rationale": "The Normalcy Rule applies only when the text describes ongoing, successful work or healthy project flow. Here, there is no description of actual implementation progress, status, or activity—only a meta-description of the report's administrative purpose. With zero substantive evidence about schedule status, this is a genuine case of missing information, which warrants 'Uncertain' rather than inferring normalcy from a purely procedural statement.",
+      "label": "Uncertain"
+    },
+    "case_id": "mpr_january_2011_final__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Progress of works represented in Table 4, and Figures 6, 7,8, 9, 10, 11,12 is revised based on Variation 2",
+        "As a result of the approval of Variation Order #2 the scope of the works and Contract Completion have been revised."
+      ],
+      "modality_check": "Both statements are Reported Facts: a Variation Order #2 was approved, and as a result the scope and Contract Completion date were formally revised. There is no language indicating missed deadlines, slippage, or unresolved schedule problems. The revision is a documented administrative outcome, not a description of uncontrolled slippage.",
+      "scope_recovery_analysis": "The change to Contract Completion is explicitly tied to the approval of Variation Order #2, which expanded/modified the scope of works. Per the Contextual Scaling rule, this is an 'approved scope extension' rather than an 'unapproved delay.' The progress baselines were re-aligned to reflect the new approved scope.",
+      "commitment_rationale": "Although the excerpt is brief and does not explicitly say 'on-track,' the only timeline change mentioned is formally approved and tied to a scope variation, not to performance failure. There is no contradictory or missing information that would force an 'Uncertain' label, and no evidence of unresolved slippage that would justify 'Delay.' Applying the Normalcy/Contextual rules, an approved scope-driven schedule revision is classified as 'No Delay.'",
+      "label": "No Delay"
+    },
+    "case_id": "mpr_january_2011_final__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The Boké-Québo section is located in the region of Boké...",
+        "had an estimated population of 547,306 people",
+        "people living in the PDAI who were consulted and sensitized on the project design in accordance with a participatory process that will be maintained until this project's completion",
+        "The total cost, net of taxes and customs duties, including physical and financial contingencies for the entire project is estimated at UA 99.08 million, or EUR 117.29 million."
+      ],
+      "modality_check": "This excerpt is entirely descriptive/contextual. It covers geographic location, demographics, beneficiary information, and cost estimates. There are no Reported Facts about schedule progress, milestone completion, or activity execution. There are also no Policy/Risk statements about potential delays. The only forward-looking statement ('participatory process that will be maintained until completion') is procedural, not a schedule indicator.",
+      "scope_recovery_analysis": "No timeline changes, delays, or recoveries are mentioned anywhere in the text. The cost figures and contingency references are baseline planning data, not indicators of schedule slippage or scope adjustment.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' This excerpt contains no schedule-related activity reporting at all—it is purely descriptive project background (location, population, cost). With no progress facts to evaluate, there is genuinely missing information about schedule status, which is the textbook case for 'Uncertain' rather than forcing an inference.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvem__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "a monitoring and evaluation mechanism will be established by the Executing Agency",
+        "The establishment of key impact indicators prior to project start-up and impact assessment at project completion will generate useful information",
+        "The lessons learned... will be managed from a database at the Executing Agency"
+      ],
+      "modality_check": "All statements are future-oriented ('will provide', 'will be established', 'will generate', 'will be managed'). These are Policy/Plan statements describing intended knowledge-management and M&E mechanisms, not Reported Facts about progress or milestone completion. No actual implementation status or schedule information is conveyed.",
+      "scope_recovery_analysis": "There is no mention of any timeline, milestone, deadline, delay, or recovery. The excerpt deals entirely with anticipated learning outcomes and monitoring frameworks, so no scope-extension or delay-recovery assessment is possible.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing successful work; here there is no description of work progress at all—only forward-looking plans about knowledge management and M&E. Without any current schedule or progress status, neither 'Delay' nor 'No Delay' can be substantiated. This falls under the genuine absence of status information, so 'Uncertain' is appropriate.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvem__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The construction of the bridge and roads financed entirely by the two (2) governments’ own resources was successfully completed in 2010",
+        "The road on the Tanzania side linking the unity bridge to the Tanzania road network was further paved with Bank financing leaving the Mueda Negomano Road as the only missing link"
+      ],
+      "modality_check": "The quotes are 'Reported Facts': the Unity Bridge and adjacent roads were 'successfully completed in 2010,' and the Tanzania side road was paved. There are no policy/risk statements about future schedule slippage. The text describes accomplished milestones and remaining scope (the Mueda Negomano Road as the 'only missing link') without any indication of delay or missed deadlines.",
+      "scope_recovery_analysis": "No delays are reported. The 'only missing link' framing identifies remaining work rather than slipped milestones. There is no mention of unapproved delays or schedule overruns; completed work is described as 'successfully completed.'",
+      "commitment_rationale": "Applying the Normalcy Rule, this excerpt describes a healthy project flow with completed milestones and ongoing committed development. The absence of explicit 'on-schedule' language does not warrant 'Uncertain' since there are no risks, missed deadlines, or contradictions present.",
+      "label": "No Delay"
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgr__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the road link to the bridge on the Mozambican side has remained unpaved and in poor condition",
+        "truckers have been known to spend even up to a week to travel the full length of the road",
+        "the lack of development of this link has been identified as a major bottleneck"
+      ],
+      "modality_check": "All quotes are background/contextual 'Reported Facts' about the existing condition of the road and its strategic importance. None of them refer to the schedule status of an active construction project. There are no milestones, completion dates, or progress metrics mentioned. The text describes the pre-project rationale (why the road needs development) rather than the execution status of any current works.",
+      "scope_recovery_analysis": "No timeline, milestone, or schedule baseline is referenced. There is no mention of construction activities being behind, on, or ahead of plan, and no delays to resolve or scope changes to assess. The poor road condition described is the justification for the project, not evidence of project slippage.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing successful project work, but here there is no construction progress described at all — only justification/background. Without any statement on current schedule status, milestones, or active works, there is no basis to infer 'No Delay' or 'Delay.' This is a genuine case of missing schedule information, which maps to 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgr__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project’s potential beneficiaries are the Keita and Tahoua Divisions...",
+        "At completion, the project will have positive leverage on the local population...",
+        "these will contribute to building resilience among the vulnerable and poor segments of the population."
+      ],
+      "modality_check": "All statements are forward-looking projections of impact ('At completion, the project will have...', 'these will contribute to...'). None are 'Reported Facts' about actual progress, milestones, or schedule status. There is no description of ongoing work, completed activities, or timeline performance.",
+      "scope_recovery_analysis": "No timeline, milestone, delay, or scope change is mentioned. The excerpt exclusively describes anticipated beneficiaries and future socioeconomic benefits.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of actual ongoing or successful work—only abstract projections of future impact. There is no schedule-related fact (positive or negative) to assess. With no current status information available, the only defensible classification is 'Uncertain' due to genuinely missing information.",
+      "label": "Uncertain"
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-marar__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "This project is part of the priority investments earmarked under PDES 2017-2021",
+        "When completed, it will contribute to: (i) the accessibility of key localities in Tahoua Region..."
+      ],
+      "modality_check": "All statements are forward-looking policy/strategic framing ('When completed, it will contribute to...'). There are no Reported Facts about actual progress, milestones achieved, or schedule status. This is entirely contextual/policy description of the project's purpose and strategic alignment.",
+      "scope_recovery_analysis": "No timeline changes, delays, or recovery actions are mentioned. The text only describes intended future outcomes and strategic positioning, with no reference to current schedule performance.",
+      "commitment_rationale": "The Normalcy Rule requires descriptions of ongoing, successful work to infer 'No Delay.' Here, there is no description of any work progress at all—only the project's objectives and strategic context. With no current status information available, this is a genuine case of missing information, warranting 'Uncertain' rather than an inferred 'No Delay.'",
+      "label": "Uncertain"
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-marar__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project will support economic and social development programmes of Ebonyi State and Nigeria as a whole through efficient and cost-effective movement of passengers and freight",
+        "The road sections proposed for rehabilitation will provide improved access to the communities",
+        "Most sections of the road have lost their asphalt surfacing, and some sections become impassable during the rainy season."
+      ],
+      "modality_check": "All quotes are either project rationale (Policy/Justification) or descriptions of pre-existing road conditions justifying the need for the project. There are no Reported Facts about the actual progress, milestones, or current schedule status of the construction work. The 'will support' and 'will provide' phrasing is forward-looking objective, not status reporting.",
+      "scope_recovery_analysis": "No timeline, milestones, or schedule activities are mentioned. The note about extended CSP (2013-2017, extended to December 2019) relates to a strategic policy document, not the project schedule itself. No delays or recoveries are discussed.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the text contains no description of ongoing construction work or progress whatsoever — it only describes project rationale and existing road deterioration. With zero status information on the schedule, there is no basis to infer either healthy flow or delay. This is a genuine case of missing schedule information.",
+      "label": "Uncertain"
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_pr__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Seven (7) of the projects have been completed satisfactorily, and five (5) are on-going.",
+        "The Bank therefore has significant experience in the implementation of sector projects in the country."
+      ],
+      "modality_check": "The excerpt describes the Bank's portfolio history as Reported Facts: seven projects completed satisfactorily and five ongoing. There is no Policy/Risk language about future schedule outcomes. This text is descriptive of institutional track record rather than the schedule status of any specific active project.",
+      "scope_recovery_analysis": "No delays or recoveries are mentioned. No timeline changes or scope extensions are discussed. The ongoing projects are described neutrally without any indication of slippage.",
+      "commitment_rationale": "Per the Normalcy Rule, the description references successfully completed projects and ongoing work with no mention of delay, missed deadlines, or unresolved issues. This describes a healthy project flow, so 'No Delay' is appropriate rather than retreating to 'Uncertain.' The 'satisfactorily completed' language reinforces normal, successful execution.",
+      "label": "No Delay"
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_pr__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The Project was highly relevant during appraisal and continued to be so after completion, as it rehabilitated the most deteriorated section of the most important road in Kazakhstan",
+        "leading from the cultural and commercial center of Almaty to the new capital, Astana, which is located 1,220 km away"
+      ],
+      "modality_check": "All statements are 'Reported Facts' concerning project relevance and geographic/strategic context. There are no statements—factual or policy-based—regarding schedule, milestones, timelines, or progress pacing. The excerpt focuses entirely on the project's importance and corridor significance.",
+      "scope_recovery_analysis": "No timeline changes, delays, recovery actions, or scope extensions are mentioned. The text references 'after completion' but provides no information on whether completion was timely, early, or late.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work flow to infer 'No Delay.' Here, there is no schedule-related content whatsoever—only a relevance assessment. With genuinely missing information about the schedule dimension, 'Uncertain' is the appropriate label rather than inferring health from non-schedule praise.",
+      "label": "Uncertain"
+    },
+    "case_id": "pcr-kaz-28403__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The contract was awarded to a British-Turkish-Kazakh joint venture (the Contractor) on 31 July 1997 and signed on 6 November 1997.",
+        "The works were completed on 14 August 2001."
+      ],
+      "modality_check": "All statements are Reported Facts describing completed historical events: contract award, signing, and completion of works. There are no Policy/Risk statements about future possibilities. The excerpt simply documents the procurement and completion timeline.",
+      "scope_recovery_analysis": "The text does not mention any baseline or planned completion date against which to compare the actual completion of 14 August 2001. No delay, slippage, scope change, or recovery is referenced. Without an original target date, there is no evidence that completion was late or early.",
+      "commitment_rationale": "Under the Normalcy Rule, the report describes a project that proceeded from award to completion without any mention of delay, missed deadlines, or unresolved issues. The works were reported as completed, which indicates a healthy, finished project flow. This warrants 'No Delay' rather than 'Uncertain,' as there is no contradictory or missing-critical information suggesting trouble.",
+      "label": "No Delay"
+    },
+    "case_id": "pcr-kaz-28403__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is purely a glossary of abbreviations and acronyms (ADB, APFS, CDTA, etc.). There are no statements describing schedule status, milestones, progress, or any project activity. Therefore, there are no quotes to classify as either 'Reported Fact' or 'Policy/Risk'.",
+      "scope_recovery_analysis": "No information regarding delays, recovery, or scope changes is present in this excerpt. It contains only definitional content.",
+      "commitment_rationale": "The 'Normalcy Rule' cannot be applied because there is no description of ongoing work or project flow—healthy or otherwise. The text is a definitions list with zero substantive schedule information. This is a genuine case of missing information, which the criteria explicitly assign to 'Uncertain'.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2594__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is purely a glossary/legend of abbreviations (ADB, ADF, IED, etc.) and a team member listing. There are no statements that qualify as either 'Reported Facts' about schedule progress or 'Policy/Risk' statements about future timelines.",
+      "scope_recovery_analysis": "No timeline information, milestones, scope changes, or delay/recovery language is present. There is nothing to assess regarding delays or scope extensions.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because the text does not describe any ongoing work, project flow, or progress whatsoever. It is metadata (abbreviation definitions and personnel). Since there is genuinely no schedule-related information present, the only defensible classification is 'Uncertain' due to absent information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2594__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "This excerpt is a glossary/abbreviations list (CTC, DGH, DMF, EIRR, IED, IRMS, ITMS, km, m, PCR, PMU, PPMS, SEMEP)"
+      ],
+      "modality_check": "There are no Reported Facts about schedule progress and no Policy/Risk statements. The text is purely a list of abbreviation definitions with no temporal or status content.",
+      "scope_recovery_analysis": "No mention of milestones, timelines, delays, recovery, or scope changes. Nothing to assess.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing successful work to infer 'No Delay.' Here there is no project activity described at all—only a glossary. With zero schedule-relevant information, the status is genuinely missing, which the criteria explicitly assign to 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-265__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is a glossary/abbreviation list defining acronyms (ADB, ADF, ICT, IED1, IED2, IRM, OCR, PCR). It contains no statements about schedule status, milestones, progress, or timeline. There are no 'Reported Facts' regarding construction progress and no 'Policy/Risk' statements about future events.",
+      "scope_recovery_analysis": "No timeline information is present. There is no mention of delays, recovery, scope changes, or approved extensions to assess.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' This excerpt contains no project activity description whatsoever—only definitions of abbreviations. With genuinely missing schedule information, the criteria explicitly direct classification to 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-265__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is purely a glossary/list of abbreviations and acronyms (e.g., ADB, BAPPENAS, BIMP-EAGA, CTC, DGH). There are no statements describing project progress, milestones, deadlines, or schedule status. No quotes can be extracted that relate to schedule performance—either as 'Reported Facts' or 'Policy/Risk' items.",
+      "scope_recovery_analysis": "There is no mention of any timeline, delay, recovery, or scope change. The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow—only definitions of terms.",
+      "commitment_rationale": "Although the guidance discourages retreating to 'Uncertain' when a healthy project flow is described, here there is genuinely no schedule-related information of any kind. The text is a reference list, not a status narrative. This meets the 'genuinely missing information' condition for 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2817b__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided excerpt contains only a glossary of abbreviations (ADB, ADF, IED, IESP, OCR, PCR) and a list of team members. There are no statements describing schedule status, milestones, progress, delays, or timelines. No Reported Facts or Policy/Risk statements about project schedule exist.",
+      "scope_recovery_analysis": "There is no mention of any timeline change, delay, recovery, or scope extension. No basis exists to assess schedule recovery or scope adjustments.",
+      "commitment_rationale": "The Normalcy Rule applies only when a report describes ongoing, successful work. Here, the text describes neither work progress nor schedule status — it is purely metadata (abbreviations and personnel). With genuinely missing schedule information, 'Uncertain' is the correct classification rather than inferring a healthy project flow from absent content.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2817b__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is purely a list of abbreviations and acronyms (e.g., AAY, ADB, ARS, DMF, EIRR). There are no statements that qualify as either 'Reported Facts' about progress or 'Policy/Risk' descriptions. No schedule, milestone, or progress information is present.",
+      "scope_recovery_analysis": "No timeline changes, delays, or scope extensions are mentioned. There is no content to assess for recovery or scope alteration.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow—only a glossary of terms. Since there is no schedule-related information whatsoever, the status is genuinely missing, which is a valid trigger for 'Uncertain' rather than a retreat from a healthy project narrative.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2831__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided excerpt contains only a glossary of abbreviations (ADB, ADF, HQ, IED, IESP, OCR, PCR) and a list of team members with their roles. There are no statements about schedule, milestones, progress, or timelines—neither Reported Facts nor Policy/Risk statements.",
+      "scope_recovery_analysis": "No timeline changes, delays, recoveries, or scope extensions are mentioned. There is no project status information of any kind.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' Here, there is no description of work progress at all—only definitions and personnel names. With genuinely no schedule-related information present, 'Uncertain' is the only defensible classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2831__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank, ADF = Asian Development Fund, IED = Independent Evaluation Department, IESP = Sector and Project Division, OCR = ordinary capital resources, PCR = project completion report."
+      ],
+      "modality_check": "The provided text is exclusively a list of abbreviations/acronyms (a legend or glossary). There are no Reported Facts about schedule progress, milestones, or activities. There are also no Policy or Risk statements regarding timelines.",
+      "scope_recovery_analysis": "No timeline changes, scope extensions, or delay recoveries are mentioned. The excerpt contains no substantive project status content whatsoever.",
+      "commitment_rationale": "The Normalcy Rule cannot apply because there is no description of ongoing work or healthy project flow—only definitions of acronyms. With zero schedule-related content, there is no basis to infer either 'Delay' or 'No Delay.' Information is genuinely missing, which is the legitimate trigger for 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2981__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB approved a $300 million loan from ordinary capital resources for the Chhattisgarh State Road Sector Project (the project) in December 2012",
+        "The advance project approval, which was ahead of the schedule proposed in the country's operations business plan, took advantage of its expected high level of preparation and readiness",
+        "The project was designed to reconstruct and rehabilitate about 916 km state roads..."
+      ],
+      "modality_check": "The excerpt contains primarily 'Reported Facts': the loan was approved in December 2012, and the approval was 'ahead of the schedule proposed in the country's operations business plan.' The descriptions of project objectives (reconstruct roads, improve capacity, establish RAMS) are design intentions/scope, not progress reports. There is no 'Policy/Risk' language about future schedule threats, nor any mention of delay or missed milestones.",
+      "scope_recovery_analysis": "No timeline change or delay is mentioned. On the contrary, the only schedule-related fact is positive: the project approval occurred AHEAD of the proposed schedule. There are no past delays to recover from, and no scope extensions tied to slippage.",
+      "commitment_rationale": "The excerpt is largely background/setup describing the project's approval and objectives. The only explicit schedule reference is favorable ('ahead of the schedule'). Under the Normalcy Rule, the absence of any delay indication combined with an explicitly positive schedule fact supports 'No Delay' rather than retreating to 'Uncertain.' However, it is worth noting this describes the loan approval phase, not construction execution status; still, no delay is present in the provided text.",
+      "label": "No Delay"
+    },
+    "case_id": "pvr-2981__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The excerpt contains only a glossary of abbreviations (ADB, ADF, IED, etc.) and footnotes identifying data sources and team members. There are no statements—neither Reported Facts nor Policies/Risks—regarding schedule status, milestones, or progress.",
+      "scope_recovery_analysis": "No timeline information, delays, recoveries, or scope changes are mentioned. There is nothing to assess.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of project work or progress flow at all. With a complete absence of schedule-related information, 'Uncertain' is the only defensible classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3055b__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Most of the works were substantially completed by the original loan closing date of 31 March 2017.",
+        "The loan closing date had to be extended for completion of only residual works on some contracts."
+      ],
+      "modality_check": "Both statements are Reported Facts describing what actually occurred. The first confirms that the bulk of works reached substantial completion by the original closing date. The second is a factual report that the loan closing date 'had to be extended' to finish residual works on some contracts. The phrase 'had to be extended' indicates an actual, realized timeline change—not a hypothetical risk or policy.",
+      "scope_recovery_analysis": "This is not framed as an approved scope extension or new work added; rather, the closing date was pushed back specifically because residual (leftover) works on some contracts were not finished by the original date. While 'most' works were substantially complete, the necessity to extend the deadline to finish remaining works represents an unresolved slippage of completion beyond the original closing date. There is no statement that this was recovered or that the residual works were completed on any revised schedule.",
+      "commitment_rationale": "This is not 'Uncertain' because the text contains a concrete reported fact: the loan closing date 'had to be extended.' This is a clear, realized timeline slippage rather than a future risk. Although the majority of works were substantially complete, the explicit extension of the closing date for incomplete residual works constitutes a confirmed delay relative to the original schedule. The Normalcy Rule does not apply because a missed deadline (requiring extension) is explicitly mentioned.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-3055b__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is entirely a glossary/abbreviations list (e.g., ADB – Asian Development Bank, CNY – yuan, etc.). It contains no statements about project schedule, milestones, progress, or status—neither Reported Facts nor Policy/Risk statements.",
+      "scope_recovery_analysis": "No mention of timelines, delays, recoveries, or scope changes. There is nothing to assess regarding slippage or resolution.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing successful work to infer 'No Delay.' Here there is no description of any project activity whatsoever—only a definitions list. With genuinely missing schedule information, 'Uncertain' is the correct classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3074__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank, ADF = Asian Development Fund, IED = Independent Evaluation Department, IESP = Sector and Project Division, OCR = ordinary capital resources, PCR = project completion report."
+      ],
+      "modality_check": "The provided text is purely a list of abbreviations/acronyms and their definitions. There are no Reported Facts about schedule status, milestone progress, or critical-path activities. There are also no Policy/Risk statements regarding future timelines.",
+      "scope_recovery_analysis": "No timeline changes, delays, recoveries, or scope extensions are mentioned. The text contains no schedule-related content whatsoever.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow—only a glossary of terms. With no schedule information present at all (genuinely missing information), 'Uncertain' is the only defensible label rather than inferring a healthy or delayed status from acronyms.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3074__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is purely a list of abbreviations and acronyms (e.g., ADB, EIRR, GOMP, etc.). There are no statements describing project progress, milestones, deadlines, or schedule status. Therefore, there are no 'Reported Facts' or 'Policy/Risk' statements to evaluate.",
+      "scope_recovery_analysis": "No information about timelines, delays, scope changes, or recovery is present in this glossary excerpt.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow—healthy or otherwise. The text contains no schedule-related content whatsoever. This is a genuine case of missing information, which warrants 'Uncertain' rather than inferring a status from absent data.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3189a__p0",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provided text contains only a glossary of acronyms (ADB, ADF, HQ, IED, IESP, OCR, PCR) with no schedule or progress information."
+      ],
+      "modality_check": "There are no Reported Facts or Policy/Risk statements regarding schedule, milestones, or progress. The excerpt is purely a list of abbreviation definitions and contains no substantive project status content.",
+      "scope_recovery_analysis": "No timeline changes, delays, recoveries, or scope extensions are mentioned. There is nothing to assess regarding delay resolution or scope adjustments.",
+      "commitment_rationale": "The Normalcy Rule cannot apply because there is no description of ongoing work or project flow—only a glossary. With genuinely no schedule-relevant information present, 'Uncertain' is the only defensible classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3189a__p1",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "This excerpt consists entirely of an abbreviations/acronyms glossary (COBP, CPS, DMF, EDCF, HCMC, km, MOT, MTIP, PCR, PPP, RR3, SEDP, S-TA, TA)."
+      ],
+      "modality_check": "No reported facts about schedule or progress exist in this text. There are no statements describing work performed, milestones achieved, or risks. It is purely a definitions list, containing neither 'Reported Facts' nor 'Policy/Risk' statements about timeline.",
+      "scope_recovery_analysis": "No mention of any delay, recovery, scope change, or timeline. There is nothing to assess regarding resolution or extension.",
+      "commitment_rationale": "The Normalcy Rule cannot apply because there is no description of ongoing or successful work — only an acronym key. With genuinely missing schedule information, 'Uncertain' is the correct and only defensible label.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3248__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provided text consists only of an abbreviations/acronyms list (ADB, ADF, IED, IESP, OCR, PCR).",
+        "No schedule, milestone, progress, or timeline information is present."
+      ],
+      "modality_check": "There are no statements of either 'Reported Facts' (work completed/slipped) or 'Policy/Risk' items. The excerpt is purely a glossary of abbreviations and contains zero substantive content about project execution or schedule.",
+      "scope_recovery_analysis": "No mention of delays, recovery, resolution, or scope changes exists. There is nothing to assess regarding slippage or approved extensions.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing or successful work—only an acronym key. With genuinely missing schedule information and no project flow to infer health from, 'Uncertain' is the only defensible classification rather than inferring a status from absent evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3248__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text consists entirely of an abbreviations/glossary list (e.g., ADB – Asian Development Bank, DOR – Department of Roads, EIRR – economic internal rate of return). There are no statements describing schedule status, milestones, progress, or activities. No 'Reported Facts' about work performed and no 'Policy/Risk' statements about future events are present.",
+      "scope_recovery_analysis": "There is no mention of any timeline, milestone, delay, recovery, or scope change. No assessment of resolution or extension is possible because the excerpt contains only terminology definitions.",
+      "commitment_rationale": "The Normalcy Rule applies only when a report describes ongoing successful work without mention of delay. Here, there is no description of any work flow at all—only a definition list. With genuinely missing schedule information, the criteria explicitly direct use of 'Uncertain' when information is absent.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-332__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank",
+        "ADF = Asian Development Fund",
+        "ICT = information and communication technology",
+        "IED2 = Independent Evaluation Department, Division 2",
+        "OCR = ordinary capital resources",
+        "PCR = project completion report",
+        "SDR = special drawing rights"
+      ],
+      "modality_check": "The excerpt contains only a list of abbreviations and their definitions. There are no Reported Facts about schedule, milestones, or progress, nor any Policy/Risk statements regarding timeline.",
+      "scope_recovery_analysis": "No information about delays, recovery, or scope changes is present. The text is purely a glossary of acronyms.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing or successful work—there is no project activity described at all. With genuinely missing schedule information, 'Uncertain' is the only defensible label.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-332__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided excerpt is purely a list of abbreviations and acronyms (ADB, CAREC, EIRR, GDP, km, PCR, PIU, PPMS, REPC, RRP, vpd). There are no Reported Facts about schedule progress, milestones, or activities. There are no Policy/Risk statements either. The text contains zero substantive content regarding project timeline or status.",
+      "scope_recovery_analysis": "No information is available about any delays, recoveries, or scope changes. The excerpt does not reference any timeline, milestone, or completion data.",
+      "commitment_rationale": "The 'Normalcy Rule' cannot be applied because there is no description of ongoing work, healthy project flow, or any activity whatsoever—only a glossary of terms. With genuinely missing schedule information, 'Uncertain' is the only defensible classification. There is no evidence to support either 'Delay' or 'No Delay.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-453__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided excerpt contains only a glossary of abbreviations and acronyms (ADB, ADF, CAREC, ICT, IED, IED2, OCR, PCR). There are no statements describing project progress, milestones, activities, or schedule status. No quotes can be extracted as either Reported Facts or Policy/Risk statements regarding the timeline.",
+      "scope_recovery_analysis": "No mention of any delay, recovery, scope change, or timeline modification exists in this text. There is nothing to assess regarding resolution or scope extension.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' This excerpt describes no work or project flow at all—it is purely a definitions list. With genuinely missing information about schedule status, the appropriate classification is 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-453__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text is purely a glossary of abbreviations (ADB, ADF, IED, IESP, OCR, OFID, PCR). It contains no statements regarding project schedule, milestones, progress, or activities. There are no Reported Facts or Policy/Risk statements to evaluate.",
+      "scope_recovery_analysis": "No information about timelines, delays, scope changes, or recovery is present in the excerpt. Nothing can be assessed.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the text does not describe any ongoing work or project flow—it is merely an abbreviation key. With a complete absence of schedule-related information, 'Uncertain' is the only defensible label, as required by the criteria for genuinely missing information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-523__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "In 2006, the Board of Directors of the Asian Development Bank (ADB) approved a $55.2 million grant to help finance the $80 million Road Connectivity Sector I project.",
+        "The project was to construct or upgrade 10 roads and one bridge—the first phase of the works planned under the 10-year midterm program",
+        "A project completion report (PCR) was prepared in July 2016 and is the subject of this evaluation."
+      ],
+      "modality_check": "All statements are descriptive background facts about the project's scope, funding, and structure. There are no statements characterizing progress against a schedule—no mention of milestone achievement, slippage, on-track status, or missed deadlines. These are purely contextual 'Reported Facts' about what the project entailed, not about its temporal performance.",
+      "scope_recovery_analysis": "No timeline change, delay, or recovery is mentioned. The text only notes the project was approved in 2006 and a completion report was prepared in July 2016, but no baseline schedule is given to assess whether this duration represents a delay or an approved timeline.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing, successful work. Here, the excerpt is purely introductory/contextual and contains no information about actual schedule progress at all—neither positive nor negative indicators. Without any progress narrative to characterize, there is no basis to infer 'No Delay,' and no evidence of slippage to label 'Delay.' This is a genuine case of missing schedule-status information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-523__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB – Asian Development Bank",
+        "DMF – design and monitoring framework",
+        "MOI – Ministry of Infrastructure",
+        "PCR – project completion report",
+        "PMU – project management unit",
+        "SDP – Strategic Development Plan",
+        "TA – technical assistance"
+      ],
+      "modality_check": "The excerpt contains only a list of abbreviations/acronyms. There are no Reported Facts about progress, milestones, or activities, and no Policy/Risk statements about future schedule outcomes. It is purely a glossary section.",
+      "scope_recovery_analysis": "No mention of any timeline, milestone, delay, recovery, or scope change. There is no basis to assess slippage or resolution.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow whatsoever—only definitions of terms. With genuinely missing schedule information, 'Uncertain' is the appropriate classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-605__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank, ADF = Asian Development Fund, IED = Independent Evaluation Department, IESP = Sector and Project Division, OCR = ordinary capital resources, PCR = project completion report."
+      ],
+      "modality_check": "The provided text is purely a list of abbreviation definitions (a legend/glossary). There are no Reported Facts about schedule progress, no Policy/Risk statements about future timelines, and no descriptions of ongoing work or milestones.",
+      "scope_recovery_analysis": "No timeline changes, delays, or scope extensions are mentioned. There is nothing to assess regarding recovery or approved scope changes.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the text does not describe any project work or flow—it only defines acronyms. With zero schedule-related information present, the status is genuinely indeterminate. This is the legitimate case for 'Uncertain' due to missing information, not a retreat from a healthy project description.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-605__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provided text consists entirely of an abbreviations/acronyms glossary (ADB, ADF, IED, IESP, KEXIM, NDF, OCR, PCR) with no narrative content."
+      ],
+      "modality_check": "There are no Reported Facts or Policy/Risk statements present. The excerpt is purely a definitional list of acronyms with zero information about milestones, progress, timelines, or activities.",
+      "scope_recovery_analysis": "No mention of any timeline, delay, recovery, or scope change exists in the text. There is nothing to assess.",
+      "commitment_rationale": "The Normalcy Rule applies only when the text describes ongoing, successful work. Here there is no description of any work or project flow whatsoever—only an acronym key. With genuinely missing schedule information, 'Uncertain' is the correct and required classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-626__p0",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project loan was approved in September 2010 with actual loan effectiveness in January 2011.",
+        "the loan was not extended and kept its original closing date of June 2016",
+        "the loan was financially closed in December 2016"
+      ],
+      "modality_check": "These are all Reported Facts, not policies or risks. The loan was approved (fact), became effective in January 2011 (fact), retained its original closing date of June 2016 (fact), but was financially closed in December 2016 (fact). The key factual tension is between the stated closing date of June 2016 and the actual financial closure occurring six months later in December 2016.",
+      "scope_recovery_analysis": "The text explicitly states the loan was NOT extended and kept its original closing date of June 2016. However, the actual financial closing occurred in December 2016 — six months after the stated closing date. This is not an approved scope extension (extension was explicitly denied), and there is no indication of recovery or resolution. The gap between the original closing date and actual financial closure represents an unresolved slippage.",
+      "commitment_rationale": "This is not 'Uncertain' because the facts are clear and not contradictory in a way that obscures the outcome: the loan closed in December 2016 despite an unextended original closing date of June 2016. The six-month gap between planned and actual closure constitutes confirmed, unresolved slippage. Although the loan was not formally extended, the actual financial closure occurred well beyond the original schedule, which is the hallmark of a delay rather than healthy project flow.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-626__p1",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank, ADF = Asian Development Fund, IED = Independent Evaluation Department, IESP = Sector and Project Division, OCR = ordinary capital resources, PCR = project completion report."
+      ],
+      "modality_check": "The provided text is purely a list of abbreviation definitions (a legend/glossary). There are no Reported Facts about progress, milestones, or activities, nor any Policy/Risk statements regarding the schedule. No modality can be assessed because there is no substantive content.",
+      "scope_recovery_analysis": "No information about timelines, delays, recovery, or scope changes is present. There is nothing to assess.",
+      "commitment_rationale": "The 'Normalcy Rule' cannot be applied because the text does not describe any ongoing work or project flow—it only defines acronyms. With genuinely no schedule-related information available, 'Uncertain' is the only defensible label rather than inferring health or delay from absent data.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-654__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The expected date of effectiveness of the project was 13 September 2011; the actual date of effectiveness was 28 July 2011.",
+        "The loan agreement for the project stated that the loan closing date was to be 30 June 2014.",
+        "The actual loan closing date was on 30 June 2016, two years later due to extended rainfall that affected the availability of appropriate work sites and the failure of some contractors to make effective use of that period for mobilization activities."
+      ],
+      "modality_check": "These are all Reported Facts about completed events, not policies or future risks. Effectiveness occurred earlier than expected (positive). However, the loan closing slipped from 30 June 2014 to 30 June 2016 — a two-year actual slippage with stated causes (extended rainfall, contractor mobilization failures). This is a confirmed factual delay, not a hypothetical risk.",
+      "scope_recovery_analysis": "There is no language indicating the two-year slippage was recovered, resolved, or approved as a scope extension. The delay is attributed to adverse weather and contractor underperformance — operational problems, not formal scope changes. No recovery or 'back-on-track' statement exists; the project simply closed two years late.",
+      "commitment_rationale": "This is not 'Uncertain' because the data is explicit and non-contradictory: a clear, quantified two-year slippage in the loan closing date with identified causes. The Normalcy Rule does not apply because there is an explicit missed deadline. The early effectiveness does not offset the confirmed end-of-project delay. This is a textbook confirmed, unresolved schedule slippage.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-654__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provided excerpt contains only a list of abbreviations and their definitions (ADB, ADF, IED, IESP, OCR, PCR).",
+        "No schedule, milestone, progress, or timeline information is present."
+      ],
+      "modality_check": "There are no quotes describing either Reported Facts (work performed, milestones met or missed) or Policy/Risk statements (future risks, contingencies). The text is purely a glossary of acronyms with no substantive content about project execution or schedule.",
+      "scope_recovery_analysis": "No mention of any delay, recovery, scope change, or timeline adjustment exists. There is nothing to assess regarding resolution of delays or scope extensions.",
+      "commitment_rationale": "The Normalcy Rule requires a description of ongoing, successful work to infer 'No Delay.' Here there is no description of project activity at all—only abbreviation definitions. Since there is genuinely no status information present, 'Uncertain' is the only defensible classification (genuinely missing information per criterion 3).",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-658__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project completion date was in October 2015, 9 months after the envisioned completion.",
+        "The delay in the procurement process led to a 1-year delay in starting the civil works",
+        "the planned closing date of June 2015 was delayed by 1 year, and the grant closing date was also delayed by 1 year."
+      ],
+      "modality_check": "All statements are Reported Facts (past tense, definitive). 'led to a 1-year delay,' 'was delayed by 1 year,' and 'completion date was 9 months after envisioned' all describe events that actually occurred, not hypothetical risks or policies.",
+      "scope_recovery_analysis": "There is no indication these delays were recovered, resolved, or tied to an approved scope extension. The delays are explicitly attributed to procurement problems ('delay in the procurement process'), which cascaded into civil works and closing date slippage. No recovery language is present.",
+      "commitment_rationale": "This is not 'Uncertain' because the text contains explicit, confirmed slippage of the completion date, civil works start, and closing dates. The word 'delay' appears multiple times referring to realized, unresolved schedule impacts.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-658__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided text consists entirely of an abbreviations/acronyms legend (ADB, ADF, IED, IESP, MNRM, OCR, PCR). There are no statements regarding schedule, milestones, progress, or activities. Therefore, there are no 'Reported Facts' or 'Policy/Risk' statements to evaluate.",
+      "scope_recovery_analysis": "No timeline changes, delays, scope extensions, or recovery statements are present in the text. There is nothing to assess.",
+      "commitment_rationale": "The 'Normalcy Rule' requires a description of ongoing, successful work to infer 'No Delay.' Here, there is no project narrative at all—only a glossary of terms. With genuinely missing schedule information, the correct classification is 'Uncertain' rather than inferring a healthy project flow that is not described.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-697__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "road infrastructure in Mongolia lagged behind",
+        "Mongolia was at the lower end of countries worldwide",
+        "The absence of sea access made external transport links an imperative"
+      ],
+      "modality_check": "All statements describe general background context about Mongolia's geography, demographics, and the existing state of its road network. None of these quotes are 'Reported Facts' about a specific project's schedule or milestone progress. There are no mentions of project activities, deadlines, milestones, or timelines being met or missed. The text is entirely a country/sector situation overview, not a status update on any construction project.",
+      "scope_recovery_analysis": "No timeline changes, scope extensions, delays, or recoveries are mentioned. The excerpt contains no project schedule information whatsoever—only descriptive statistics about existing infrastructure conditions.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing, successful project work. Here, there is no project work described at all—only contextual background. Because the text provides no current schedule status, no milestones, and no progress facts, there is genuinely missing information regarding schedule performance. This is a case of absent information rather than a healthy project flow, so 'Uncertain' is the appropriate label.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-697__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ADB = Asian Development Bank, ADF = Asian Development Fund, IED = Independent Evaluation Department, IESP = Sector and Project Division, INRM = India Resident Mission, OCR = ordinary capital resources, PCR = project completion report."
+      ],
+      "modality_check": "The provided text consists solely of an abbreviations/acronyms glossary. There are no statements of fact regarding progress, milestones, or activities, nor any policy/risk statements about the schedule.",
+      "scope_recovery_analysis": "No timeline changes, delays, recoveries, or scope adjustments are mentioned in this excerpt. There is no schedule-related content to analyze.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project flow—only definitions of acronyms. With genuinely no schedule information present, 'Uncertain' is the appropriate label rather than inferring 'No Delay' from absence of content.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-714__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "at least 966 km of roads are in good condition, with international roughness index of less than 4.5 by 2010",
+        "Indicators (ii) to (iv) were expected to be completed by 2012",
+        "outsourcing of all design, construction, and maintenance services"
+      ],
+      "modality_check": "All statements in this excerpt are descriptions of expected outputs and target indicators with planned completion dates ('were to be measured', 'were expected to be completed by 2012'). None are 'Reported Facts' about actual progress, completion, or slippage. They are statements of project design/policy and intended timelines, not current status reports.",
+      "scope_recovery_analysis": "There is no mention of any delay, recovery, or scope change. The text only lays out the original indicator framework and the dates by which targets were expected to be achieved. No information is given on whether these targets were met, missed, or are at risk.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because the text does not describe any ongoing work or successful progress—it merely lists planned outputs and target dates. There is no current status to infer from. With no reported facts about actual progress and only forward-looking targets, the schedule status is genuinely indeterminate from this excerpt.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-714__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [],
+      "modality_check": "The provided excerpt is purely a list of abbreviations and acronyms (ADB, ARS, DMF, EIRR, etc.). There are no statements describing schedule status, progress, milestones, or activities. No Reported Facts or Policy/Risk statements about timing exist.",
+      "scope_recovery_analysis": "No mention of timelines, delays, recovery, or scope changes. The text contains zero substantive content about project execution.",
+      "commitment_rationale": "The Normalcy Rule requires descriptions of ongoing, successful work to infer 'No Delay.' Here there is no description of any work at all—only a glossary. With genuinely missing information about schedule status, 'Uncertain' is the correct and required classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-719__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provided text consists entirely of abbreviation definitions (ADB, ADF, AZRM, IED, IESP, OCR, PCR) with no schedule, milestone, or progress information."
+      ],
+      "modality_check": "There are no Reported Facts about project progress and no Policy/Risk statements. The excerpt is purely a glossary of acronyms and contains no substantive content about schedule status, work performed, or timelines.",
+      "scope_recovery_analysis": "No delays, recoveries, or scope changes are mentioned. There is nothing to assess regarding resolution or scope extension.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or healthy project flow—only definitions of abbreviations. With genuinely missing schedule information, 'Uncertain' is the appropriate classification rather than inferring a status from absent evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-719__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The developmental impacts and achievements shall be collated and shared widely with RMCs and development partners through an independent monitoring & evaluation consultancy services under the project.",
+        "The project completion report shall besides other project reports, document anticipated success stories to foster organizational learning."
+      ],
+      "modality_check": "All statements are forward-looking policy/intent ('shall be collated', 'shall document', 'anticipated success stories'). None are Reported Facts about actual progress against milestones or timelines. The excerpt describes the value proposition and planned reporting mechanisms, not current schedule status.",
+      "scope_recovery_analysis": "No timeline, milestone, delay, or recovery is mentioned. There is nothing indicating either slippage or progress against a schedule. The content is entirely about strategic intent and future monitoring/evaluation arrangements.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the text does not describe ongoing, successful operational work flow against a schedule—it discusses aspirational outcomes and reporting policy. There is no schedule-related fact to classify as either 'Delay' or 'No Delay'. This is a genuine absence of current status information, fitting the 'Uncertain' criterion (future-oriented policy without current status).",
+      "label": "Uncertain"
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road___p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project is also supported by the current CSP 2021 – 2025",
+        "It adds significant value to the near completion road from Mbinga to Mbamba Bay (66 km)",
+        "The planned project is a continuation of GoT’s efforts of improving the missing links on Mtwara Corridor"
+      ],
+      "modality_check": "This excerpt is overwhelmingly strategic/contextual background rather than schedule reporting. References to the Ten-Year Strategy, CSP, comparative advantage, and development partnership are Policy/Strategy framing, not Reported Facts about progress. The only progress-adjacent statement is 'near completion road from Mbinga to Mbamba Bay (66 km),' which is a Reported Fact indicating positive momentum but pertains to a related/companion road, not necessarily the current project road. The 'planned project' language suggests the project road itself may not yet be underway.",
+      "scope_recovery_analysis": "No mention of any delay, slippage, missed milestone, or recovery. No timeline changes or scope extensions discussed. There is no schedule data for the project road itself; the only completion reference is to an adjacent project nearing completion.",
+      "commitment_rationale": "While one related road is 'near completion' (positive), this excerpt contains essentially no schedule status for the subject project — it is strategic justification and rationale. The phrase 'planned project' indicates a forward-looking endeavor without current progress status. This is not a description of healthy ongoing work on the subject project (Normalcy Rule does not cleanly apply), nor is there any delay evidence. The absence of any current project schedule information places this in genuinely missing-information territory.",
+      "label": "Uncertain"
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road___p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "PMIR will finance the periodic maintenance of 2 500 kilometres of classified roads",
+        "which have been regularly maintained since they were commissioned",
+        "now needs to be replaced or reinforced in order to extend the lifespan of the roads"
+      ],
+      "modality_check": "This excerpt is almost entirely descriptive of project scope and background rather than schedule status. The statement 'PMIR will finance...' is a forward-looking Policy/Plan statement. 'which have been regularly maintained' is a Reported Fact about historical maintenance, not project schedule. There is no mention of milestones, deadlines, progress percentages, or timeline performance.",
+      "scope_recovery_analysis": "No delays, no recovery, and no scope extensions are mentioned. The text describes the rationale for the maintenance work (roads aged 10-15 years needing surface replacement) but provides no information about whether any project activity is ahead, on, or behind schedule.",
+      "commitment_rationale": "The Normalcy Rule applies to descriptions of ongoing, successful work that imply a healthy project flow. Here, however, the excerpt is purely contextual/background information about scope and justification — it does not describe any actual ongoing project work or progress against a schedule. With no current status to anchor a 'No Delay' inference, and only future-oriented financing plans, this falls into the 'Uncertain' category as defined: discussing plans/scope without current schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernizat__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the establishment of key impact indicators prior to project startup and impact assessment at project completion will help to generate useful information on PMIR outputs and outcomes",
+        "Such knowledge will be managed from a database at the General Directorate of Highways (DGPC) and disseminated through annual reports and the Bank’s website"
+      ],
+      "modality_check": "All statements are forward-looking policy/intent descriptions ('will help to generate', 'will be managed', 'disseminated'). These are Policy/Plan statements, not Reported Facts about actual schedule progress. There is no mention of any milestone completion, current work status, or progress timeline.",
+      "scope_recovery_analysis": "No timeline change, delay, or recovery is referenced. The text addresses a knowledge-management framework, not construction schedule performance.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the excerpt does not describe ongoing construction work or progress at all—it solely outlines a future knowledge-building methodology. With no current schedule status to assess (neither healthy flow nor slippage), this is genuinely missing schedule information, warranting 'Uncertain'.",
+      "label": "Uncertain"
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernizat__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "commenced in 2014 under the Kampala Institutional and Infrastructure Development Project (KIIDP)",
+        "The implementation of the programme is undertaken in phases.",
+        "The prioritized road network for improvement is 121km. At present, 42km has been completed with support of the World Bank and the GoU.",
+        "The Bank will finance the improvement of 62km while JICA is financing TCC and planned city flyover project"
+      ],
+      "modality_check": "The excerpt provides background and progress facts: 42km of 121km completed (Reported Fact), and future financing arrangements for an additional 62km and TCC/flyover (Policy/Plan). There is no mention of missed milestones, slippage, or schedule status. The text is descriptive of scope and funding rather than schedule performance.",
+      "scope_recovery_analysis": "No delays are mentioned, and no recovery language is present. The phased nature of the program and ongoing financing arrangements indicate normal program flow rather than scope-driven schedule extensions.",
+      "commitment_rationale": "While there is no explicit 'on-schedule' statement, this is largely a contextual/background description without any schedule status, milestone tracking, or progress-versus-plan comparison. The text does not report a project status that can be inferred as healthy ongoing work toward a specific deadline; it merely outlines scope and financing. There is no current schedule status to evaluate, so this leans toward Uncertain rather than No Delay, as the Normalcy Rule requires a description of actual progress flow, which is only minimally present (42km completed) without timeline benchmarks.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitati__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The integrated design adopted by the project is best suited to achieve the envisaged development outcomes",
+        "Economic impact analysis of the project estimate that for every US dollar of construction expenditure invested in the KCRRP results in an increased output of 1.56 in the economy",
+        "will, in addition, generate 412 full-time jobs during the construction phase",
+        "The planned piloting of scheduled bus service in Kampala provides the Government with an opportunity to gradually scale up implementation"
+      ],
+      "modality_check": "This excerpt contains no Reported Facts about actual construction progress or milestone status. All statements are projections and analytical assessments (economic impact estimates, planned piloting, design rationale). There is no information about whether work is currently on or behind schedule. These are forward-looking/planning statements rather than status reports.",
+      "scope_recovery_analysis": "No timeline information is present—no mention of milestones, deadlines, slippage, recovery, or scope changes. The text is entirely about projected economic outcomes and design justification.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because the text does not describe ongoing, successful construction work or project flow—it is a design/economic justification section with projections only. Since there is no current schedule status disclosed (neither healthy progress nor delay), this is genuinely missing information, which warrants 'Uncertain' rather than a forced inference.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitati__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The direct beneficiaries of the project outputs are an estimated 0.87 million people living within the project zone of influence of the three districts in mid-western Uganda"
+      ],
+      "modality_check": "The excerpt contains no Reported Facts about schedule, progress, milestones, or activities. It describes the project beneficiaries and the demographic/economic profile of road users. There are no Policy/Risk statements regarding timeline either.",
+      "scope_recovery_analysis": "No mention of timelines, delays, scope changes, or recovery. The text is purely descriptive of who benefits from the project.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied because there is no description of ongoing work or project progress—only beneficiary information. With zero schedule-related content, there is no basis to infer either 'Delay' or 'No Delay.' This is a genuine case of missing schedule information, which warrants 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The official program is still the NDP but a draft Vision 2040 is under preparation.",
+        "The RSDP2 (2001/02 to 2010/11), which is rolled over into third phase as RSDP 3 in 2012"
+      ],
+      "modality_check": "This excerpt is entirely about project rationale and policy context (poverty reduction, tourism, oil extraction, national development frameworks). There are no Reported Facts about the construction schedule, milestone progress, or activity completion. The mentions of program phases (RSDP2 rolled into RSDP3) refer to national policy program cycles, not the schedule status of this specific construction project.",
+      "scope_recovery_analysis": "No delays, recoveries, or scope changes related to the project's construction timeline are mentioned. The 'rolled over' language refers to a national sector program framework, not to slippage in this project's milestones.",
+      "commitment_rationale": "The Normalcy Rule cannot be applied here because there is no description of ongoing construction work or project flow at all—the text is purely about strategic justification and policy alignment. With no schedule-related facts to assess, the status is genuinely missing, which is the textbook case for 'Uncertain.'",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_natural"
+  }
+]

@@ -1,0 +1,12 @@
+[node] host=oz05 job=651 gpus=0 @ 2026-06-19 11:07:50
+[serve] starting /nfs/work/ozono/opt/ollama-arm64/bin/ollama
+[version] ollama version is 0.30.10
+[pull] gpt-oss:120b -> gpt_oss_120b @ 11:08:01
+[warn] pull 'gpt-oss:120b' attempt 1 failed; retry in 15s
+[warn] pull 'gpt-oss:120b' attempt 2 failed; retry in 15s
+[warn] pull 'gpt-oss:120b' attempt 3 failed; retry in 15s
+[warn] pull 'gpt-oss:120b' attempt 4 failed; retry in 15s
+[warn] pull 'gpt-oss:120b' attempt 5 failed; retry in 15s
+[warn] pull 'gpt-oss:120b' attempt 6 failed; retry in 15s
+[ERROR] pull failed after retries: gpt-oss:120b
+[job-end] rc=1 @ 11:09:36

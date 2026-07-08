@@ -1,0 +1,8 @@
+# Reproducibility package — Python 3.14 (tested 3.14.6)
+# Open-weight tier needs only the OpenAI SDK (Ollama exposes an OpenAI-compatible API).
+openai==2.43.0          # Ollama (OpenAI-compatible) + OpenAI API + embeddings
+anthropic==0.111.0      # Claude Batch adapter (proprietary tier)
+google-genai==2.9.0     # Gemini Batch adapter (proprietary tier)
+python-dotenv>=1.0      # loads OPENAI_API_KEY from .env in API mode
+# Analysis uses only the Python standard library (json, math, statistics, collections).
+# External services: a running Ollama daemon (open-weight) and/or provider API keys (proprietary).

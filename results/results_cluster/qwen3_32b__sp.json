@@ -1,0 +1,682 @@
+[
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "The report explicitly states that the project period was proportional to the increased output (300km to 376.68km) and that a delay exceeding the revised schedule was avoided through schedule control. While external factors caused disruptions, the final schedule aligned with the revised plan accounting for output increases."
+    },
+    "usage": {
+      "prompt_tokens": 869,
+      "completion_tokens": 87,
+      "total_tokens": 956
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project period was 260% longer than planned (50 months vs. 130 months) and attributes this to multiple compounding delays (consultant selection, financing re-estimation, communication issues, personnel absences). The conclusion directly labels the project period as 'significantly longer than planned,' meeting clear delay criteria."
+    },
+    "usage": {
+      "prompt_tokens": 961,
+      "completion_tokens": 98,
+      "total_tokens": 1059
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project period was 'significantly longer than the initial plan due to delays in procedures, design and construction,' directly confirming schedule slippage. This unambiguous statement meets the criteria for a Delay classification."
+    },
+    "usage": {
+      "prompt_tokens": 901,
+      "completion_tokens": 69,
+      "total_tokens": 970
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states 'implementation was delayed' and attributes it to three specific causes (scope change, design revisions, and geotechnical issues). These factors directly indicate schedule impacts without mentioning recovery or mitigation timelines."
+    },
+    "usage": {
+      "prompt_tokens": 808,
+      "completion_tokens": 66,
+      "total_tokens": 874
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 85,
+      "reasoning": "The report explicitly states that target outcomes were achieved 'with delays' and physical outputs were 'less than planned' during the MFF period. Remaining outputs were completed after the MFF period, confirming schedule slippage. While some work was completed later, the explicit mention of delays and underachievement of planned outputs during the designated period strongly indicates a schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 971,
+      "completion_tokens": 96,
+      "total_tokens": 1067
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 98,
+      "reasoning": "The report explicitly states the project was delayed by 28 months beyond the planned completion date, with specific contributing factors and multiple schedule revisions documented."
+    },
+    "usage": {
+      "prompt_tokens": 619,
+      "completion_tokens": 53,
+      "total_tokens": 672
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project duration increased from 48 to 84 months (175% ratio) and attributes this to resettlement delays and equipment operator shortages. The term 'schedule slippage' is directly used, meeting clear criteria for schedule delay evidence."
+    },
+    "usage": {
+      "prompt_tokens": 749,
+      "completion_tokens": 80,
+      "total_tokens": 829
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the implementation period extended from 5 years to 9 years and 3 months, with specific causes (procurement delays and contractual disputes) quantified as contributing 18 months and 8 months of overrun, respectively. This directly indicates a schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 822,
+      "completion_tokens": 80,
+      "total_tokens": 902
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was completed ahead of schedule, directly contradicting any delay. No schedule-related issues or disruptions are mentioned."
+    },
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 52,
+      "total_tokens": 677
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The excerpt describes completed construction activities and outcomes without mentioning any schedule delays, missed milestones, or timeline disruptions. There is no evidence of schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 556,
+      "completion_tokens": 54,
+      "total_tokens": 610
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was 'executed seamlessly' and describes completed outcomes (reinforced structure, improved safety) without mentioning any schedule disruptions, delays, or revised timelines. The use of 'last year's' confirms completion without implied slippage."
+    },
+    "usage": {
+      "prompt_tokens": 650,
+      "completion_tokens": 78,
+      "total_tokens": 728
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was completed 'ahead of schedule,' directly indicating no schedule delay occurred. This is unambiguous evidence of positive schedule performance."
+    },
+    "usage": {
+      "prompt_tokens": 672,
+      "completion_tokens": 55,
+      "total_tokens": 727
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states that the implementation was 'completed on time,' directly confirming no schedule delay occurred. No downstream impacts or unresolved disruptions are mentioned."
+    },
+    "usage": {
+      "prompt_tokens": 636,
+      "completion_tokens": 54,
+      "total_tokens": 690
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was completed within the planned 48-month period, all milestones met without deviations, and handed over on the originally planned date. There is no indication of schedule slippage or disruptions impacting timelines."
+    },
+    "usage": {
+      "prompt_tokens": 740,
+      "completion_tokens": 71,
+      "total_tokens": 811
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The project was completed four months ahead of the scheduled completion date, with explicit confirmation that all work was finished earlier than planned. This directly contradicts any schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 828,
+      "completion_tokens": 58,
+      "total_tokens": 886
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The project was completed 2 months ahead of the 60-month schedule estimate. While minor procurement delays occurred, they were explicitly offset by accelerated construction efforts, resulting in early completion with no negative schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 687,
+      "completion_tokens": 67,
+      "total_tokens": 754
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was completed 'consistent with the planned implementation schedule' and that quarterly progress remained within 5% of the baseline. These statements confirm the schedule was unaffected."
+    },
+    "usage": {
+      "prompt_tokens": 747,
+      "completion_tokens": 62,
+      "total_tokens": 809
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "Uncertain",
+      "confidence": 45,
+      "reasoning": "The report mentions that some road sections were 'delayed' as a reason for missing data, but it does not explicitly state whether the overall project schedule was impacted. The delay reference pertains to individual sections, not the entire project timeline, and there is no quantified schedule slippage or confirmation of revised completion dates."
+    },
+    "usage": {
+      "prompt_tokens": 1125,
+      "completion_tokens": 90,
+      "total_tokens": 1215
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "The report discusses historical delays in rural development caused by factors like lack of agency skills but does not provide explicit evidence of schedule delays for the specific projects under appraisal (Rural Road Improvement and Provincial/Rural Road Development). The text emphasizes alignment with policy priorities and project objectives without mentioning current or future schedule impacts."
+    },
+    "usage": {
+      "prompt_tokens": 1267,
+      "completion_tokens": 86,
+      "total_tokens": 1353
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 85,
+      "reasoning": "The report discusses proactive measures (establishing committees) to prevent litigation-related delays but does not explicitly state that the SASEC-II project has experienced or will experience schedule delays. The reference to 'unnecessary delay in many projects' is generalized and not tied to this specific project's current status."
+    },
+    "usage": {
+      "prompt_tokens": 1084,
+      "completion_tokens": 84,
+      "total_tokens": 1168
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The excerpt describes proactive monitoring and adjustment procedures for potential delays but contains no explicit evidence of actual schedule delays, quantified slippage, or blocked activities. The text focuses on contingency planning rather than reporting realized schedule impacts."
+    },
+    "usage": {
+      "prompt_tokens": 778,
+      "completion_tokens": 69,
+      "total_tokens": 847
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "The report explicitly states that the delay in the Transport Sector Plan approval (2016 vs. 2011 requirement) 'did not significantly impact the project.' While implementation of some reforms is 'delayed pending ongoing discussions,' no schedule slippage, revised deadlines, or downstream impacts are explicitly stated. The project's financial compliance and covenant adherence further support minimal schedule disruption."
+    },
+    "usage": {
+      "prompt_tokens": 985,
+      "completion_tokens": 103,
+      "total_tokens": 1088
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 98,
+      "reasoning": "The report explicitly states a cumulative 14-month delay, unresolved suspension of work, and a revised completion date (December 2018 → February 2020). These directly confirm schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 745,
+      "completion_tokens": 67,
+      "total_tokens": 812
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states that all project components were completed by the originally planned date of June 2020, despite the 4-month procurement delay. The executing agency's mitigation measures (reorganizing construction sequence and accelerating bridge works) fully recovered the schedule, meeting the original deadline."
+    },
+    "usage": {
+      "prompt_tokens": 738,
+      "completion_tokens": 83,
+      "total_tokens": 821
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 90,
+      "reasoning": "The report explicitly states construction progress is 'approximately 3 months behind the baseline schedule,' confirming a current delay. While recovery is anticipated through extended dry-season work, no revised schedule has been issued, and the contractor's plans remain unupdated, leaving the delay unresolved."
+    },
+    "usage": {
+      "prompt_tokens": 831,
+      "completion_tokens": 77,
+      "total_tokens": 908
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project period exceeded the planned duration (72 vs. 54 months) and attributes specific delays (12 months for civil unrest, 6 months for re-tendering). Despite contractor acceleration, the project was completed 'significantly behind schedule,' confirming a schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 756,
+      "completion_tokens": 85,
+      "total_tokens": 841
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was completed on the scheduled date (15 November 2021) despite the 5-week stop-work order, confirming all works were delivered within the contractual timeframe. The delay was fully recovered, leaving the schedule unaffected."
+    },
+    "usage": {
+      "prompt_tokens": 811,
+      "completion_tokens": 77,
+      "total_tokens": 888
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Uncertain",
+      "confidence": 60,
+      "reasoning": "The report indicates a delay in non-critical embankment works (62% vs. 78% progress) due to groundwater and equipment issues, but explicitly states the critical path activity (bridge abutment piling) remains unaffected. While a recovery plan is pending approval, there is no explicit confirmation of schedule slippage or downstream impacts on the critical path, leaving the overall schedule status ambiguous."
+    },
+    "usage": {
+      "prompt_tokens": 1304,
+      "completion_tokens": 108,
+      "total_tokens": 1412
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The project's extended duration (78 months vs. original 48 months) was explicitly attributed to a scope increase via approved loan amendments, not execution delays. The executing agency confirmed completion within the revised schedule adjusted for the additional scope, with no delays reported against the updated plan."
+    },
+    "usage": {
+      "prompt_tokens": 757,
+      "completion_tokens": 82,
+      "total_tokens": 839
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the actual project period exceeded the revised schedule by 11 months, with specific causes (design approval delays and soil remediation) provided for the additional delay beyond the already extended timeline."
+    },
+    "usage": {
+      "prompt_tokens": 740,
+      "completion_tokens": 65,
+      "total_tokens": 805
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 90,
+      "reasoning": "The implementation schedule was explicitly extended by 12 months to accommodate the revised scope, and the feeder road works remain delayed due to pending environmental clearances with uncertainty about completing them within the extended timeframe. This confirms a schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 960,
+      "completion_tokens": 70,
+      "total_tokens": 1030
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project was delivered within the revised implementation schedule, which included a 24-month extension for the expanded scope. Original components were completed early, and additional works were finished within the extended timeline, with no indication of further slippage."
+    },
+    "usage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 77,
+      "total_tokens": 801
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the 3-month delay in a non-critical path activity did not impact the overall project schedule, critical path activities proceeded on time, and the completion date remains unchanged. These clear statements confirm no schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 730,
+      "completion_tokens": 71,
+      "total_tokens": 801
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states that despite a 5-month procurement delay, all work was completed before the planned commissioning date through sequencing adjustments, and the project was ultimately completed on time. This indicates no net schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 746,
+      "completion_tokens": 68,
+      "total_tokens": 814
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report explicitly states the project completion date was not affected despite a 4-month delay to bridge construction, which was not on the critical path. The delay in a non-critical activity without downstream schedule impact does not constitute a project-level schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 718,
+      "completion_tokens": 75,
+      "total_tokens": 793
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "The report confirms that road construction commenced on the revised date and was completed within the overall project period, with the delay absorbed through construction sequencing adjustments. This indicates the schedule was ultimately maintained despite initial setbacks."
+    },
+    "usage": {
+      "prompt_tokens": 865,
+      "completion_tokens": 65,
+      "total_tokens": 930
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "The report details completed work (earthworks, base course commencement, material testing) and compliance without mentioning missed milestones, revised schedules, or blocked activities. Routine progress descriptions without schedule-related concerns do not indicate delay."
+    },
+    "usage": {
+      "prompt_tokens": 804,
+      "completion_tokens": 67,
+      "total_tokens": 871
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report describes ongoing progress on multiple project components with no mention of schedule impacts, delays, or blocked activities. Weather conditions were favorable, and all activities (subgrade preparation, asphalt paving, girder fabrication) are reported as proceeding normally."
+    },
+    "usage": {
+      "prompt_tokens": 769,
+      "completion_tokens": 73,
+      "total_tokens": 842
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The report details completed milestones (design submission, impact assessment) and ongoing procurement activities without mentioning schedule slippage, revised deadlines, or blocked workflows. There is no explicit or implied negative impact on the project timeline."
+    },
+    "usage": {
+      "prompt_tokens": 727,
+      "completion_tokens": 68,
+      "total_tokens": 795
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "The report documents a stakeholder meeting addressing concerns about compensation and relocation but does not mention any schedule impacts, revised timelines, or blocked activities. The project management unit committed to addressing issues in an updated plan, but no delay evidence is explicitly stated."
+    },
+    "usage": {
+      "prompt_tokens": 719,
+      "completion_tokens": 74,
+      "total_tokens": 793
+    },
+    "model": "qwen3:32b",
+    "finish_reason": "stop",
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  }
+]

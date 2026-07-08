@@ -1,0 +1,1002 @@
+[
+  {
+    "response": {
+      "evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%)",
+        "Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding in October 2010 – February 2011 and December 2012 – March 2013.",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although the project took longer than originally planned, the increase was proportional to the expanded scope of work. The report explicitly states that a delay exceeding the revised schedule was successfully avoided."
+    },
+    "usage": {
+      "prompt_tokens": 1439,
+      "completion_tokens": 829,
+      "total_tokens": 2268
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_29",
+      "case_02",
+      "case_32"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "At the time of appraisal, the project period was estimated to be from the signing of the loan agreement in September 2001 up to October 2005 (4 years and two months) (50 months).",
+        "When examined at the time of the ex-post evaluation, the construction was completed in June 2012 (10 years and 10 months) (130 months).",
+        "The project period was 260% longer than initially planned.",
+        "The executing agency spent longer than expected selecting consultants because of the approval process within the Moroccan government.",
+        "Moreover, the construction was thought to be delayed because the additional financing required the construction cost to be estimated again, and there was also a project optimization study.",
+        "In light of the above, the project period was significantly longer than planned."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The project experienced a massive schedule slippage, taking 130 months to complete instead of the planned 50 months (a 260% increase). The delay was caused by administrative approval processes, refinancing requirements, and communication issues."
+    },
+    "usage": {
+      "prompt_tokens": 1453,
+      "completion_tokens": 699,
+      "total_tokens": 2152
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_21",
+      "case_01",
+      "case_26"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The project period was significantly longer than the initial plan due to delays in procedures, design and construction."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that the project period was significantly longer than the initial plan due to delays in procedures, design, and construction."
+    },
+    "usage": {
+      "prompt_tokens": 1396,
+      "completion_tokens": 246,
+      "total_tokens": 1642
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_01",
+      "case_30",
+      "case_39"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "Implementation was delayed because of (i) a change in the scope of works, i.e., from 4 lanes to 6 lanes; (ii) a change in the design of bridge piles due to seismic design provisions; and (iii) uncertain geotechnical conditions encountered during the piling works for one bridge."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that project implementation was delayed and outlines the specific causes, including scope changes, design modifications, and unexpected geotechnical conditions."
+    },
+    "usage": {
+      "prompt_tokens": 1436,
+      "completion_tokens": 326,
+      "total_tokens": 1762
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_30",
+      "case_15",
+      "case_39"
+    ]
+  },
+  {
+    "response": {
+      "raw": "{\n  \"evidence\": [\n    \"The program is rated less than effective because the target outcomes and outputs designed at appraisal were although achieved, but with delays and through standalone loans.\",\n    \"The physical outputs achieved within the MFF period were less than planned.\",\n    \"The remaining outputs (M4 sections II and III from standalone loans) were initiated due to the MFF and were completed within 2 years after the MFF period.\"\n  ],\n  \"label\": \"Delay\",\n  \"confidence\": \"high\",\n  \"reasoning\": \"The excerpt explicitly states that the target outcomes and outputs were achieved 'with delays' and that some physical outputs had to be completed two years after the planned MFF period.\"\n  period.\"\n}",
+      "parse_error": true
+    },
+    "usage": {
+      "prompt_tokens": 1481,
+      "completion_tokens": 413,
+      "total_tokens": 1894
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_21",
+      "case_02",
+      "case_15"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The ex-post evaluation confirmed that the project completion was delayed by approximately 28 months beyond the originally planned date.",
+        "The main factors contributing to the delay included prolonged land acquisition procedures requiring coordination among multiple government agencies, unexpected archaeological findings at two bridge sites necessitating redesign, and a six-month suspension of construction activities during the monsoon season of 2014 due to unusually severe flooding."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that the project completion was delayed by approximately 28 months beyond the originally planned date due to land acquisition, archaeological findings, and severe flooding."
+    },
+    "usage": {
+      "prompt_tokens": 1262,
+      "completion_tokens": 383,
+      "total_tokens": 1645
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_24",
+      "case_17",
+      "case_26"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "actual project period was 84 months against the planned 48 months (ratio of 175%)",
+        "The delay was primarily attributed to the complexity of resettlement activities",
+        "Negotiations with affected communities extended over 18 months, during which construction along a 12km section of the alignment was suspended.",
+        "The contractor also reported difficulties in sourcing qualified operators for the tunnel boring machine, which further contributed to schedule slippage."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The project experienced a significant schedule overrun, taking 84 months instead of the planned 48 months. The text explicitly attributes this delay to resettlement negotiations and difficulties in sourcing qualified equipment operators."
+    },
+    "usage": {
+      "prompt_tokens": 1245,
+      "completion_tokens": 423,
+      "total_tokens": 1668
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_16",
+      "case_29",
+      "case_26"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "the implementation period extended from the originally estimated 5 years to 9 years and 3 months.",
+        "Procurement delays accounted for approximately 18 months of the overrun",
+        "Construction was also interrupted for approximately 8 months due to a contractual dispute"
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The project experienced a significant schedule overrun, extending from an estimated 5 years to over 9 years due to procurement delays and construction interruptions."
+    },
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 326,
+      "total_tokens": 1568
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay",
+    "rag_neighbors": [
+      "case_26",
+      "case_21",
+      "case_17"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "completed ahead of schedule"
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that the freeway expansion initiative was completed ahead of schedule, indicating that the project was not delayed."
+    },
+    "usage": {
+      "prompt_tokens": 1025,
+      "completion_tokens": 372,
+      "total_tokens": 1397
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_09",
+      "case_10",
+      "case_30"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text describes the successful completion of the reconstruction project with no mention of any schedule disruptions, delays, or timeline issues."
+    },
+    "usage": {
+      "prompt_tokens": 960,
+      "completion_tokens": 437,
+      "total_tokens": 1397
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_08",
+      "case_06",
+      "case_09"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "Last year's bridge rehabilitation project, executed seamlessly"
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report states the project was 'executed seamlessly' and completed last year, with no mention of any disruptions or schedule delays."
+    },
+    "usage": {
+      "prompt_tokens": 1101,
+      "completion_tokens": 454,
+      "total_tokens": 1555
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_24",
+      "case_35",
+      "case_07"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The completion of the city's ring road expansion, ahead of schedule"
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that the project was completed ahead of schedule, indicating there was no schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 1025,
+      "completion_tokens": 362,
+      "total_tokens": 1387
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_06",
+      "case_10",
+      "case_30"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "completed on time"
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt explicitly states that the project was completed on time, indicating that there was no schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 1015,
+      "completion_tokens": 324,
+      "total_tokens": 1339
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_06",
+      "case_34",
+      "case_09"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The ex-post evaluation found that the road improvement project was completed within the planned implementation period of 48 months.",
+        "The contractor mobilized on schedule, and milestone inspections were conducted at quarterly intervals without any notable deviations from the baseline schedule.",
+        "The executing agency reported that the project was handed over to the provincial road maintenance authority on the originally planned date of March 2019."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The project was completed within the planned 48-month timeframe and handed over on the originally scheduled date of March 2019, with no deviations from the baseline schedule."
+    },
+    "usage": {
+      "prompt_tokens": 1203,
+      "completion_tokens": 422,
+      "total_tokens": 1625
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_22",
+      "case_29",
+      "case_32"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The project achieved its target outputs ahead of the revised completion date.",
+        "The construction of 42 bridges and 267km of road was completed by September 2017, approximately four months earlier than the scheduled completion date of January 2018."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The project was completed four months ahead of the scheduled completion date of January 2018, with no indications of any schedule delays."
+    },
+    "usage": {
+      "prompt_tokens": 1224,
+      "completion_tokens": 344,
+      "total_tokens": 1568
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_24",
+      "case_32",
+      "case_16"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The actual project period from loan effectiveness to the completion of all civil works was 58 months.",
+        "The project was therefore completed slightly ahead of schedule.",
+        "Minor procurement delays during the initial phase were offset by accelerated construction during the final year, when the contractor deployed additional equipment and personnel to ensure timely completion."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The project was completed in 58 months, which is two months ahead of the estimated 60-month schedule. Any minor initial procurement delays were successfully offset by accelerated construction."
+    },
+    "usage": {
+      "prompt_tokens": 1231,
+      "completion_tokens": 653,
+      "total_tokens": 1884
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_26",
+      "case_18",
+      "case_29"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The provincial road network rehabilitation project was implemented as planned.",
+        "Construction commenced in April 2015 and was completed in March 2019, consistent with the planned implementation schedule.",
+        "The quarterly progress reports submitted by the project management unit consistently showed actual progress within 5% of the baseline schedule throughout the implementation period."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that the project was completed consistent with the planned implementation schedule and that progress consistently remained within 5% of the baseline."
+    },
+    "usage": {
+      "prompt_tokens": 1210,
+      "completion_tokens": 343,
+      "total_tokens": 1553
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress",
+    "rag_neighbors": [
+      "case_19",
+      "case_39",
+      "case_31"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "However, among these sections, the actual value for only 25 sections was available, as shown below (Table 3), due to reasons such as cancellation, suspension, termination, and delay."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that some of the road sections experienced delays, along with cancellation, suspension, and termination, which prevented actual data from being available for all of the planned sections."
+    },
+    "usage": {
+      "prompt_tokens": 1400,
+      "completion_tokens": 588,
+      "total_tokens": 1988
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk",
+    "rag_neighbors": [
+      "case_37",
+      "case_19",
+      "case_01"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text focuses entirely on the strategic alignment of the road projects with development policies and contains no information about the project's construction schedule or timeline. The mention of 'delay' refers to historical delays in general rural development rather than a project schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 1706,
+      "completion_tokens": 1085,
+      "total_tokens": 2791
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk",
+    "rag_neighbors": [
+      "case_01",
+      "case_15",
+      "case_31"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "Experience shows that the litigation causes unnecessary delay and cost overrun in many projects."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt discusses the establishment of committees to prevent litigation and potential delays. There is no evidence or mention of any actual schedule delay occurring on the current project."
+    },
+    "usage": {
+      "prompt_tokens": 1416,
+      "completion_tokens": 990,
+      "total_tokens": 2406
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk",
+    "rag_neighbors": [
+      "case_40",
+      "case_36",
+      "case_14"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt describes future monitoring and reporting procedures, including plans to adjust work programs if delays occur. It does not report any actual or current schedule delays."
+    },
+    "usage": {
+      "prompt_tokens": 1422,
+      "completion_tokens": 855,
+      "total_tokens": 2277
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk",
+    "rag_neighbors": [
+      "case_15",
+      "case_22",
+      "case_01"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "only one covenant involving road sector reform being partly complied with because the Transport Sector Plan was approved in 2016, rather than in 2011 as it was required under the loan agreement.",
+        "The delay did not significantly impact the project.",
+        "implementation of some reforms (e.g., road transport management and asset maintenance mechanisms) has been delayed pending ongoing discussions within the National Infrastructure Development Steering Committee."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that the delay in approving the Transport Sector Plan did not significantly impact the project. Other mentioned delays relate to policy reforms rather than the project's physical construction schedule."
+    },
+    "usage": {
+      "prompt_tokens": 1596,
+      "completion_tokens": 944,
+      "total_tokens": 2540
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk",
+    "rag_neighbors": [
+      "case_31",
+      "case_04",
+      "case_02"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The project experienced a cumulative delay of approximately 14 months.",
+        "Construction of the northern bypass section was suspended for 6 months due to a contractual dispute with the main contractor over unit rates for rock excavation.",
+        "Although the dispute was eventually resolved through arbitration and construction resumed, the contractor was unable to fully recover the lost time.",
+        "However, the overall project completion date was pushed from December 2018 to February 2020 due to the unrecovered delay on the northern section."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that the project experienced a cumulative delay of approximately 14 months, with the overall completion date pushed from December 2018 to February 2020 due to unrecovered delays on the northern bypass section."
+    },
+    "usage": {
+      "prompt_tokens": 1263,
+      "completion_tokens": 450,
+      "total_tokens": 1713
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal",
+    "rag_neighbors": [
+      "case_30",
+      "case_29",
+      "case_26"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "During the implementation period, the project encountered a 4-month delay in the procurement of specialized bridge construction equipment due to export restrictions imposed by the supplier's country of origin.",
+        "This delay affected the commencement of bridge works at three locations along the alignment.",
+        "However, the executing agency reorganized the construction sequence to prioritize road sections that did not require bridge access, and the bridge contractor subsequently accelerated works by operating double shifts.",
+        "At the time of the ex-post evaluation, it was confirmed that all project components were completed by the originally planned date of June 2020."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although the project experienced an initial 4-month delay in equipment procurement, mitigation measures such as sequence reorganization and double shifts successfully recovered the lost time, allowing all components to be completed by the original planned date of June 2020."
+    },
+    "usage": {
+      "prompt_tokens": 1227,
+      "completion_tokens": 558,
+      "total_tokens": 1785
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal",
+    "rag_neighbors": [
+      "case_16",
+      "case_20",
+      "case_35"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "construction progress on Lots 2 and 3 was approximately 3 months behind the baseline schedule",
+        "primarily due to the late issuance of right-of-way clearances by the district land office",
+        "No revised implementation schedule had been issued at the time of the review, and the contractor's mobilization plan for the affected sections had not yet been updated."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that construction progress is 3 months behind the baseline schedule. Although the executing agency expressed confidence that the delay could be recovered, no revised schedule or updated mobilization plan has been established to realize this recovery."
+    },
+    "usage": {
+      "prompt_tokens": 1231,
+      "completion_tokens": 517,
+      "total_tokens": 1748
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal",
+    "rag_neighbors": [
+      "case_36",
+      "case_16",
+      "case_33"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The overall project period was 72 months against the planned 54 months (ratio of 133%).",
+        "The executing agency reported that 12 months of the delay were attributable to the suspension of works during a period of civil unrest in the project area, and a further 6 months to the re-tendering of the supervision consultant contract after the original consultant's contract was terminated for non-performance.",
+        "The executing agency noted that the contractor accelerated works during the final phase, reducing what would have been a 24-month delay to 18 months.",
+        "Despite the acceleration, the project was completed significantly behind schedule."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The project experienced an actual duration of 72 months compared to the planned 54 months, resulting in an 18-month delay that is explicitly confirmed by the text."
+    },
+    "usage": {
+      "prompt_tokens": 1232,
+      "completion_tokens": 509,
+      "total_tokens": 1741
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal",
+    "rag_neighbors": [
+      "case_18",
+      "case_29",
+      "case_21"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "Construction of the elevated expressway section was interrupted for approximately 5 weeks when the municipal authority issued a stop-work order pending resolution of a drainage easement encroachment.",
+        "Following the issuance of an amended easement agreement, construction of the elevated section resumed and was completed within the original contract period.",
+        "The final completion certificate was issued on the scheduled date of 15 November 2021, confirming that all works were delivered within the contractual timeframe."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although there was a 5-week interruption due to a stop-work order, the contractor redirected resources and completed the project within the original contract period, delivering all works on the scheduled completion date."
+    },
+    "usage": {
+      "prompt_tokens": 1245,
+      "completion_tokens": 497,
+      "total_tokens": 1742
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal",
+    "rag_neighbors": [
+      "case_23",
+      "case_32",
+      "case_30"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%",
+        "The executing agency was reviewing the recovery plan at the time of the report and had not yet approved it.",
+        "The report noted that the critical path activity — piling for the bridge abutments — had not yet been affected."
+      ],
+      "label": "Uncertain",
+      "confidence": "high",
+      "reasoning": "Although the contractor is behind on the embankment works, the critical path has not yet been affected, and a proposed recovery plan is still under review. It is currently unclear whether this localized delay will ultimately impact the overall project schedule."
+    },
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 1320,
+      "total_tokens": 2562
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal",
+    "rag_neighbors": [
+      "case_38",
+      "case_33",
+      "case_37"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The actual project period was 78 months against the originally planned 48 months.",
+        "However, this extension was entirely attributable to the addition of three supplementary road sections (totaling 84km) that were incorporated into the project scope through a loan amendment approved in 2015.",
+        "When measured against the revised implementation schedule that accounted for the scope increase, the project was completed within the adjusted timeframe.",
+        "The executing agency confirmed that no delays were experienced relative to the revised schedule."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although the project exceeded its original timeline, the extension was entirely due to an approved scope expansion. The project was completed within the revised schedule, and the executing agency confirmed that no delays occurred relative to this adjusted timeframe."
+    },
+    "usage": {
+      "prompt_tokens": 1240,
+      "completion_tokens": 1084,
+      "total_tokens": 2324
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change",
+    "rag_neighbors": [
+      "case_30",
+      "case_32",
+      "case_26"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "the actual project period exceeded even the revised schedule by 11 months.",
+        "The executing agency attributed the additional delay to the late approval of detailed engineering designs for the interchange by the national highway authority, and to the discovery of contaminated soil at the interchange site requiring remediation before construction could proceed."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that the project exceeded its revised schedule by 11 months due to late design approvals and soil contamination issues."
+    },
+    "usage": {
+      "prompt_tokens": 1231,
+      "completion_tokens": 337,
+      "total_tokens": 1568
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change",
+    "rag_neighbors": [
+      "case_29",
+      "case_32",
+      "case_23"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "the implementation schedule was extended by 12 months.",
+        "the original road sections were progressing according to schedule, but the additional feeder road works had not yet commenced due to pending environmental clearances.",
+        "It was not yet clear whether the feeder road works could be completed within the extended timeframe."
+      ],
+      "label": "Uncertain",
+      "confidence": "high",
+      "reasoning": "While the original road sections are on track and the schedule was officially extended by 12 months for the extra scope, the feeder road works have not started due to pending clearances, and the report explicitly states it is unclear if they will be completed within the revised timeframe."
+    },
+    "usage": {
+      "prompt_tokens": 1216,
+      "completion_tokens": 512,
+      "total_tokens": 1728
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change",
+    "rag_neighbors": [
+      "case_32",
+      "case_29",
+      "case_30"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The original road construction components were completed 3 months ahead of the original schedule, and the additional facilities were completed within the extended period.",
+        "The executing agency reported that the overall project was delivered within the revised implementation schedule."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The project was completed within the revised schedule. Although the timeline was extended by 24 months, this was due to an approved scope expansion, and all works (including original and additional components) were completed within the adjusted timeframe."
+    },
+    "usage": {
+      "prompt_tokens": 1215,
+      "completion_tokens": 431,
+      "total_tokens": 1646
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change",
+    "rag_neighbors": [
+      "case_30",
+      "case_29",
+      "case_31"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "construction of Lot 1 (the northern highway section) experienced a 3-month delay due to the late delivery of precast concrete segments from the fabrication yard.",
+        "However, the delay affected only a non-critical path activity, and the overall project schedule was not impacted.",
+        "The critical path activities — foundation works for the interchange structures — proceeded on schedule throughout the reporting period.",
+        "The project management unit confirmed that the overall project completion date remained unchanged."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although a 3-month delay occurred on a specific activity, the report explicitly states that it affected only a non-critical path and did not impact the overall project schedule or completion date."
+    },
+    "usage": {
+      "prompt_tokens": 1223,
+      "completion_tokens": 833,
+      "total_tokens": 2056
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact",
+    "rag_neighbors": [
+      "case_23",
+      "case_30",
+      "case_38"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "procurement of traffic signal equipment for 23 intersections was delayed by approximately 5 months due to the supplier's failure to meet delivery deadlines.",
+        "Despite this procurement issue, all intersection improvements were completed before the planned commissioning date, as the civil works at the intersection sites had been sequenced to allow for later installation of signal equipment.",
+        "The project was completed on time."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although there was a 5-month delay in procuring traffic signal equipment, the project was completed on time because civil works were sequenced to accommodate the late installation, resulting in no overall schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 1245,
+      "completion_tokens": 413,
+      "total_tokens": 1658
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact",
+    "rag_neighbors": [
+      "case_24",
+      "case_33",
+      "case_26"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "The redesign and additional piling works resulted in a 4-month delay to the bridge construction.",
+        "However, this bridge was not on the critical path, as the road sections on either side of the bridge could be opened to traffic using a temporary bypass.",
+        "The project completion date was not affected, and the bridge was completed before the defects liability period commenced."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although the bridge construction itself experienced a 4-month delay, the excerpt explicitly states that the bridge was not on the critical path and the overall project completion date was not affected."
+    },
+    "usage": {
+      "prompt_tokens": 1218,
+      "completion_tokens": 631,
+      "total_tokens": 1849
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact",
+    "rag_neighbors": [
+      "case_24",
+      "case_16",
+      "case_33"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "the resettlement action plan for the southern corridor was running 6 months behind the original schedule",
+        "road construction in the southern corridor had commenced on the revised date and was completed within the overall project period",
+        "the resettlement delay was absorbed by adjusting the construction sequencing to prioritize sections where land was already available"
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "Although there was an initial 6-month delay in the resettlement action plan, the executing agency successfully absorbed the delay by adjusting construction sequencing, allowing the project to be completed within the overall planned project period."
+    },
+    "usage": {
+      "prompt_tokens": 1255,
+      "completion_tokens": 806,
+      "total_tokens": 2061
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact",
+    "rag_neighbors": [
+      "case_31",
+      "case_25",
+      "case_17"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report describes routine construction progress, including completed earthworks, commencement of base course placement, and compliance with environmental plans, with no mention of any disruptions or schedule delays."
+    },
+    "usage": {
+      "prompt_tokens": 1259,
+      "completion_tokens": 617,
+      "total_tokens": 1876
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine",
+    "rag_neighbors": [
+      "case_38",
+      "case_25",
+      "case_28"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [
+        "Subgrade preparation on the northern approach road was in progress, with compaction testing results meeting specification requirements.",
+        "The contractor had mobilized a second asphalt paving crew for the southern section.",
+        "Bridge girder fabrication at the off-site yard was reported to be proceeding.",
+        "Weather conditions during the month were favorable for construction."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report describes routine construction progress with favorable weather and no mentioned disruptions, issues, or schedule impacts."
+    },
+    "usage": {
+      "prompt_tokens": 1241,
+      "completion_tokens": 772,
+      "total_tokens": 2013
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine",
+    "rag_neighbors": [
+      "case_28",
+      "case_33",
+      "case_37"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt describes routine project progress, such as the submission of engineering designs and preparation of procurement documents, with no mention of disruptions, missed milestones, or schedule delays."
+    },
+    "usage": {
+      "prompt_tokens": 1207,
+      "completion_tokens": 850,
+      "total_tokens": 2057
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine",
+    "rag_neighbors": [
+      "case_30",
+      "case_19",
+      "case_22"
+    ]
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt describes a routine stakeholder consultation meeting. There is no mention of schedule impacts, delays, or disruptions to the project timeline."
+    },
+    "usage": {
+      "prompt_tokens": 1441,
+      "completion_tokens": 719,
+      "total_tokens": 2160
+    },
+    "model": "gemini_3_5_flash",
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine",
+    "rag_neighbors": [
+      "case_36",
+      "case_13",
+      "case_25"
+    ]
+  }
+]

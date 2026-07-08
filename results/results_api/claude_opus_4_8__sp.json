@@ -1,0 +1,642 @@
+[
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 72,
+      "reasoning": "The actual project period exceeded the plan (124%) with explicit contributing factors like delayed mobilization and flooding interruptions; although largely proportional to scope increase and managed against the revised schedule, the overall period was still longer than originally planned."
+    },
+    "usage": {
+      "prompt_tokens": 862,
+      "completion_tokens": 112,
+      "total_tokens": 974
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 99,
+      "reasoning": "The excerpt explicitly states the project took 130 months versus the planned 50 months (260% longer than planned) and details multiple causes of delay including consultant selection issues, re-estimation, and personnel problems."
+    },
+    "usage": {
+      "prompt_tokens": 970,
+      "completion_tokens": 101,
+      "total_tokens": 1071
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 96,
+      "reasoning": "The excerpt explicitly states the project period was significantly longer than the initial plan due to delays in procedures, design and construction."
+    },
+    "usage": {
+      "prompt_tokens": 969,
+      "completion_tokens": 73,
+      "total_tokens": 1042
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 96,
+      "reasoning": "The text explicitly states 'Implementation was delayed' and lists three specific causes (scope change, design change, geotechnical conditions), providing clear evidence of schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 843,
+      "completion_tokens": 91,
+      "total_tokens": 934
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 88,
+      "reasoning": "The excerpt explicitly states target outcomes and outputs were 'achieved, but with delays' and that physical outputs within the MFF period were less than planned, with remaining outputs completed 2 years after the MFF period."
+    },
+    "usage": {
+      "prompt_tokens": 742,
+      "completion_tokens": 104,
+      "total_tokens": 846
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 99,
+      "reasoning": "The excerpt explicitly states a quantified 28-month delay beyond the planned completion date, with multiple documented causes and three schedule revisions."
+    },
+    "usage": {
+      "prompt_tokens": 793,
+      "completion_tokens": 81,
+      "total_tokens": 874
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 99,
+      "reasoning": "The excerpt explicitly states the actual project period exceeded the planned period by 75% (84 vs 48 months), with quantified causes including 18-month negotiations, suspended construction, and TBM operator shortages contributing to schedule slippage."
+    },
+    "usage": {
+      "prompt_tokens": 788,
+      "completion_tokens": 113,
+      "total_tokens": 901
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 99,
+      "reasoning": "The excerpt explicitly states the implementation period extended from 5 years to 9 years and 3 months, with quantified delays of ~18 months from procurement issues and ~8 months from a contractual dispute."
+    },
+    "usage": {
+      "prompt_tokens": 808,
+      "completion_tokens": 100,
+      "total_tokens": 908
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 95,
+      "reasoning": "The excerpt explicitly states the project was completed ahead of schedule, directly indicating no delay occurred."
+    },
+    "usage": {
+      "prompt_tokens": 703,
+      "completion_tokens": 70,
+      "total_tokens": 773
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 72,
+      "reasoning": "The excerpt describes successful completion of reconstruction work with no schedule-related concerns mentioned, suggesting the schedule was unaffected, though no explicit timeline information is provided."
+    },
+    "usage": {
+      "prompt_tokens": 700,
+      "completion_tokens": 95,
+      "total_tokens": 795
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 78,
+      "reasoning": "The excerpt describes a past project executed 'seamlessly' with positive outcomes and no mention of schedule issues, suggesting no delay, though it lacks explicit schedule completion information."
+    },
+    "usage": {
+      "prompt_tokens": 693,
+      "completion_tokens": 96,
+      "total_tokens": 789
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 92,
+      "reasoning": "The excerpt explicitly states the project was completed ahead of schedule, indicating no delay occurred."
+    },
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 68,
+      "total_tokens": 756
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 88,
+      "reasoning": "The excerpt explicitly states the work was 'completed on time' with successful implementation, indicating no schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 689,
+      "completion_tokens": 72,
+      "total_tokens": 761
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 97,
+      "reasoning": "The excerpt explicitly states the project was completed within the planned 48-month period, milestones met without baseline deviations, and handover occurred on the originally planned date."
+    },
+    "usage": {
+      "prompt_tokens": 777,
+      "completion_tokens": 86,
+      "total_tokens": 863
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 62,
+      "reasoning": "While the project completed four months early relative to the 'scheduled' January 2018 date, the text explicitly references a 'revised completion date,' implying the original schedule was changed—likely indicating a prior delay—though the revision details are not specified."
+    },
+    "usage": {
+      "prompt_tokens": 767,
+      "completion_tokens": 109,
+      "total_tokens": 876
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 92,
+      "reasoning": "The project completed in 58 months versus the estimated 60 months, ahead of schedule, and initial procurement delays were explicitly offset by accelerated construction, restoring the timeline."
+    },
+    "usage": {
+      "prompt_tokens": 759,
+      "completion_tokens": 94,
+      "total_tokens": 853
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 93,
+      "reasoning": "The report explicitly states the project was completed consistent with the planned schedule and progress remained within 5% of baseline throughout implementation, indicating no schedule delay."
+    },
+    "usage": {
+      "prompt_tokens": 771,
+      "completion_tokens": 87,
+      "total_tokens": 858
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 58,
+      "reasoning": "The text explicitly mentions 'delay' among reasons why data for some sections was unavailable, implying schedule impacts; however, it is vague and lacks specifics, so confidence is moderate."
+    },
+    "usage": {
+      "prompt_tokens": 877,
+      "completion_tokens": 96,
+      "total_tokens": 973
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 72,
+      "reasoning": "This excerpt discusses policy alignment and ODA priority areas, not project schedule status. The only mention of 'delay' refers to historical factors in rural development, not a schedule slippage of this project."
+    },
+    "usage": {
+      "prompt_tokens": 1196,
+      "completion_tokens": 98,
+      "total_tokens": 1294
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 60,
+      "reasoning": "This is a policy/procedural discussion about resettlement compensation and grievance redress committees, not a progress report on actual schedule status. The mention of litigation causing delays is a general historical observation, not a statement that this project has experienced a delay."
+    },
+    "usage": {
+      "prompt_tokens": 1120,
+      "completion_tokens": 111,
+      "total_tokens": 1231
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 72,
+      "reasoning": "This excerpt describes a procedural framework for future reporting and monitoring, not an actual delay event. It mentions delay only hypothetically ('in case of delay'), providing no evidence that a schedule slippage has occurred."
+    },
+    "usage": {
+      "prompt_tokens": 768,
+      "completion_tokens": 107,
+      "total_tokens": 875
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 68,
+      "reasoning": "A covenant-related delay (Transport Sector Plan approval) is mentioned but explicitly stated to not significantly impact the project; the delayed reform implementation is administrative/policy rather than construction schedule, and no project completion delay is indicated."
+    },
+    "usage": {
+      "prompt_tokens": 1044,
+      "completion_tokens": 115,
+      "total_tokens": 1159
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 99,
+      "reasoning": "The excerpt explicitly states a cumulative 14-month delay and a revised completion date from December 2018 to February 2020, with unrecovered lost time on the northern section."
+    },
+    "usage": {
+      "prompt_tokens": 812,
+      "completion_tokens": 89,
+      "total_tokens": 901
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 72,
+      "reasoning": "Although a 4-month procurement delay occurred and affected bridge works, the report explicitly states recovery measures (resequencing and double shifts) restored the schedule, with all components completed by the originally planned date of June 2020."
+    },
+    "usage": {
+      "prompt_tokens": 807,
+      "completion_tokens": 106,
+      "total_tokens": 913
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 88,
+      "reasoning": "The report explicitly quantifies a 3-month schedule slippage on Lots 2 and 3 due to late right-of-way clearances; recovery is only aspirational with no revised schedule issued and mobilization plan not updated, so the delay has materialized."
+    },
+    "usage": {
+      "prompt_tokens": 800,
+      "completion_tokens": 116,
+      "total_tokens": 916
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 98,
+      "reasoning": "The report explicitly quantifies an 18-month overrun (72 vs 54 months, 133% ratio) attributable to civil unrest and consultant re-tendering, and states completion was significantly behind schedule despite acceleration."
+    },
+    "usage": {
+      "prompt_tokens": 804,
+      "completion_tokens": 108,
+      "total_tokens": 912
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "Although a 5-week stop-work order occurred, the contractor redirected resources and the project was explicitly completed within the original contract period, with the completion certificate issued on the scheduled date, confirming schedule recovery."
+    },
+    "usage": {
+      "prompt_tokens": 806,
+      "completion_tokens": 104,
+      "total_tokens": 910
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 70,
+      "reasoning": "Embankment works show a quantified shortfall (62% vs 78% planned) with an unapproved recovery plan, indicating an active schedule slippage; however, the critical path (bridge piling) is explicitly not yet affected, which tempers the overall project-level impact and lowers confidence."
+    },
+    "usage": {
+      "prompt_tokens": 838,
+      "completion_tokens": 127,
+      "total_tokens": 965
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 80,
+      "reasoning": "Although the actual period exceeded the original plan, the extension was entirely due to approved scope additions, and the agency confirmed completion within the revised schedule with no delays."
+    },
+    "usage": {
+      "prompt_tokens": 773,
+      "completion_tokens": 88,
+      "total_tokens": 861
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 97,
+      "reasoning": "The excerpt explicitly states the actual project period exceeded the revised schedule by 11 months, attributing the delay to late design approval and contaminated soil remediation."
+    },
+    "usage": {
+      "prompt_tokens": 792,
+      "completion_tokens": 87,
+      "total_tokens": 879
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 80,
+      "reasoning": "The implementation schedule was explicitly extended by 12 months due to expanded scope, constituting a clear schedule extension, though the original sections remain on track and the feeder road completion within the new timeframe is uncertain."
+    },
+    "usage": {
+      "prompt_tokens": 782,
+      "completion_tokens": 103,
+      "total_tokens": 885
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 70,
+      "reasoning": "The 24-month extension was due to expanded scope (additional works), not delay; original components finished ahead of schedule and all work was delivered within the revised schedule. However, the scope-driven extension introduces some ambiguity about whether this counts as a schedule impact."
+    },
+    "usage": {
+      "prompt_tokens": 775,
+      "completion_tokens": 118,
+      "total_tokens": 893
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 88,
+      "reasoning": "Although a 3-month delay occurred on Lot 1, it explicitly affected only a non-critical path activity, critical path works proceeded on schedule, and the overall completion date remained unchanged."
+    },
+    "usage": {
+      "prompt_tokens": 779,
+      "completion_tokens": 98,
+      "total_tokens": 877
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 90,
+      "reasoning": "Although procurement was delayed 5 months, the report explicitly states the schedule was unaffected through sequencing and the project was completed on time."
+    },
+    "usage": {
+      "prompt_tokens": 781,
+      "completion_tokens": 79,
+      "total_tokens": 860
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 88,
+      "reasoning": "Although the bridge activity itself was delayed by 4 months, the report explicitly states the bridge was not on the critical path and the project completion date was not affected, with mitigation via a temporary bypass."
+    },
+    "usage": {
+      "prompt_tokens": 787,
+      "completion_tokens": 98,
+      "total_tokens": 885
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 78,
+      "reasoning": "Although the resettlement plan was 6 months behind, the report explicitly states the delay was absorbed through resequencing, road construction commenced on the revised date, and the project was completed within the overall project period, indicating schedule recovery."
+    },
+    "usage": {
+      "prompt_tokens": 807,
+      "completion_tokens": 108,
+      "total_tokens": 915
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 70,
+      "reasoning": "The excerpt describes routine progress activities (earthworks, base course placement, testing, compliance) with no mention of schedule slippage, milestone changes, or blocked work, suggesting the schedule is unaffected though no explicit schedule status is provided."
+    },
+    "usage": {
+      "prompt_tokens": 788,
+      "completion_tokens": 116,
+      "total_tokens": 904
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 70,
+      "reasoning": "The report describes routine progress with work in progress, satisfactory quality, additional crew mobilization, and favorable weather, with no mention of schedule concerns or disruptions."
+    },
+    "usage": {
+      "prompt_tokens": 792,
+      "completion_tokens": 90,
+      "total_tokens": 882
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 62,
+      "reasoning": "The excerpt describes routine progress (design submission, completed assessments, procurement preparation) with no mention of schedule slippage or revised dates. However, it lacks explicit confirmation that the schedule is on track, introducing some uncertainty."
+    },
+    "usage": {
+      "prompt_tokens": 772,
+      "completion_tokens": 113,
+      "total_tokens": 885
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "Uncertain",
+      "confidence": 60,
+      "reasoning": "The excerpt describes a stakeholder consultation and unresolved concerns (compensation, health center relocation) that could affect land acquisition timelines, but there is no explicit statement of schedule impact, milestone slippage, or blocked work, making a confident delay classification impossible."
+    },
+    "usage": {
+      "prompt_tokens": 789,
+      "completion_tokens": 125,
+      "total_tokens": 914
+    },
+    "model": "claude-opus-4-8",
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  }
+]

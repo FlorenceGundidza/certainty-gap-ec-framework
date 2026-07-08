@@ -1,0 +1,3 @@
+[node] host=oz02 job=656 tag=gemma3:27b slug=gemma3_27b suites=sp sc SC_K=5 @ 12:22:17
+[version] ollama version is 0.30.10
+[run] gemma3_27b suite=sp @ 12:25:21

@@ -1,0 +1,186 @@
+[
+  {
+    "case_id": "case_01",
+    "gold": "Delay",
+    "pred": "No Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec",
+    "text": "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads, i.e., outputs, from planned 300km (approximate) at the appraisal to actual 376.68km (ratio against the plan: 126%)9. Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the cons",
+    "response_json": "{\"evidence\": [\"The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads, i.e., outputs, from planned 300km (approximate) at the appraisal to actual 376.68km (ratio against the plan: 126%)9.\", \"Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions o"
+  },
+  {
+    "case_id": "case_14",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec; v3_fairness/asym_ec; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "text": "Implementing NGO:The implementing NGO (INGO) will prepare monthly/quarterly reports on the progress of RP Implementation. The INGO office will collect information from the project site and assimilate in the form of monthly progress of RP implementation and adjust the work programs where necessary, in case of delay or problems. An automated MIS will be designed and developed by the INGO to monitor the output indicators at the project field offices and headquarter level.",
+    "response_json": "{\"evidence\": [], \"label\": \"No Delay\", \"confidence\": \"medium\", \"reasoning\": \"The excerpt describes routine reporting, monitoring, and contingency planning procedures, but it does not state that any actual delay has occurred or that the schedule has been impacted. The mention of delay is hypothetical ('in case of delay or problems') rather than evidence of schedule slippage.\"}"
+  },
+  {
+    "case_id": "case_15",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/sym_ec; v3_fairness/sym_ed",
+    "text": "Project supervision included joint monitoring missions by ADB, the World Bank, and the Government of Australia.29 Sixteen joint review missions were conducted, with a detailed joint aide memoire prepared each time. Review missions monitored compliance with financial reporting and auditing requirements and followed up regularly with all concerned. The KFSU prepared performance assessment and progress reports every six months; these covered implementation progress, procurement, disbursements, and ",
+    "response_json": "{\"evidence\": [\"The delay did not significantly impact the project.\"], \"label\": \"No Delay\", \"confidence\": \"medium\", \"reasoning\": \"The excerpt explicitly states that the identified delay did not significantly impact the project. While some policy and reform actions were delayed, there is no direct evidence that the project schedule itself slipped or was negatively affected.\"}"
+  },
+  {
+    "case_id": "case_25",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "text": "The mid-term review mission noted that construction progress on Lots 2 and 3 was approximately 3 months behind the baseline schedule, primarily due to the late issuance of right-of-way clearances by the district land office. The executing agency indicated that it was in discussions with the land office to expedite the remaining clearances and expressed confidence that the delay could be recovered through an extended dry-season construction window. No revised implementation schedule had been issu",
+    "response_json": "{\"evidence\": [\"construction progress on Lots 2 and 3 was approximately 3 months behind the baseline schedule\", \"expressed confidence that the delay could be recovered through an extended dry-season construction window\", \"No revised implementation schedule had been issued at the time of the review\"], \"label\": \"Delay\", \"confidence\": \"high\", \"reasoning\": \"The excerpt explicitly states that progress was about 3 months behind the baseline schedule, which is direct evidence of schedule slippage. Altho"
+  },
+  {
+    "case_id": "case_31",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "text": "The project scope was revised during implementation to include the rehabilitation of 45km of feeder roads that were not in the original plan. A loan amendment was processed to cover the additional cost, and the implementation schedule was extended by 12 months. At the time of the mid-term review, the original road sections were progressing according to schedule, but the additional feeder road works had not yet commenced due to pending environmental clearances. It was not yet clear whether the fe",
+    "response_json": "{\"evidence\": [\"the implementation schedule was extended by 12 months.\", \"the original road sections were progressing according to schedule, but the additional feeder road works had not yet commenced due to pending environmental clearances.\", \"It was not yet clear whether the feeder road works could be completed within the extended timeframe.\"], \"label\": \"Delay\", \"confidence\": \"medium\", \"reasoning\": \"The excerpt gives direct schedule evidence that the overall implementation schedule was formally "
+  },
+  {
+    "case_id": "case_32",
+    "gold": "No Delay",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain",
+    "text": "The project outputs were expanded during implementation to include the construction of 12 roadside rest areas and 8 weighbridge stations, which were not part of the original scope. A supplementary agreement extended the loan closing date by 24 months to accommodate the additional works. The original road construction components were completed 3 months ahead of the original schedule, and the additional facilities were completed within the extended period. The executing agency reported that the ov",
+    "response_json": "{\"evidence\": [\"A supplementary agreement extended the loan closing date by 24 months to accommodate the additional works.\", \"The original road construction components were completed 3 months ahead of the original schedule, and the additional facilities were completed within the extended period.\", \"The executing agency reported that the overall project was delivered within the revised implementation schedule.\"], \"label\": \"Delay\", \"confidence\": \"medium\", \"reasoning\": \"The report explicitly states "
+  },
+  {
+    "case_id": "case_36",
+    "gold": "No Delay",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/C_abstain_only",
+    "text": "The mid-term review noted that the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement. The review team expressed concern that this could affect the commencement of road construction in the affected sections. However, at the time of the ex-post evaluation, it was confirmed that road construction in the southern corridor had commenced on the revised date and was completed within the",
+    "response_json": "{\"evidence\": [\"The mid-term review noted that the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement.\", \"The review team expressed concern that this could affect the commencement of road construction in the affected sections.\", \"However, at the time of the ex-post evaluation, it was confirmed that road construction in the southern corridor had commenced on the revised date and was"
+  },
+  {
+    "case_id": "case_40",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/D_neither; v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ec; v3_fairness/sym_ed",
+    "text": "A stakeholder consultation meeting was held on 12 July 2017 at the district administration office to present the proposed alignment and discuss land acquisition requirements with representatives of the affected communities. Sixty-three participants attended, including village heads, women's group representatives, and local government officials. The main concerns raised by participants related to compensation rates for agricultural land and the relocation of a community health center that falls w",
+    "response_json": "{\"evidence\": [], \"label\": \"Uncertain\", \"confidence\": \"high\", \"reasoning\": \"The excerpt describes a consultation meeting and stakeholder concerns about compensation and relocation, but it provides no direct information about schedule slippage, blocked work, revised dates, or confirmed lack of impact. Because no schedule-relevant evidence is stated, a confident delay determination cannot be made.\"}"
+  },
+  {
+    "case_id": "case_11",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/D_neither; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ed; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "text": "The baseline value of all the 39 sections at the time of appraisal (2007) were 40–400 vehicles/day depending on the section, totaling to 3,680 vehicles/day. The target value (1 year after the project completion) in 2013 was 88–804 vehicles/day depending on the section, totaling to 7,739 vehicles/day (increase of 210% in the total value).15 These values were set for the 39 road sections initially targeted at the time of appraisal. These 39 sections can be used to compare the actual measurement va",
+    "response_json": "{\"evidence\": [\"the actual value for only 25 sections was available, as shown below (Table 3), due to reasons such as cancellation, suspension, termination, and delay.\"], \"label\": \"Delay\", \"confidence\": \"medium\", \"reasoning\": \"The excerpt explicitly cites \\\"delay\\\" as one of the reasons some road sections lacked actual measurement results, which strongly implies schedule slippage affecting project implementation. Although no duration or revised completion date is provided, there is no evidence in"
+  },
+  {
+    "case_id": "case_12",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v3_fairness/sym_ab",
+    "text": "At the time of the appraisal for the Rural Road Improvement Project, the Country Assistance Program for Sri Lanka (April 2004) had not yet been prepared. However, the priority areas of Japan's ODA policy to Sri Lanka at that time focused on the two main pillars of \"support for the establishment and restoration of peace\" and a \"support plan with a vision for mid and long- term development\". The latter included \"institutional reform and support for the development of an economic foundation\" 8. Fur",
+    "response_json": "{\"evidence\": [], \"label\": \"No Delay\", \"confidence\": \"high\", \"reasoning\": \"The excerpt discusses policy alignment and development objectives, not the project's schedule performance. The only mention of delay refers generally to rural development causes, not to any actual or implied schedule slippage for this project.\"}"
+  },
+  {
+    "case_id": "case_13",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v3_fairness/sym_ab",
+    "text": "To arrive at a fair standard of compensation sufficient to cover present the Replacement Value of lost properties, the Property Assessment and Valuation Committee (PAVC) is considered important for each district. Again, to devise a mechanism to dispose of the complaints out of court as per RP, setting up a Grievance Redress Committee (GRC) for each area is also felt indispensable. In order to ensure collective sharing of responsibilities, the PAVC need to be formed with representatives drawn fro",
+    "response_json": "{\"evidence\": [], \"label\": \"No Delay\", \"confidence\": \"medium\", \"reasoning\": \"The excerpt discusses grievance redress and compensation procedures but does not provide project-specific evidence that the schedule has slipped, been revised, or is currently blocked. The mention of litigation causing delay refers generally to many projects, not to an actual delay on this project.\"}"
+  },
+  {
+    "case_id": "case_28",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/D_neither",
+    "text": "The supervision consultant's quarterly progress report noted that the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%. The report attributed the shortfall to higher-than-expected groundwater levels requiring additional dewatering, and to intermittent equipment breakdowns. The contractor submitted a recovery plan proposing extended working hours and the deployment of additional compaction equip",
+    "response_json": "{\"evidence\": [\"The supervision consultant's quarterly progress report noted that the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%.\", \"The contractor submitted a recovery plan proposing extended working hours and the deployment of additional compaction equipment.\", \"The executing agency was reviewing the recovery plan at the time of the report and had not yet approved it.\", \"The report noted"
+  },
+  {
+    "case_id": "case_01",
+    "gold": "Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ec",
+    "text": "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads, i.e., outputs, from planned 300km (approximate) at the appraisal to actual 376.68km (ratio against the plan: 126%)9. Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the cons",
+    "response_json": "{\"thought_process\": \"The excerpt contains factual schedule overruns and factual local disruptions, but it does not clearly establish an unresolved, project-wide critical-path delay. Evidence of overrun: the project period was longer than planned, and there was a delay in mobilizing assistance plus flooding-related interruptions. However, the text also explains that the longer period was proportional to the increase in output scope, and it explicitly says that a delay exceeding the revised schedu"
+  },
+  {
+    "case_id": "case_07",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ab; v3_fairness/asym_ed",
+    "text": "The successful reconstruction of downtown's primary avenues included resurfacing roads, upgrading traffic signals, and adding pedestrian-friendly features, creating a safer and more efficient urban environment for residents and visitors.",
+    "response_json": "{\"thought_process\": \"The excerpt provides a positive outcome statement about the work completed: \\\"The successful reconstruction of downtown's primary avenues included resurfacing roads, upgrading traffic signals, and adding pedestrian-friendly features, creating a safer and more efficient urban environment for residents and visitors.\\\" This is a factual description of project scope and completion, but it does not mention any schedule baseline, milestone date, completion date, lateness, recovery"
+  },
+  {
+    "case_id": "case_08",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full",
+    "text": "Last year's bridge rehabilitation project, executed seamlessly, reinforced structural integrity, improved load-bearing capacity, and enhanced safety measures for motorists and pedestrians alike.",
+    "response_json": "{\"thought_process\": \"The only schedule-relevant statement is: \\\"Last year's bridge rehabilitation project, executed seamlessly\\\". This is a factual, past-tense description of execution quality, but it does not explicitly state that the project was on schedule, that milestones were met, or that any delay occurred and was resolved. \\\"Seamlessly\\\" suggests smooth delivery, yet it is not definitive evidence of schedule status. The scope is local to one completed past project, with no indication of c"
+  },
+  {
+    "case_id": "case_37",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ab; v3_fairness/asym_ed",
+    "text": "The project management unit submitted its quarterly progress report for the period October–December 2018. During the reporting period, approximately 14,200 cubic meters of earthworks were completed on Section 3, and base course placement commenced on Sections 1 and 2. Material testing results for asphalt mix design were submitted to the supervision consultant for review. The environmental monitoring report for the quarter confirmed compliance with all environmental management plan requirements. ",
+    "response_json": "{\"thought_process\": \"The excerpt contains factual progress updates for the reporting period, but it does not state that the project is delayed, behind schedule, or that any milestone has been missed. The statements describe completed and ongoing activities at specific sections of work, which are local project-status facts rather than evidence of a global schedule overrun. There is also no explicit wording such as \\\"on schedule,\\\" \\\"no progress issues,\\\" \\\"recovered,\\\" or \\\"resolved.\\\" Under the "
+  },
+  {
+    "case_id": "case_38",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag",
+    "text": "The supervision consultant conducted the regular monthly site inspection on 15 March 2020. Subgrade preparation on the northern approach road was in progress, with compaction testing results meeting specification requirements. The contractor had mobilized a second asphalt paving crew for the southern section. Bridge girder fabrication at the off-site yard was reported to be proceeding. Quality assurance documentation for the completed drainage structures was reviewed and found satisfactory. Weat",
+    "response_json": "{\"thought_process\": \"The excerpt describes ongoing construction activities and favorable conditions, but it does not explicitly state that the project is on schedule, nor does it report any missed milestone, overdue completion date, or unresolved critical-path delay. Phrases such as \\\"in progress,\\\" \\\"had mobilized,\\\" and \\\"was reported to be proceeding\\\" indicate active work, but they are descriptions of local task status rather than definitive evidence of overall schedule health. Because the r"
+  },
+  {
+    "case_id": "case_39",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ab; v3_fairness/asym_ed",
+    "text": "The implementing agency reported that the detailed engineering design for Phase 2 of the highway improvement project was submitted to the ministry for approval on 28 February 2019. The design covers a total of 156km across four provinces and includes 23 bridges and 4 interchanges. The social and environmental impact assessment was completed and disclosed to the public as required under the loan agreement. Procurement documents for the first three construction lots were under preparation by the p",
+    "response_json": "{\"thought_process\": \"Step 1 evidence extraction yields only progress/status statements, not a reported schedule slippage: the design was \\\"submitted to the ministry for approval on 28 February 2019,\\\" the impact assessment \\\"was completed and disclosed to the public,\\\" and procurement documents \\\"were under preparation.\\\" Step 2 modality and scope check: these are factual descriptions of completed or ongoing local tasks, but none explicitly state that a deadline was missed, that approval was ove"
+  },
+  {
+    "case_id": "case_04",
+    "gold": "Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_b_no_selfdiag",
+    "text": "Tranche 3. At appraisal, the project cost was $150 million; ADB's share was $127 million (84.6%), and the government was $23 million (15.3%). With the addition of DFID cofinancing, the share was revised to 15.3% for the government, 58.5% ($87.8 million) for ADB, and 26.1% ($39.2 million) for DFID. Implementation was delayed because of (i) a change in the scope of works, i.e., from 4 lanes to 6 lanes; (ii) a change in the design of bridge piles due to seismic design provisions; and (iii) uncertai",
+    "response_json": "{\"thought_process\": \"The excerpt contains a factual statement that the project implementation was delayed, along with specific causes: scope change, bridge design change, and uncertain geotechnical conditions. However, it does not state that the delay is currently unresolved, that any milestone or completion date has been missed, or that the overall project schedule remains impacted now. The statement is retrospective and causal, but the scope of impact on the current schedule is not explicit. F"
+  },
+  {
+    "case_id": "case_28",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "text": "The supervision consultant's quarterly progress report noted that the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%. The report attributed the shortfall to higher-than-expected groundwater levels requiring additional dewatering, and to intermittent equipment breakdowns. The contractor submitted a recovery plan proposing extended working hours and the deployment of additional compaction equip",
+    "response_json": "{\"evidence\": [\"the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%.\", \"The executing agency was reviewing the recovery plan at the time of the report and had not yet approved it.\"], \"label\": \"Delay\", \"confidence\": \"medium\", \"reasoning\": \"The report explicitly says the contractor had fallen behind planned progress, which is direct evidence of schedule slippage on the embankment works. Although "
+  },
+  {
+    "case_id": "case_15",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ab",
+    "text": "Project supervision included joint monitoring missions by ADB, the World Bank, and the Government of Australia.29 Sixteen joint review missions were conducted, with a detailed joint aide memoire prepared each time. Review missions monitored compliance with financial reporting and auditing requirements and followed up regularly with all concerned. The KFSU prepared performance assessment and progress reports every six months; these covered implementation progress, procurement, disbursements, and ",
+    "response_json": "{\"evidence\": [\"The delay was caused by the government's request to include sea and air transport in the plan.\", \"implementation of some reforms (e.g., road transport management and asset maintenance mechanisms) has been delayed pending ongoing discussions within the National Infrastructure Development Steering Committee.\"], \"label\": \"Delay\", \"confidence\": \"high\", \"reasoning\": \"The excerpt explicitly states that there was a delay and identifies delayed implementation of some reforms. Although it "
+  },
+  {
+    "case_id": "case_13",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v3_fairness/asym_ed",
+    "text": "To arrive at a fair standard of compensation sufficient to cover present the Replacement Value of lost properties, the Property Assessment and Valuation Committee (PAVC) is considered important for each district. Again, to devise a mechanism to dispose of the complaints out of court as per RP, setting up a Grievance Redress Committee (GRC) for each area is also felt indispensable. In order to ensure collective sharing of responsibilities, the PAVC need to be formed with representatives drawn fro",
+    "response_json": "{\"evidence\": [\"Experience shows that the litigation causes unnecessary delay and cost overrun in many projects.\", \"the PMU of SASEC-II will constitute a committee for grievance redress\"], \"label\": \"Delay\", \"confidence\": \"medium\", \"reasoning\": \"The excerpt explicitly states that litigation causes unnecessary delay and cost overrun, which is a direct schedule risk. It also shows additional grievance-redress setup is still pending, suggesting process steps that could affect timing.\"}"
+  },
+  {
+    "case_id": "case_36",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v3_fairness/asym_ed",
+    "text": "The mid-term review noted that the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement. The review team expressed concern that this could affect the commencement of road construction in the affected sections. However, at the time of the ex-post evaluation, it was confirmed that road construction in the southern corridor had commenced on the revised date and was completed within the",
+    "response_json": "{\"evidence\": [\"the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement.\", \"this could affect the commencement of road construction in the affected sections.\", \"road construction in the southern corridor had commenced on the revised date and was completed within the overall project period.\", \"the resettlement delay was absorbed by adjusting the construction sequencing to prioritize "
+  }
+]

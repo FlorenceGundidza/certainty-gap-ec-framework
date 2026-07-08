@@ -1,0 +1,974 @@
+[
+  {
+    "response": {
+      "extracted_evidence": [
+        "The final completion of the works was on 10 April 1990 and the last disbursement was made on 22 September 1994.",
+        "5.45137 December 1995 (deadline last disbursement)"
+      ],
+      "modality_check": "The text presents historical, reported facts regarding the actual completion of works and disbursement dates, rather than hypothetical risks or policy guidelines.",
+      "scope_recovery_analysis": "The project works were completed in April 1990, and the final disbursement was successfully executed in September 1994, which is more than a year prior to the final deadline of December 1995. No unresolved delays or schedule slippages are mentioned.",
+      "commitment_rationale": "Under the Normalcy Rule, because the project successfully completed its works and finalized all disbursements well before the established deadline without any mention of unresolved delays or missed milestones, the schedule is classified as No Delay.",
+      "label": "No Delay"
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "ITS Master Plan for Bengaluru Metropolitan Area (referred to as ‘ITS Master Plan’ hereinafter) was finalised and the Study was completed on 30[th] June 2015.",
+        "The schedule of ITS works for the grant and loan projects was prepared by JICA Experts , as shown on the next page, and explained to DULT and BDA."
+      ],
+      "modality_check": "The text reports the successful completion of the ITS Master Plan study on 30th June 2015 as a historical fact. Other sections discuss technical design recommendations (such as bridge extensions and geotechnical investigation needs) and future implementation schedules, which represent planning and risk-mitigation policies rather than active schedule delays.",
+      "scope_recovery_analysis": "The temporary extension of bridge lengths and adjustments to the railway crossings are technical design modifications during the JICA Technical Review Stage to prevent future cost overruns, rather than unresolved schedule slippages or delays.",
+      "commitment_rationale": "The report indicates that the study was successfully completed and finalized, and the schedule for future works has been prepared and explained to stakeholders. Applying the Normalcy Rule, since there is no mention of active delays, unresolved schedule issues, or missed deadlines, the project status is classified as 'No Delay'.",
+      "label": "No Delay"
+    },
+    "case_id": "12246781",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Delay in procurement, finalising the works contract and issuance of the instruction to commence the work (8 months between receipt of tender and works commencement);",
+        "This contractual schedule was extended by 557 days (about 18 months) in two addenda."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of project execution rather than hypothetical risks or policy guidelines.",
+      "scope_recovery_analysis": "The project experienced an initial 8-month procurement delay. Furthermore, the main works contract completion date was extended by 557 days (approximately 18 months). While these extensions were formally approved via addenda as 'Employer risk' events (meaning no liquidated damages were penalized), they represent a significant, unrecovered delay relative to the original 48-month schedule.",
+      "commitment_rationale": "The label 'Delay' is selected because the text explicitly documents confirmed, substantial timeline slippage (both in procurement and overall construction completion) that was not recovered, but rather accommodated by extending the contract duration.",
+      "label": "Delay"
+    },
+    "case_id": "20070316-pcr-en",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads, i.e., outputs, from planned 300km (approximate) at the appraisal to actual 376.68km (ratio against the plan: 126%)",
+        "Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding...",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "modality_check": "The report presents historical facts regarding the project's timeline and scope. It notes that while there were initial delays (JICA mobilization and flooding), the overall timeline extension was a direct consequence of a physical scope increase (road length increased to 126% of the original plan).",
+      "scope_recovery_analysis": "The timeline extension (124% of plan) is justified by and proportional to the scope extension (126% of plan). The report explicitly states that any delay exceeding the revised schedule (which accounted for the increased outputs) was successfully avoided through active schedule control.",
+      "commitment_rationale": "Although the project took longer than the original appraisal estimate, this was an approved scope extension rather than an unresolved delay. Because the actual duration increase (124%) was less than the output increase (126%) and the revised schedule was successfully maintained without further delays, this is classified as 'No Delay' under the Scope Extension and Recovery rules.",
+      "label": "No Delay"
+    },
+    "case_id": "2015_SL-P97_4_f",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "However, among these sections, the actual value for only 25 sections was available, as shown below (Table 3), due to reasons such as cancellation, suspension, termination, and delay.",
+        "A part of the road sections continued to be incomplete at the time of the ex-post evaluation."
+      ],
+      "modality_check": "The text reports historical and ongoing facts: specifically, that several road sections experienced delays, cancellations, or suspensions, and that a portion of the road sections remained incomplete at the time of the ex-post evaluation (well past the planned completion timeline).",
+      "scope_recovery_analysis": "There is no evidence of recovery for the delayed or incomplete sections. Instead, the report explicitly states that some sections remained incomplete at the time of the ex-post evaluation, and data was missing for 14 of the 39 sections due to ongoing delays, suspensions, or cancellations.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly confirms unresolved slippage, with multiple road sections remaining incomplete at the time of the ex-post evaluation and others suffering from documented delays and suspensions.",
+      "label": "Delay"
+    },
+    "case_id": "2016_MR-P27_4_f",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "When examined at the time of the ex-post evaluation, the construction was completed in June 2012 (10 years and 10 months) (130 months). The project period was 260% longer than initially planned.",
+        "The executing agency spent longer than expected selecting consultants because of the approval process within the Moroccan government.",
+        "Moreover, the construction was thought to be delayed because the additional financing required the construction cost to be estimated again, and there was also a project optimization study."
+      ],
+      "modality_check": "The text reports historical facts regarding the actual execution timeline of the project. The 260% increase in project duration (from 50 months to 130 months) is a confirmed, historical fact rather than a future risk or policy discussion.",
+      "scope_recovery_analysis": "Although the project was eventually completed in June 2012, the massive schedule overrun (80 months over schedule) was caused by administrative bottlenecks, communication issues, and refinancing delays. There is no indication that this 260% timeline extension was an approved, non-delay scope adjustment; rather, it is explicitly characterized as taking 'longer than expected' and being 'delayed'.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text provides explicit, quantified evidence of a massive schedule overrun (the project took 130 months instead of the planned 50 months), alongside detailed reasons for these unresolved execution slippages.",
+      "label": "Delay"
+    },
+    "case_id": "2016_MR-P30_4_f",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the construction of new roads between urban areas and other main cities had been delayed",
+        "maintenance of provincial/rural roads had been delayed compared to that of national roads",
+        "the actual output for the Rural Road Improvement Project was 302.6km and the actual output for the Provincial/Rural Road Development Project (Central Province and Sabaragamuwa Province) was 301km."
+      ],
+      "modality_check": "The text mentions historical delays in the Sri Lankan road sector and road maintenance prior to the project's appraisal (Reported Facts of the past). However, regarding the current 'Rural Road Improvement Project' and 'Provincial/Rural Road Development Project', the text only reports physical output metrics (planned vs. actual kilometers) and cuts off before providing any timeline, completion dates, or schedule status.",
+      "scope_recovery_analysis": "There is no mention of schedule recovery or timeline adjustments. The text compares planned physical scope (623.1km) with actual completed scope (302.6km + 301km = 603.6km), but does not link this minor scope variance to any schedule delays or extensions.",
+      "commitment_rationale": "The label 'Uncertain' is chosen because the text completely lacks schedule-related information for the implemented projects. While it mentions historical, sector-wide delays prior to the project's initiation, it provides no data on whether the actual project execution met, exceeded, or fell behind its planned timeline, and the text itself is truncated at the end.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_SL-P96_4_f",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "In contrast, the actual project period was eleven years and nine months from March 2000 to November 2011 (start of use) (141 months), which greatly exceeded the plan (227% versus the plan).",
+        "The main reasons behind this delay",
+        "Land Acquisition and Relocation: Planned From October 2000 to August 2002, Actual From October 2001 to June 2007",
+        "Civil Works: Planned From January 2002 to April 2005, Actual From January 2005 to November 2011 (start of use)"
+      ],
+      "modality_check": "The text reports historical facts regarding the project's timeline. The planned duration of 62 months was extended to an actual duration of 141 months, representing a confirmed, completed schedule overrun rather than a future risk or policy discussion.",
+      "scope_recovery_analysis": "There is no evidence of schedule recovery or that this timeline extension was an approved, non-delay scope change. The text explicitly attributes the timeline extension to 'delay' factors such as land acquisition, relocation, bidding, and civil works overruns.",
+      "commitment_rationale": "The label 'Delay' is selected because the project experienced a massive, unresolved schedule slippage, taking more than double the planned time to complete (227% of the original plan). This is explicitly characterized as a delay in the text.",
+      "label": "Delay"
+    },
+    "case_id": "2016_VN10-P1_4_f",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The Project was completed in May 2001 after a delay of 23 months.",
+        "While all the other packages were effectively completed, one of the packages (Contract C) experienced pavement failures that required rectification. This was a key factor, causing a delay in project completion.",
+        "Pavement failures caused by the use of improper materials, combined with disputes among the contractor, the supervising consultant, and MCTPC, delayed implementation, partly offsetting the cost savings in other areas.",
+        "In other sections of the Project, the contractors were delayed due to insufficient or delayed supply of equipment."
+      ],
+      "modality_check": "The evidence consists of reported historical facts regarding the project's execution. The 23-month delay is a confirmed, completed event rather than a future risk or policy discussion.",
+      "scope_recovery_analysis": "Although the project scope was revised to include additional works which contributed to the timeline extension, the primary drivers of the 23-month delay were unresolved execution issues, including pavement failures on Contract C due to improper materials, contractual disputes, and equipment supply delays. These were not fully recovered or absorbed as purely approved scope extensions.",
+      "commitment_rationale": "The text explicitly states that the project was completed after a delay of 23 months due to contractual and material failures. This represents a confirmed, historical schedule slippage, making 'Delay' the only accurate classification.",
+      "label": "Delay"
+    },
+    "case_id": "36068953",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Loan 2400/2401 At Appraisal At Project Completion (2 March 2007) (31 March 2015)",
+        "Loan 3121/Grant 0434 At Appraisal At Project Completion (2 March 2007) (17 April 2018)",
+        "Loan 3197/Grant 0435 At Appraisal At Project Completion (10 December 2007) (15 December 2017)",
+        "NATIONAL TRADE CORRIDOR HIGHWAY INVESTMENT PROGRAM (TRANCHE 2) ... (as completed)"
+      ],
+      "modality_check": "The excerpt reports historical facts regarding the project's timeline, appraisal dates, loan negotiation dates, and final completion dates. It does not discuss hypothetical risks or policies.",
+      "scope_recovery_analysis": "The project components (Tranches 1, 2, and 3) are listed with their respective 'At Project Completion' dates and marked on the map as 'as completed'. There is no mention of unresolved delays or outstanding schedule issues.",
+      "commitment_rationale": "Applying the Normalcy Rule, the text describes a completed project ('as completed', 'At Project Completion') with no mention of unresolved delays, slippages, or missed deadlines. Therefore, it is classified as 'No Delay'.",
+      "label": "No Delay"
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Separate schedule for titled and non-titled RP has been initiated to speed up payments for non-titled entities without limiting their entitlements.",
+        "Data collection within the existing Row of Work Package-13 was done during the months of SeptemberOctober 2018.",
+        "Like the SES, this survey was not commissioned to PAHs; instead, here the respondents were the knowledgeable persons of the respective areas..."
+      ],
+      "modality_check": "The text reports completed facts (the Census and Socio Economic Survey was conducted, data collection was completed in Sept-Oct 2018, and a market survey was commissioned) alongside planned policies (entitlements, 10-month schedule starting upon receipt of funds). There are no reports of missed deadlines or delayed funding.",
+      "scope_recovery_analysis": "The initiation of a separate schedule for titled and non-titled RP is a proactive process optimization to 'speed up payments' rather than a recovery from an active delay. No delays are reported.",
+      "commitment_rationale": "Under the Normalcy Rule, because the text describes ongoing, structured, and successful progress (surveys completed, optimization schedules initiated) without any mention of unresolved issues, slippage, or missed milestones, the status is classified as 'No Delay'.",
+      "label": "No Delay"
+    },
+    "case_id": "40540-017-rp-en_2",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project completion cost was $74.97 million equivalent (Appendix 2), significantly higher than the original 2011 cost estimate of $33.36 million because of additional works and delays",
+        "the contract award was delayed by 13 months.",
+        "The original loan closing date of 30 October 2013 was extended three times with an actual loan closing date of 28 February 2017.",
+        "The original date for completion of the physical infrastructure was April 2013 but this was shifted to March 2016 and then July 2017 as part of additional financing approvals. The project incurred initial delays attributed to capacity constraints within the executing and implementing"
+      ],
+      "modality_check": "The text reports historical facts regarding actual project execution, confirming that delays occurred during the contract award and physical infrastructure implementation, leading to multiple extensions of the closing date.",
+      "scope_recovery_analysis": "Although some timeline shifts were tied to additional financing approvals (scope changes), the text explicitly states that the cost increase was due to 'additional works and delays' and notes 'initial delays' due to capacity constraints. There is no evidence of recovery to the original timeline; the project completed years behind its original schedule.",
+      "commitment_rationale": "The label 'Delay' is chosen because the project experienced confirmed, unresolved slippage of its original milestones (completion shifted from April 2013 to July 2017) and contract award delays (13 months), which were never recovered to meet the original schedule.",
+      "label": "Delay"
+    },
+    "case_id": "44281-013-pcr-en",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project was completed in August 2006.",
+        "In addition to the completion of targeted outputs, the project achieved additional road improvements using loan savings...",
+        "The project faced several implementation issues caused by weak institutional capacity, contractor problems, and adverse weather conditions. Despite this, the quality of the road improvements was acceptable."
+      ],
+      "modality_check": "The text reports historical facts of a completed project. While it mentions implementation challenges such as contractor problems and adverse weather, these are reported as historical context rather than active or unresolved schedule delays.",
+      "scope_recovery_analysis": "The project not only completed its targeted outputs but actually expanded its scope to achieve additional road improvements using loan savings. There is no indication of unresolved delays or missed final deadlines.",
+      "commitment_rationale": "Applying the Normalcy Rule, the project is successfully completed with extra scope delivered and no explicit mention of schedule slippage or unresolved delays. Therefore, it is classified as 'No Delay' rather than 'Uncertain'.",
+      "label": "No Delay"
+    },
+    "case_id": "47144944",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The TA was extended by one year to 31 October 2020 due to late availability of complete project design documentation...",
+        "The delayed submission was caused by the fact that KDTP was not paid by MOTR for the BNB road design work.",
+        "The design of utilities and lighting had to be outsourced, but since KDTP was not able to pay for these services, related design documents were never received.",
+        "As of the TA completion date, completion of the LARP was still pending completion of the detailed design."
+      ],
+      "modality_check": "The excerpt reports historical and ongoing facts: the project timeline was extended by a year due to delays in design documentation, and critical design documents (utilities and lighting) were never received due to payment issues. Furthermore, the LARP remained incomplete at the TA completion date.",
+      "scope_recovery_analysis": "Although the TA was extended by a year (which could be seen as an approved timeline change), the underlying delays were not resolved. Key deliverables (utility and lighting designs) were never received, and the LARP was still pending at the completion date, indicating unresolved slippage.",
+      "commitment_rationale": "The label 'Delay' is chosen because there is clear, documented evidence of unresolved slippage and incomplete deliverables (missing design documents and pending LARP) at the time of the TA completion, which goes beyond a simple approved extension.",
+      "label": "Delay"
+    },
+    "case_id": "52043-002-tcr-en",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project experienced bottlenecks in the procurement of rural road and borehole studies.",
+        "As concerns the rural roads, services that were initially scheduled to start in April 2004 finally commenced in December 2008 and ended in September 2009, representing a four-year slippage.",
+        "Although the loan was extended to 30 April 2010 (representing 28 additional months), activities could not be completed due to late fulfilment of loan conditions and delays in procurement.",
+        "Completion of these works required a new extension of the final disbursement deadline. Doing so would have significantly affected overall portfolio performance. Hence, during the October 2009 portfolio review, the Government and the Bank decided to cancel these components."
+      ],
+      "modality_check": "The text reports historical facts regarding actual project execution, specifically a four-year slippage in rural road services, missed deadlines, and the eventual cancellation of delayed components. These are confirmed historical events rather than future risks or policy discussions.",
+      "scope_recovery_analysis": "While the main road component (Djougou – N’dali) was completed on schedule, other major components (rural roads and boreholes) suffered severe, unresolved delays. Instead of recovering these delayed components, the Government and the Bank chose to cancel them entirely because further extensions would have negatively impacted portfolio performance. This represents an unresolved schedule failure resulting in scope reduction, not a successful recovery.",
+      "commitment_rationale": "The label 'Delay' is chosen because the project failed to meet its original closing date of 31 December 2007, failed to complete all activities within a 28-month extension (up to 30 April 2010), and had to cancel multiple components due to persistent procurement bottlenecks and a four-year slippage.",
+      "label": "Delay"
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-12-09-20",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the Parakou Urban Transport Project approved in 2014 and near completion",
+        "The key performance indicators identified and the outcomes expected at project completion presented in the results-based logical framework are classified into...",
+        "These indicators will be monitored during supervision missions and day-to-day project management."
+      ],
+      "modality_check": "The text describes the strategic rationale, expected outcomes, and the monitoring framework (KPIs) for a proposed or newly initiated project. These are future-oriented planning and policy statements rather than reported facts about ongoing physical construction progress.",
+      "scope_recovery_analysis": "There are no past or current delays mentioned for the project under evaluation, nor are there any scope changes or recovery actions described, as the project is in its appraisal or early design phase.",
+      "commitment_rationale": "The excerpt does not provide any information regarding the actual execution status or schedule of the current project's construction works. It only establishes the baseline indicators and monitoring framework that will be used in the future. Because current progress information is entirely missing, the status must be classified as Uncertain.",
+      "label": "Uncertain"
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara_cotton_r",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The second instalment of EUR 161.60 million which was supposed to be committed in 2020, as well AGTF loan are the subject of this report."
+      ],
+      "modality_check": "The statement regarding the 2020 commitment is a reported fact of a missed milestone. The commitment of the second installment (the bulk of the project's funding) did not occur in 2020 as planned.",
+      "scope_recovery_analysis": "There is no mention of this delay being resolved, recovered, or formally absorbed into an approved scope change. The funding delay remains an active issue being addressed by the current report.",
+      "commitment_rationale": "The label 'Delay' is chosen because a critical project milestone—the commitment of the primary funding source (the second installment and AGTF loan) originally scheduled for 2020—has experienced a confirmed, unresolved slippage.",
+      "label": "Delay"
+    },
+    "case_id": "cameroon_-_transport_sector_support_programme_-_",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The main lessons from these projects were factored into the design of the current project as follows: (i) the 2011 studies were updated in 2018; (ii) advance contracting will shorten the procurement timeframes and thus avoid protracted delays between study completion and project execution..."
+      ],
+      "modality_check": "The text discusses historical delays in past projects and outlines preventive design measures (such as advance contracting) for the current project. This is a discussion of risk mitigation policy rather than a report of actual, ongoing project execution facts.",
+      "scope_recovery_analysis": "There are no reported delays or scope changes for the current project to analyze, as the project is either in its design/preparation phase or its active execution status is not described.",
+      "commitment_rationale": "The label 'Uncertain' is chosen because the excerpt only discusses lessons learned from past projects and future risk-mitigation strategies. It contains no information regarding the current project's actual schedule, progress, or execution status.",
+      "label": "Uncertain"
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_roads_to_b",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Concept Note Approval August 2011 Project Approval May 2012 Effectiveness June 2012 Completion March 2016 Last Disbursement December 2016",
+        "The provisions for price escalation representing 8.21% of the total base cost and for physical contingencies have taken into account the inflation rate in DR Congo and the works implementation schedule."
+      ],
+      "modality_check": "The text presents factual project planning parameters (costs, schedules, and institutional arrangements) alongside macroeconomic policy context for the Democratic Republic of Congo. The project milestones are established, and the implementation schedule has been integrated into the cost provisions.",
+      "scope_recovery_analysis": "There are no past or current delays mentioned in the text. The project is moving from approval (May 2012) to effectiveness (June 2012) as planned in the timeline.",
+      "commitment_rationale": "Applying the Normalcy Rule, the document describes a healthy, structured project preparation and initiation phase with clear milestones and no indications of slippage, unresolved issues, or delays. Therefore, it is classified as 'No Delay' rather than 'Uncertain'.",
+      "label": "No Delay"
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba-tshikap",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Implementation Schedule…………………………………… i- ix",
+        "the EU has also confirmed its intention to adopt the same approach for the completion of the RN2 works in Goma and Bukavu."
+      ],
+      "modality_check": "The text is primarily future-oriented and policy-driven, focusing on strategic alignment, monitoring frameworks, and planned stakeholder participation rather than reporting on the factual progress of physical construction.",
+      "scope_recovery_analysis": "There are no project-level delays or scope changes mentioned. The extension of the Country Strategy Paper (CSP 2013-2017) to 2022 represents a high-level policy framework extension rather than a recovery of a delayed project schedule.",
+      "commitment_rationale": "The label 'Uncertain' is selected because the provided text is from a planning or appraisal document and lacks any concrete reporting on the actual physical progress, start date, or current schedule status of the construction works.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_asphaltin",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The operations currently being carried out by the Bank on RN1 in coordination with other technical and financial partners (TFPs), in particular the European Union, for the extension of this road up to MbujiMayi, and the World Bank, for the rehabilitation of the Ilebo-Lubumbashi railway, will help to open up this major corridor.",
+        "PROADER activities will not entail land acquisition or the forced resettlement of people and/or restriction of their access to resources or livelihoods."
+      ],
+      "modality_check": "The text describes strategic alignment, target beneficiaries, and future intervention approaches (Policy/Design). While it mentions ongoing operations on RN1 by the Bank and partners, this is contextual background rather than a factual progress report on PROADER's specific construction schedule.",
+      "scope_recovery_analysis": "No delays, scope changes, or recovery actions are mentioned because the text does not report on the active execution progress or timeline of the PROADER project.",
+      "commitment_rationale": "The label 'Uncertain' is selected because the excerpt focuses entirely on project design, strategic alignment, and target demographics. It lacks any concrete schedule updates, baseline timelines, or progress tracking for PROADER's physical works, making it impossible to determine if the project is on track or delayed.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_rural_economy_integrated_development_suppo",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project was completed slightly behind the original scheduled time due to the following reasons: Lot 1, extension of time (16 months) Lot 2, extension of time (10 months) and Lot 3, extension of time (5 months) owing to increased earthworks quantities and rock excavation quantities",
+        "Whereas the Project was completed behind schedule, it was completed within the Budget proposed at Appraisal."
+      ],
+      "modality_check": "The extracted statements are reported facts confirming the actual historical timeline of the project's completion, rather than future risks or policy proposals.",
+      "scope_recovery_analysis": "Although the timeline adjustments were formalized as 'extensions of time' due to increased quantities of earthworks and rock excavation, the project was never brought back to its original schedule and ultimately concluded behind the original appraisal timeline.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly confirms that the project was completed 'behind schedule' and 'behind the original scheduled time' with substantial slippages of 5 to 16 months across different lots.",
+      "label": "Delay"
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support_project",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Rehabilitation of these roads, if delayed, shall result in the total collapse of a significant part of the regional road network...",
+        "This project is neither problematic nor potentially problematic; disbursement targets are being met and project supervisions and monitoring are carried out regularly; potential problems are identified and addressed in a timely manner."
+      ],
+      "modality_check": "The mention of potential delay in the first excerpt is framed as a future risk ('if delayed, shall result...'), which is a policy/risk statement rather than a reported fact of current slippage. Conversely, the status of the ongoing Accra Urban Transport Project (AUTP) is reported as a fact: it is explicitly described as 'neither problematic nor potentially problematic' with disbursement targets being met.",
+      "scope_recovery_analysis": "There are no active delays reported that require recovery. The project is performing normally, and potential issues are noted as being addressed in a timely manner.",
+      "commitment_rationale": "The text explicitly states that the ongoing project is not problematic, that disbursement targets are being met, and that supervisions are regular. Under the Normalcy Rule, since the ongoing work is described as healthy and on-track without any unresolved delays, the status is classified as 'No Delay' rather than 'Uncertain'.",
+      "label": "No Delay"
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_development_p",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Actual disbursement was slower than expected at appraisal and tracked the delays in the project implementation schedule.",
+        "The last payment was on 14 May 2009, about two years later than expected at appraisal."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of project execution, confirming that actual delays occurred in the implementation schedule.",
+      "scope_recovery_analysis": "There is no evidence of recovery or that the two-year extension was a planned, non-delay scope change. The text explicitly links the slow disbursement to 'delays in the project implementation schedule.'",
+      "commitment_rationale": "A 'Delay' label is chosen because the text explicitly confirms unresolved schedule slippage, with key project milestones completed two years later than appraised.",
+      "label": "Delay"
+    },
+    "case_id": "in265-10",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "At the moment, the Procurement Unit at RA has only 2 staff serving several departments. This results in delays in procurement."
+      ],
+      "modality_check": "The statement 'This results in delays in procurement' is a reported fact of an ongoing issue occurring 'at the moment', rather than a purely speculative future risk, despite being framed within a risk-mitigation context.",
+      "scope_recovery_analysis": "Although the RA has 'undertaken to strengthen the Unit' to mitigate this issue, there is no indication that the existing procurement delays have been resolved or recovered, nor are they associated with an approved extension of scope.",
+      "commitment_rationale": "The label 'Delay' is selected because the text explicitly identifies active, unresolved delays in the procurement works due to staffing shortages, preventing a 'No Delay' or 'Uncertain' classification.",
+      "label": "Delay"
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_pr",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "According to projections during the appraisal, works were to start in November 2003 and end in October 2006, representing an implementation timeframe of 36 months.",
+        "Disbursements – The disbursements planned at appraisal to be spread over 2003, 2004, 2005 and 2006 continued right up to 2009, following an extension of the timeframe requested by the Borrower.",
+        "The completion rates recorded as at 31 December 2009 (effective closing date) are: 100% for the main M'bignik-Boghé section, 100% for the Dar El Barka link road, 100% for school complexes, 100% for the sensitization campaign and 60% for the rehabilitation of two drinking water supply boreholes."
+      ],
+      "modality_check": "The text reports historical facts regarding the project's execution. The extension of the project timeline from 2006 to 2009 and the incomplete status of the borehole rehabilitation at the closing date are presented as actual events, not future risks or policy proposals.",
+      "scope_recovery_analysis": "Although the borrower requested and received an extension of the timeframe up to 2009, and several major components achieved 100% completion, the 'rehabilitation of two drinking water supply boreholes' remained incomplete at only 60% completion by the effective closing date of 31 December 2009. This represents an unresolved slippage of a project component.",
+      "commitment_rationale": "The label 'Delay' is selected because there is documented, unresolved slippage at the project's closing date (the drinking water boreholes were only 60% complete as of 31 December 2009). This is a clear deviation from full project completion within the active project lifecycle, even after a multi-year timeline extension.",
+      "label": "Delay"
+    },
+    "case_id": "mauritania_-_pcr_road_project_1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Development of maintenance strategy due on 31 December 2009 has been delayed due to non-performance of road maintenance institutional development consultant.",
+        "The Variation Order No.1 and 2 submitted earlier for the Supervision Consultants are not approved yet by the Kyrgyz Government. Due to the extended period of the Works Contract it is necessary to extend the Supervision Consultant’s inputs."
+      ],
+      "modality_check": "The delay of the maintenance strategy (originally due on 31 December 2009) is a reported historical fact of non-performance, not a hypothetical risk. The pending approval of Variation Orders 1 and 2 for the Supervision Consultants is also an active administrative bottleneck.",
+      "scope_recovery_analysis": "Although the main works contract completion date was revised under Variation Order #2, the delay regarding the maintenance strategy is unresolved, requiring contract termination and renegotiation with a new consultant. Furthermore, the extension of the supervision contract is currently unapproved by the government.",
+      "commitment_rationale": "The label 'Delay' is selected because there is an explicit, unresolved milestone slippage (the maintenance strategy is over a year overdue) and the supervision contract extensions required by the extended works contract have not yet been approved.",
+      "label": "Delay"
+    },
+    "case_id": "mpr_january_2011_final",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The establishment of key impact indicators prior to project start-up and impact assessment at project completion will generate useful information...",
+        "Implementation Schedule for the Boké-Québo Road Improvement Project Task Name HE ~~a~~ LR Bk Sknttatnathectenlnthalndtnle thelnct"
+      ],
+      "modality_check": "The text focuses on strategic alignment, project context, and planned monitoring frameworks (policy/design). It lacks any factual reporting on the actual physical progress of construction or current schedule status.",
+      "scope_recovery_analysis": "There are no past or current delays, nor any scope changes, mentioned in the text. The project's execution status is not described.",
+      "commitment_rationale": "The label 'Uncertain' is selected because the excerpt provides no information about the actual progress of the project. The 'Implementation Schedule' section contains garbled, unreadable text and no actual timeline data, leaving the current schedule status completely unknown.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvement_proj",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The Civil works will be implemented over a 24-month period.",
+        "Though the Unity Bridge over Rovuma River was commissioned in 2010, the road link to the bridge on the Mozambican side has remained unpaved and in poor condition."
+      ],
+      "modality_check": "The text provides historical facts regarding the regional infrastructure (e.g., the Unity Bridge completed in 2010) and outlines the planned parameters for the new Phase II project. The statement that civil works 'will be implemented over a 24-month period' is a future-oriented plan rather than an active progress update.",
+      "scope_recovery_analysis": "No delays or scope changes are evaluated for the current Phase II project because the text does not contain any reporting on the actual execution or physical progress of the works.",
+      "commitment_rationale": "The label 'Uncertain' is selected because the excerpt is limited to introductory project objectives, historical context, and planned timelines. Since there is no information regarding the actual start date or current progress of the 24-month civil works, the schedule status cannot be determined.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgrading_pr",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The implementation of this project fell behind schedule with a disbursement rate of about 40% at end-June 2019. The original closing date of disbursements set at 31 December 2019, will be extended by two (2) years, until 31 December 2021 to allow for the completion of the project."
+      ],
+      "modality_check": "The text presents two distinct timelines: a future-oriented implementation plan for the new Keita/Tahoua project (2020-2023) and a reported historical fact regarding the active portfolio project (TSH) which fell behind schedule as of June 2019.",
+      "scope_recovery_analysis": "The Algeria-Niger-Chad Trans-Saharan Highway (TSH) project experienced significant slippage, achieving only a 40% disbursement rate by mid-2019. While a two-year extension to December 2021 was granted to facilitate completion, this represents an approved timeline extension necessitated by an unresolved delay rather than a recovery to the original schedule.",
+      "commitment_rationale": "Although the new project (Keita/Tahoua) is in its initial stages with no reported delays, the only active project in the sector's portfolio is explicitly described as having fallen behind schedule. To maintain high precision regarding the active operations described in the text, 'Delay' is selected.",
+      "label": "Delay"
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roa",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The road sections proposed for rehabilitation will provide improved access...",
+        "The project includes a data collection and monitoring component to be implemented...",
+        "The design review/supervision contract will include an investigation of soils..."
+      ],
+      "modality_check": "The text consists entirely of forward-looking statements ('will support', 'will provide', 'will include'), project rationale, and policy context. There are no reported facts regarding the actual physical progress, start date, or current execution status of the construction works.",
+      "scope_recovery_analysis": "No schedule delays, progress milestones, or scope adjustments are mentioned, as the project is described in its planning or proposal phase.",
+      "commitment_rationale": "Because the excerpt contains absolutely no information regarding the project's actual construction progress, schedule, or timeline performance, it is impossible to infer whether it is on track or delayed. Therefore, the status must be classified as Uncertain.",
+      "label": "Uncertain"
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the civil works suffered delays and were completed 22 months behind the original schedule.",
+        "In addition, the cracking of the asphalt concrete pavement during the first winter season caused further delays in the works."
+      ],
+      "modality_check": "The extracted quotes represent reported facts of actual events that occurred during the project execution, rather than future risks or policy discussions.",
+      "scope_recovery_analysis": "The delays were not recovered or resolved to meet the original timeline. The project was completed 22 months behind the original schedule due to contractor issues, management weaknesses, and technical defects (pavement cracking).",
+      "commitment_rationale": "The text explicitly confirms that the project suffered significant, unresolved schedule slippage, resulting in a completion date 22 months behind the original schedule. This clearly fits the 'Delay' classification criteria.",
+      "label": "Delay"
+    },
+    "case_id": "pcr-kaz-28403",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project was scheduled to be completed in June 2014 but was completed in December 2017.",
+        "The loan closing date had four extensions.",
+        "Substantial implementation delay was due to various factors such as contractors' financial liquidity issues, lack of construction materials, delays in land acquisition and obtaining government clearances, staffing of contractors, and design changes."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of actual project execution, rather than future risks or policy guidelines.",
+      "scope_recovery_analysis": "The project experienced a 3.5-year delay in completion (from June 2014 to December 2017). While the project eventually reached completion, the delay was not 'recovered' or 'resolved' to meet the original timeline; rather, it required four loan closing extensions to accommodate the substantial slippage.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly confirms a substantial implementation delay of over three years due to unresolved contractor, material, land acquisition, and design issues, resulting in multiple schedule extensions.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-2594",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the more than 3 years before civil works were first implemented, and subsequent delays afterwards"
+      ],
+      "modality_check": "The excerpt reports historical facts regarding the project's execution, specifically noting a 3-year gap before civil works started and subsequent delays during implementation.",
+      "scope_recovery_analysis": "The delays are described as contributing factors to a 27% cost increase. There is no indication that these schedule slippages were recovered or that they were merely approved scope extensions without timeline impacts.",
+      "commitment_rationale": "The text explicitly confirms the occurrence of 'subsequent delays' and a significant multi-year delay before civil works began, which fits the criteria for 'Delay'.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-265",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project completion date was originally scheduled in February 2016. This was revised to July 2018 and then to November 2018, through two extensions approved in June 2015 and July 2018.",
+        "The extensions covered the delays in recruitment of consultants and procurement of civil works.",
+        "At completion, the actual total project cost was $271.9 million, or 71.5% of the appraised amount..."
+      ],
+      "modality_check": "The text reports historical facts from a project completion evaluation, detailing actual timeline changes, approved extensions, and final costs, rather than hypothetical policies or future risks.",
+      "scope_recovery_analysis": "The project encountered initial delays during the recruitment of consultants and procurement of civil works. However, these delays were formally resolved and covered by two approved timeline extensions that revised the completion date to November 2018. The project has now reached completion.",
+      "commitment_rationale": "Since the historical delays were fully covered by approved timeline extensions and the project has successfully reached completion, there is no unresolved slippage. Applying the Recovery Rule and Contextual Scaling for approved extensions, the status is classified as 'No Delay'.",
+      "label": "No Delay"
+    },
+    "case_id": "pvr-2817b",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The original loan closing date was extended twice, resulting in an actual financial closing date in September 2017, or about 2 years and 9 months later.",
+        "The project was delayed because of four key reasons. The land acquisition pace was slow. The public utility infrastructure, such as power transmission poles, on land for the project had to be moved. There were unforeseen construction issues, such as high-water tables, which required geotechnical and hydrological surveys more time to implement. Severe weather conditions during the rainy season from October 2013 to April 2014 also delayed asphalt laying.",
+        "Consulting services’ total cost amounted to $4.2 million, or $3.2 million more than planned because of the project’s 2.8-year extension."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of actual project execution rather than hypothetical risks or policy guidelines. The 2.8-year extension and the specific causes of delay (land acquisition, utility relocation, geotechnical issues, and weather) are documented events.",
+      "scope_recovery_analysis": "The project timeline was extended twice, resulting in an actual completion/closing delay of approximately 2 years and 9 months. There is no indication that these delays were recovered to meet the original schedule; instead, the timeline was extended and costs increased to accommodate the slippage.",
+      "commitment_rationale": "The label 'Delay' is selected because the text explicitly states 'The project was delayed' and details a 2.8-year project extension due to unresolved construction, administrative, and environmental issues during the execution phase.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-2831",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project experienced 1.5 cumulative years of implementation delays.",
+        "Its completion date was originally in December 2017, but the actual was in June 2019.",
+        "The loan closing date was changed from June 2018 to June 2019, through two extensions.",
+        "This implementation delay was due to various factors. First, due to the initial inadequacy of CGPWD’s staff to carry out procurement-related tasks, the benefit of the project's high preparedness and approved advance contracting could not be availed of."
+      ],
+      "modality_check": "The excerpt reports historical facts regarding the project's execution. The 1.5-year delay and the postponement of the completion date from December 2017 to June 2019 are documented historical events, not hypothetical risks or policy discussions.",
+      "scope_recovery_analysis": "While the project eventually reached completion in June 2019 and the loan closing date was extended twice, the 1.5-year delay was a realized schedule slippage caused by procurement bottlenecks, design discrepancies, slow contractor mobilization, and external factors. There is no evidence of schedule recovery to the original baseline.",
+      "commitment_rationale": "The text explicitly states that the project experienced 1.5 cumulative years of implementation delays and missed its original completion target of December 2017. This represents a confirmed, unresolved slippage of the original schedule, which clearly qualifies as a 'Delay' under the classification criteria.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-2981",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The loan closing date was in October 2017, nearly 7 months later than the expected date with one extension.",
+        "Delay in the implementing tourism infrastructure and disaster preparedness was due to the lack of adequate institutional arrangements and staffing.",
+        "Implementation delays in roads and bridges, tourism and disaster preparedness were caused by four factors: (i) GOU tried to reinitiate the detailed design and supervision consultant (DSC) recruitment... (ii) poor performance of the DSC for tourism... (iii) delays in some road and bridge contracts due to extended snowfall and rains... (iv) slow progress on 15 road contracts due to gradual mobilization"
+      ],
+      "modality_check": "The excerpt reports historical facts regarding the project's execution. The delays mentioned (staffing issues, poor consultant performance, weather, and slow mobilization) are documented events that occurred during the project lifecycle, rather than hypothetical risks or policy discussions.",
+      "scope_recovery_analysis": "While most works were completed by the original March 2017 timeline, a 7-month extension of the loan closing date was required to complete residual works (helipads, trekking routes, slip zones). The implementation delays in roads, bridges, tourism, and disaster preparedness were actual execution slippages and were not merely approved scope expansions.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly details multiple unresolved implementation delays across various sectors of the project, which ultimately necessitated a 7-month extension to the loan closing date to complete residual works.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-3055b",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project was initially delayed for 15 months due to the signing of legal documents, recruitment of consultants, and the implementing agency's unfamiliarity with the Highway Development and Management Model...",
+        "The project was completed in December 2018, 3 months later than the original schedule."
+      ],
+      "modality_check": "The text describes historical, reported facts about a completed project rather than future risks, policies, or projections.",
+      "scope_recovery_analysis": "Although the project team accelerated implementation in later phases and offset the initial 15-month delay 'to a large extent,' the recovery was incomplete. The project ultimately concluded 3 months behind its original schedule.",
+      "commitment_rationale": "The 'Delay' label is selected because there is a confirmed, unrecovered slippage of the final project completion milestone by 3 months, which prevents it from qualifying as fully recovered or on-track.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-3074",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The loan was completed on time in October 2018 and financially closed 5 months later.",
+        "All 18 contracts were completed within the original loan closing date—9 completed on or before completion dates and 6 were granted an early completion bonus, indicating highly efficient implementation.",
+        "This validation notes that social and environmental monitoring reports were submitted and properly disclosed, although the latter were delayed."
+      ],
+      "modality_check": "The text reports historical facts regarding the project's timeline. The loan completion and all 18 construction contracts were completed on or ahead of schedule, which are confirmed facts. The delay mentioned regarding the environmental monitoring reports is also a reported fact, but it represents an administrative reporting delay rather than a delay in the project's physical execution or critical path.",
+      "scope_recovery_analysis": "No schedule recovery was required for the physical works, as implementation was highly efficient, with multiple contracts finishing early and receiving bonuses. The delayed environmental monitoring reports were eventually submitted and properly disclosed, resolving that specific administrative slippage.",
+      "commitment_rationale": "The core physical infrastructure and all 18 contracts of the project were completed within or ahead of the original schedule, with several earning early completion bonuses. Under the Normalcy and Recovery Rules, a minor administrative delay in submitting environmental reports does not override the successful, on-time completion of the project's primary milestones. Therefore, 'No Delay' is the most accurate classification.",
+      "label": "No Delay"
+    },
+    "case_id": "pvr-3189a",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The loan was approved in February 2015 and became effective in November 2015—about 3 months delay from the target date due to the lag in securing the legal opinion for the project agreement.",
+        "The actual loan closing date, after two extensions, was in June 2018 or 6 months later than initially planned due to recruitment delays in the consulting firm for the feasibility study.",
+        "the feasibility study’s completion was delayed by a year due to the local governments’ prolonged decision on the technical aspects (e.g., alignment, right-of-way, and interchange design options)."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of actual project execution delays, rather than hypothetical risks or policy discussions.",
+      "scope_recovery_analysis": "The delays in loan effectiveness, consultant recruitment, and feasibility study completion were not recovered or resolved within the original timeline. Instead, they resulted in two extensions of the loan closing date, pushing the final closing 6 months past the initial plan.",
+      "commitment_rationale": "The text explicitly confirms multiple unresolved slippages of milestones (effectiveness, recruitment, study completion, and closing date) that required formal extensions. This clearly meets the criteria for 'Delay'.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-3248",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The disbursement process was slow in 2008 due to a delay in the civil works procurement process.",
+        "Loan closing was extended twice to accommodate start-up delays and an investigation by the Bhutan Anti-Corruption Commission...",
+        "It was forecast that the road outputs would be completed in 2009.",
+        "The loan account was closed on 31 December 2011."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of project execution, specifically detailing actual delays in procurement and start-up, rather than hypothetical risks or policy discussions.",
+      "scope_recovery_analysis": "Although disbursement began to catch up in 2009, the project experienced significant start-up and procurement delays. These delays were not fully recovered within the original timeline, necessitating two extensions of the loan closing date from the forecast 2009 completion to December 2011. These extensions were directly tied to accommodating delays rather than planned scope changes.",
+      "commitment_rationale": "The label 'Delay' is selected because the text explicitly confirms unresolved slippage of the original schedule (start-up and procurement delays) that required multiple formal extensions to complete the project.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-332",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the contract for section 2 was awarded in May 2010 and was completed in April 2014, 22 months after loan closing in June 2012.",
+        "The delays were attributed to the change in design for section 2, difficulties for the contractor to manage the work program, and the government’s administrative procedures for the takeover of completed works.",
+        "These works were of insufficient quality for the international contractors to begin their civil and construction works, and the rectification of these works caused delays (PCR para. 8)."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of actual project execution. The completion of section 2 occurred 22 months after the loan closing date, and rectification of poor-quality earthworks caused further actual delays.",
+      "scope_recovery_analysis": "Although a major change in project scope was approved by ADB, the project experienced substantial delays that were not recovered or resolved within the original timeline, resulting in completion long after the loan closing date.",
+      "commitment_rationale": "The text explicitly confirms multiple sources of delay (design changes, contractor management difficulties, administrative procedures, and rectification of poor-quality outsourced works) that pushed the completion of section 2 22 months past the loan closing. This represents a confirmed delay.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-453",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the bridge project included in the final contract package was delayed due to difficult geological conditions that required an updated design, and the contractor’s weak project management capacity.",
+        "To complete the bridge construction, the project completion date was extended by 13 months to 31 July 2014."
+      ],
+      "modality_check": "The excerpt reports historical facts (Reported Facts) regarding the project's execution, specifically noting that 22 of 23 contracts completed on time, but the final bridge contract experienced an actual delay.",
+      "scope_recovery_analysis": "The reduction in road length was an approved scope change due to cost escalation, but the bridge construction delay was an unresolved slippage of a critical-path activity that forced a 13-month extension of the project completion date. There is no evidence of recovering the original schedule.",
+      "commitment_rationale": "The project experienced a confirmed 13-month schedule slippage past its original appraisal completion date of 30 June 2013 due to contractor and geological issues. Because this delay was not recovered to meet the original timeline, it is classified as 'Delay'.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-523",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Its original closing date was May 2015 and was extended to May 2016 due to delays in the procurement of project implementation consultants and construction contracts.",
+        "These delays impeded the implementation of the road maintenance program.",
+        "The project was financially closed in December 2017."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts regarding the project's timeline, specifically detailing actual procurement and construction delays that postponed the closing date, rather than hypothetical risks or future policies.",
+      "scope_recovery_analysis": "The delays were not recovered; instead, they resulted in a formal one-year extension of the project's closing date (from May 2015 to May 2016) and ultimately pushed financial closure to December 2017. Furthermore, these delays actively impeded the implementation of the road maintenance program.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly confirms unresolved schedule slippage, a formal extension due to procurement and contract delays, and a final financial closure that occurred well after both the original and extended deadlines.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-605",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Although the loan was not extended and kept its original closing date of June 2016, the loan was financially closed in December 2016.",
+        "The higher cost was attributed to the four civil works packages added during implementation, which utilized the loan savings.",
+        "the PMU finally decided to complete the remaining activities under output 2 on road assessment management by the end of December 2015.",
+        "The consultant completed the activities under output 3 on road safety and safeguards in May 2015.",
+        "Of the 42 loan covenants, 36 were fully complied with, three were delayed but subsequently complied with..."
+      ],
+      "modality_check": "The report states as a matter of fact that the loan was not extended and maintained its original closing date of June 2016. The financial closure in December 2016 represents a standard administrative wrap-up period rather than a schedule delay. The delay in three loan covenants is a historical fact that has already been resolved.",
+      "scope_recovery_analysis": "The extended supervision mentioned was due to approved scope changes (four additional civil works packages utilizing loan savings) rather than unresolved slippage. Physical activities for Output 2 (completed December 2015) and Output 3 (completed May 2015) were both completed prior to the original June 2016 closing date. The three delayed covenants were explicitly noted as 'subsequently complied with,' triggering the Recovery Rule.",
+      "commitment_rationale": "The project successfully completed its scope within the original timeframe without requiring an extension of the loan closing date. Since all past covenant delays were resolved and physical works were completed before the original deadline, the project is classified as 'No Delay' under both the Normalcy and Recovery Rules.",
+      "label": "No Delay"
+    },
+    "case_id": "pvr-626",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual loan closing date was on 30 June 2016, two years later due to extended rainfall that affected the availability of appropriate work sites and the failure of some contractors to make effective use of that period for mobilization activities.",
+        "The higher number of person-months of consulting services was due to the extension of the contracts of supervision consultants until completion of civil works because there were delays in the implementation of the civil works."
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts regarding the project's execution, specifically detailing actual timeline slippages and delays in civil works, rather than hypothetical risks or policy discussions.",
+      "scope_recovery_analysis": "The 2-year delay in the loan closing date (from June 2014 to June 2016) was not a proactive scope change, but rather a reactive extension necessitated by weather disruptions and contractor mobilization failures. The delays in civil works also forced the extension of supervision consultant contracts, confirming that the delays were not recovered within the original schedule.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly confirms a two-year slippage in the project's closing timeline and directly attributes this to delays in the implementation of civil works and contractor performance issues.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-654",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project completion date was in October 2015, 9 months after the envisioned completion.",
+        "The delay in the procurement process led to a 1-year delay in starting the civil works, hence, the planned closing date of June 2015 was delayed by 1 year, and the grant closing date was also delayed by 1 year.",
+        "The actual contract for construction supervision commenced in May 2011, a year later than planned.",
+        "The actual closing date of the TA was in December 2012 or a delay of 28.5 months"
+      ],
+      "modality_check": "The extracted quotes represent reported historical facts of actual project execution, rather than future risks or policy discussions.",
+      "scope_recovery_analysis": "The delays in procurement and civil works were not recovered; they directly resulted in a 9-month delay to the project completion date and a 1-year extension of the grant closing date. There is no indication that these timeline extensions were due to an expanded project scope.",
+      "commitment_rationale": "The text explicitly and repeatedly confirms multiple unresolved delays affecting the procurement process, civil works start, construction supervision, technical assistance, and overall project completion. Therefore, the 'Delay' label is chosen with high certainty.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-658",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project completion was scheduled for April 2012, but the actual completion was delayed by 32 months.",
+        "The grant closing date was to be in October 2012, but financially closed 42 months later after two extensions.",
+        "The delays were due to longer procurement processing time, delayed permits for the importation of equipment and work permits for the contractor’s workforce which slowed the mobilization of labor and equipment in each construction season, and frequent flooding in Bodonch Canyon including the significant floods in 2012 and 2014"
+      ],
+      "modality_check": "The extracted quotes represent reported facts of historical events (actual project completion and financial closing dates) rather than future risks or policy discussions.",
+      "scope_recovery_analysis": "The 32-month delay in project completion and 42-month delay in financial closing were actualized delays. Although the project eventually completed, the schedule suffered significant, unrecovered slippage from the original baseline.",
+      "commitment_rationale": "The text explicitly states that the project completion was delayed by 32 months and the grant closing was delayed by 42 months due to procurement, permit, and environmental issues. This represents a confirmed, resolved/unresolved historical delay, fitting the 'Delay' classification perfectly.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-697",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual financial closing date was 19 August 2015, a delay of 2 years from the original closing date in the loan agreement.",
+        "Completed before the original closing date were 11 of 20 contracts while the rest were delayed and necessitated extension."
+      ],
+      "modality_check": "The text reports historical facts regarding the project's execution, specifically confirming that procurement, civil works, and overall financial closing experienced significant delays.",
+      "scope_recovery_analysis": "The delays were not fully recovered within the original timeline; instead, they necessitated extensions, resulting in an overall 2-year delay in the financial closing date.",
+      "commitment_rationale": "The label 'Delay' is chosen because the text explicitly details multiple unresolved delays in civil works contracts and a 2-year delay in the project's financial closing date.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-714",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The original loan closing date was extended five times, resulting in actual financial closing date of April 2018 or almost 8 years later.",
+        "Three factors contributed to the delay in closing. First, the executing agency lacked experience on ADB’s safeguard policies... Second, the project faced a cost overrun requiring a change in scope... Third, heavy winter rains and the contractor’s poor performance subsequently required further extensions."
+      ],
+      "modality_check": "The text reports historical facts regarding the project's execution and completion. The 8-year extension of the loan closing date and the factors causing it (contractor's poor performance, lack of experience, and weather) are documented historical facts, not future risks or policies.",
+      "scope_recovery_analysis": "While there was a change in scope due to cost overruns, the text explicitly attributes the extensions to delays, including 'the contractor’s poor performance' and 'heavy winter rains,' which are classic unresolved schedule slippages rather than purely planned scope adjustments.",
+      "commitment_rationale": "The project experienced a massive, confirmed schedule slippage of nearly 8 years beyond its original timeline. Because these delays are explicitly documented as actual occurrences, the status is classified as 'Delay'.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-719",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The planned project is a continuation of GoT’s efforts of improving the missing links on Mtwara Corridor.",
+        "The overall project cost estimate (net of taxes) is UA81.58 million (USD 119.65 million)...",
+        "These projects have experienced slow procurement leading to late start-up of civil works. The Bus Rapid Transport project experienced start-up delays due to lengthy design review/changes..."
+      ],
+      "modality_check": "The text primarily discusses a 'planned project' that is in the appraisal and cost-estimation phase (future/planned status). It also references other existing transport sector projects in Tanzania that have experienced actual, historical delays due to procurement and design issues.",
+      "scope_recovery_analysis": "For the primary subject (the planned Mtwara Corridor project), there is no schedule to recover as it has not yet commenced. For the other flagged portfolio projects, recovery is ongoing ('solutions are being implemented to... bring them back on track') but not yet completed.",
+      "commitment_rationale": "The 'Uncertain' label is selected because the main project under discussion is a 'planned project' and therefore lacks any current execution or schedule status. The text does not provide progress tracking for the subject project itself, only for other projects in the wider portfolio.",
+      "label": "Uncertain"
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road_upgradin",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Through the counterpart contribution, PMIR will finance the periodic maintenance of 2 500 kilometres of classified roads...",
+        "the establishment of key impact indicators prior to project startup and impact assessment at project completion will help to generate useful information...",
+        "The public works and civil engineering (BTP) industry... will benefit from the work contracts that will be executed under PMIR.",
+        "The third project was completed in 2009 and the completion report deemed it satisfactory, despite the delay in its implementation."
+      ],
+      "modality_check": "The text primarily discusses the planned setup, design, and future execution of the PMIR project ('will finance', 'prior to project startup', 'will benefit'). The only mention of a 'delay' refers to a historical, closed project completed in 2009, which is a past fact unrelated to the current PMIR schedule.",
+      "scope_recovery_analysis": "No delays or scope changes are reported for the PMIR project itself, as the project is described in its pre-startup or early planning phase.",
+      "commitment_rationale": "The label 'Uncertain' is chosen because the text discusses the project's future implementation, design, and expected benefits without providing any current execution status or progress tracking. Since the project is positioned 'prior to project startup', there is no active schedule status to evaluate.",
+      "label": "Uncertain"
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernization_proj",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "At present, 42km has been completed with support of the World Bank and the GoU.",
+        "The project implementation period is assumed to start in June 2020 and completed over a period of 5 years inclusive of one year of defects notification period."
+      ],
+      "modality_check": "The completion of 42km is a reported historical fact of the broader program. However, the timeline for the specific project phase is framed as a planning assumption ('is assumed to start in June 2020') rather than an active, reported fact of current execution.",
+      "scope_recovery_analysis": "There are no reported delays or scope changes to analyze because the document outlines baseline planning assumptions rather than active construction progress.",
+      "commitment_rationale": "The label 'Uncertain' is selected because the text discusses the project timeline as a future/planned assumption ('assumed to start in June 2020') without providing any actual, real-time execution status or progress updates for this specific phase.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitation_proje",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_document"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "With the proposed project, the Bank is addressing a pressing demand for the provision of good quality and reliable transport infrastructure...",
+        "The project has been identified as one of the priority road links under the RSDP3.",
+        "The Bank financed RSSP1 (Kabale–Kisoro –Bunagana/Kyanika – 100km), was completed in September 2012 and the utilization of the loan savings is under review."
+      ],
+      "modality_check": "The text primarily discusses the project's rationale, beneficiaries, and knowledge management framework. It refers to the project as 'proposed' and outlines future expectations rather than reporting on actual construction progress or current schedule performance.",
+      "scope_recovery_analysis": "There are no reported delays or scope changes for the proposed project, as it has not yet entered the active execution phase described in this excerpt. A completed project (RSSP1) is mentioned as finished in September 2012, but this is historical context.",
+      "commitment_rationale": "The label 'Uncertain' is chosen because the excerpt represents an appraisal or proposal stage ('proposed project') and completely lacks any execution progress, baseline schedule, or current status updates for the project in question.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-_project",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_document"
+  }
+]

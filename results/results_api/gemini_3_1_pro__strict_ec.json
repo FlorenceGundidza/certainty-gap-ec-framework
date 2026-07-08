@@ -1,0 +1,828 @@
+[
+  {
+    "response": {
+      "thought_process": "The text reports that the actual project period was longer than initially planned, but clarifies this was proportional to an increase in project scope (outputs). While past delays occurred (flooding, mobilization), the text explicitly states that a delay exceeding the revised schedule was 'avoided by controlling the implementation schedule.' This indicates that the project ultimately adhered to its revised schedule and past issues were resolved or mitigated.",
+      "extracted_evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads",
+        "Contributing factors behind the longer project period... included, a delay in mobilizing the Special Assistance... and the interruptions of part of the construction works by the flooding",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "self_diagnosis": "Lexical misinterpretation: incorrectly labeling as 'Delay' due to the presence of the words 'longer project period' and 'delay', while missing the explicit statement that a delay beyond the revised schedule was 'avoided'.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 1312,
+      "total_tokens": 1920
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text provides a retrospective (ex-post) evaluation of a project's timeline. It explicitly contrasts the planned completion date (October 2005) with the actual completion date (June 2012). The modality is factual, confirming that the project took 130 months instead of the planned 50 months. The scope is global, affecting the entire project period, which was '260% longer than initially planned.' This perfectly aligns with the criteria for 'Delay' where completion dates have been surpassed as a matter of reported fact.",
+      "extracted_evidence": [
+        "At the time of appraisal, the project period was estimated to be from the signing of the loan agreement in September 2001 up to October 2005 (4 years and two months) (50 months).",
+        "When examined at the time of the ex-post evaluation, the construction was completed in June 2012 (10 years and 10 months) (130 months).",
+        "The project period was 260% longer than initially planned.",
+        "In light of the above, the project period was significantly longer than planned."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Temporal pattern, confusing a past, completed project's historical delay with a 'current, unresolved delay.' However, the criteria explicitly state that a delay applies if 'completion dates have been surpassed as a matter of reported fact,' which is definitively the case here.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 692,
+      "completion_tokens": 958,
+      "total_tokens": 1650
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the project period was significantly longer than the initial plan due to delays in procedures, design, and construction. This is a factual statement indicating that the overall project completion date was surpassed, fulfilling the criteria for a 'Delay'.",
+      "extracted_evidence": [
+        "The project period was significantly longer than the initial plan due to delays in procedures, design and construction."
+      ],
+      "self_diagnosis": "Temporal pattern: The project is already completed ('constructed', 'was significantly longer'), so the delay is historical rather than ongoing. However, the criteria explicitly include 'Milestone or completion dates have been surpassed as a matter of reported fact', which applies here.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 645,
+      "completion_tokens": 458,
+      "total_tokens": 1103
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that 'Implementation was delayed' and lists three concrete reasons for this delay (scope change, design change, geotechnical conditions). The modality is factual ('was delayed'), not a possibility or risk. The scope applies to the overall implementation of Tranche 3. There is no mention of recovery or resolution, confirming an actual delay.",
+      "extracted_evidence": [
+        "Implementation was delayed because of (i) a change in the scope of works, i.e., from 4 lanes to 6 lanes; (ii) a change in the design of bridge piles due to seismic design provisions; and (iii) uncertain geotechnical conditions encountered during the piling works for one bridge."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Temporal error, assuming 'was delayed' implies a purely historical delay that has since been resolved, despite the lack of explicit recovery language.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 1023,
+      "total_tokens": 1627
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that target outcomes were achieved 'with delays' and that remaining outputs were completed '2 years after the MFF period'. This confirms as a matter of reported fact that the original completion dates and milestones were surpassed. Although the project is now complete, the delay was not 'recovered' to meet the original schedule; rather, the project finished late, satisfying the criteria for a factual delay.",
+      "extracted_evidence": [
+        "target outcomes and outputs designed at appraisal were although achieved, but with delays",
+        "The physical outputs achieved within the MFF period were less than planned.",
+        "completed within 2 years after the MFF period."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Temporal pattern error, confusing a completed project that finished late with a 'Resolved' delay. However, 'Resolved' implies recovering the schedule, whereas finishing 2 years late is a definitive historical delay where milestones were surpassed.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 512,
+      "completion_tokens": 1286,
+      "total_tokens": 1798
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text is an ex-post evaluation that explicitly states the project completion was delayed by 28 months. The modality is factual ('confirmed'), and the scope is global ('project completion'). The temporal aspect indicates the completion date was surpassed as a matter of reported fact, fulfilling the strict criteria for a 'Delay'. Although the project is completed (ex-post), the schedule was not 'recovered' to meet the original baseline; rather, the final completion date was missed by over two years.",
+      "extracted_evidence": [
+        "The ex-post evaluation confirmed that the project completion was delayed by approximately 28 months beyond the originally planned date.",
+        "The main factors contributing to the delay included prolonged land acquisition procedures requiring coordination among multiple government agencies, unexpected archaeological findings at two bridge sites necessitating redesign, and a six-month suspension of construction activities during the monsoon season of 2014 due to unusually severe flooding."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Temporal pattern error, confusing an ex-post evaluation (where the project is already finished) with a 'Recovered' schedule. However, finishing late means the completion date was surpassed, which strictly meets the 'Delay' definition.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 529,
+      "completion_tokens": 1152,
+      "total_tokens": 1681
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text is an ex-post evaluation confirming that the actual project duration significantly exceeded the planned duration (84 months vs. 48 months). The modality is factual and retrospective, confirming a global schedule impact due to resettlement and sourcing issues. This meets the criteria for a definitive Delay, as completion dates were surpassed as a matter of reported fact.",
+      "extracted_evidence": [
+        "the actual project period was 84 months against the planned 48 months (ratio of 175%)",
+        "The delay was primarily attributed to the complexity of resettlement activities",
+        "construction along a 12km section of the alignment was suspended",
+        "further contributed to schedule slippage"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Temporal error, confusing a completed project's historical delay with a 'current, unresolved' delay. However, the criteria explicitly state 'Milestone or completion dates have been surpassed as a matter of reported fact', which applies perfectly to ex-post evaluations of delayed projects.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 545,
+      "completion_tokens": 1085,
+      "total_tokens": 1630
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the implementation period extended from an estimated 5 years to 9 years and 3 months. This is a factual, historical statement of a global schedule overrun. Specific causes, including procurement delays of 18 months and a construction interruption of 8 months, are also cited as facts. Because the overall completion date was surpassed as a matter of reported fact, this strictly meets the criteria for 'Delay'.",
+      "extracted_evidence": [
+        "the implementation period extended from the originally estimated 5 years to 9 years and 3 months.",
+        "Procurement delays accounted for approximately 18 months of the overrun",
+        "Construction was also interrupted for approximately 8 months"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Temporal pattern error—assuming that because the project outputs 'were largely achieved' (implying the project is now finished), it should be classified as 'No Delay'. However, the criteria explicitly state that if 'completion dates have been surpassed as a matter of reported fact', it qualifies as a Delay, which perfectly matches this massive historical overrun.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 544,
+      "completion_tokens": 1117,
+      "total_tokens": 1661
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the freeway expansion initiative was 'completed ahead of schedule'. This is a factual statement regarding the global scope of the project, indicating no delays occurred and the project actually finished early.",
+      "extracted_evidence": [
+        "completed ahead of schedule"
+      ],
+      "self_diagnosis": "Lexical - misinterpreting 'ahead of schedule' as anything other than a positive schedule variance (No Delay).",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 475,
+      "completion_tokens": 538,
+      "total_tokens": 1013
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text describes the successful completion of a reconstruction project, detailing the features added and the benefits to the urban environment. However, it lacks any explicit mention of the project's schedule, timeline, or whether it was completed on time, early, or late. According to the strict criteria, a 'No Delay' classification requires explicit statements like 'On schedule' or 'No progress issues.' Since schedule-related information is entirely absent, the status regarding delays cannot be determined.",
+      "extracted_evidence": [
+        "The successful reconstruction of downtown's primary avenues included resurfacing roads, upgrading traffic signals, and adding pedestrian-friendly features"
+      ],
+      "self_diagnosis": "Lexical/Scope - Assuming the word 'successful' automatically implies 'on schedule' would be a lexical over-interpretation. The scope of the text focuses on project features and overall completion, not schedule performance.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 474,
+      "completion_tokens": 884,
+      "total_tokens": 1358
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text refers to a completed project from last year. The phrase 'executed seamlessly' indicates that the project was completed without any interruptions, issues, or delays. This aligns with the 'No Delay' criteria of having 'no progress issues' and confirms a successful, on-time historical execution.",
+      "extracted_evidence": [
+        "Last year's bridge rehabilitation project, executed seamlessly"
+      ],
+      "self_diagnosis": "Lexical - Interpreting 'executed seamlessly' as functionally equivalent to 'no progress issues'. If this were a misinterpretation, it would be due to strictly requiring the exact phrases 'On schedule' or 'No progress issues' rather than accepting clear synonymous evidence.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 467,
+      "completion_tokens": 900,
+      "total_tokens": 1367
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the project was completed 'ahead of schedule'. This is a factual statement indicating no delay occurred and the project finished early, which aligns with the 'No Delay' classification.",
+      "extracted_evidence": [
+        "The completion of the city's ring road expansion, ahead of schedule"
+      ],
+      "self_diagnosis": "Lexical misinterpretation if 'ahead of schedule' is not mapped to 'No Delay'.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 470,
+      "completion_tokens": 476,
+      "total_tokens": 946
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the implementation of the systems was 'completed on time'. There is no mention of any delays, risks, or schedule overruns. This clearly indicates that the project is on schedule.",
+      "extracted_evidence": [
+        "completed on time"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Lexical error, but the phrase 'completed on time' is unambiguous and directly aligns with the 'No Delay' criteria.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 470,
+      "completion_tokens": 298,
+      "total_tokens": 768
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text provides explicit, factual evidence that the project was completed on time. Phrases like 'completed within the planned implementation period', 'mobilized on schedule', and 'without any notable deviations' confirm that there were no delays. The scope is global, covering the entire project lifecycle up to the final handover on the originally planned date. The modality is factual, based on an ex-post evaluation.",
+      "extracted_evidence": [
+        "completed within the planned implementation period of 48 months",
+        "The contractor mobilized on schedule",
+        "without any notable deviations from the baseline schedule",
+        "handed over to the provincial road maintenance authority on the originally planned date of March 2019"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Lexical error, misinterpreting words like 'deviations' out of context, but the preceding phrase 'without any notable' and explicit statements of being 'on schedule' make this highly unlikely.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 533,
+      "completion_tokens": 982,
+      "total_tokens": 1515
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the project was completed ahead of the revised completion date, specifically four months earlier than scheduled. The modality is factual and the scope is global, covering the entire project's target outputs. There is no evidence of delay; rather, there is definitive evidence of early completion, which aligns with the 'No Delay' classification.",
+      "extracted_evidence": [
+        "The project achieved its target outputs ahead of the revised completion date.",
+        "completed by September 2017, approximately four months earlier than the scheduled completion date of January 2018.",
+        "attributed the early completion to favorable weather conditions"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Lexical pattern, where the phrase 'revised completion date' might be mistakenly assumed to imply an unresolved delay. However, the text confirms the project is fully completed ahead of this revised schedule.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 539,
+      "completion_tokens": 961,
+      "total_tokens": 1500
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text provides factual, retrospective data indicating the project was completed in 58 months against an estimated 60 months. It explicitly states the project was 'completed slightly ahead of schedule.' While there is mention of 'minor procurement delays' in the initial phase, the text confirms these were 'offset by accelerated construction,' fitting the criteria for a past delay that is now explicitly reported as recovered or resolved.",
+      "extracted_evidence": [
+        "The actual project period from loan effectiveness to the completion of all civil works was 58 months.",
+        "The project was therefore completed slightly ahead of schedule.",
+        "Minor procurement delays during the initial phase were offset by accelerated construction during the final year, when the contractor deployed additional equipment and personnel to ensure timely completion."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Lexical pattern error, where the presence of the word 'delays' triggers a false positive, ignoring the subsequent context that the delay was 'offset' and the project finished 'ahead of schedule'.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 516,
+      "completion_tokens": 987,
+      "total_tokens": 1503
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the project was 'implemented as planned' and that the completion date was 'consistent with the planned implementation schedule'. Furthermore, it notes that progress was consistently within 5% of the baseline schedule. These are factual statements confirming that the project was completed on time without any substantial delays.",
+      "extracted_evidence": [
+        "The provincial road network rehabilitation project was implemented as planned.",
+        "Construction commenced in April 2015 and was completed in March 2019, consistent with the planned implementation schedule.",
+        "The quarterly progress reports submitted by the project management unit consistently showed actual progress within 5% of the baseline schedule throughout the implementation period."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Lexical error, potentially misconstruing 'within 5% of the baseline schedule' as a delay, despite the explicit confirmation that the project was completed as planned.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 530,
+      "completion_tokens": 578,
+      "total_tokens": 1108
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions 'delay' as one of the reasons (along with cancellation, suspension, and termination) why actual measurement values were only available for 25 out of 39 sections. However, this is a localized explanation for missing data rather than explicit evidence of a current, unresolved delay on the project's critical path. The overall impact on the project schedule is not detailed, making the actual schedule status unclear.",
+      "extracted_evidence": [
+        "However, among these sections, the actual value for only 25 sections was available, as shown below (Table 3), due to reasons such as cancellation, suspension, termination, and delay."
+      ],
+      "self_diagnosis": "Lexical pattern misinterpretation: I might incorrectly label this as 'Delay' simply because the word 'delay' appears in the text, failing to recognize that it only explains missing data for specific sections rather than confirming a project-wide critical path delay.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 642,
+      "completion_tokens": 843,
+      "total_tokens": 1485
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions the word 'delay' in the context of historical factors affecting general rural development prior to 2002 ('one of the factors that had caused delay in rural development'). It does not provide any factual information regarding the current schedule status, milestones, or critical path of the specific projects being appraised (Rural Road Improvement Project and Provincial/Rural Road Development Project). Because there is no explicit evidence of the project's actual schedule performance, the status is uncertain.",
+      "extracted_evidence": [
+        "JICA' s Country Assistance Strategy for Sri Lanka (2002) included its policy to support the improvement of skills of the executing agencies in planning and maintenance for the development of the provincial/rural road network which was one of the factors that had caused delay in rural development."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Lexical pattern, where the mere presence of the word 'delay' is incorrectly assumed to mean the specific project is currently delayed, ignoring the historical and general scope of the statement.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 798,
+      "completion_tokens": 874,
+      "total_tokens": 1672
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The text discusses the formation of committees (PAVC and GRC) to handle property valuation and grievances related to land acquisition. The mention of 'delay' is contextual and general ('Experience shows that the litigation causes unnecessary delay... in many projects'), serving as a rationale for establishing the grievance redress committee to prevent such issues. It does not state that the current project is actually experiencing a delay. Therefore, the modality is general/preventative, and there is no factual evidence of a current schedule delay.",
+      "extracted_evidence": [
+        "Experience shows that the litigation causes unnecessary delay and cost overrun in many projects.",
+        "Keeping in mind the legal procedures involving such cases, the PMU of SASEC-II will constitute a committee for grievance redress that will provide a forum for people to express to their dissatisfaction over compensation and R & R provisions in RP."
+      ],
+      "self_diagnosis": "Lexical pattern error: Misinterpreting the word 'delay' as a current project status rather than a general observation about past projects used to justify a preventative policy.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 729,
+      "completion_tokens": 927,
+      "total_tokens": 1656
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The text outlines the reporting and monitoring responsibilities of the Implementing NGO. It mentions adjusting work programs 'in case of delay or problems', which is a conditional statement describing a procedure for potential future issues, rather than reporting an actual, current delay. There is no factual evidence of a schedule delay.",
+      "extracted_evidence": [
+        "The INGO office will collect information from the project site and assimilate in the form of monthly progress of RP implementation and adjust the work programs where necessary, in case of delay or problems."
+      ],
+      "self_diagnosis": "Lexical - misinterpreting the word 'delay' in a conditional/procedural context as a factual occurrence.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 523,
+      "completion_tokens": 506,
+      "total_tokens": 1029
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions a past delay regarding the approval of the Transport Sector Plan (approved in 2016 instead of 2011), but explicitly states this 'did not significantly impact the project.' It also notes a current delay in the implementation of some reforms pending ongoing discussions. However, there is no explicit evidence indicating whether this current delay affects the project's critical path or overall completion milestones. Because the global impact of this specific reform delay is not defined, the situation remains uncertain.",
+      "extracted_evidence": [
+        "the Transport Sector Plan was approved in 2016, rather than in 2011 as it was required under the loan agreement.",
+        "The delay was caused by the government's request to include sea and air transport in the plan.",
+        "The delay did not significantly impact the project.",
+        "implementation of some reforms (e.g., road transport management and asset maintenance mechanisms) has been delayed pending ongoing discussions within the National Infrastructure Development Steering Committee."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Scope error (assuming a localized delay in reform implementation automatically constitutes a substantial delay on the project's critical path) or a Temporal error (conflating the resolved past delay with current project status).",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 689,
+      "completion_tokens": 1249,
+      "total_tokens": 1938
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the project experienced a cumulative delay of 14 months. While a contractual dispute was resolved and works resumed, the text confirms the contractor was 'unable to fully recover the lost time'. Furthermore, the scope of the delay is global, as the 'overall project completion date was pushed from December 2018 to February 2020'. This represents a factual, unrecovered delay impacting the final milestone.",
+      "extracted_evidence": [
+        "The project experienced a cumulative delay of approximately 14 months.",
+        "Although the dispute was eventually resolved through arbitration and construction resumed, the contractor was unable to fully recover the lost time.",
+        "However, the overall project completion date was pushed from December 2018 to February 2020 due to the unrecovered delay on the northern section."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Recovery pattern error, assuming the resolution of the dispute meant the delay was recovered. However, the text explicitly states the lost time was unrecovered and the final completion date was pushed.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 555,
+      "completion_tokens": 1001,
+      "total_tokens": 1556
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions a past 4-month delay in equipment procurement that affected bridge works. However, it explicitly states that the executing agency reorganized the sequence and accelerated works. The final sentence confirms that all project components were completed by the originally planned date, indicating that the past delay was fully recovered and did not impact the final milestone. This perfectly matches the 'No Delay' criteria where a past delay existed but is now explicitly reported as recovered.",
+      "extracted_evidence": [
+        "the project encountered a 4-month delay in the procurement of specialized bridge construction equipment",
+        "the executing agency reorganized the construction sequence to prioritize road sections that did not require bridge access, and the bridge contractor subsequently accelerated works by operating double shifts.",
+        "At the time of the ex-post evaluation, it was confirmed that all project components were completed by the originally planned date of June 2020."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Temporal pattern, where a past, resolved delay is mistakenly classified as a current delay.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 551,
+      "completion_tokens": 933,
+      "total_tokens": 1484
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The report explicitly states as a matter of fact that construction progress on Lots 2 and 3 is currently 3 months behind the baseline schedule. While the executing agency expressed confidence that the delay 'could be recovered', this represents a future possibility rather than a resolved issue. Furthermore, no revised schedule or updated mobilization plan has been issued to confirm recovery. Therefore, this constitutes a current, unresolved delay.",
+      "extracted_evidence": [
+        "construction progress on Lots 2 and 3 was approximately 3 months behind the baseline schedule",
+        "primarily due to the late issuance of right-of-way clearances by the district land office",
+        "expressed confidence that the delay could be recovered through an extended dry-season construction window",
+        "No revised implementation schedule had been issued at the time of the review"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Recovery pattern error, where the agency's 'confidence that the delay could be recovered' is mistakenly treated as an actual recovery, leading to a 'No Delay' or 'Uncertain' label despite the delay being currently unresolved.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 549,
+      "completion_tokens": 1012,
+      "total_tokens": 1561
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The text provides factual, retrospective data indicating the project took 72 months instead of the planned 54 months. The modality is factual and the scope is global, referring to the 'overall project period'. Although the contractor accelerated works to mitigate some of the delay, the final outcome explicitly states the project was 'completed significantly behind schedule'. This perfectly aligns with the criteria that completion dates have been surpassed as a matter of reported fact.",
+      "extracted_evidence": [
+        "The overall project period was 72 months against the planned 54 months (ratio of 133%).",
+        "reducing what would have been a 24-month delay to 18 months.",
+        "Despite the acceleration, the project was completed significantly behind schedule."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Temporal error, confusing a completed project's historical delay with a 'current, unresolved' delay. However, the criteria explicitly state 'Milestone or completion dates have been surpassed as a matter of reported fact', which applies perfectly to a project that finished behind schedule.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 565,
+      "completion_tokens": 1118,
+      "total_tokens": 1683
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The text describes a past interruption of 5 weeks due to a stop-work order. However, it explicitly states that the work resumed and was completed within the original contract period. Furthermore, the final completion certificate was issued on the scheduled date, confirming delivery within the contractual timeframe. This indicates that the past delay was fully resolved and did not impact the final schedule, fitting the 'No Delay' criteria.",
+      "extracted_evidence": [
+        "Construction of the elevated expressway section was interrupted for approximately 5 weeks",
+        "construction of the elevated section resumed and was completed within the original contract period.",
+        "The final completion certificate was issued on the scheduled date of 15 November 2021, confirming that all works were delivered within the contractual timeframe."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Temporal pattern, where the past 5-week interruption is mistakenly classified as a current delay despite explicit confirmation of on-time completion.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 549,
+      "completion_tokens": 928,
+      "total_tokens": 1477
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The text reports a factual, localized delay in the embankment works (62% actual progress vs. 78% planned) and notes that a recovery plan is currently under review. However, the report explicitly states that the critical path activity (piling for the bridge abutments) has not yet been affected. According to the classification criteria, a 'Delay' requires explicit evidence of unresolved delays on the critical path. Since the critical path is currently unaffected and the overall schedule impact depends on the unapproved recovery plan, there is insufficient information to confirm a substantial delay to the overall project.",
+      "extracted_evidence": [
+        "the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%.",
+        "The contractor submitted a recovery plan proposing extended working hours and the deployment of additional compaction equipment.",
+        "The executing agency was reviewing the recovery plan at the time of the report and had not yet approved it.",
+        "The report noted that the critical path activity — piling for the bridge abutments — had not yet been affected."
+      ],
+      "self_diagnosis": "Scope misinterpretation: I might incorrectly label this as 'Delay' by focusing on the localized shortfall in embankment works (62% vs 78%) while ignoring the explicit statement that the critical path remains unaffected.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 565,
+      "completion_tokens": 1447,
+      "total_tokens": 2012
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions an increase in the project period from 48 to 78 months. However, it explicitly clarifies that this extension was due to an approved scope increase (addition of three road sections). When evaluated against the revised schedule, the project was completed within the adjusted timeframe. The text explicitly states that 'no delays were experienced relative to the revised schedule,' which aligns perfectly with the 'No Delay' criteria.",
+      "extracted_evidence": [
+        "The actual project period was 78 months against the originally planned 48 months.",
+        "However, this extension was entirely attributable to the addition of three supplementary road sections (totaling 84km) that were incorporated into the project scope through a loan amendment approved in 2015.",
+        "When measured against the revised implementation schedule that accounted for the scope increase, the project was completed within the adjusted timeframe.",
+        "The executing agency confirmed that no delays were experienced relative to the revised schedule."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Lexical pattern, where the initial mention of an extended timeframe (78 months vs 48 months) is mistakenly flagged as a delay, ignoring the explicit context of an approved scope change and the confirmation of no delays against the revised schedule.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 534,
+      "completion_tokens": 725,
+      "total_tokens": 1259
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "The text explicitly states that the actual project period exceeded the revised schedule by 11 months. This is a factual statement of a global schedule overrun, not a potential risk or localized issue. The executing agency also explicitly attributes this 'additional delay' to specific causes (late approval, contaminated soil). Because the completion date was surpassed as a matter of reported fact, it strictly meets the criteria for a confirmed Delay.",
+      "extracted_evidence": [
+        "The revised implementation schedule allocated an additional 18 months for the expanded scope.",
+        "However, the actual project period exceeded even the revised schedule by 11 months.",
+        "The executing agency attributed the additional delay to the late approval of detailed engineering designs for the interchange by the national highway authority, and to the discovery of contaminated soil at the interchange site requiring remediation before construction could proceed."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Temporal error, assuming the delay was resolved or just a historical note without overall impact. However, the text clearly states the actual project period exceeded the final revised schedule, confirming a definitive delay.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 537,
+      "completion_tokens": 1023,
+      "total_tokens": 1560
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "The text indicates a scope revision that resulted in an approved 12-month schedule extension. The original works are explicitly stated to be 'progressing according to schedule'. While the newly added feeder road works have not commenced due to pending clearances, the text explicitly notes that 'It was not yet clear whether the feeder road works could be completed within the extended timeframe.' This represents a potential risk rather than a confirmed delay surpassing the new baseline. Because the actual impact on the overall extended schedule is unconfirmed, the status is uncertain.",
+      "extracted_evidence": [
+        "the implementation schedule was extended by 12 months.",
+        "the original road sections were progressing according to schedule",
+        "the additional feeder road works had not yet commenced due to pending environmental clearances.",
+        "It was not yet clear whether the feeder road works could be completed within the extended timeframe."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely be a Lexical/Scope error, confusing the delayed start of the newly added feeder roads with an overall project delay, despite the explicit uncertainty regarding the final extended timeframe.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 540,
+      "completion_tokens": 1210,
+      "total_tokens": 1750
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "The text indicates that the project scope was expanded, leading to a 24-month extension to accommodate the new works. The original components were completed 3 months ahead of schedule, and the additional facilities were completed within the extended timeframe. The executing agency explicitly reported that the overall project was delivered within the revised implementation schedule, confirming there is no delay.",
+      "extracted_evidence": [
+        "A supplementary agreement extended the loan closing date by 24 months to accommodate the additional works.",
+        "The original road construction components were completed 3 months ahead of the original schedule, and the additional facilities were completed within the extended period.",
+        "The executing agency reported that the overall project was delivered within the revised implementation schedule."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Lexical pattern, mistaking the 'extended the loan closing date by 24 months' as a delay rather than an approved schedule revision for additional scope.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 532,
+      "completion_tokens": 1088,
+      "total_tokens": 1620
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions a 3-month delay in Lot 1, but explicitly restricts its scope to a non-critical path activity. It further confirms that the overall project schedule was not impacted, critical path activities proceeded on schedule, and the overall completion date remained unchanged. Since the delay does not affect the critical path or final milestone, and the critical path is explicitly stated to be 'on schedule', it strictly meets the criteria for 'No Delay'.",
+      "extracted_evidence": [
+        "construction of Lot 1 (the northern highway section) experienced a 3-month delay due to the late delivery of precast concrete segments",
+        "However, the delay affected only a non-critical path activity, and the overall project schedule was not impacted.",
+        "The critical path activities — foundation works for the interchange structures — proceeded on schedule throughout the reporting period.",
+        "The project management unit confirmed that the overall project completion date remained unchanged."
+      ],
+      "self_diagnosis": "Scope/Lexical misinterpretation: A flawed analysis might trigger on the phrase '3-month delay' and classify this as a 'Delay', failing to account for the explicit scope limitation that it only affected a non-critical path and that the overall project is on schedule.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 530,
+      "completion_tokens": 1219,
+      "total_tokens": 1749
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions a past procurement delay of 5 months for traffic signal equipment. However, it explicitly states that civil works were sequenced to mitigate this issue, resulting in all improvements being completed before the planned commissioning date. The final sentence definitively confirms 'The project was completed on time.' This indicates that the past local delay was fully mitigated and did not affect the overall critical path or final completion date, fitting the 'No Delay' criteria.",
+      "extracted_evidence": [
+        "procurement of traffic signal equipment for 23 intersections was delayed by approximately 5 months",
+        "all intersection improvements were completed before the planned commissioning date",
+        "The project was completed on time."
+      ],
+      "self_diagnosis": "Lexical/Recovery - A misinterpretation would likely occur by focusing solely on the keyword 'delayed' in the first sentence while ignoring the explicit confirmation of recovery and on-time completion in the subsequent sentences.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 526,
+      "completion_tokens": 969,
+      "total_tokens": 1495
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "The text describes a 4-month delay specific to Bridge No. 7 due to unforeseen geological conditions. However, it explicitly states that this bridge was not on the critical path and that the overall project completion date was not affected. Furthermore, the bridge was completed before the defects liability period. Since the delay was localized, did not impact the critical path, and the overall project schedule was maintained, this falls under 'No Delay' for the project as a whole.",
+      "extracted_evidence": [
+        "The redesign and additional piling works resulted in a 4-month delay to the bridge construction.",
+        "However, this bridge was not on the critical path, as the road sections on either side of the bridge could be opened to traffic using a temporary bypass.",
+        "The project completion date was not affected, and the bridge was completed before the defects liability period commenced."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Scope pattern, where a local delay (bridge construction) is mistakenly conflated with a global project delay, despite explicit text stating the critical path and project completion date were unaffected.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 535,
+      "completion_tokens": 1070,
+      "total_tokens": 1605
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "The text mentions a past delay of 6 months in the resettlement action plan during the mid-term review. However, it explicitly states that by the ex-post evaluation, the project was completed within the overall project period and the delay was absorbed by adjusting construction sequencing. This perfectly matches the 'No Delay' criteria where a past delay existed but is now explicitly reported as recovered or resolved.",
+      "extracted_evidence": [
+        "The mid-term review noted that the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement.",
+        "However, at the time of the ex-post evaluation, it was confirmed that road construction in the southern corridor had commenced on the revised date and was completed within the overall project period.",
+        "The executing agency noted that the resettlement delay was absorbed by adjusting the construction sequencing to prioritize sections where land was already available."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Temporal pattern, where a past delay is mistakenly classified as a current delay despite explicit evidence of recovery and completion within the overall project period.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 550,
+      "completion_tokens": 1072,
+      "total_tokens": 1622
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text outlines the physical progress of the project, including earthworks, base course placement, material testing, and worker deployment. However, it lacks any comparison to the baseline schedule. There are no explicit statements indicating whether the project is 'on schedule', 'delayed', or facing 'potential risks'. Because the information is purely descriptive of work completed without any schedule context or explicit status markers, it is insufficient to determine the actual schedule status.",
+      "extracted_evidence": [
+        "During the reporting period, approximately 14,200 cubic meters of earthworks were completed on Section 3, and base course placement commenced on Sections 1 and 2.",
+        "A total of 387 workers were deployed across the three active construction sites."
+      ],
+      "self_diagnosis": "Lexical/Scope - A misinterpretation would likely involve assuming that the reporting of completed work implies 'No Delay' despite the absence of the explicitly required phrases ('On schedule' or 'No progress issues'), or assuming a delay simply because schedule confirmation is missing.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 544,
+      "completion_tokens": 1103,
+      "total_tokens": 1647
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "thought_process": "The text provides a factual update on various construction activities, noting that subgrade preparation is 'in progress', girder fabrication is 'proceeding', and weather conditions are 'favorable'. However, it lacks explicit statements regarding the overall schedule status. There is no mention of missed milestones or critical path delays to justify a 'Delay' label. Conversely, there are no explicit statements such as 'On schedule' or 'No progress issues' to strictly satisfy the 'No Delay' criteria. The mobilization of a second paving crew could imply schedule acceleration, but without baseline schedule context, the information is insufficient to determine the actual schedule status.",
+      "extracted_evidence": [
+        "Subgrade preparation on the northern approach road was in progress",
+        "The contractor had mobilized a second asphalt paving crew for the southern section.",
+        "Bridge girder fabrication at the off-site yard was reported to be proceeding.",
+        "Weather conditions during the month were favorable for construction."
+      ],
+      "self_diagnosis": "Lexical/Scope - I might misinterpret positive progress indicators ('proceeding', 'favorable') as 'No Delay', but the strict criteria require explicit phrases like 'On schedule' or 'No progress issues'. Without baseline schedule context, 'in progress' is insufficient to definitively determine schedule adherence.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 529,
+      "completion_tokens": 1410,
+      "total_tokens": 1939
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "thought_process": "The text provides a factual status update on project milestones, such as the submission of the engineering design, completion of the impact assessment, and preparation of procurement documents. However, it lacks any reference to a baseline schedule, deadlines, or whether these activities are on track, ahead, or behind schedule. Without this comparative information, it is impossible to determine if a delay exists or if the project is strictly on schedule.",
+      "extracted_evidence": [
+        "detailed engineering design for Phase 2 of the highway improvement project was submitted to the ministry for approval on 28 February 2019.",
+        "The social and environmental impact assessment was completed and disclosed to the public as required under the loan agreement.",
+        "Procurement documents for the first three construction lots were under preparation by the project management consultant."
+      ],
+      "self_diagnosis": "Lexical/Scope - Assuming that ongoing preparation or past submission dates imply a delay or on-schedule status without explicit baseline comparison.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 534,
+      "completion_tokens": 995,
+      "total_tokens": 1529
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text details a stakeholder consultation meeting, including attendance, concerns raised regarding land compensation and relocation, and the project management unit's commitment to update the resettlement action plan. There is no mention of the project's schedule, milestones, critical path, or any temporal status (neither delays nor being on schedule). Because the information is completely insufficient to determine the actual impact on the overall schedule, the classification must be 'Uncertain'.",
+      "extracted_evidence": [
+        "The main concerns raised by participants related to compensation rates for agricultural land and the relocation of a community health center that falls within the proposed right of way.",
+        "The project management unit committed to addressing these concerns in the updated resettlement action plan."
+      ],
+      "self_diagnosis": "Lexical/Scope - A misinterpretation would involve assuming that community 'concerns' or the need for an 'updated resettlement action plan' automatically constitutes a schedule delay. However, without explicit evidence of schedule impact or surpassed milestones, this remains purely circumstantial.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 541,
+      "completion_tokens": 1118,
+      "total_tokens": 1659
+    },
+    "model": "gemini_3_1_pro",
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  }
+]

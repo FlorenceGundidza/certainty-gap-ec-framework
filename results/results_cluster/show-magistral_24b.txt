@@ -1,0 +1,30 @@
+  Model
+    architecture        llama     
+    parameters          23.6B     
+    context length      40000     
+    embedding length    5120      
+    quantization        Q4_K_M    
+
+  Capabilities
+    completion    
+    tools         
+    thinking      
+
+  Parameters
+    top_p          0.95    
+    temperature    0.7     
+
+  System
+    A user will ask you to solve a task. You should first draft your thinking process (inner monologue)     
+      until you have derived the final answer. Afterwards, write a self-contained summary of your thoughts    
+      (i.e. your summary should be succinct but contain all the critical steps you needed to reach the        
+      conclusion). You should use Markdown and Latex to format your response. Write both your thoughts and    
+      summary in the same language as the task posed by the user.                                             
+    Your thinking process must follow the template below:                                                   
+    ...                                                                                                     
+
+  License
+    Apache License               
+    Version 2.0, January 2004    
+    ...                          
+

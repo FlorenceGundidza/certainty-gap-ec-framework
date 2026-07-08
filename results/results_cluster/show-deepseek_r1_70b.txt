@@ -1,0 +1,23 @@
+  Model
+    architecture        llama     
+    parameters          70.6B     
+    context length      131072    
+    embedding length    8192      
+    quantization        Q4_K_M    
+
+  Capabilities
+    tools         
+    thinking      
+    completion    
+
+  Parameters
+    stop    "<｜begin▁of▁sentence｜>"    
+    stop    "<｜end▁of▁sentence｜>"      
+    stop    "<｜User｜>"                 
+    stop    "<｜Assistant｜>"            
+
+  License
+    MIT License                    
+    Copyright (c) 2023 DeepSeek    
+    ...                            
+

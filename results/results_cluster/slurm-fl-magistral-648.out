@@ -1,0 +1,6 @@
+[node] host=oz06 job=648 gpus=0 @ 2026-06-19 01:27:47
+[serve] starting /nfs/work/ozono/opt/ollama-amd64/bin/ollama
+[version] ollama version is 0.30.10
+[pull] magistral -> magistral_24b @ 01:27:50
+[ERROR] pull failed: magistral
+[job-end] rc=1 @ 01:27:50

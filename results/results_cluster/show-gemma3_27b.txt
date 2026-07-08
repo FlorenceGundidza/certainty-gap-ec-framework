@@ -1,0 +1,22 @@
+  Model
+    architecture        gemma3    
+    parameters          27.4B     
+    context length      131072    
+    embedding length    5376      
+    quantization        Q4_K_M    
+
+  Capabilities
+    completion    
+    vision        
+
+  Parameters
+    temperature    1                  
+    top_k          64                 
+    top_p          0.95               
+    stop           "<end_of_turn>"    
+
+  License
+    Gemma Terms of Use                  
+    Last modified: February 21, 2024    
+    ...                                 
+

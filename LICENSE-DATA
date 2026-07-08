@@ -1,0 +1,37 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+=========================================================
+
+The DATA in this repository — the 40-case construction-delay ambiguity benchmark
+(`dataset_v2.json`), the derived natural-document evaluation set
+(`dataset_realdoc.json`), the failure-case set, the anonymized human-evaluation
+responses, and the per-model raw model outputs (`results_*`) — is licensed under
+the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any reasonable
+    manner, but not in any way that suggests the licensor endorses you or your
+    use.
+  - No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+How to cite (data):
+  [Authors], "Navigating the Certainty Gap: The Hydraulic Effect of
+  Evidence-Constrained LLMs in Professional Decision-Making," IEEE Access, 2026.
+  Benchmark and evaluation data, [REPO URL / DOI].
+
+IMPORTANT — third-party source documents:
+  This CC BY 4.0 grant covers ONLY the data we created (benchmark items, labels,
+  extracted facts, model outputs, anonymized human responses). It does NOT cover
+  the 55 original project completion/appraisal PDF reports (ADB, AfDB, JICA, and
+  others), which are the property of their respective institutions and are NOT
+  redistributed here. See SOURCE_REPORTS.md for provenance and retrieval pointers.

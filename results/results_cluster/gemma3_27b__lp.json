@@ -1,0 +1,503 @@
+[
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 0.9999999998389184,
+      "No Delay": 1.6108154108646437e-10
+    },
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 0.9999999999999993,
+      "No Delay": 7.182809630343393e-16
+    },
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999983715,
+      "Delay": 1.6284219007884382e-12
+    },
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999999032,
+      "Delay": 9.686705384397262e-14
+    },
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999986635,
+      "Delay": 1.336418002638889e-12
+    },
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999826523,
+      "Delay": 1.73476668292859e-11
+    },
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999950449,
+      "Delay": 4.9552435411541926e-12
+    },
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999999947,
+      "Delay": 5.221388505986451e-15
+    },
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999937608,
+      "Delay": 6.239153370463711e-12
+    },
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.999999999960266,
+      "Delay": 3.973397931060921e-11
+    },
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999999842,
+      "Delay": 1.574926933808404e-14
+    },
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 0.9999999999999993,
+      "No Delay": 5.741531168233711e-16
+    },
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 0.9999999999999927,
+      "No Delay": 7.413025645206597e-15
+    },
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 0.9999999999998785,
+      "No Delay": 1.2144915456062137e-13
+    },
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "PARSE_ERROR",
+      "confidence": null
+    },
+    "lp_label_dist": {},
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 0.9999999999999203,
+      "No Delay": 7.967352234156833e-14
+    },
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999542052295269,
+      "Delay": 4.57947704729887e-05
+    },
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 99.8
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9980175164776162,
+      "Delay": 0.0019824835223837935
+    },
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999998892717,
+      "Delay": 1.1072841118926329e-10
+    },
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "Delay": 1.0
+    },
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999974185315909,
+      "Delay": 2.5814684091998966e-06
+    },
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.999999983538868,
+      "Delay": 1.6461131983692435e-08
+    },
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 78.4
+    },
+    "lp_label_dist": {
+      "No Delay": 0.7844403345682618,
+      "Delay": 0.21555966543173805
+    },
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.999999173503475,
+      "Delay": 8.26496525047669e-07
+    },
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 52.4
+    },
+    "lp_label_dist": {
+      "No Delay": 0.5240921080590897,
+      "Delay": 0.4759078919409102
+    },
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 1.0
+    },
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999999962,
+      "Delay": 3.7811945382253905e-15
+    },
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "No Delay",
+      "confidence": 100.0
+    },
+    "lp_label_dist": {
+      "No Delay": 0.9999999999999718,
+      "Delay": 2.8144200324011457e-14
+    },
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "label": "PARSE_ERROR",
+      "confidence": null
+    },
+    "lp_label_dist": {},
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  }
+]

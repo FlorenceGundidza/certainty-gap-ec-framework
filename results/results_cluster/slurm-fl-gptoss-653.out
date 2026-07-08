@@ -1,0 +1,4 @@
+[node] host=oz05 job=653 gpus=0 @ 2026-06-19 11:47:17
+[serve] starting /nfs/work/ozono/opt/ollama-arm64/bin/ollama
+[version] ollama version is 0.30.10
+[pull] gpt-oss:120b -> gpt_oss_120b @ 11:47:21

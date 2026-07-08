@@ -1,0 +1,917 @@
+[
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%)",
+        "a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding in October 2010 – February 2011 and December 2012 – March 2013",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "modality_check": "The first two quotes are Reported Facts (actual delays occurred). The third quote is also a Reported Fact (the project avoided further delay despite initial issues).",
+      "scope_recovery_analysis": "The delay was initially caused by external factors and scope increase, but the project recovered to avoid exceeding the revised schedule.",
+      "commitment_rationale": "The report explicitly states that no additional delay occurred beyond what was accounted for in the revised schedule. The Normalcy Rule does not apply here because there is an explicit mention of a delay (124% of planned time), but it also states that this delay was managed and no further delay occurred.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 276,
+      "total_tokens": 872
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the construction was completed in June 2012 (10 years and 10 months) (130 months). The project period was 260% longer than initially planned.",
+        "The executing agency spent longer than expected selecting consultants because of the approval process within the Moroccan government.",
+        "the construction was thought to be delayed because the additional financing required the construction cost to be estimated again, and there was also a project optimization study.",
+        "Japanese-descended consultants were selected but had frequent communication problems with the executing agency due to the lack of experience of the yen loan project.",
+        "There was also the same problem between contractors for Project (I) and the executing agency."
+      ],
+      "modality_check": "The report contains several 'Reported Facts' about delays, such as the actual completion time being significantly longer than planned, issues with consultant selection, communication problems, and additional financing requirements. There are no explicit 'Policy/Risk' statements in this excerpt.",
+      "scope_recovery_analysis": "There is no mention of approved scope extensions or recovered delays in the report. The delays are attributed to various unresolved issues such as consultant selection, communication problems, and additional financing requirements.",
+      "commitment_rationale": "The report explicitly states that the project period was significantly longer than planned due to several unresolved issues. There is no indication of recovery or approved scope extensions.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 677,
+      "completion_tokens": 315,
+      "total_tokens": 992
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "project outputs were implemented mostly as planned",
+        "project costs exceeded the initial plan due to cost increases caused by higher land acquisition and resettlement costs as well as soil improvement work due to the discovery of soft ground",
+        "The project period was significantly longer than the initial plan due to delays in procedures, design and construction. Thus, the efficiency is low."
+      ],
+      "modality_check": "The report contains a mix of facts about past performance (cost overruns, delays) and policy alignment (consistency with economic development strategies). The key schedule-related evidence is factual.",
+      "scope_recovery_analysis": "There is no mention of scope changes or recovery efforts. The delays are explicitly attributed to procedural, design, and construction issues.",
+      "commitment_rationale": "The report explicitly states that the project period was 'significantly longer than the initial plan' due to unresolved delays in procedures, design, and construction. This is a clear indicator of delay status.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 228,
+      "total_tokens": 859
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Implementation was delayed because of (i) a change in the scope of works, i.e., from 4 lanes to 6 lanes; (ii) a change in the design of bridge piles due to seismic design provisions; and (iii) uncertain geotechnical conditions encountered during the piling works for one bridge."
+      ],
+      "modality_check": "The statement explicitly mentions 'delay' as a result of specific issues.",
+      "scope_recovery_analysis": "The delay is tied to scope changes (4 lanes to 6 lanes), which may be considered an approved extension rather than an unapproved delay. However, the other two reasons (design change and geotechnical conditions) are not explicitly tied to scope changes.",
+      "commitment_rationale": "The report explicitly states that implementation was delayed due to specific issues. While one of these is a scope change, the others are independent factors contributing to the delay. The presence of explicit delay language overrides any potential 'Normalcy Rule' inference.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 230,
+      "total_tokens": 822
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The program is rated less than effective because the target outcomes and outputs designed at appraisal were although achieved, but with delays",
+        "The physical outputs achieved within the MFF period were less than planned",
+        "The remaining outputs (M4 sections II and III from standalone loans) were initiated due to the MFF and were completed within 2 years after the MFF period"
+      ],
+      "modality_check": "The first two quotes are 'Reported Facts' indicating delays in achieving targets and physical outputs. The third quote is a 'Reported Fact' about completion of remaining outputs, but it does not indicate any delay.",
+      "scope_recovery_analysis": "There is no mention of scope changes or recovery efforts in the provided text.",
+      "commitment_rationale": "The first two quotes explicitly mention delays in achieving targets and physical outputs. The third quote does not offset these delays as it refers to completion within a specific timeframe after the MFF period, which may still be considered delayed if the original plan was for completion within the MFF period.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 495,
+      "completion_tokens": 244,
+      "total_tokens": 739
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The ex-post evaluation confirmed that the project completion was delayed by approximately 28 months beyond the originally planned date.",
+        "prolonged land acquisition procedures requiring coordination among multiple government agencies",
+        "unexpected archaeological findings at two bridge sites necessitating redesign",
+        "a six-month suspension of construction activities during the monsoon season of 2014 due to unusually severe flooding",
+        "The executing agency submitted revised implementation schedules on three occasions during the project period."
+      ],
+      "modality_check": "All statements are reported facts about past events and their impact on schedule.",
+      "scope_recovery_analysis": "No mention of scope changes or recovery efforts; only confirmed delays due to external factors.",
+      "commitment_rationale": "The explicit confirmation of a 28-month delay, along with detailed reasons for the delay, clearly indicates that this is a 'Delay' case. The absence of any recovery or on-track statements further supports this classification.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 512,
+      "completion_tokens": 222,
+      "total_tokens": 734
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "At the time of the ex-post evaluation, the actual project period was 84 months against the planned 48 months (ratio of 175%).",
+        "The delay was primarily attributed to the complexity of resettlement activities, which required the relocation of 1,247 households.",
+        "Negotiations with affected communities extended over 18 months, during which construction along a 12km section of the alignment was suspended.",
+        "The contractor also reported difficulties in sourcing qualified operators for the tunnel boring machine, which further contributed to schedule slippage."
+      ],
+      "modality_check": "All statements are 'Reported Facts' describing past events and confirmed delays.",
+      "scope_recovery_analysis": "No mention of scope changes or recovery efforts; only unresolved delays are reported.",
+      "commitment_rationale": "The explicit mention of the actual project period exceeding the planned duration, along with detailed reasons for the delay, confirms a 'Delay' status. The absence of any recovery or resolution language rules out 'No Delay'.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 533,
+      "completion_tokens": 247,
+      "total_tokens": 780
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The implementation period extended from the originally estimated 5 years to 9 years and 3 months.",
+        "Procurement delays accounted for approximately 18 months of the overrun",
+        "Construction was also interrupted for approximately 8 months due to a contractual dispute"
+      ],
+      "modality_check": "All statements are reported facts about past events, not hypothetical risks or policies.",
+      "scope_recovery_analysis": "No mention of scope changes; delays were caused by procurement and contract disputes.",
+      "commitment_rationale": "The report explicitly states that the project took longer than planned due to unresolved issues (procurement delays and contractual disputes). The Normalcy Rule does not apply here because there is clear evidence of slippage.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 533,
+      "completion_tokens": 179,
+      "total_tokens": 712
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "completed ahead of schedule",
+        "added new lanes",
+        "upgraded interchanges",
+        "implemented advanced traffic management systems",
+        "reduced congestion",
+        "improved traffic flow"
+      ],
+      "modality_check": "All statements are reported facts about completed work and outcomes.",
+      "scope_recovery_analysis": "N/A (No delays or scope changes mentioned)",
+      "commitment_rationale": "The project is explicitly stated to be 'completed ahead of schedule' with positive results. The Normalcy Rule does not apply here as there is explicit confirmation of no delay.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 460,
+      "completion_tokens": 150,
+      "total_tokens": 610
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The successful reconstruction of downtown's primary avenues included resurfacing roads, upgrading traffic signals, and adding pedestrian-friendly features, creating a safer and more efficient urban environment for residents and visitors."
+      ],
+      "modality_check": "This statement describes completed work with positive outcomes. There is no mention of delays or issues.",
+      "scope_recovery_analysis": "N/A - No delays or scope changes are mentioned.",
+      "commitment_rationale": "The Normalcy Rule applies here: the description focuses on successful completion without any indication of delay or unresolved issues.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 456,
+      "completion_tokens": 141,
+      "total_tokens": 597
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "\"Last year's bridge rehabilitation project, executed seamlessly, reinforced structural integrity, improved load-bearing capacity, and enhanced safety measures for motorists and pedestrians alike.\""
+      ],
+      "modality_check": "The statement is a 'Reported Fact' as it describes completed work with positive outcomes.",
+      "scope_recovery_analysis": "N/A (No delays or scope changes mentioned)",
+      "commitment_rationale": "The project is described as executed seamlessly, which implies no delay. The Normalcy Rule applies here since there are no mentions of slippage or unresolved issues.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 451,
+      "completion_tokens": 145,
+      "total_tokens": 596
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The completion of the city's ring road expansion, ahead of schedule"
+      ],
+      "modality_check": "Reported Fact",
+      "scope_recovery_analysis": "N/A (No delay to recover from)",
+      "commitment_rationale": "Explicit mention of 'ahead of schedule' and positive outcomes. Normalcy Rule not needed here.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 454,
+      "completion_tokens": 101,
+      "total_tokens": 555
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The successful implementation of smart traffic lights and real-time traffic monitoring systems, completed on time, optimized signal timings, reduced wait times, and improved overall traffic management efficiency."
+      ],
+      "modality_check": "This is a Reported Fact. The text explicitly states that the project was 'completed on time' and describes successful outcomes.",
+      "scope_recovery_analysis": "N/A - No delays or scope changes are mentioned.",
+      "commitment_rationale": "The Normalcy Rule applies here. The absence of any mention of delay, combined with explicit confirmation of on-time completion, clearly indicates 'No Delay'.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 453,
+      "completion_tokens": 154,
+      "total_tokens": 607
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The ex-post evaluation found that the road improvement project was completed within the planned implementation period of 48 months.",
+        "All 14 road sections totaling 186km were rehabilitated as specified in the original scope.",
+        "The contractor mobilized on schedule, and milestone inspections were conducted at quarterly intervals without any notable deviations from the baseline schedule.",
+        "The executing agency reported that the project was handed over to the provincial road maintenance authority on the originally planned date of March 2019."
+      ],
+      "modality_check": "All statements are 'Reported Facts' describing completed actions and adherence to schedules.",
+      "scope_recovery_analysis": "No delays or scope changes were mentioned; all work was completed as per the original plan.",
+      "commitment_rationale": "The report explicitly states that the project was completed on time, with no deviations from the baseline schedule. The 'Normalcy Rule' is satisfied as there are clear indications of successful adherence to the timeline.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 519,
+      "completion_tokens": 234,
+      "total_tokens": 753
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project achieved its target outputs ahead of the revised completion date.",
+        "The construction of 42 bridges and 267km of road was completed by September 2017, approximately four months earlier than the scheduled completion date of January 2018."
+      ],
+      "modality_check": "Both statements are reported facts about project completion status.",
+      "scope_recovery_analysis": "N/A (No delays or scope changes mentioned)",
+      "commitment_rationale": "The report explicitly states that the project was completed ahead of schedule. The Normalcy Rule is not needed here as there is explicit confirmation of early completion.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 522,
+      "completion_tokens": 160,
+      "total_tokens": 682
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project period from loan effectiveness to the completion of all civil works was 58 months.",
+        "The project was therefore completed slightly ahead of schedule."
+      ],
+      "modality_check": "Both statements are reported facts about past performance, not future risks or policies.",
+      "scope_recovery_analysis": "No scope changes mentioned; delays were resolved by internal acceleration.",
+      "commitment_rationale": "Explicit mention of completion 'ahead of schedule' and no unresolved issues. Normalcy Rule is satisfied as the text describes a healthy project flow with no ambiguity.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 499,
+      "completion_tokens": 145,
+      "total_tokens": 644
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The provincial road network rehabilitation project was implemented as planned.",
+        "Construction commenced in April 2015 and was completed in March 2019, consistent with the planned implementation schedule.",
+        "The quarterly progress reports submitted by the project management unit consistently showed actual progress within 5% of the baseline schedule throughout the implementation period."
+      ],
+      "modality_check": "All statements are reported facts about past performance and adherence to schedule.",
+      "scope_recovery_analysis": "No delays or scope changes mentioned; all references indicate adherence to original plans.",
+      "commitment_rationale": "The Normalcy Rule applies: The report describes successful, on-time completion with no mention of delays or unresolved issues. Thus, 'No Delay' is the appropriate label.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 514,
+      "completion_tokens": 185,
+      "total_tokens": 699
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the actual value for only 25 sections was available... due to reasons such as cancellation, suspension, termination, and delay."
+      ],
+      "modality_check": "The statement is a Reported Fact (actual values are missing due to delays).",
+      "scope_recovery_analysis": "No recovery or scope change is mentioned; the delay is explicitly stated.",
+      "commitment_rationale": "The text explicitly mentions 'delay' as one of the reasons for missing data. The Normalcy Rule does not apply here because there is a clear indication of slippage.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 624,
+      "completion_tokens": 144,
+      "total_tokens": 768
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the priority areas of Japan's ODA policy to Sri Lanka at that time focused on the two main pillars of 'support for the establishment and restoration of peace' and a 'support plan with a vision for mid and long-term development'.",
+        "JICA's Country Assistance Strategy for Sri Lanka (2002) included its policy to support the improvement of skills of the executing agencies in planning and maintenance for the development of the provincial/rural road network which was one of the factors that had caused delay in rural development.",
+        "the aim of this project was to improve the significantly deteriorated surface of provincial/rural roads, and to develop the basic economic infrastructure for daily life."
+      ],
+      "modality_check": "The text discusses policies and strategies related to the project but does not explicitly state any current delays or issues with the schedule. The mention of 'delay in rural development' is historical context from JICA's strategy in 2002, not a current status.",
+      "scope_recovery_analysis": "There is no indication of scope changes or recovery efforts mentioned in the text.",
+      "commitment_rationale": "The report describes ongoing work and alignment with policies without mentioning any current delays. The historical context about past delays does not imply current issues, so we apply the Normalcy Rule.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 783,
+      "completion_tokens": 295,
+      "total_tokens": 1078
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Experience shows that the litigation causes unnecessary delay and cost overrun in many projects."
+      ],
+      "modality_check": "The statement 'Experience shows that the litigation causes unnecessary delay and cost overrun in many projects.' is a Reported Fact, as it describes a past event or pattern.",
+      "scope_recovery_analysis": "There is no mention of approved scope extensions or recovery from delays in this context. The focus is on the impact of litigation on project timelines.",
+      "commitment_rationale": "The Normalcy Rule does not apply here because there is explicit mention of delay due to litigation. The statement is a clear indication of past delays, which aligns with the 'Delay' classification.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 720,
+      "completion_tokens": 170,
+      "total_tokens": 890
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The INGO office will collect information from the project site and assimilate in the form of monthly progress of RP implementation and adjust the work programs where necessary, in case of delay or problems."
+      ],
+      "modality_check": "The statement is a policy/risk (\"in case of delay\") rather than a reported fact.",
+      "scope_recovery_analysis": "N/A",
+      "commitment_rationale": "The text does not provide any concrete evidence of current delays or unresolved issues. It only outlines procedures for handling potential future delays.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 513,
+      "completion_tokens": 140,
+      "total_tokens": 653
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The delay was caused by the government's request to include sea and air transport in the plan.",
+        "The delay did not significantly impact the project."
+      ],
+      "modality_check": "The text contains a reported fact about a delay (the Transport Sector Plan was approved in 2016 instead of 2011). There is also a policy/risk statement about potential future delays related to ongoing discussions within the National Infrastructure Development Steering Committee.",
+      "scope_recovery_analysis": "The delay mentioned is tied to an approved scope extension (including sea and air transport in the plan), not an unapproved delay. The project has recovered from this delay as it did not significantly impact the project.",
+      "commitment_rationale": "The text explicitly mentions a delay, but also states that it did not significantly impact the project. The Normalcy Rule does not apply here because there is explicit mention of a delay. However, since the delay was resolved and did not have a significant impact, we can infer that the overall status is No Delay.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 690,
+      "completion_tokens": 242,
+      "total_tokens": 932
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project experienced a cumulative delay of approximately 14 months.",
+        "Construction of the northern bypass section was suspended for 6 months due to a contractual dispute with the main contractor over unit rates for rock excavation.",
+        "the contractor was unable to fully recover the lost time.",
+        "the overall project completion date was pushed from December 2018 to February 2020 due to the unrecovered delay on the northern section."
+      ],
+      "modality_check": "All statements are reported facts about past events and their impact on the schedule. There is no mention of future risks or policies.",
+      "scope_recovery_analysis": "The delay was caused by a contractual dispute, not an approved scope extension. The executing agency attempted to mitigate the delay by deploying a second contractor for another section, but this did not fully compensate for the lost time on the northern section.",
+      "commitment_rationale": "The report explicitly states that there was a cumulative delay of 14 months and that the overall project completion date was pushed back. The inability to recover the lost time further supports the classification as 'Delay'.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 538,
+      "completion_tokens": 256,
+      "total_tokens": 794
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "the project encountered a 4-month delay in the procurement of specialized bridge construction equipment due to export restrictions imposed by the supplier's country of origin",
+        "This delay affected the commencement of bridge works at three locations along the alignment",
+        "the executing agency reorganized the construction sequence to prioritize road sections that did not require bridge access, and the bridge contractor subsequently accelerated works by operating double shifts",
+        "it was confirmed that all project components were completed by the originally planned date of June 2020"
+      ],
+      "modality_check": "The first two quotes are 'Reported Facts' about a delay. The third quote is also a 'Reported Fact' but describes recovery actions. The final quote is a definitive 'Reported Fact' confirming no net delay.",
+      "scope_recovery_analysis": "The delay was resolved by reordering tasks and accelerating work, not by extending the timeline or expanding scope.",
+      "commitment_rationale": "The report explicitly states that all components were completed on time despite initial delays. This satisfies the 'Recovery Rule' and overrides any uncertainty from the initial delay.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 532,
+      "completion_tokens": 257,
+      "total_tokens": 789
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "construction progress on Lots 2 and 3 was approximately 3 months behind the baseline schedule",
+        "delay could be recovered through an extended dry-season construction window"
+      ],
+      "modality_check": "The first quote is a Reported Fact (confirmed delay). The second is a Policy/Risk (potential recovery, not yet realized).",
+      "scope_recovery_analysis": "No mention of scope changes; the delay is tied to external approvals and recovery plans are speculative.",
+      "commitment_rationale": "The explicit '3 months behind' statement overrides any uncertainty about future recovery. The absence of a revised schedule or updated plan further supports this classification.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 532,
+      "completion_tokens": 165,
+      "total_tokens": 697
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The overall project period was 72 months against the planned 54 months (ratio of 133%).",
+        "12 months of the delay were attributable to the suspension of works during a period of civil unrest in the project area.",
+        "6 months to the re-tendering of the supervision consultant contract after the original consultant's contract was terminated for non-performance.",
+        "The executing agency noted that the contractor accelerated works during the final phase, reducing what would have been a 24-month delay to 18 months.",
+        "Despite the acceleration, the project was completed significantly behind schedule."
+      ],
+      "modality_check": "All statements are reported facts about past events and their impact on the timeline. There is no mention of future risks or policies.",
+      "scope_recovery_analysis": "The delay is explicitly confirmed by the comparison of actual vs. planned duration (72 months vs. 54 months). The acceleration effort reduced the delay but did not eliminate it entirely, as the project was still completed significantly behind schedule.",
+      "commitment_rationale": "The report clearly states that the project was completed behind schedule due to specific unresolved issues (civil unrest and re-tendering of the supervision contract). The acceleration effort mitigated some of the delay but did not resolve it entirely. Therefore, the label 'Delay' is appropriate.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 545,
+      "completion_tokens": 306,
+      "total_tokens": 851
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Construction of the elevated expressway section was interrupted for approximately 5 weeks when the municipal authority issued a stop-work order pending resolution of a drainage easement encroachment.",
+        "Following the issuance of an amended easement agreement, construction of the elevated section resumed and was completed within the original contract period.",
+        "The final completion certificate was issued on the scheduled date of 15 November 2021, confirming that all works were delivered within the contractual timeframe."
+      ],
+      "modality_check": "The first sentence describes a reported fact (a delay occurred). The second and third sentences describe reported facts (the delay was resolved and the project completed on schedule).",
+      "scope_recovery_analysis": "The delay was resolved by redirecting resources to other tasks, but the elevated section was completed within the original contract period. No scope extension is mentioned.",
+      "commitment_rationale": "The report explicitly states that all works were delivered within the contractual timeframe and on schedule. The initial delay was resolved without affecting the final completion date.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 537,
+      "completion_tokens": 243,
+      "total_tokens": 780
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%.",
+        "The executing agency was reviewing the recovery plan at the time of the report and had not yet approved it."
+      ],
+      "modality_check": "Both statements are reported facts: (1) the contractor is behind schedule, and (2) the recovery plan has not been approved.",
+      "scope_recovery_analysis": "The delay is due to unresolved technical challenges (groundwater levels, equipment breakdowns). The recovery plan is proposed but not yet approved. No mention of scope changes or approved extensions.",
+      "commitment_rationale": "The report explicitly states that the contractor is behind schedule ('fallen behind') and that the recovery plan has not been approved. This is a confirmed delay under the classification criteria.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 554,
+      "completion_tokens": 209,
+      "total_tokens": 763
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project period was 78 months against the originally planned 48 months.",
+        "However, this extension was entirely attributable to the addition of three supplementary road sections (totaling 84km) that were incorporated into the project scope through a loan amendment approved in 2015.",
+        "When measured against the revised implementation schedule that accounted for the scope increase, the project was completed within the adjusted timeframe.",
+        "The executing agency confirmed that no delays were experienced relative to the revised schedule."
+      ],
+      "modality_check": "The first statement is a Reported Fact about timeline changes. The second provides context (scope change). The third and fourth statements are Reported Facts confirming adherence to the revised schedule.",
+      "scope_recovery_analysis": "The delay in months was tied to an approved scope extension via loan amendment, not an unapproved delay. The project completed on time relative to the revised plan.",
+      "commitment_rationale": "The Normalcy Rule applies: despite the initial timeline change, the report explicitly states no delays occurred against the revised schedule. No ambiguity or missing information justifies 'Uncertain'.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 518,
+      "completion_tokens": 263,
+      "total_tokens": 781
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The actual project period exceeded even the revised schedule by 11 months.",
+        "The executing agency attributed the additional delay to the late approval of detailed engineering designs for the interchange by the national highway authority, and to the discovery of contaminated soil at the interchange site requiring remediation before construction could proceed."
+      ],
+      "modality_check": "Both statements are 'Reported Facts'—they describe events that have already occurred.",
+      "scope_recovery_analysis": "The delay is not tied to scope changes; it is due to external factors (design approval and soil contamination). The expanded scope was approved, but the delay is unrelated to this expansion.",
+      "commitment_rationale": "The report explicitly states that the project exceeded its revised schedule by 11 months. This is a clear indication of a delay, even though the original delay was due to an approved scope extension. The additional delay is confirmed and unresolved.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 214,
+      "total_tokens": 735
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project scope was revised during implementation to include the rehabilitation of 45km of feeder roads that were not in the original plan.",
+        "A loan amendment was processed to cover the additional cost, and the implementation schedule was extended by 12 months.",
+        "At the time of the mid-term review, the original road sections were progressing according to schedule, but the additional feeder road works had not yet commenced due to pending environmental clearances.",
+        "It was not yet clear whether the feeder road works could be completed within the extended timeframe."
+      ],
+      "modality_check": "The first two quotes are Reported Facts (schedule extension and scope change). The last two are also Reported Facts, but they describe a lack of progress on part of the project.",
+      "scope_recovery_analysis": "The schedule was extended by 12 months due to an approved scope expansion. However, the additional work has not started yet, and it is uncertain if it can be completed within the new timeline.",
+      "commitment_rationale": "While the original scope is on track, the additional scope is delayed (not started) and may not meet the extended deadline. This constitutes a delay for part of the project.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 524,
+      "completion_tokens": 277,
+      "total_tokens": 801
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The project outputs were expanded during implementation to include the construction of 12 roadside rest areas and 8 weighbridge stations, which were not part of the original scope.",
+        "A supplementary agreement extended the loan closing date by 24 months to accommodate the additional works.",
+        "The original road construction components were completed 3 months ahead of the original schedule, and the additional facilities were completed within the extended period.",
+        "The executing agency reported that the overall project was delivered within the revised implementation schedule."
+      ],
+      "modality_check": "The first two quotes are Reported Facts (scope expansion and timeline extension). The last two quotes are also Reported Facts, describing completion status relative to schedules.",
+      "scope_recovery_analysis": "The delay in loan closing was tied to scope expansion via a supplementary agreement. This is an approved scope extension, not an unapproved delay.",
+      "commitment_rationale": "The project was completed within the revised schedule after accounting for scope changes. The original components were even delivered ahead of schedule.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 516,
+      "completion_tokens": 242,
+      "total_tokens": 758
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "construction of Lot 1 experienced a 3-month delay due to late delivery of precast concrete segments",
+        "the delay affected only a non-critical path activity, and the overall project schedule was not impacted",
+        "critical path activities proceeded on schedule throughout the reporting period",
+        "overall project completion date remained unchanged"
+      ],
+      "modality_check": "The first sentence is a Reported Fact (delay occurred). The remaining sentences are also Reported Facts (no delay to critical path or overall timeline). No Policy/Risk statements present.",
+      "scope_recovery_analysis": "The delay was resolved by the fact that it did not affect the critical path. There is no mention of scope changes.",
+      "commitment_rationale": "The Normalcy Rule applies: The report explicitly states that the project schedule was not impacted and the completion date remains unchanged. This is a clear 'No Delay' case.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 512,
+      "completion_tokens": 215,
+      "total_tokens": 727
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "procurement of traffic signal equipment for 23 intersections was delayed by approximately 5 months due to the supplier's failure to meet delivery deadlines",
+        "all intersection improvements were completed before the planned commissioning date",
+        "the project was completed on time"
+      ],
+      "modality_check": "The first quote is a Reported Fact (a delay occurred). The remaining quotes are also Reported Facts (the project recovered and finished on schedule). There are no Policy/Risk statements in this text.",
+      "scope_recovery_analysis": "The delay was resolved by engaging an alternative supplier, and the civil works were sequenced to accommodate the late signal equipment installation. This is a clear case of recovery from delay without scope changes.",
+      "commitment_rationale": "The report explicitly states that the project was completed on time despite initial delays. The Normalcy Rule does not apply here because there is an explicit statement about the final status (on-time completion).",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 510,
+      "completion_tokens": 225,
+      "total_tokens": 735
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The redesign and additional piling works resulted in a 4-month delay to the bridge construction.",
+        "However, this bridge was not on the critical path... The project completion date was not affected."
+      ],
+      "modality_check": "The first quote is a Reported Fact (a confirmed delay). The second quote is also a Reported Fact (the delay did not impact the overall schedule).",
+      "scope_recovery_analysis": "The delay was resolved by the fact that the bridge was not on the critical path, and the project completion date remained unchanged.",
+      "commitment_rationale": "The report explicitly states that the project completion date was not affected. The Normalcy Rule does not apply here because there is an explicit mention of a delay, but it also provides context that the overall schedule was unaffected.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 194,
+      "total_tokens": 715
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The mid-term review noted that the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement.",
+        "However, at the time of the ex-post evaluation, it was confirmed that road construction in the southern corridor had commenced on the revised date and was completed within the overall project period."
+      ],
+      "modality_check": "The first quote is a 'Reported Fact' (a delay occurred). The second quote is also a 'Reported Fact' (the delay was resolved).",
+      "scope_recovery_analysis": "The delay in resettlement was resolved by adjusting the construction sequencing, not by extending the overall project timeline. This indicates that the delay was absorbed within the existing schedule.",
+      "commitment_rationale": "The report explicitly states that road construction commenced on the revised date and was completed within the overall project period. This satisfies the 'Recovery Rule' as the delay was resolved without affecting the final completion time.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 539,
+      "completion_tokens": 237,
+      "total_tokens": 776
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "During the reporting period, approximately 14,200 cubic meters of earthworks were completed on Section 3",
+        "base course placement commenced on Sections 1 and 2",
+        "Material testing results for asphalt mix design were submitted to the supervision consultant for review",
+        "The environmental monitoring report for the quarter confirmed compliance with all environmental management plan requirements"
+      ],
+      "modality_check": "All statements are reported facts about completed or ongoing work.",
+      "scope_recovery_analysis": "No mention of delays, missed deadlines, or unresolved issues. All activities described are on track and within expected progress.",
+      "commitment_rationale": "The Normalcy Rule applies: The absence of any negative indicators combined with descriptions of successful completion and compliance suggests the project is on schedule.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 528,
+      "completion_tokens": 190,
+      "total_tokens": 718
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "Subgrade preparation on the northern approach road was in progress, with compaction testing results meeting specification requirements.",
+        "The contractor had mobilized a second asphalt paving crew for the southern section.",
+        "Bridge girder fabrication at the off-site yard was reported to be proceeding.",
+        "Quality assurance documentation for the completed drainage structures was reviewed and found satisfactory."
+      ],
+      "modality_check": "All statements are 'Reported Facts' describing current progress without mention of delay or risk.",
+      "scope_recovery_analysis": "N/A - No delays or scope changes mentioned.",
+      "commitment_rationale": "The Normalcy Rule applies: The report describes ongoing, successful work with no mention of delay. Thus, 'No Delay' is the appropriate label.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 515,
+      "completion_tokens": 184,
+      "total_tokens": 699
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "The detailed engineering design for Phase 2 of the highway improvement project was submitted to the ministry for approval on 28 February 2019.",
+        "Procurement documents for the first three construction lots were under preparation by the project management consultant."
+      ],
+      "modality_check": "Both statements are reported facts about completed or ongoing actions. There is no mention of future risks or policies.",
+      "scope_recovery_analysis": "N/A - No delays or scope changes mentioned.",
+      "commitment_rationale": "The report describes successful completion and ongoing work without any mention of delay, missed deadlines, or unresolved issues. The Normalcy Rule applies here.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 520,
+      "completion_tokens": 165,
+      "total_tokens": 685
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "extracted_evidence": [
+        "A stakeholder consultation meeting was held on 12 July 2017 at the district administration office to present the proposed alignment and discuss land acquisition requirements with representatives of the affected communities.",
+        "Sixty-three participants attended, including village heads, women's group representatives, and local government officials.",
+        "The main concerns raised by participants related to compensation rates for agricultural land and the relocation of a community health center that falls within the proposed right of way.",
+        "The project management unit committed to addressing these concerns in the updated resettlement action plan."
+      ],
+      "modality_check": "All statements are reported facts about past events or commitments. There is no mention of future risks or policies.",
+      "scope_recovery_analysis": "N/A - No timeline changes or delays mentioned.",
+      "commitment_rationale": "The report describes a successful stakeholder consultation meeting with no mention of schedule slippage, missed deadlines, or unresolved issues. The Normalcy Rule applies: descriptions of ongoing, successful work without any mention of delay should be inferred as 'No Delay'.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 526,
+      "completion_tokens": 249,
+      "total_tokens": 775
+    },
+    "model": "magistral",
+    "finish_reason": "stop",
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  }
+]

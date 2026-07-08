@@ -1,0 +1,4 @@
+NAME                       ID              SIZE      MODIFIED       
+llama4:scout               bf31604e25c2    67 GB     13 minutes ago    
+gpt-oss:120b               a951a23b46a1    65 GB     21 minutes ago    
+nomic-embed-text:latest    0a109f422b47    274 MB    21 minutes ago    

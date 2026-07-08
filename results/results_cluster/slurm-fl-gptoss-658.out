@@ -1,0 +1,4 @@
+[node] host=oz05 job=658 SC_K=3 @ 12:24:57
+[version] ollama version is 0.30.10
+[pull-ok] @ 12:26:06
+[run] gpt_oss_120b suite=core @ 12:26:07

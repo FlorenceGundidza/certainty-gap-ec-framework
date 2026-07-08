@@ -1,0 +1,2 @@
+[node] host=oz03 job=657 tag=llama4:scout slug=llama4_scout suites=sp sc SC_K=5 @ 12:22:17
+[version] ollama version is 0.30.10

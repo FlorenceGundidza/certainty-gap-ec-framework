@@ -1,0 +1,324 @@
+[
+  {
+    "custom_id": "failure_000__case_01__Delay__NoDelay",
+    "case_id": "case_01",
+    "gold": "Delay",
+    "pred": "No Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec",
+    "diagnosis": {
+      "primary_failure_category": "Scope-Change Conflation",
+      "trigger_word_or_phrase": "“The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads ... from planned 300km ... to actual 376.68km”",
+      "misapplied_rule": "The model appears to have applied the rule that if schedule overrun is proportional to an increase in project scope, the project should be treated as not delayed, even when the text also states it was longer than planned and cites additional delay causes.",
+      "commitment_analysis": "The wording about proportional output increase strongly nudged the model to over-commit to a revised-scope interpretation and to discount the explicit schedule overrun and the separate delay factors ('delay in mobilizing ...' and 'interruptions'). This led to an overly strong No Delay conclusion instead of separating scope-driven extension from genuine delay.",
+      "suggested_fix": "Require a two-step decision: (1) detect any explicit schedule overrun or delay causes, and (2) only downgrade to No Delay if the text clearly states the overrun is fully explained by an approved scope change with no additional delay factors. If both scope expansion and independent delay causes are present, label Delay."
+    }
+  },
+  {
+    "custom_id": "failure_001__case_14__Uncertain__NoDelay",
+    "case_id": "case_14",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec; v3_fairness/asym_ec; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Lexical Overheating",
+      "trigger_word_or_phrase": "Absence of explicit delay keywords interpreted as No Delay",
+      "misapplied_rule": "Text without delay keywords classified as No Delay, ignoring that the gold label is Uncertain because delay references exist in non-schedule contexts",
+      "commitment_analysis": "The model committed to No Delay by absence-of-evidence reasoning, when the text actually contains contextual delay references that should trigger Uncertain",
+      "suggested_fix": "Add rule: if delay-related language appears in any context, do not default to No Delay without verifying the context is genuinely schedule-irrelevant"
+    }
+  },
+  {
+    "custom_id": "failure_002__case_15__Uncertain__NoDelay",
+    "case_id": "case_15",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/sym_ec; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Lexical Overheating",
+      "trigger_word_or_phrase": "Absence of explicit delay keywords interpreted as No Delay",
+      "misapplied_rule": "Text without delay keywords classified as No Delay, ignoring that the gold label is Uncertain because delay references exist in non-schedule contexts",
+      "commitment_analysis": "The model committed to No Delay by absence-of-evidence reasoning, when the text actually contains contextual delay references that should trigger Uncertain",
+      "suggested_fix": "Add rule: if delay-related language appears in any context, do not default to No Delay without verifying the context is genuinely schedule-irrelevant"
+    }
+  },
+  {
+    "custom_id": "failure_003__case_25__Uncertain__Delay",
+    "case_id": "case_25",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Temporal & Modality Confusion",
+      "trigger_word_or_phrase": "delay-related language in conditional or background context",
+      "misapplied_rule": "Conditional or background delay references treated as factual schedule evidence",
+      "commitment_analysis": "The model over-committed to Delay based on delay-related keywords without verifying they refer to current, confirmed schedule impact",
+      "suggested_fix": "Require modality check: is the delay reference factual-current or conditional-hypothetical?"
+    }
+  },
+  {
+    "custom_id": "failure_004__case_31__Uncertain__Delay",
+    "case_id": "case_31",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Temporal & Modality Confusion",
+      "trigger_word_or_phrase": "delay-related language in conditional or background context",
+      "misapplied_rule": "Conditional or background delay references treated as factual schedule evidence",
+      "commitment_analysis": "The model over-committed to Delay based on delay-related keywords without verifying they refer to current, confirmed schedule impact",
+      "suggested_fix": "Require modality check: is the delay reference factual-current or conditional-hypothetical?"
+    }
+  },
+  {
+    "custom_id": "failure_005__case_32__NoDelay__Delay",
+    "case_id": "case_32",
+    "gold": "No Delay",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain",
+    "diagnosis": {
+      "primary_failure_category": "Scope-Change Conflation",
+      "trigger_word_or_phrase": "A supplementary agreement extended the loan closing date by 24 months to accommodate the additional works.",
+      "misapplied_rule": "The model appears to have treated any schedule extension as evidence of delay, without checking whether the extension was an approved and proportional adjustment caused by added scope. It misread a revised timeline for expanded project outputs as a project delay, despite the text stating the original components were finished ahead of schedule and the added facilities were completed within the extended period.",
+      "commitment_analysis": "The wording \"extended by 24 months\" likely pushed the model toward over-committing to a delay label because extension-related language often correlates with slippage. However, the surrounding context explicitly indicates scope expansion and successful completion within the revised timeframe. The model over-weighted the existence of a longer closing date and under-weighted the fact that the schedule change was intentional, approved, and matched to the additional work.",
+      "suggested_fix": "Revise the decision procedure to distinguish between an unplanned delay and an approved schedule extension tied to increased scope. The classifier should first ask whether the timeline change was caused by added deliverables or by performance slippage. If the text says the project was completed within the extended period and the original scope was even finished ahead of schedule, label it No Delay rather than Delay."
+    }
+  },
+  {
+    "custom_id": "failure_006__case_36__NoDelay__Delay",
+    "case_id": "case_36",
+    "gold": "No Delay",
+    "pred": "Delay",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/C_abstain_only",
+    "diagnosis": {
+      "primary_failure_category": "3. Recovery Neglect",
+      "trigger_word_or_phrase": "“running 6 months behind the original schedule” / “could affect the commencement of road construction”",
+      "misapplied_rule": "The model treated an earlier mid-term delay in a supporting activity as sufficient evidence of a project delay, instead of applying the rule that later recovery evidence and ex-post confirmation of on-track completion relative to the revised schedule should override the earlier risk signal.",
+      "commitment_analysis": "The prompt content created strong pressure to over-commit to the negative label because it contained salient delay language early on. The model appears to have locked onto the initial delay report and ignored the later corrective outcome: road construction had commenced on the revised date and was completed within the revised timeline. This is an over-commitment error, not a lack of evidence.",
+      "suggested_fix": "Require the classifier to weigh final or ex-post status above interim risk statements. If the text explicitly says the activity recovered, started on the revised date, or completed within the revised schedule, then label No Delay unless there is clear evidence of persistent slippage in the final outcome."
+    }
+  },
+  {
+    "custom_id": "failure_007__case_40__NoDelay__Uncertain",
+    "case_id": "case_40",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v2_ablation/A_gate_abstain; v2_ablation/D_neither; v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ec; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "“The main concerns raised by participants related to compensation rates for agricultural land and the relocation of a community health center”",
+      "misapplied_rule": "The model appears to have applied an overly strict rule that a definitive label requires explicit schedule language such as \"delay,\" \"late,\" \"slippage,\" or a stated impact on dates. Because the passage only describes a consultation and stakeholder concerns, it abstained instead of inferring the more appropriate no-delay label from the absence of any schedule disruption.",
+      "commitment_analysis": "The prompt likely pushed the model toward avoiding a false positive whenever schedule impact was not explicitly stated. This created pressure to over-abstain: rather than committing to No Delay based on a routine stakeholder consultation with no mention of slippage or blocked work, the model chose Uncertain because it lacked direct timing evidence.",
+      "suggested_fix": "Revise the decision rule to say: if a passage describes preparatory, consultative, or administrative activity and does not mention delay, rescheduling, blocked work, or approval issues, classify as No Delay by default. Add guidance that explicit schedule keywords are not required when the overall context clearly shows no disruption."
+    }
+  },
+  {
+    "custom_id": "failure_008__case_11__Uncertain__Delay",
+    "case_id": "case_11",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/D_neither; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ed; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Temporal & Modality Confusion",
+      "trigger_word_or_phrase": "delay-related language in conditional or background context",
+      "misapplied_rule": "Conditional or background delay references treated as factual schedule evidence",
+      "commitment_analysis": "The model over-committed to Delay based on delay-related keywords without verifying they refer to current, confirmed schedule impact",
+      "suggested_fix": "Require modality check: is the delay reference factual-current or conditional-hypothetical?"
+    }
+  },
+  {
+    "custom_id": "failure_009__case_12__Uncertain__NoDelay",
+    "case_id": "case_12",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v3_fairness/sym_ab",
+    "diagnosis": {
+      "primary_failure_category": "Lexical Overheating",
+      "trigger_word_or_phrase": "Absence of explicit delay keywords interpreted as No Delay",
+      "misapplied_rule": "Text without delay keywords classified as No Delay, ignoring that the gold label is Uncertain because delay references exist in non-schedule contexts",
+      "commitment_analysis": "The model committed to No Delay by absence-of-evidence reasoning, when the text actually contains contextual delay references that should trigger Uncertain",
+      "suggested_fix": "Add rule: if delay-related language appears in any context, do not default to No Delay without verifying the context is genuinely schedule-irrelevant"
+    }
+  },
+  {
+    "custom_id": "failure_010__case_13__Uncertain__NoDelay",
+    "case_id": "case_13",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/C_abstain_only; v2_ablation/D_neither; v3_fairness/sym_ab",
+    "diagnosis": {
+      "primary_failure_category": "Lexical Overheating",
+      "trigger_word_or_phrase": "Absence of explicit delay keywords interpreted as No Delay",
+      "misapplied_rule": "Text without delay keywords classified as No Delay, ignoring that the gold label is Uncertain because delay references exist in non-schedule contexts",
+      "commitment_analysis": "The model committed to No Delay by absence-of-evidence reasoning, when the text actually contains contextual delay references that should trigger Uncertain",
+      "suggested_fix": "Add rule: if delay-related language appears in any context, do not default to No Delay without verifying the context is genuinely schedule-irrelevant"
+    }
+  },
+  {
+    "custom_id": "failure_011__case_28__Uncertain__NoDelay",
+    "case_id": "case_28",
+    "gold": "Uncertain",
+    "pred": "No Delay",
+    "source": "v2_ablation/B_gate_only; v2_ablation/D_neither",
+    "diagnosis": {
+      "primary_failure_category": "Lexical Overheating",
+      "trigger_word_or_phrase": "Absence of explicit delay keywords interpreted as No Delay",
+      "misapplied_rule": "Text without delay keywords classified as No Delay, ignoring that the gold label is Uncertain because delay references exist in non-schedule contexts",
+      "commitment_analysis": "The model committed to No Delay by absence-of-evidence reasoning, when the text actually contains contextual delay references that should trigger Uncertain",
+      "suggested_fix": "Add rule: if delay-related language appears in any context, do not default to No Delay without verifying the context is genuinely schedule-irrelevant"
+    }
+  },
+  {
+    "custom_id": "failure_012__case_01__Delay__Uncertain",
+    "case_id": "case_01",
+    "gold": "Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ec",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "“The actual project period was longer than planned (ratio against the plan: 124%)” and “it was proportional to the increase in the length of the targeted roads”",
+      "misapplied_rule": "The model appears to have required an explicit, unambiguous statement of project-wide schedule delay or critical-path slippage before committing to the Delay label, and treated the proportional scope increase as enough reason to remain uncertain.",
+      "commitment_analysis": "The text already states that the project period was longer than planned, which is sufficient evidence for Delay under the label scheme. However, the surrounding explanation about proportional output increase likely pushed the model to hedge, because it interpreted the overrun as potentially excusable or scope-related rather than a true delay. This created pressure toward over-abstention instead of a definitive classification.",
+      "suggested_fix": "Revise the decision rule to prioritize the explicit comparison between actual period and planned period: if the text says the project period was longer than planned, label Delay unless it clearly states the extension was fully accounted for by an approved scope/schedule revision or explicitly says there was no delay. Do not require a separate explicit keyword like ‘delay’ when a schedule overrun is directly stated."
+    }
+  },
+  {
+    "custom_id": "failure_013__case_07__NoDelay__Uncertain",
+    "case_id": "case_07",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ab; v3_fairness/asym_ed",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "“The successful reconstruction ... creating a safer and more efficient urban environment”",
+      "misapplied_rule": "The model appears to have required an explicit schedule cue such as “on time,” “on schedule,” or “no delay” before assigning a definitive label, instead of inferring No Delay from a clearly completed, successful project description with no negative timing language.",
+      "commitment_analysis": "The classification setup likely pushed the model to over-abstain because the text does not explicitly mention timing, deadlines, or schedule status. Rather than treating successful completion as sufficient evidence against delay, the model defaulted to uncertainty due to the absence of a direct temporal marker.",
+      "suggested_fix": "Revise the decision rule so that completed/successful project descriptions with no mention of lateness, postponement, or missed deadlines are classified as No Delay by default. Reserve Uncertain only for cases where the text truly lacks enough evidence to infer schedule status."
+    }
+  },
+  {
+    "custom_id": "failure_014__case_08__NoDelay__Uncertain",
+    "case_id": "case_08",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "\"executed seamlessly\"",
+      "misapplied_rule": "The model appears to have required an explicit schedule marker such as \"on time,\" \"on schedule,\" or \"met milestones\" before labeling No Delay, and therefore treated a clearly positive execution description as insufficient evidence.",
+      "commitment_analysis": "The wording did not contain an overt timing phrase, which likely pushed the model to abstain rather than infer the obvious absence of delay from the positive completion-quality language. This is over-abstention: the model over-weighted the lack of an explicit keyword and under-weighted the strong implied evidence from \"executed seamlessly\" and the overall successful completion framing.",
+      "suggested_fix": "Revise the decision rule to accept strong implicit no-delay cues—such as \"executed seamlessly,\" \"successfully completed,\" or similar positive completion language—as sufficient for No Delay when there are no countervailing delay indicators. The classifier should not require explicit on-schedule wording when the overall text clearly indicates smooth execution."
+    }
+  },
+  {
+    "custom_id": "failure_015__case_37__NoDelay__Uncertain",
+    "case_id": "case_37",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ab; v3_fairness/asym_ed",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "“quarterly progress report for the period October–December 2018” and the absence of any explicit “on schedule/on track” statement",
+      "misapplied_rule": "The model appears to have required an explicit schedule-status cue (e.g., “on time,” “on track,” “no delay”) before committing to No Delay, instead of inferring no delay from the report’s normal progress updates and lack of any delay indicators.",
+      "commitment_analysis": "The wording provides routine project progress and compliance information, but no negative schedule signal. The classification criteria seem to have pushed the model toward caution because the text did not explicitly say the project was on schedule. This led to over-abstention: the model withheld a definitive No Delay label despite sufficient evidence that there was no delay mentioned or implied.",
+      "suggested_fix": "Revise the decision rule so that normal progress reporting, ongoing work, and compliance updates without any delay, slippage, missed milestone, or recovery language should be classified as No Delay even if the text does not explicitly say “on schedule.”"
+    }
+  },
+  {
+    "custom_id": "failure_016__case_38__NoDelay__Uncertain",
+    "case_id": "case_38",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "\"in progress,\" \"proceeding,\" \"found satisfactory,\" and the absence of any explicit delay/missed milestone language",
+      "misapplied_rule": "The model appears to have required an explicit statement like \"on schedule\" or \"no delay\" before assigning a definitive No Delay label, instead of inferring the label from multiple positive indicators of ongoing, satisfactory work and no reported schedule disruption.",
+      "commitment_analysis": "The classification prompt likely implicitly rewarded caution in the face of incomplete schedule language, pushing the model to abstain rather than commit. Because the excerpt does not explicitly say \"on schedule,\" the model over-weighted missing confirmation and under-weighted the strong contextual evidence that the work was progressing normally, leading to an unnecessary \"Uncertain\" label.",
+      "suggested_fix": "Revise the decision rule to allow a No Delay label when the text shows normal execution and no adverse schedule signal, even without the exact phrase \"on schedule.\" Add guidance that ongoing activities described as \"in progress,\" \"proceeding,\" and \"satisfactory\" are sufficient positive evidence unless paired with explicit delay, slippage, or recovery language."
+    }
+  },
+  {
+    "custom_id": "failure_017__case_39__NoDelay__Uncertain",
+    "case_id": "case_39",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_a_full; v4_ec2/ec2_b_no_selfdiag; v3_fairness/asym_ab; v3_fairness/asym_ed",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "submitted to the ministry for approval; impact assessment was completed and disclosed; procurement documents were under preparation",
+      "misapplied_rule": "The model appears to have required an explicit statement like \"on schedule\" or \"no delay\" before assigning a definitive label, rather than using the overall progress status and absence of any slippage indicator to conclude No Delay.",
+      "commitment_analysis": "The prompt and decision logic seem to have pushed the model toward caution: because the text describes ongoing administrative steps and does not explicitly say the project is on schedule, the model over-weighted the lack of a direct schedule statement and abstained as \"Uncertain.\" This is an over-abstention error, not an over-commitment error.",
+      "suggested_fix": "Revise the decision rule to treat documented progress milestones and the absence of any delay language as sufficient evidence for No Delay. Only classify as Uncertain when the text truly lacks enough information about schedule status, not merely when it lacks the exact phrase \"on schedule.\""
+    }
+  },
+  {
+    "custom_id": "failure_018__case_04__Delay__Uncertain",
+    "case_id": "case_04",
+    "gold": "Delay",
+    "pred": "Uncertain",
+    "source": "v4_ec2/ec2_b_no_selfdiag",
+    "diagnosis": {
+      "primary_failure_category": "6. Excessive Conservatism (Over-Abstention)",
+      "trigger_word_or_phrase": "Implementation was delayed because of",
+      "misapplied_rule": "The model appears to have required additional confirmation of an unresolved schedule problem or a fully complete sentence before labeling the case as Delay, instead of treating the explicit past-tense statement \"was delayed\" as sufficient evidence.",
+      "commitment_analysis": "The excerpt is slightly truncated and ends mid-word, which likely increased caution and made the model avoid a definitive label. That said, the text already makes a direct factual claim of delay. The pressure in the decision process seems to have been toward over-abstention: the model waited for more context about severity, duration, or recovery rather than committing to the clearly stated delay event.",
+      "suggested_fix": "Revise the decision rule to prioritize explicit past-tense delay statements as decisive evidence. If the text says \"was delayed\" or \"implementation was delayed because of...\", label it Delay unless there is an explicit recovery/back-on-track statement or the term is clearly being used in a non-schedule sense."
+    }
+  },
+  {
+    "custom_id": "failure_019__case_28__Uncertain__Delay",
+    "case_id": "case_28",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v4_ec2/ec2_c_original_ec; v4_ec2/ec2_d_original_ed; v3_fairness/asym_ec; v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ec; v3_fairness/sym_ab; v3_fairness/sym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Temporal & Modality Confusion",
+      "trigger_word_or_phrase": "delay-related language in conditional or background context",
+      "misapplied_rule": "Conditional or background delay references treated as factual schedule evidence",
+      "commitment_analysis": "The model over-committed to Delay based on delay-related keywords without verifying they refer to current, confirmed schedule impact",
+      "suggested_fix": "Require modality check: is the delay reference factual-current or conditional-hypothetical?"
+    }
+  },
+  {
+    "custom_id": "failure_020__case_15__Uncertain__Delay",
+    "case_id": "case_15",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v3_fairness/asym_ab; v3_fairness/asym_ed; v3_fairness/sym_ab",
+    "diagnosis": {
+      "primary_failure_category": "Temporal & Modality Confusion",
+      "trigger_word_or_phrase": "delay-related language in conditional or background context",
+      "misapplied_rule": "Conditional or background delay references treated as factual schedule evidence",
+      "commitment_analysis": "The model over-committed to Delay based on delay-related keywords without verifying they refer to current, confirmed schedule impact",
+      "suggested_fix": "Require modality check: is the delay reference factual-current or conditional-hypothetical?"
+    }
+  },
+  {
+    "custom_id": "failure_021__case_13__Uncertain__Delay",
+    "case_id": "case_13",
+    "gold": "Uncertain",
+    "pred": "Delay",
+    "source": "v3_fairness/asym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Temporal & Modality Confusion",
+      "trigger_word_or_phrase": "delay-related language in conditional or background context",
+      "misapplied_rule": "Conditional or background delay references treated as factual schedule evidence",
+      "commitment_analysis": "The model over-committed to Delay based on delay-related keywords without verifying they refer to current, confirmed schedule impact",
+      "suggested_fix": "Require modality check: is the delay reference factual-current or conditional-hypothetical?"
+    }
+  },
+  {
+    "custom_id": "failure_022__case_36__NoDelay__Uncertain",
+    "case_id": "case_36",
+    "gold": "No Delay",
+    "pred": "Uncertain",
+    "source": "v3_fairness/asym_ed",
+    "diagnosis": {
+      "primary_failure_category": "Recovery Neglect",
+      "trigger_word_or_phrase": "“running 6 months behind the original schedule” and “could affect the commencement of road construction”",
+      "misapplied_rule": "The model treated an earlier mid-term delay and a possible risk as sufficient to keep the label Uncertain, instead of following the later ex-post confirmation that the road construction had commenced on the revised date and was completed under the revised plan. It failed to apply the rule that recovered or resolved delays should not determine the final label.",
+      "commitment_analysis": "The wording created a strong early signal of delay, which likely pushed the model to over-abstain rather than commit to No Delay. Because the text contains both a past setback and a later recovery, the model anchored on the negative history and did not adequately privilege the final outcome. This is a classic over-cautious response: uncertainty was inferred from prior delay language even though the decisive status was a successful recovery.",
+      "suggested_fix": "Add an explicit decision rule to prioritize the latest project status at the evaluation point. If the text states that a previously delayed activity was later confirmed to have started on the revised date or completed as planned, classify as No Delay unless there is explicit evidence of unresolved slippage at the end state."
+    }
+  }
+]

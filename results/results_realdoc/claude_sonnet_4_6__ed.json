@@ -1,0 +1,1504 @@
+[
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only administrative/introductory information identifying the report authors and contact details. There is no schedule-related information of any kind, making this a routine administrative passage with no delay evidence."
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-p__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The excerpt appears to be a financial/exchange rate table listing project milestones and corresponding currency conversion rates, with no schedule-related commentary, delay statements, or disruption descriptions. While milestone dates are present, there is no information about planned versus actual dates or any schedule impact assessment, making a delay classification unsupported."
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-p__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt discusses interchange planning and traffic demand forecasting for a road project, with no mentions of schedule impacts, delays, or timeline disruptions. This is purely a technical/design planning discussion with no schedule-relevant information."
+    },
+    "case_id": "12246781__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The section of the bridges at two (2) railway crossings was extended to avoid the high retaining wall (approximately 18m height) at the approach sections of the bridges on swampy land.",
+        "Other structure design such as box culvert, etc. was also reviewed and the technical suggestions were provided."
+      ],
+      "label": "Uncertain",
+      "confidence": "low",
+      "reasoning": "The report describes design changes (bridge section extensions and structural design reviews) that suggest scope modifications, but contains no explicit statements about schedule impact, milestone dates, completion dates, or whether these changes have caused or will cause a delay. Without any schedule-related information, a confident classification of Delay or No Delay is not possible."
+    },
+    "case_id": "12246781__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only boilerplate legal/regulatory language regarding EU guarantee requirements and monitoring obligations. There is no schedule-related information, disruptions, milestones, or any indication of delay whatsoever."
+    },
+    "case_id": "20070316-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt discusses institutional and organizational arrangements for road maintenance and operation, with no mention of schedule delays, milestone changes, or timeline impacts. The text describes operational management structures rather than construction schedule performance."
+    },
+    "case_id": "20070316-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "The excerpt reports a generally high degree of completion of outputs with no schedule-related concerns, delays, or disruptions mentioned. Any problems noted are deferred to an operation and maintenance section, not framed as construction schedule impacts."
+    },
+    "case_id": "2015_SL-P97_4_f__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%)",
+        "Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding in October 2010 – February 2011 and December 2012 – March 2013.",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "Although the actual project period exceeded the original plan by 24%, the text explicitly states that a delay exceeding the revised schedule (which was adjusted to account for increased outputs) was avoided through schedule control. The extended duration is attributed to a proportional increase in project scope, not net schedule slippage, making this a recovered/offset situation relative to the revised baseline."
+    },
+    "case_id": "2015_SL-P97_4_f__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information whatsoever; it is a background/context description of rural road development funding in Morocco with no mention of project timelines, milestones, or disruptions."
+    },
+    "case_id": "2016_MR-P27_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "The report states that 'most of the road sections were completed' as of July 2017, indicating substantial project completion with no mention of schedule slippage, missed milestones, or delayed activities. There is no schedule-related information suggesting a delay occurred."
+    },
+    "case_id": "2016_MR-P27_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains no schedule-related information whatsoever; it describes only the project's regional development rationale and donor coordination context. There is no evidence of disruptions, milestones, or timeline impacts."
+    },
+    "case_id": "2016_MR-P30_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information, milestone dates, or references to delays or disruptions. It is a narrative about project relevance and donor coordination, with no evidence of schedule impact."
+    },
+    "case_id": "2016_MR-P30_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "the construction of new roads between urban areas and other main cities had been delayed",
+        "in provincial/rural areas, there were many arterial roads between the main cities and road networks in the rural areas that had needed rehabilitation or widening",
+        "the transportation efficiency of existing roads has remained low"
+      ],
+      "label": "Uncertain",
+      "confidence": "medium",
+      "reasoning": "While the text explicitly mentions that construction of new roads 'had been delayed,' this appears to be a broad contextual/background statement about the national road sector in Sri Lanka rather than a project-specific schedule delay report. There is insufficient information about a specific construction project's milestones, completion dates, or schedule impacts to classify this as a project-level schedule delay."
+    },
+    "case_id": "2016_SL-P96_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "one of the factors that had caused delay in rural development"
+      ],
+      "label": "Uncertain",
+      "confidence": "low",
+      "reasoning": "The only schedule-relevant phrase references a delay in 'rural development' in a historical/policy context, not a specific construction schedule delay for this project. The excerpt is a policy background description and contains no information about construction milestones, completion dates, or project schedule impacts."
+    },
+    "case_id": "2016_SL-P96_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt describes post-completion traffic trends and future infrastructure planning, with no mention of any schedule disruptions, delays, or timeline impacts. This is a routine contextual/planning description with no schedule-related concerns."
+    },
+    "case_id": "2016_VN10-P1_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "The excerpt focuses entirely on cost overruns and their causes, with no mention of schedule delays, milestone changes, or completion date impacts. In the absence of any schedule-related information, the report does not provide evidence of a delay."
+    },
+    "case_id": "2016_VN10-P1_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only an abbreviation/acronym legend with no project schedule, milestone, or progress information whatsoever. There is no schedule-related content to suggest a delay."
+    },
+    "case_id": "36068953__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "one of the packages (Contract C) experienced pavement failures that required rectification",
+        "This was a key factor, causing a delay in project completion",
+        "The Project scope was also revised to include several additional works, which contributed to this delay",
+        "Contract C failures have continued to drain MCTPC's maintenance resources"
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that Contract C's pavement failures were 'a key factor, causing a delay in project completion,' and further confirms that the revised project scope 'contributed to this delay,' providing unambiguous evidence of schedule delay with compounding causes."
+    },
+    "case_id": "36068953__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains only administrative and financial milestone dates related to loan appraisals, negotiations, and approvals. There is no schedule-related construction information, no mention of disruptions, and no evidence of any delay or schedule impact."
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is purely a financial and administrative overview of the ADB loan facility, describing loan amounts, approval dates, and funding sources. There is no schedule-related information, mention of disruptions, or any indication of delay in this text."
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "The report excerpt pertains entirely to resettlement and compensation planning processes, with no schedule-related information, milestone references, or construction progress discussed. There is no evidence of any construction schedule delay."
+    },
+    "case_id": "40540-017-rp-en_2__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The excerpt contains only a reference to a Resettlement Plan (RP) implementation schedule organized under 15 broad heads, with no schedule performance data, milestone comparisons, disruptions, or any indication of delay or progress issues. There is insufficient information to identify any schedule impact."
+    },
+    "case_id": "40540-017-rp-en_2__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "second extension of loan closing date from 30 June 2015 to 31 August 2016"
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The loan closing date has been extended for a second time, from 30 June 2015 to 31 August 2016 — a extension of approximately 14 months. A second extension of a closing date strongly implies the project has not progressed as originally scheduled, constituting clear evidence of schedule delay."
+    },
+    "case_id": "44281-013-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The text appears to be a template or structured form listing project milestone fields without any actual dates or values populated, providing no schedule-related information from which a delay can be inferred. With no substantive content to analyze, the most appropriate classification is No Delay by default, though confidence is low due to the absence of any meaningful data."
+    },
+    "case_id": "44281-013-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only an abbreviations/acronyms legend with no project progress, schedule, or timeline information whatsoever. There is no evidence of any schedule-related activity, disruption, or impact."
+    },
+    "case_id": "47144944__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The project was completed in August 2006."
+      ],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The excerpt is a high-level project summary stating the project was completed, but provides no information about the original scheduled completion date, making it impossible to determine if a delay occurred. In the absence of any schedule-related disruption or comparison to a baseline, this is treated as a routine completion notice with no delay evidence."
+    },
+    "case_id": "47144944__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The original implementation period was 12 months up to 31 October 2019.",
+        "The TA was extended by one year to 31 October 2020 due to late availability of complete project design documentation and to expand procurement support to cover procurement activities until contract award."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The technical assistance (TA) implementation period was explicitly extended by one year beyond the original completion date of 31 October 2019, with 'late availability of complete project design documentation' cited as a direct cause, which constitutes clear evidence of a schedule delay impacting downstream procurement and project activities."
+    },
+    "case_id": "52043-002-tcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The delayed submission was caused by the fact that KDTP was not paid by MOTR for the BNB road design work.",
+        "Despite an assurance given by MOTR in October 2019 that the issue was resolved, KDTP had not been paid during the TA's implementation for any of the design work delivered.",
+        "This caused staffing problems in KDTP.",
+        "The design of utilities and lighting had to be outsourced, but since KDTP was not able to pay for these services, related design documents were never received.",
+        "Design documentation for the 24.3 km Almaty–Bishkek–Tashkent section was provided on 18 November 2019."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that design submissions were delayed due to non-payment of KDTP by MOTR, causing staffing problems and the complete failure to receive utility and lighting design documents. These compounding issues — delayed documentation delivery, unresolved payment disputes, and missing design outputs — constitute clear evidence of schedule disruption with no recovery stated."
+    },
+    "case_id": "52043-002-tcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "services that were initially scheduled to start in April 2004 finally commenced in December 2008 and ended in September 2009, representing a four-year slippage",
+        "works on rural roads and boreholes could not start before 30 April 2010, the extended final disbursement deadline",
+        "Completion of these works required a new extension of the final disbursement deadline",
+        "Doing so would have significantly affected overall portfolio performance",
+        "during the October 2009 portfolio review, the Government and the Bank decided to cancel these components"
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly quantifies a four-year schedule slippage in rural road procurement, notes that borehole and rural road works could not commence before the extended deadline, and confirms that completing these works would have required a further extension of the disbursement deadline — all clear indicators of significant schedule delay. The ultimate decision to cancel the affected components was a direct consequence of these delays."
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The initial project schedule provided for the commencement of works on the main road in December 2003 and on the rural roads in March 2005, representing a gap of 15 months.",
+        "The commencement of road works was subject to the recruitment of a consultancy firm to raise community awareness on the identification of roads and the recruitment of another consultancy firm for studies and works control.",
+        "Considering the procurement delays recorded, it would have been more judicious to group awareness-raising, studies and road works control within the same consultancy contract, to shorten procurement timeframe and enable the simultaneous launching of works procurement (road and related works)."
+      ],
+      "label": "Delay",
+      "confidence": "medium",
+      "reasoning": "The text explicitly references 'procurement delays recorded' that affected the commencement of road works, which were contingent on the sequential recruitment of two separate consultancy firms. The retrospective recommendation to consolidate contracts in order to 'shorten procurement timeframe' strongly implies that the procurement sequencing caused schedule slippage, even though specific revised completion dates are not stated."
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains only background rationale about the Bank's engagement history in Benin, referencing previously completed and approved projects. There is no schedule-related information, disruptions, or timeline concerns mentioned whatsoever."
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara___p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only regional context and geographic descriptions of the project roads' strategic importance, with no schedule-related information, disruptions, milestones, or timeline data of any kind."
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara___p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The excerpt describes project financing approvals and the initiation of related activities, with no explicit mention of schedule delays, milestone slippage, or blocked work. While the text contains no schedule-specific performance data, the described activities appear to be progressing normally, warranting a 'No Delay' classification with low confidence due to the limited schedule-relevant information provided."
+    },
+    "case_id": "cameroon_-_transport_sector_support_prog__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text describes institutional performance monitoring indicators and management procedures only, with no mention of any schedule disruptions, milestone slippage, or construction-related progress issues. This is a routine procedural/administrative description with no schedule delay evidence."
+    },
+    "case_id": "cameroon_-_transport_sector_support_prog__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only demographic and geographic information about the project area, with no mention of schedule performance, milestones, disruptions, or timeline impacts. There is no schedule-related content to suggest a delay."
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_ro__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "delays in procurement due to poor mastery of Bank rules and procedures, and fiduciary risks",
+        "advance contracting will shorten the procurement timeframes and thus avoid protracted delays between study completion and project execution"
+      ],
+      "label": "Uncertain",
+      "confidence": "medium",
+      "reasoning": "The text references historical procurement delays and lessons learned from past projects, but these are contextual background observations rather than evidence of a delay occurring on the current project. The mitigation measures described (advance contracting, training, experienced staff) suggest proactive steps to prevent delays, but no current schedule impact is confirmed or denied."
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_ro__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information whatsoever; it exclusively describes knowledge management and monitoring/evaluation activities. There is no evidence of disruptions, milestone changes, or any schedule impact."
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is a financial summary describing project cost estimates, contingency provisions, and financing arrangements. There is no schedule-related information, disruptions, or delay indicators present in the text."
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information, milestones, or references to delays or disruptions. It is a strategic justification narrative describing the Bank's rationale for involvement in the project, with no construction progress or timeline content."
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_a__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt is entirely focused on knowledge management, monitoring-evaluation components, and institutional data sharing arrangements. There is no schedule-related information, disruptions, or delay indicators of any kind present in the text."
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_a__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information, milestones, timelines, or any mention of disruptions or delays. It is a strategic alignment and project design description with no construction schedule content."
+    },
+    "case_id": "drc_-_rural_economy_integrated_developme__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt is a contextual/background description of the project area, regional infrastructure, and coordination with financial partners. It contains no schedule-related information, milestone references, or any indication of delay or disruption."
+    },
+    "case_id": "drc_-_rural_economy_integrated_developme__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information whatsoever; it describes only the regional significance and strategic context of the road project. There is no mention of delays, milestones, disruptions, or any other schedule-relevant content."
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt describes the completed project's socio-economic contributions and benefits to the served regions, with no mention of schedule-related information, disruptions, or delays. This is a post-completion summary with no schedule concerns present."
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "Rehabilitation of these roads, if delayed, shall result in the total collapse of a significant part of the regional road network thereby raising consequent capital cost for rehabilitation and its associated adverse social effects."
+      ],
+      "label": "Uncertain",
+      "confidence": "medium",
+      "reasoning": "The excerpt describes the consequences of a potential delay to road rehabilitation work in a conditional, future-oriented framing ('if delayed'), but does not provide any direct evidence that a schedule delay has actually occurred or is currently occurring. The passage is primarily a justification for the project's urgency rather than a schedule status report."
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_devel__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The report excerpt contains only a list of project activity categories, output indicators, and deliverable descriptions with no schedule-related information, disruptions, or timeline assessments. With no evidence of delay or schedule impact, and the text being purely a structural/administrative listing of activities and metrics, 'No Delay' is assigned, though confidence is low due to the complete absence of any schedule-relevant content."
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_devel__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a list of abbreviations and acronyms with no project status information, schedule-related statements, or descriptions of disruptions. There is no evidence of any schedule delay or impact."
+    },
+    "case_id": "in265-10__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The provided text contains only an abbreviation/acronym legend with no construction progress information, schedule data, milestone references, or any project status details. There is no schedule-related evidence to suggest a delay."
+    },
+    "case_id": "in265-10__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt is purely a project overview describing scope, cost, funding, and planned timeline with no mention of any disruptions, issues, or schedule impacts. There is no schedule-relevant evidence to suggest a delay has occurred or is implied."
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilit__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "the Procurement Unit at RA has only 2 staff serving several departments. This results in delays in procurement.",
+        "To reduce this risk, the RA has undertaken to strengthen the Unit by increasing staff levels necessary to effectively deliver on procurement activities.",
+        "the Bank will closely monitor the procurement activities based on the agreed Procurement Plan"
+      ],
+      "label": "Uncertain",
+      "confidence": "medium",
+      "reasoning": "The report explicitly states that understaffing in the Procurement Unit 'results in delays in procurement,' which is a schedule-relevant risk, but the text frames this as a risk being mitigated (through hiring and monitoring) rather than confirming a concrete impact on overall project milestones or completion dates. There is insufficient information to determine whether these procurement delays have already caused or will definitively cause a downstream schedule impact on the broader project programme."
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilit__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "This project was completed within the prescribed timeframe and without cost overrun."
+      ],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt references a prior project that was completed on time and within budget, and the current text describes only preparatory and appraisal missions with no mention of any schedule disruptions or delays to the Rosso-Boghé Road Construction Project."
+    },
+    "case_id": "mauritania_-_pcr_road_project_1__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "According to projections during the appraisal, works were to start in November 2003 and end in October 2006, representing an implementation timeframe of 36 months.",
+        "The actual schedule reveals the following dates:"
+      ],
+      "label": "Uncertain",
+      "confidence": "low",
+      "reasoning": "The text establishes a planned schedule (November 2003 to October 2006) and references an 'actual schedule,' but the excerpt is incomplete and cuts off before the actual dates are provided, making it impossible to determine whether a delay occurred."
+    },
+    "case_id": "mauritania_-_pcr_road_project_1__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only administrative/procedural language describing the purpose of the report itself, with no schedule-related information, disruptions, milestones, or timeline references of any kind. A routine administrative statement with no schedule content defaults to 'No Delay'."
+    },
+    "case_id": "mpr_january_2011_final__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "As a result of the approval of Variation Order #2 the scope of the works and Contract Completion have been revised."
+      ],
+      "label": "Delay",
+      "confidence": "medium",
+      "reasoning": "The explicit statement that the Contract Completion date has been revised following Variation Order #2 indicates a change to the scheduled completion milestone, which constitutes a schedule impact. However, confidence is medium because it is unclear whether the revision extends or shortens the completion date, and scope changes via variation orders can sometimes reflect added work rather than a delay."
+    },
+    "case_id": "mpr_january_2011_final__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains only project background information, geographic scope, population statistics, and cost estimates. There is no schedule-related information, disruptions, or delay indicators of any kind present in the text."
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvem__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains no schedule-related information, disruptions, or mentions of delays. It is entirely focused on knowledge management, monitoring and evaluation mechanisms, and lessons learned — routine project planning language with no schedule impact."
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvem__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is a background/context narrative describing the historical development and political commitments related to the Mueda Negomano road and Mtwara Corridor, with no schedule-related information, milestones, or disruptions mentioned. There is no evidence of any schedule delay or impact."
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgr__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is a background/context description of the Mueda–Negomano road section, covering its regional importance and historical condition. It contains no information about a construction project schedule, milestones, or any schedule-related disruptions or delays."
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgr__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information whatsoever; it describes only the project's intended beneficiaries and anticipated social impacts at completion. There is no mention of disruptions, milestones, or timeline concerns."
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-marar__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only high-level project background and strategic context information, with no schedule-related content, disruptions, milestones, or timeline references mentioned. There is no evidence of any delay."
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-marar__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only project rationale and background information describing the purpose and need for the road rehabilitation project. There is no schedule-related information, milestone data, or any mention of disruptions, delays, or timeline impacts whatsoever."
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_pr__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains no schedule-related information whatsoever; it is a background description of the Bank's sector experience and investment history in Nigeria's transport sector. There is no mention of project timelines, milestones, or any disruptions that could imply a schedule delay."
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_pr__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains no schedule-related information whatsoever; it describes only the strategic relevance and geographic significance of the road rehabilitation project. There is no mention of delays, disruptions, milestones, or timeline impacts."
+    },
+    "case_id": "pcr-kaz-28403__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "low",
+      "reasoning": "The report states the works were completed on 14 August 2001, but provides no original baseline completion date to compare against, making it impossible to determine whether a delay occurred. With no schedule-related disruptions, milestones, or delay statements mentioned, and a completed project, this is classified as No Delay, though confidence is low due to the absence of baseline schedule information."
+    },
+    "case_id": "pcr-kaz-28403__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of abbreviations and acronyms with no project status information, schedule-related statements, or descriptions of disruptions or progress. There is no evidence to suggest any schedule delay."
+    },
+    "case_id": "pvr-2594__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only acronym definitions and team member listings with no schedule-related information, disruptions, milestones, or project progress descriptions whatsoever. There is no basis to infer any schedule delay."
+    },
+    "case_id": "pvr-2594__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a glossary of abbreviations and acronyms with no schedule-related information, disruptions, milestones, or any project progress content whatsoever."
+    },
+    "case_id": "pvr-265__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The provided text contains only an acronym/abbreviation legend with no construction progress information, schedule data, milestone references, or any project status details. There is no schedule-related evidence to suggest a delay."
+    },
+    "case_id": "pvr-265__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The provided text contains only an acronym/abbreviation glossary with no project status information, schedule-related statements, or descriptions of any disruptions or delays whatsoever."
+    },
+    "case_id": "pvr-2817b__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only an abbreviation key and team member listing with no schedule-related information, project status descriptions, or any mentions of disruptions, milestones, or timeline impacts."
+    },
+    "case_id": "pvr-2817b__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of abbreviations and acronyms with no project status information, schedule-related content, or any indication of disruptions or delays."
+    },
+    "case_id": "pvr-2831__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only an abbreviations legend and team member credits for a project evaluation report. There is no schedule-related information, project status descriptions, or any evidence of disruptions or delays whatsoever."
+    },
+    "case_id": "pvr-2831__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a list of acronym definitions with no schedule-related information, project status updates, or any construction activity descriptions. There is no evidence of any delay or schedule impact."
+    },
+    "case_id": "pvr-2981__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is a background/introduction section describing the project's approval, design scope, and objectives with no schedule-related disruptions, milestone changes, or delay indicators mentioned. There is no schedule-relevant information suggesting any delay."
+    },
+    "case_id": "pvr-2981__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only abbreviation definitions and team member credits from a project completion report, with no schedule-related information, disruptions, milestones, or timeline references of any kind."
+    },
+    "case_id": "pvr-3055b__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "Most of the works were substantially completed by the original loan closing date of 31 March 2017.",
+        "The loan closing date had to be extended for completion of only residual works on some contracts."
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The loan closing date required an extension to accommodate residual works on some contracts, which directly indicates that not all work was completed by the original deadline of 31 March 2017. An extension of a project closing date is a concrete indicator of schedule delay, even if the remaining work was described as 'residual.'"
+    },
+    "case_id": "pvr-3055b__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of abbreviations and acronyms with no project status information, schedule references, milestones, or any construction-related narrative. There is no evidence of delay or any schedule-related content whatsoever."
+    },
+    "case_id": "pvr-3074__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a glossary of abbreviations with no project status, schedule, milestone, or disruption information whatsoever. There is no schedule-related content to suggest a delay."
+    },
+    "case_id": "pvr-3074__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only an abbreviations/acronyms list with no schedule-related information, project status descriptions, or any content that could indicate a delay or its absence."
+    },
+    "case_id": "pvr-3189a__p0",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only an abbreviation legend/glossary with no construction progress information, schedule data, or any project status details. There is no schedule-relevant evidence to suggest a delay has occurred or is implied."
+    },
+    "case_id": "pvr-3189a__p1",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a glossary of abbreviations and acronyms with no project status information, schedule references, or disruption descriptions of any kind. There is no schedule-related evidence to suggest a delay."
+    },
+    "case_id": "pvr-3248__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of acronym definitions with no project status information, schedule data, milestone references, or any construction-related content. There is no schedule-relevant evidence to suggest a delay."
+    },
+    "case_id": "pvr-3248__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a list of abbreviations and acronyms with no project status information, schedule-related content, or any descriptions of work progress, disruptions, or milestones. There is no schedule-relevant evidence of any kind."
+    },
+    "case_id": "pvr-332__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a glossary of abbreviations and acronyms with no project status information, schedule references, disruptions, or any construction-related content. There is no evidence of any schedule delay."
+    },
+    "case_id": "pvr-332__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only an abbreviations/acronyms glossary with no project status information, schedule references, or descriptions of disruptions. There is no schedule-related content to suggest a delay."
+    },
+    "case_id": "pvr-453__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a list of acronym definitions with no project progress, schedule, or construction-related information whatsoever. There is no evidence of any schedule impact, disruption, or delay."
+    },
+    "case_id": "pvr-453__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of acronym definitions with no project status information, schedule-related content, or any description of project activities. There is no evidence of any kind to suggest a schedule delay."
+    },
+    "case_id": "pvr-523__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "The excerpt is a background/introductory description of a completed project, noting ADB approval in 2006 and a project completion report prepared in July 2016, with no schedule-related concerns, disruptions, or delay indicators mentioned. There is no schedule delay evidence present in this text."
+    },
+    "case_id": "pvr-523__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of abbreviations and acronyms with no project status information, schedule-related content, or descriptions of any disruptions or progress. There is no evidence of any schedule impact whatsoever."
+    },
+    "case_id": "pvr-605__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of acronym definitions with no project status information, schedule data, milestone references, or any construction-related content. There is no basis for inferring a schedule delay."
+    },
+    "case_id": "pvr-605__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a glossary of abbreviations with no construction progress information, schedule data, milestones, or disruption details. There is no schedule-related content to suggest a delay."
+    },
+    "case_id": "pvr-626__p0",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The project loan was approved in September 2010 with actual loan effectiveness in January 2011.",
+        "Although the loan was not extended and kept its original closing date of June 2016, the loan was financially closed in December 2016."
+      ],
+      "label": "Delay",
+      "confidence": "medium",
+      "reasoning": "The loan's financial closing occurred in December 2016, six months after the original closing date of June 2016, indicating that project financial activities extended beyond the planned schedule. While the loan was not formally extended, the discrepancy between the original closing date and the actual financial closure date strongly implies a schedule overrun in project completion."
+    },
+    "case_id": "pvr-626__p1",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only a list of acronym definitions with no schedule-related information, project status updates, disruptions, or timeline references. There is no basis for classifying a delay."
+    },
+    "case_id": "pvr-654__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The actual loan closing date was on 30 June 2016, two years later due to extended rainfall that affected the availability of appropriate work sites and the failure of some contractors to make effective use of that period for mobilization activities.",
+        "The loan agreement for the project stated that the loan closing date was to be 30 June 2014.",
+        "The actual loan closing date was on 30 June 2016"
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The report explicitly states that the loan closing date was extended by two years beyond the originally planned date of 30 June 2014, with specific causes identified including extended rainfall affecting work site availability and contractor mobilization failures, providing clear and unambiguous evidence of a significant schedule delay."
+    },
+    "case_id": "pvr-654__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The text contains only an acronym legend/glossary with no project progress, schedule, or status information whatsoever. There is no schedule-related content to evaluate, making this a report excerpt with no relevant evidence of delay."
+    },
+    "case_id": "pvr-658__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [
+        "The project completion date was in October 2015, 9 months after the envisioned completion.",
+        "The delay in the procurement process led to a 1-year delay in starting the civil works",
+        "the planned closing date of June 2015 was delayed by 1 year",
+        "the grant closing date was also delayed by 1 year"
+      ],
+      "label": "Delay",
+      "confidence": "high",
+      "reasoning": "The text explicitly states that procurement delays caused a 1-year delay in civil works commencement, resulting in both the planned closing date and grant closing date being pushed back by one year, with the project ultimately completing 9 months after the originally envisioned completion date."
+    },
+    "case_id": "pvr-658__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a glossary of abbreviations with no project progress information, schedule data, or any construction-related content. There is no evidence of any schedule impact whatsoever."
+    },
+    "case_id": "pvr-697__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains only background contextual information about Mongolia's population density, road network, and infrastructure statistics. There is no project-specific schedule, milestone, or construction progress information present, and therefore no evidence of any schedule delay."
+    },
+    "case_id": "pvr-697__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of abbreviations and acronyms with no project status information, schedule-related content, or any discussion of disruptions, milestones, or timeline impacts. There is no basis to classify a delay."
+    },
+    "case_id": "pvr-714__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "medium",
+      "reasoning": "The excerpt describes expected project outputs and their associated indicators with target dates (2010 and 2012), but contains no information about actual schedule performance, milestones missed, or any disruptions affecting the timeline. This is a routine description of planned outputs with no schedule-related concerns or delay evidence present."
+    },
+    "case_id": "pvr-714__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The provided text is purely a glossary of abbreviations and acronyms with no schedule-related information, project status descriptions, or any content that could indicate a delay. There is no basis for classifying a schedule delay."
+    },
+    "case_id": "pvr-719__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains only a list of abbreviations and acronyms with no project status information, schedule references, milestones, disruptions, or any other schedule-relevant content. There is nothing to suggest a delay has occurred."
+    },
+    "case_id": "pvr-719__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains no schedule-related information whatsoever; it discusses developmental impacts, organizational learning, and project reporting objectives. There is no mention of delays, disruptions, milestones, or timeline concerns."
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road___p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is a strategic and policy context description discussing the Bank's investment priorities, development partnerships, and project rationale. It contains no schedule-related information, milestones, timelines, or disruptions of any kind."
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road___p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is a project scope description outlining planned maintenance activities for classified roads, with no mention of schedule performance, milestones, disruptions, or timeline impacts. There is no schedule-related information suggesting a delay."
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernizat__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt contains no schedule-related information whatsoever; it describes only a knowledge management and reporting framework for impact indicators. There is no mention of disruptions, milestones, or schedule performance."
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernizat__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt is a purely descriptive background section outlining the scope, phases, and financing of the citywide infrastructure project, with no schedule-related concerns, disruptions, or delay indicators mentioned. It contains only routine project context with no information suggesting any schedule impact."
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitati__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains no schedule-related information, disruptions, or milestone references. It is a description of the project's economic impact analysis and design rationale, with no evidence of any schedule delay or impact."
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitati__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The report excerpt contains only background information about project beneficiaries and road users, with no schedule-related information, disruptions, milestones, or timeline references of any kind."
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "evidence": [],
+      "label": "No Delay",
+      "confidence": "high",
+      "reasoning": "The excerpt is entirely focused on project rationale, policy context, and strategic alignment with national development plans. There is no schedule-related information, milestone data, or any indication of disruptions or delays anywhere in the text."
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_natural"
+  }
+]

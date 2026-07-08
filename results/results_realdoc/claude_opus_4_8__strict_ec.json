@@ -1,0 +1,1666 @@
+[
+  {
+    "response": {
+      "thought_process": "The provided excerpt is purely administrative metadata about the report's authorship and contact information. It identifies the preparers of the report (W. Byaruhanga and Jose C. Horta), the date and location of their mission (Lesotho, April 1999), and a contact reference (G.M.B. Kariisa). There is no content whatsoever pertaining to project schedules, milestones, critical paths, completion dates, or progress status. Without any schedule-related evidence, no factual determination about delay or non-delay can be made.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow a 'Scope' pattern—mistaking administrative or contextual text for substantive schedule reporting, or inferring delay from the mere existence of a post-evaluation mission. The conservative decision rule requires factual schedule evidence, which is absent here.",
+      "label": "Uncertain"
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-p__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is primarily a table of exchange rates (UA to M) cross-referenced with project milestone dates. I need to determine whether any schedule slippage is factually reported. The milestones listed are: Appraisal (Jan-Mar 1986), Loan signed (16.7.1986), Tenders closed (17.2.1987), Loan effective (1.4.1987), First disbursement (26.6.1987), Award of Contract (16.7.1987), Final Completion (9.7.1990), last disbursement (22.9.1994), and a deadline for last disbursement (December 1995). Notably, 'Final Completion' is dated 9.7.1990, but disbursements continued through 22.9.1994 with a stated deadline of December 1995. While the gap between final completion (1990) and last disbursement (1994) might suggest something unusual, the text contains no explicit statement of delay, no surpassed milestone described as missed, and no commentary on critical path performance. These are factual milestone dates without any qualitative assessment of schedule status. The last disbursement (22.9.1994) occurred before the stated deadline (December 1995), which actually indicates compliance rather than overrun. There is no statement of 'on schedule' nor any explicit delay declaration.",
+      "extracted_evidence": [
+        "July - Sept. 1990 (Final Completion 9.7.1990)",
+        "July - Sept. 1994 (last disbursement 22.9.1994)",
+        "December 1995 (deadline last disbursement)"
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Lexical/Scope pattern: inferring 'Delay' from the long gap between Final Completion (1990) and last disbursement (1994) without any explicit textual statement confirming a delay. The data is purely milestone/financial record-keeping; inferring schedule failure from date gaps alone would be unwarranted over-commitment.",
+      "label": "Uncertain"
+    },
+    "case_id": "05182236-en-lesotho-khamane-oxbow-road-p__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "05182236-en-lesotho-khamane-oxbow-road-project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt discusses technical aspects of the project: DPR review by JICA Experts, sections with more than 10km length between interchanges, proposals for three additional interchanges, and traffic volume estimation. There is no mention of schedule status, milestone dates, completion timelines, or any progress condition. No statement indicates the project is on schedule, delayed, or at risk of delay. The content is purely design/planning related (interchange spacing and traffic forecasting). Therefore, there is insufficient information to determine schedule impact.",
+      "extracted_evidence": [
+        "there are 3 sections which have more than 10km length between adjacent interchanges",
+        "The corridor along the proposed BPRR will be developed and urbanized after the completion of the road",
+        "JICA Experts proposed three (3) additional interchanges at above mentioned sections",
+        "The traffic volume on the additional interchanges has been estimated by the traffic demand forecast"
+      ],
+      "self_diagnosis": "A misinterpretation could follow the Lexical pattern—the word 'completion' might be wrongly read as a schedule signal, but it refers to a future development condition (urbanization after road completion), not a reported schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "12246781__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes design modifications: extending bridge sections at railway crossings to avoid a high retaining wall, and reviewing other structures (box culvert) with technical suggestions provided. This text is purely descriptive of design/engineering decisions and technical review activities. There is no mention of the project schedule, milestone dates, completion deadlines, or any explicit statement regarding delay, on-time status, or recovery. The text describes design optimization work, not schedule impact. There is no factual evidence of a surpassed milestone or critical path delay, nor any statement of being 'on schedule.' Without any schedule-related information, the impact on the overall timeline cannot be determined.",
+      "extracted_evidence": [
+        "The section of the bridges at two (2) railway crossings was extended to avoid the high retaining wall (approximately 18m height) at the approach sections of the bridges on swampy land.",
+        "Other structure design such as box culvert, etc. was also reviewed and the technical suggestions were provided."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the Scope pattern—mistaking design modification activity (a local engineering decision) as evidence of a global schedule delay, or the Lexical pattern—inferring delay from 'extended' which here refers to physical bridge length, not schedule extension.",
+      "label": "Uncertain"
+    },
+    "case_id": "12246781__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "12246781",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provided is purely a legal/regulatory disclaimer describing the EU guarantee framework and monitoring obligations under DECISION No 466/2014/EU. It contains no information whatsoever about the actual schedule status of any project—no mention of milestones, completion dates, critical path, delays, or progress. The text is entirely about compliance, monitoring requirements, and publication policies. There is no factual schedule evidence to extract, and no statement of 'on schedule' or 'delay.' Under the Evidence-Constrained procedure, with no schedule-related evidence present, the conservative default applies.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the likely failure pattern would be Lexical—mistaking compliance/monitoring language (e.g., 'until completion', 'project implementation') for actual schedule status indicators, when these are merely references to the project lifecycle in a legal context.",
+      "label": "Uncertain"
+    },
+    "case_id": "20070316-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt discusses institutional arrangements for road maintenance and operation, specifically the planned reorganization and privatization of Makedonija Pat (MP). The text notes that an assumption at appraisal was that a competitive maintenance market would exist by project completion, but that 'to date, such arrangements have not been fully established.' This is a statement about the institutional/market environment and a failed policy assumption — not about the construction schedule, milestones, or critical path of the project itself. There is no mention of milestone dates being surpassed, completion timelines, or any explicit schedule status. The 'has not been fully established' refers to the maintenance market reform, not a construction delay. Under modality, this is factual but the scope is about institutional/market arrangements, not the project's construction schedule. Therefore there is insufficient evidence regarding the actual schedule status of the project.",
+      "extracted_evidence": [
+        "It was assumed at appraisal that by the forecast time for completion of the project, the market for road maintenance would be competitive.",
+        "However, to date, such arrangements have not be fully established in the county and the project is largely maintained by Makedonija Pat.",
+        "PESR has been designated as the Tunnel Safety Manager for the two long tunnels on the project."
+      ],
+      "self_diagnosis": "A likely misinterpretation would follow the 'Scope' pattern — mistaking the unfulfilled market-reform assumption ('arrangements have not been fully established') for a project schedule delay, when in fact it refers to an institutional/policy reform separate from the construction critical path.",
+      "label": "Uncertain"
+    },
+    "case_id": "20070316-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "20070316-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes an ex-post evaluation conducted after project completion. It states the degree of completion of outputs is 'generally high' based on agency reports and on-site examinations. Crucially, the text refers to the period 'between the project completion and the ex-post evaluation,' which confirms the project has already been completed. There is no explicit mention of schedule, milestones being missed, or any delay on the critical path. The mention of 'problems' refers to operation and maintenance issues post-completion, not schedule delays during construction. Since the project is completed and no delay is reported, but there is also no explicit 'on schedule' statement, I must apply the conservative decision rule. The text does not provide direct evidence about the original schedule timeline being met or missed; it focuses on output completion quality, not temporal performance.",
+      "extracted_evidence": [
+        "the degree of completion of the outputs is considered to be generally high",
+        "Problems that occurred during the period between the project completion and the ex-post evaluation are described in \"3.5.4 Current Status of Operation and Maintenance\" below"
+      ],
+      "self_diagnosis": "A potential misinterpretation could follow the 'Lexical' pattern—reading 'completion of outputs is generally high' as evidence of on-time delivery, or the 'Scope' pattern—confusing post-completion O&M 'problems' with schedule delays. Neither interpretation is supported by explicit schedule evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "2015_SL-P97_4_f__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The report describes a project period that was 124% of plan. However, this needs careful modality analysis. The longer period is attributed to (1) an increase in scope/outputs from ~300km to 376.68km (126%), which is proportional, and (2) past delays from JICA mobilization and flooding interruptions in 2010-2013. Critically, the final sentence states that a delay exceeding the REVISED schedule (revised to account for the increased outputs) was AVOIDED by controlling the implementation schedule. This is a recovery/resolution statement. The past delays existed but were managed so that the project did not exceed its legitimately revised schedule. The temporal framing is retrospective (past flooding events, completed project). Per the criteria, a past delay that is reported as controlled/avoided against the revised baseline falls under 'No Delay' (Recovered/Resolved). The 124% figure against the original plan is explained by the proportional output increase, not unmanaged slippage.",
+      "extracted_evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads",
+        "Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding in October 2010 – February 2011 and December 2012 – March 2013.",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be Lexical/Temporal: over-reacting to the keywords '124%', 'longer than planned', and 'delay' while ignoring that these refer to past events and an explained scope increase, and that the final sentence explicitly states the delay against the revised schedule was avoided (Recovery pattern).",
+      "label": "No Delay"
+    },
+    "case_id": "2015_SL-P97_4_f__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "2015_SL-P97_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provides background and contextual information about Japan's and other donors' assistance to rural road development in Morocco, including the establishment of funding mechanisms (CFR, FSR, Hassan II Fund). However, there is no information whatsoever about the current schedule status of any specific project. There are no statements indicating whether milestones have been met, surpassed, or are at risk. No mention of 'on schedule,' 'delay,' 'recovered,' or any temporal progress indicators. The text is purely descriptive of financing and institutional context.",
+      "extracted_evidence": [
+        "Japan has been assisting the development and improvement of rural roads in Morocco since it extended a Yen loan for “Road Improvement Project” in 1995.",
+        "In 2004, the Moroccan government established the Fund for Road Finance ... to develop and maintain rural roads.",
+        "the Moroccan government secured government budget, Special Road Funds ..., local government budget, domestic funds, such as Hassan II Fund, and funds from aid donors."
+      ],
+      "self_diagnosis": "If misinterpreted, the likely error pattern would be Scope—incorrectly inferring schedule status from general project/financing background that contains no actual schedule data.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P27_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text discusses total project cost and notes 'As of July 2017, most of the road sections were completed, so these are the total costs.' The excerpt is primarily financial in nature, reporting cost figures at the ex-post evaluation stage. Step 2 - Modality & Scope Check: The only schedule-relevant statement is 'most of the road sections were completed.' This is a factual statement about completion status, but it is ambiguous regarding scheduling. 'Most' implies not all sections were completed, but the text does not specify any planned completion date, milestone, or whether the remaining sections are behind schedule. There is no explicit statement of 'on schedule,' nor any confirmation that any milestone has been surpassed as a matter of fact. Step 3 - Conservative Decision: There is no definitive factual evidence of an unresolved critical-path delay or surpassed completion dates. The phrase 'most...completed' could indicate normal progress or a partial delay, but the information is insufficient to determine actual impact on the overall schedule. Per the EC procedure, the conservative choice is 'Uncertain.'",
+      "extracted_evidence": [
+        "As of July 2017, most of the road sections were completed, so these are the total costs."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the Lexical/Scope pattern: inferring a 'Delay' from the word 'most' (implying incomplete sections) without any factual milestone date or confirmation of schedule impact. The text lacks the temporal benchmarks needed to confirm delay.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P27_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P27_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt discusses the project's background, rationale, and objectives—specifically addressing regional disparities, infrastructure development needs in an isolated mountainous northern area, poverty reduction, and planned donor coordination. There is no information whatsoever regarding the project's schedule, milestones, completion dates, progress status, or any delay-related content. Without schedule-related evidence, no factual basis exists to assess delay status.",
+      "extracted_evidence": [
+        "This project addressed the need to develop the northern area where infrastructure development has been left behind due to the isolation of the mountainous area",
+        "the need to redress the economic and social disparity in the areas with high poverty rates",
+        "Coordination with other donors such as the EC was also planned."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the Lexical pattern—mistaking words like 'left behind' (referring to historical regional development context) for a schedule delay, when it actually describes socioeconomic background rather than project timeline status.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P30_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt focuses on project relevance, donor coordination, and section selection rather than schedule status. It describes that the Japan-supported sections were 'left behind in terms of development,' but this refers to the prior state of development relative to other donors' completed work, not a reported delay against this project's schedule. There is no mention of milestone dates, completion dates being surpassed, or any explicit statement about being on or off schedule. The statement 'There were no particular problems when Japan selected its target sections' relates to the selection/coordination phase, not schedule performance. No factual evidence of current critical-path delay exists, nor an explicit 'on schedule' confirmation.",
+      "extracted_evidence": [
+        "the sections Japan supported were the section left behind in terms of development",
+        "Without completion of these sections, the whole project (of the Mediterranean roads) could not be completed",
+        "There were no particular problems when Japan selected its target sections and coordinated with other donors",
+        "While there were not any choices left in section selection, the sections assigned could complete all the Mediterranean roads"
+      ],
+      "self_diagnosis": "A potential misinterpretation would follow the Lexical pattern: the phrase 'left behind in terms of development' could be wrongly read as a schedule delay, when it actually describes the developmental status of the sections relative to other donors, not a delay in this project's timeline.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_MR-P30_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_MR-P30_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provides general sector background about Sri Lanka's road transportation. The phrase 'the construction of new roads between urban areas and other main cities had been delayed' refers to the general state of the road sector/country context, not to a specific project's schedule status. This is contextual/background information describing the rationale (need) for a project, not a report on the critical path or milestones of an ongoing project. There is no mention of any specific project's milestones, completion dates, or critical path status. The 'delay' mentioned is a descriptive feature of the national infrastructure landscape used to justify project necessity, not a reported schedule slippage of the project being audited. Scope is global/contextual rather than tied to a specific project schedule, and the information is insufficient to determine the actual project schedule impact.",
+      "extracted_evidence": [
+        "the construction of new roads between urban areas and other main cities had been delayed",
+        "there were many arterial roads between the main cities and road networks in the rural areas that had needed rehabilitation or widening",
+        "the transportation efficiency of existing roads has remained low"
+      ],
+      "self_diagnosis": "The most likely misinterpretation would be Lexical/Scope: seizing on the keyword 'delayed' and treating background sector context as a project schedule report. This would conflate national infrastructure conditions with a specific project's critical-path status.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_SL-P96_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt discusses Japan's ODA policy framework and JICA's Country Assistance Strategy for Sri Lanka. The only mention of 'delay' is in reference to a general historical context—'the development of the provincial/rural road network which was one of the factors that had caused delay in rural development.' This is a description of a broad, pre-existing development context, not a statement about the schedule status of the specific Rural Road Improvement Project under review. There is no factual evidence regarding whether the project itself is on schedule, behind, or has surpassed any milestones. The text is purely about policy alignment and background rationale. The mention of 'delay' here refers to historical rural development conditions that justified the project, not the project's own execution timeline.",
+      "extracted_evidence": [
+        "At the time of the appraisal for the Rural Road Improvement Project, the Country Assistance Program for Sri Lanka (April 2004) had not yet been prepared.",
+        "JICA’s Country Assistance Strategy for Sri Lanka (2002) included its policy to support the improvement of skills of the executing agencies in planning and maintenance for the development of the provincial/rural road network which was one of the factors that had caused delay in rural development."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern would be Lexical—mistaking the keyword 'delay' (used here in the context of historical rural development background) for an indication of a schedule delay in the project itself. The scope of the 'delay' mention is the broad rural development sector, not the specific project's critical path.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_SL-P96_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_SL-P96_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a post-completion narrative describing the project's outcomes and subsequent development plans. The text states the project is complete ('After the completion of this project') and discusses follow-on infrastructure planning. There is no mention of any schedule status, milestone dates, delays, or progress issues regarding the original project's execution timeline. The content is entirely about traffic outcomes and future expansion plans, not about whether the project itself was delayed. With no evidence of delay (factual or potential) and no explicit 'on schedule' statement, the schedule status cannot be determined from this text.",
+      "extracted_evidence": [
+        "After the completion of this project, traffic volume on the section of the Saigon East-West Highway traveling from east to west from the city’s outlying area to downtown has been on the rise during both peak and off-peak times",
+        "HCMCPC commenced a road expansion project in 2015 covering the Saigon East-West Highway from the east to south toward the Mekong Delta"
+      ],
+      "self_diagnosis": "If misinterpreted, it would likely follow a Lexical pattern—mistaking the absence of delay language or the mention of 'completion' for an implied 'No Delay,' when in fact no schedule performance information is provided.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_VN10-P1_4_f__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt focuses entirely on cost analysis (planned vs. actual costs, cost overruns of 118%). It discusses reasons for cost increases: additional land owners, rising material prices, and soil improvement for soft ground. While these factors (land acquisition complications, soft ground discovery) could theoretically affect a schedule, the text contains no explicit statements about schedule, timelines, milestones, completion dates, or whether the project is on time or delayed. The narrative is strictly about cost performance, not schedule performance. Per the EC procedure, I must extract schedule-related evidence — but there is none. Without any factual statement on schedule status, I cannot conclude 'Delay' or 'No Delay.' The information is insufficient to determine actual schedule impact.",
+      "extracted_evidence": [
+        "The actual costs totaled 79,209 million yen, exceeding the plan (118% compared to the plan).",
+        "An increase in the number of land owners and residents eligible for land acquisition and resettlement",
+        "Unexpected costs requiring soil improvement work because soft ground was discovered at the project site",
+        "considering there was little change in the actual outputs as described above"
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the 'Scope' or 'Lexical' pattern — incorrectly inferring schedule delay from cost overruns and disruptive events (land acquisition, soft ground), which are cost/scope incidents rather than confirmed schedule facts.",
+      "label": "Uncertain"
+    },
+    "case_id": "2016_VN10-P1_4_f__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "2016_VN10-P1_4_f",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is solely a list of abbreviations and their definitions (a glossary/acronym key). It contains no information regarding project schedule, milestones, completion dates, or progress status. There is no evidence of any kind—neither factual delay, recovery, nor potential risk—relevant to schedule analysis.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Any label other than Uncertain would be a Lexical misinterpretation, where the presence of project-related terms (e.g., 'project completion report') might be wrongly associated with schedule status despite carrying no temporal or progress information.",
+      "label": "Uncertain"
+    },
+    "case_id": "36068953__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text states pavement failures 'required rectification' and this 'was a key factor, causing a delay in project completion.' It also notes additional works 'contributed to this delay,' and that Contract C failures 'have continued to drain' maintenance resources. Step 2 - Modality & Scope Check: The language is factual and declarative, not conditional or speculative. 'Causing a delay in project completion' explicitly affirms a global impact on the overall project schedule as a matter of reported fact, not a possibility. The use of past tense ('caused') combined with the present-continuous 'have continued' indicates the delay actually occurred and effects persist. Step 3 - Conservative Decision: This is not vague or hedged language; it is a definitive statement that delay in project completion occurred. This meets the criteria for 'Delay' — explicit evidence that completion was delayed as a matter of reported fact.",
+      "extracted_evidence": [
+        "one of the packages (Contract C) experienced pavement failures that required rectification",
+        "This was a key factor, causing a delay in project completion",
+        "The Project scope was also revised to include several additional works, which contributed to this delay",
+        "Contract C failures have continued to drain MCTPC’s maintenance resources"
+      ],
+      "self_diagnosis": "A possible misinterpretation could follow the Recovery pattern — assuming that because 'all the other packages were effectively completed,' the project was on track. However, this would overlook the explicit factual statement that Contract C caused a delay in overall project completion.",
+      "label": "Delay"
+    },
+    "case_id": "36068953__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "36068953",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provides a series of procedural milestone dates: appraisal start/completion, loan negotiation start/completion for three tranches, and dates of approval. All dates listed are completed events stated as factual records. There is no mention of the critical path, no comparison to baseline or planned dates, and no statement about whether any milestone was met early, on time, or late. The text is purely a chronological log of administrative events. There is no language indicating 'on schedule,' 'delay,' 'recovered,' or any risk. Without baseline/target dates to compare against, I cannot determine if these dates represent delays or on-time performance. The information is insufficient to establish actual schedule impact.",
+      "extracted_evidence": [
+        "Appraisal – Date started 2 March 2007 – Date completed 28 July 2007",
+        "Loan 2400/2401 –Tranche 1 – Date started 11 October 2007 – Date completed 12 October 2007",
+        "Loan 3121/Grant 0434 – Tranche 2 – Date started 28 November 2013 – Date completed 28 November 2013",
+        "Loan 3197/Grant 0435 – Tranche 3 – Date started 3 October 2014 – Date completed 3 October 2014",
+        "Date of Approval Loan 2400/2401 – Tranche 1 17 December 2007",
+        "Loan 3121/Grant 0434 – Tranche 2 1 April 2014",
+        "Loan 3197/Grant 0435 – Tranche 3 25 November 2014"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the 'Scope' or 'Lexical' pattern—inferring delay from the large time gaps between tranches (2007 vs 2013/2014) without any baseline confirming those gaps were unplanned. The conservative approach avoids treating raw date sequences as evidence of delay.",
+      "label": "Uncertain"
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is purely administrative/financial background information about loan approvals, tranches, financing sources, and dates of approval. There is no statement regarding construction progress, milestone achievement, critical path status, or any schedule-related information. The text mentions a 'facility completion report' which implies the program reached a reporting stage, but provides no evidence about whether the work was on time, delayed, or recovered. There are no segments describing schedule status as fact or possibility.",
+      "extracted_evidence": [
+        "Tranche 1, approved in December 2007...",
+        "For tranche 2, a loan of $200 million from ADB’s OCR was approved in April 2014.",
+        "For tranche 3, a loan of $127 million from ADB’s OCR was approved in November 2014.",
+        "This facility completion report considers the performance of tranche 3 and the NTCHIP."
+      ],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical—inferring delay from the large time gaps between tranche approvals (2007 to 2014). However, sequential tranche financing is a normal design feature and does not constitute factual evidence of schedule delay.",
+      "label": "Uncertain"
+    },
+    "case_id": "40075-023-40075-033-40075-043-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "40075-023-40075-033-40075-043-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes resettlement plan (RP) procedures, compensation frameworks, and entitlement provisions. It mentions that a separate schedule for titled and non-titled RP has been 'initiated to speed up payments,' which suggests a process improvement intent rather than reporting an actual schedule status. There is no explicit statement about the project being on schedule, no mention of milestone dates being surpassed, and no evidence of current unresolved delays on a critical path. The language is largely future-oriented ('will be eligible,' 'will ensure,' 'will be ensured'), describing planned policies and entitlements rather than confirming the actual schedule status of the project. The phrase 'to speed up payments' could weakly imply prior slowness, but it does not constitute factual evidence of a confirmed delay or its global impact on the project schedule.",
+      "extracted_evidence": [
+        "Separate schedule for titled and non-titled RP has been initiated to speed up payments for non-titled entities without limiting their entitlements.",
+        "All affected entities will be eligible to receive compensation as per resettlement framework and entitlement matrix of the project.",
+        "Updated RP will ensure entitlements as per ARIPA 2017 and ADB SPS 2009.",
+        "Affected households will be eligible to receive livelihood restoration measures as ensured by the project."
+      ],
+      "self_diagnosis": "A potential misinterpretation would follow the Lexical pattern: reading 'speed up payments' as implied evidence of an existing delay. However, this is a process/policy description, not a factual schedule status report, so committing to a 'Delay' label would be over-interpreting vague keywords.",
+      "label": "Uncertain"
+    },
+    "case_id": "40540-017-rp-en_2__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the structure of the Resettlement Plan (RP) implementation schedule, noting that activities have been grouped under 15 broad heads and that a schedule is shown below. However, the actual schedule content, dates, milestones, or progress status are not included in the provided text. There is no statement indicating whether activities are on schedule, delayed, or recovered. The text is purely descriptive of the organizational framework of the schedule, not its execution status. There is no modality indicating fact-based delay, possibility of delay, or recovery. Without the actual schedule data or progress reporting, the impact on the overall timeline cannot be determined.",
+      "extracted_evidence": [
+        "The break-up list of total activities to be performed by the INGO is very long and these have been grouped under 15 broad heads.",
+        "Broad head-wise RP Implementation Schedule of the total activities is shown below:"
+      ],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical/Scope — incorrectly inferring delay from the phrase 'very long' list of activities, which describes complexity, not schedule status. The information is structural and insufficient to assess actual schedule impact.",
+      "label": "Uncertain"
+    },
+    "case_id": "40540-017-rp-en_2__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "40540-017-rp-en_2",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text mentions a 'Minor change approved on 24 April 2015' which includes a 'second extension of loan closing date from 30 June 2015 to 31 August 2016.' Step 2 - Modality & Scope Check: This is a factual administrative action (a minor change was approved). The key element is the 'second extension' of the loan closing date by over a year. The phrase 'second extension' indicates that the loan closing date has been formally pushed back twice, which is strong factual evidence of schedule slippage on a key project milestone (loan closing). This is not a 'potential risk' or 'possibility' — it is a reported, approved fact. A loan closing date extension typically reflects that the project activities financed by the loan could not be completed within the original timeframe. Step 3 - Conservative Decision: While the text does not explicitly say 'delay' or describe critical path activities directly, the factual extension (and notably the 'second' such extension) of a completion-related milestone date constitutes definitive evidence that a previously established date (30 June 2015) was not met and required formal extension. This surpasses the threshold of a vague keyword — it is a documented date change that has occurred.",
+      "extracted_evidence": [
+        "Minor change approved on 24 April 2015",
+        "second extension of loan closing date from 30 June 2015 to 31 August 2016"
+      ],
+      "self_diagnosis": "The primary risk here is a Scope misinterpretation: a loan closing date extension is a financial/administrative milestone, which may not perfectly equate to physical construction critical-path delay. However, since it is the 'second extension' and represents a surpassed milestone date as a matter of reported fact, the more conservative reading still supports Delay. A possible alternative error would be Lexical over-commitment if 'minor change' were read as minimizing impact, but the repeated extension is factual.",
+      "label": "Delay"
+    },
+    "case_id": "44281-013-pcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is a template or form structure listing data fields for a project report. It contains field labels such as 'Appraisal – Date started – Date completed,' 'Grant negotiations,' 'Date of Board approval,' 'Date of grant effectiveness,' and 'Project completion date – Appraisal – Actual.' Crucially, none of these fields contain any actual filled-in values, dates, or status statements. There is no factual data indicating whether milestones were met, missed, or are on track. While the structure includes a 'Number of extensions' field (which could be relevant to delay analysis) and an 'Actual' vs 'Appraisal' completion date comparison (a typical delay indicator), these fields are empty. There is no explicit statement of 'On schedule,' no surpassed milestone dates, and no evidence of unresolved critical path delays. Per the Modality & Scope Check, there is no Fact present at all—only a blank framework. Under the Conservative Decision rule, the absence of populated evidence means information is insufficient to determine actual schedule impact.",
+      "extracted_evidence": [
+        "5. Date of grant effectiveness – In grant agreement – Actual – Number of extensions",
+        "6. Project completion date – Appraisal – Actual"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the 'Lexical' pattern—erroneously inferring delay from the mere presence of fields like 'Number of extensions' or 'Actual vs. Appraisal,' despite the absence of any populated values or factual delay statements.",
+      "label": "Uncertain"
+    },
+    "case_id": "44281-013-pcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "44281-013-pcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists entirely of an abbreviations/legend key (defining acronyms such as ADB, ADTA, JSF, km, etc.). There is no narrative content describing schedule status, milestones, completion dates, delays, or recovery. With no schedule-related statements present, there is no factual or modal evidence to evaluate. Under the conservative Evidence-Constrained procedure, the absence of any schedule information means the impact cannot be determined.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical — incorrectly inferring meaning from isolated keywords (e.g., 'PCR', 'completion') in the legend that do not actually describe schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "47144944__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a project description/summary rather than a progress report tracking schedule status. It describes the project's design, funding, components, and notes completion: 'The project was completed in August 2006.' There is no mention of any planned completion date to compare against, nor any statement about delays, recovery, or schedule adherence. Modality: the completion is stated as fact ('was completed'), but without a baseline target date, we cannot determine whether this represents a delay or on-time delivery. Scope: global (whole project), but there is no schedule-comparison information. The text neither explicitly states 'On schedule' nor reports any surpassed milestone as a delay.",
+      "extracted_evidence": [
+        "The project was completed in August 2006.",
+        "The project had three main components funded by ADB: (i) improvement of 245.8 kilometers (km) of rural roads, (ii) improvement of 66.7 km of feeder roads ... and (iii) periodic maintenance of 163 km of selected national roads."
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Temporal/Scope pattern—mistaking a factual completion statement for evidence of on-time delivery (No Delay) or assuming a delay without a baseline date to compare against. Information is insufficient to assess actual schedule impact.",
+      "label": "Uncertain"
+    },
+    "case_id": "47144944__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "47144944",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text states the original implementation period was 12 months up to 31 October 2019, and that 'The TA was extended by one year to 31 October 2020 due to late availability of complete project design documentation.' Step 2 - Modality & Scope Check: The phrase 'was extended by one year' is reported as a factual, completed action, not a possibility. The cause is explicitly stated as 'late availability of complete project design documentation' — a confirmed past event that impacted the schedule. The original completion date (31 October 2019) was surpassed and the period had to be formally extended. This is a global impact on the overall implementation schedule, not a local incident. While part of the extension was also to 'expand procurement support,' the primary stated cause of the extension is the late documentation, indicating a real schedule slippage. Step 3 - Conservative Decision: The extension of the completion date due to late documentation is a factual occurrence of a milestone/completion date being surpassed and rescheduled. There is no statement of recovery or that it is back on schedule. This meets the 'Delay' criteria: explicit evidence that the original completion date was surpassed as a matter of reported fact.",
+      "extracted_evidence": [
+        "The original implementation period was 12 months up to 31 October 2019.",
+        "The TA was extended by one year to 31 October 2020 due to late availability of complete project design documentation and to expand procurement support to cover procurement activities until contract award."
+      ],
+      "self_diagnosis": "Potential misinterpretation could follow the 'Scope' pattern — one might argue the extension was partly administrative/scope expansion (procurement support) rather than purely a delay. However, the explicit causal link to 'late availability of complete project design documentation' confirms a factual schedule slippage, so a 'Delay' label is justified.",
+      "label": "Delay"
+    },
+    "case_id": "52043-002-tcr-en__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text reports several factual events. Consultants mobilized January 2019. Draft detailed design received 5 August 2019. Design documentation for Almaty–Bishkek–Tashkent section provided 18 November 2019, with explicit reference to 'The delayed submission.' The delay was caused by KDTP not being paid by MOTR. Despite an October 2019 assurance that the issue was 'resolved,' KDTP 'had not been paid during the TA's implementation for any of the design work delivered.' This caused staffing problems, and certain design documents (utilities and lighting) 'were never received.'\n\nStep 2 - Modality & Scope Check: The language here is factual and past-tense, not conditional or speculative. 'The delayed submission was caused by...' explicitly confirms a delay occurred (Fact, not Possibility). Crucially, while MOTR gave an assurance in October 2019 that the issue was 'resolved,' the text immediately contradicts this: 'KDTP had not been paid during the TA's implementation for any of the design work delivered.' So the supposed recovery did NOT actually materialize. Furthermore, 'related design documents were never received' indicates an unresolved, ongoing deliverable failure with global impact on the design deliverables of the project.\n\nStep 3 - Conservative Decision: This is not merely a potential risk. There is definitive factual evidence of delayed submissions and never-received design documents. The 'resolved' assurance is explicitly negated by subsequent facts. The non-receipt of design documentation directly impacts project deliverables. This meets the Delay criteria: explicit evidence of unresolved delays and surpassed deliverables as a matter of reported fact.",
+      "extracted_evidence": [
+        "The consultants received the draft detailed design of the 9.1 km Bishkek–Naryn–Torugart section on 5 August 2019.",
+        "Design documentation for the 24.3 km Almaty–Bishkek–Tashkent section was provided on 18 November 2019. The delayed submission was caused by the fact that KDTP was not paid by MOTR for the BNB road design work.",
+        "Despite an assurance given by MOTR in October 2019 that the issue was resolved, KDTP had not been paid during the TA’s implementation for any of the design work delivered.",
+        "The design of utilities and lighting had to be outsourced, but since KDTP was not able to pay for these services, related design documents were never received."
+      ],
+      "self_diagnosis": "The primary risk of misinterpretation here would be a Recovery pattern error: mistakenly treating the October 2019 'resolved' assurance as a genuine resolution. However, the text explicitly negates that assurance with subsequent factual statements (payment never made, documents never received), so classifying as 'No Delay' would be a Recovery misinterpretation. The chosen label avoids this.",
+      "label": "Delay"
+    },
+    "case_id": "52043-002-tcr-en__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "52043-002-tcr-en",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The report describes procurement bottlenecks with explicit factual delays. Rural roads slipped four years ('initially scheduled to start in April 2004 finally commenced in December 2008'). Borehole studies were delayed (bids 2008, contract approval 2009, report expected Q1 2010). Step 2 - Modality & Scope Check: These are stated as facts, not possibilities ('representing a four-year slippage'). The critical statement is that 'works on rural roads and boreholes could not start before 30 April 2010, the extended final disbursement deadline' — this is a confirmed factual surpassing of the deadline. The delay was so severe that the components were ultimately cancelled during the October 2009 portfolio review. This is a global impact (components cancelled), not a recoverable local incident. Step 3 - Conservative Decision: While the components were cancelled (which could superficially resemble 'resolution'), cancellation is not recovery — it is the consequence of an unrecoverable delay. The milestone dates were factually surpassed and the delay was unresolvable, leading to cancellation. This meets the 'Delay' criteria: explicit evidence of surpassed completion dates as reported fact, with confirmed schedule impact.",
+      "extracted_evidence": [
+        "services that were initially scheduled to start in April 2004 finally commenced in December 2008 and ended in September 2009, representing a four-year slippage",
+        "works on rural roads and boreholes could not start before 30 April 2010, the extended final disbursement deadline",
+        "Completion of these works required a new extension of the final disbursement deadline",
+        "during the October 2009 portfolio review, the Government and the Bank decided to cancel these components"
+      ],
+      "self_diagnosis": "A possible misinterpretation pattern would be 'Recovery' — mistaking the cancellation of components as a resolution of the delay. However, cancellation is the result of an unrecoverable delay, not a recovery, so this would be a Recovery-pattern error if labeled 'No Delay'.",
+      "label": "Delay"
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the initial planned schedule (commencement Dec 2003 / Mar 2005, completion Dec 2005 / Mar 2006) and the dependencies on recruiting consultancy firms. It then references 'the procurement delays recorded' as a factual statement. This confirms that delays did occur in the procurement process. However, the text does not explicitly state whether these procurement delays translated into delays on the critical path of the road works themselves, nor does it confirm that any milestone or completion date has been surpassed. The phrasing is retrospective and advisory ('it would have been more judicious to group...'), suggesting a lessons-learned reflection rather than a confirmation of the current overall schedule status. While 'procurement delays recorded' is a factual past occurrence, its global impact on the overall project completion is not established. The scope of the delay (local procurement step vs. overall schedule) and its resolution status are unclear.",
+      "extracted_evidence": [
+        "The initial project schedule provided for the commencement of works on the main road in December 2003 and on the rural roads in March 2005, representing a gap of 15 months.",
+        "The respective works were scheduled for completion in December 2005 and March 2006, representing a gap of 3 months.",
+        "The commencement of road works was subject to the recruitment of a consultancy firm to raise community awareness on the identification of roads and the recruitment of another consultancy firm for studies and works control.",
+        "Considering the procurement delays recorded, it would have been more judicious to group awareness-raising, studies and road works control within the same consultancy contract, to shorten procurement timeframe and enable the simultaneous launching of works procurement (road and related works)."
+      ],
+      "self_diagnosis": "The primary risk is a Scope misinterpretation: 'procurement delays recorded' is a factual statement of a local incident (procurement step), but it does not explicitly confirm that the overall road works critical path or completion milestones were surpassed. Treating this as a global schedule Delay without evidence of impact on completion dates would be over-committing based on the lexical trigger 'delays'.",
+      "label": "Uncertain"
+    },
+    "case_id": "benin-djougou-ndali_upgrade_project-pcr-__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "benin-djougou-ndali_upgrade_project-pcr-12-09-2011",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provided is from the rationale/justification section of a project report, describing the Bank's prior engagement in the region. It references several previously completed projects (DjougouN'dali Road completed 2009, N'dali-Nikki-Chicandou-Nigeria Border Road completed 2016, Parakou Urban Transport Project approved 2014). None of these references pertain to the current schedule status of the project under review. There is no statement about whether the present project is on schedule, delayed, or recovered. The text only establishes context for why the Bank is involved. No critical path information, no milestone dates surpassed, no statements of 'On schedule' or 'Delay' are present.",
+      "extracted_evidence": [
+        "the DjougouN'dali Road Improvement Project completed in 2009",
+        "the N'dali-Nikki-Chicandou-Nigeria Border Road Asphalting Project completed in 2016",
+        "the Parakou Urban Transport Project approved in 2014"
+      ],
+      "self_diagnosis": "A likely misinterpretation here would be Scope-based: mistaking references to other historical projects' completion dates for the schedule status of the current project. The completed dates relate to separate, prior projects, not the project being assessed.",
+      "label": "Uncertain"
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara___p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is purely descriptive of the project's geographic and regional significance. It discusses how the project roads serve as a central link and shortcut for regional travel and trade, and defines the project's impact area. There is no mention whatsoever of schedule, timeline, milestones, completion dates, progress status, or any temporal markers indicating delay or on-time performance. The text is entirely about scope and regional context, not schedule status.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, this would likely follow a Scope pattern error—mistaking descriptive project-context content for schedule-relevant information. There is no lexical, temporal, or recovery signal present at all.",
+      "label": "Uncertain"
+    },
+    "case_id": "benin_-_djougou-pehunco-kerou-banikoara___p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "benin_-_djougou-pehunco-kerou-banikoara_cotton_road_development_-_project_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text describes financing decisions and the status of various activities. Key segments: 'The first one (on AfDB financing) was approved on November 27, 2018 and almost all related activities started in February 2018'; technical assistance contract 'was negotiated and targeted'; short lists 'have already been constituted'; short lists 'have already been established.' Step 2 - Modality & Scope Check: All statements describe procedural progress (approvals, negotiations, short list constitution). These are factual descriptions of activities that have started or been completed at a preparatory stage. There is no mention of any milestone or completion date being surpassed, no statement of 'on schedule,' and no statement of delay. There is also a minor temporal oddity (financing approved November 2018 but activities started February 2018), but this does not constitute schedule evidence of delay. Step 3 - Conservative Decision: There is no explicit statement that the project is on schedule, nor any factual evidence of critical-path delay or surpassed milestones. The information is insufficient to determine actual schedule impact. Therefore the correct label is Uncertain.",
+      "extracted_evidence": [
+        "The first one (on AfDB financing) was approved on November 27, 2018 and almost all related activities started in February 2018.",
+        "the technical assistance contract was negotiated and targeted with UN Women/Cameroon",
+        "the short lists of consultancy offices have already been constituted",
+        "the short lists of consultancies have already been established"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow a Lexical pattern—mistaking general progress language ('already been constituted/established') as confirmation of being on schedule, when in fact no schedule status is explicitly stated.",
+      "label": "Uncertain"
+    },
+    "case_id": "cameroon_-_transport_sector_support_prog__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the establishment of implementation performance indicators (loan agreement signature timeframes, procurement timeframes, implementation progress indicator, and disbursement rate changes) that will be monitored. This is a forward-looking, methodological description of monitoring framework. There is no statement of any current schedule status, no reported milestone dates, no mention of whether the project is on schedule or delayed. The language is entirely about indicators that 'will be monitored'—a future, conditional monitoring activity, not a factual report of current schedule performance. There is no evidence of an actual delay, nor an explicit statement of being on schedule.",
+      "extracted_evidence": [
+        "implementation performance indicators have been established in relation to the Bank’s institutional performance indicators",
+        "(i) loan agreement signature timeframes; (ii) procurement timeframes; (iii) average programme implementation progress (IP) indicator; and (iv) changes in the disbursement rate, depending on the expenditure schedule",
+        "These indicators will be monitored during supervision missions and dayto-day programme management."
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Lexical pattern—mistakenly treating schedule-related keywords ('timeframes', 'schedule', 'disbursement rate', 'implementation progress') as evidence of delay status, when in fact they merely name monitoring indicators with no reported current status.",
+      "label": "Uncertain"
+    },
+    "case_id": "cameroon_-_transport_sector_support_prog__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cameroon_-_transport_sector_support_programme_-_phase_iii_construction_of_the_ring_road_-_2nd_instalment_of_adb_financing_programme_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "This excerpt is purely descriptive, providing geographic and demographic information about the project area (Direct Project Area and Extended Project Area). It discusses surface area, population, gender distribution, and age demographics. There is no mention whatsoever of schedule, timelines, milestones, completion dates, or progress status. Without any schedule-related content, there is no factual evidence of delay, nor any explicit statement of being on schedule.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the error would most likely be a Scope error—mistaking general project descriptive content for schedule-relevant evidence. There is no temporal or lexical schedule signal present.",
+      "label": "Uncertain"
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_ro__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a sector-level lessons-learned analysis, not a current status report on the project's critical path. It references general implementation problems from past transport sector operations, including 'delays in procurement due to poor mastery of Bank rules.' However, these are described in a general/historical context regarding prior projects ('the transport sector operations financed by the Bank were relatively well executed'), not as a confirmed current delay on the project under review. The mention of measures like 'advance contracting will shorten the procurement timeframes and thus avoid protracted delays' is forward-looking and conditional/preventive in nature. There is no factual statement that the current project's milestones or completion dates have been surpassed. The modality is descriptive (lessons learned) and preventive (mitigation measures), not a present-tense factual delay assertion about the current project. Scope is general/sectoral rather than the specific current critical path.",
+      "extracted_evidence": [
+        "the transport sector operations financed by the Bank were relatively well executed",
+        "The main implementation problems are: ... (iii) delays in procurement due to poor mastery of Bank rules and procedures, and fiduciary risks",
+        "advance contracting will shorten the procurement timeframes and thus avoid protracted delays between study completion and project execution"
+      ],
+      "self_diagnosis": "A likely misinterpretation would follow the Lexical pattern—triggering on the word 'delays' without recognizing it refers to historical lessons-learned from prior projects rather than a confirmed current delay on this project's critical path. A Temporal misread could also occur by treating past-project issues as present-status facts.",
+      "label": "Uncertain"
+    },
+    "case_id": "cote_d_ivoire-_project_upgrade_access_ro__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "cote_d_ivoire-_project_upgrade_access_roads_to_border_areas_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the knowledge management approach for the project, detailing how the National Institute of Statistics (INS) will handle monitoring and evaluation, impact indicators, and dissemination of project information. This text is entirely about institutional roles, data management, and reporting processes. There is no mention whatsoever of schedule, timelines, milestones, completion dates, or progress status. Following the Modality & Scope Check, there are no schedule-related segments to extract—neither factual delays nor potential risks. Under the Conservative Decision rule, the absence of any schedule evidence means there is insufficient information to determine actual schedule impact, which maps to 'Uncertain' rather than 'No Delay' (since 'No Delay' requires explicit positive statements like 'On schedule').",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical—mistaking process/reporting terminology (e.g., 'completion report,' 'annual reports') for actual schedule status indicators. These are document types, not schedule confirmations.",
+      "label": "Uncertain"
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is entirely focused on financial aspects of the project: total project cost, financing source (ADF 12 country allocation), contingency provisions, price escalation, and the structure of cost tables. While there is a passing reference to 'the works implementation schedule' as a factor considered in price escalation provisions, there is no information regarding the actual progress, status, milestone dates, or any delay/on-schedule statement. The mention of the implementation schedule is purely contextual to the inflation calculation, not a report on schedule performance. There is no factual evidence of any delay, nor any explicit statement of being on schedule. Therefore, information is insufficient to determine actual schedule impact.",
+      "extracted_evidence": [
+        "The provisions for price escalation representing 8.21% of the total base cost and for physical contingencies have taken into account the inflation rate in DR Congo and the works implementation schedule."
+      ],
+      "self_diagnosis": "A potential misinterpretation here would follow the 'Lexical' pattern—mistaking the keyword 'works implementation schedule' as evidence of schedule status, when it merely refers to a financial planning input with no progress information attached.",
+      "label": "Uncertain"
+    },
+    "case_id": "democratic_republic_of_congo_-_batshamba__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "democratic_republic_of_congo_-_batshamba-tshikapa_road_improvement_project_loange_bridge_lovua_bridge_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a strategic justification for the Bank's involvement in the project. It discusses the Bank's role as a strategic partner, its financing of design studies and prior road sections, the importance of RN2 as a trade corridor, and consolidation of rural development activities. There is no mention whatsoever of schedule status, milestones, completion dates, delays, or progress. The text is entirely about rationale and comparative advantage. With no schedule-related evidence, the actual impact on the project timeline cannot be determined.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were misinterpreted, it would likely follow a Scope error—mistaking general project context for actual schedule status, or a Lexical error—reading words like 'completed projects' (referring to other past projects, not this project's schedule) as indicators of timely completion.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_a__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the project's monitoring and evaluation component, the responsible institution (INS), how knowledge will be managed and integrated into databases, and where results will be published. There is no mention whatsoever of schedule, timelines, milestones, completion dates, or any progress status. The text is entirely descriptive of the knowledge management framework and dissemination plan. There is no evidence of delay, on-schedule status, or any conditional risk related to timing.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, it would likely follow a Lexical pattern—mistakenly inferring schedule status from procedural or planning language (e.g., 'will have to complete') that actually describes task assignments rather than timeline performance.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_bukavu-goma_road_development_and_a__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_bukavu-goma_road_development_and_asphalting_project_phase_1_bukavu-nyamukubi_section_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is entirely about strategic alignment and project design. It describes how PROADER fits with various Bank strategies (Country Strategy Paper, 'Feed Africa', 'ENABLE YOUTH', Gender Strategy). There is no mention of schedule, milestones, completion dates, progress status, or any temporal indicators of delay or on-time performance. The text is purely contextual/strategic and contains no schedule-related evidence whatsoever.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, it would likely follow a Scope pattern—mistaking strategic alignment language for project execution status, or a Lexical pattern—reading nothing into the absence of explicit schedule information. With no evidence on schedule, the conservative choice is Uncertain.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_rural_economy_integrated_developme__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a contextual/background section describing the project's geographic area, regional networks (railway and RN1), and coordination with other financial partners (EU, World Bank) for road extension and railway rehabilitation. There is no mention of any schedule, milestone dates, completion status, or progress assessment. The text describes the purpose and scope of operations ('will help to open up this major corridor') but contains no information about whether the project is on schedule, delayed, or recovered. No temporal markers indicating surpassed dates or critical path status appear.",
+      "extracted_evidence": [
+        "The operations currently being carried out by the Bank on RN1 in coordination with other technical and financial partners (TFPs)...",
+        "for the extension of this road up to MbujiMayi, and the World Bank, for the rehabilitation of the Ilebo-Lubumbashi railway, will help to open up this major corridor."
+      ],
+      "self_diagnosis": "A potential misinterpretation would follow the Lexical pattern—mistaking 'operations currently being carried out' as evidence of progress status, when in fact it is purely descriptive context with no schedule information.",
+      "label": "Uncertain"
+    },
+    "case_id": "drc_-_rural_economy_integrated_developme__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "drc_-_rural_economy_integrated_development_support_project_proader_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provided is entirely descriptive in nature, focusing on the regional significance of the two roads, the corridors they belong to, the neighboring countries that would benefit, and how the project aligns with the Bank's High 5s Priorities. There is no mention whatsoever of schedule status, milestones, completion dates, critical path activities, or any progress metrics. The only future-oriented language ('in the longer term as the ports... get developed') refers to broader regional development context, not the schedule of the roads under review. Without any schedule-related evidence, it is impossible to confirm a delay or confirm being on schedule.",
+      "extracted_evidence": [
+        "in the longer term as the ports of Mtwara, Mbamba Bay and Nkhata Bay get developed and the Unity Bridge over the Ruvuma River has been completed"
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Scope pattern—mistaking general regional development context ('in the longer term') for project schedule status, or the Lexical pattern—reacting to words like 'completed' or 'longer term' without confirming they refer to the project's actual schedule.",
+      "label": "Uncertain"
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the completed Project Roads and their socio-economic benefits to 5 regions in Tanzania. The text refers to roads as 'completed' and discusses their positive contributions (reduced travel costs, enhanced agricultural production, etc.). There is no mention of any schedule, milestones, completion dates, delays, or progress status. The content is entirely focused on the impact and benefits of the completed project, not on its timeline or schedule performance. With no schedule-related evidence present, I cannot factually determine whether any delay occurred. The mere mention of 'completed' describes the outcome but provides no information about whether completion was on time, early, or late.",
+      "extracted_evidence": [
+        "The completed Project Roads serve a population of more than 8 million spread in 5 regions",
+        "the Project roads have contributed to the socio-economic well-being of the people in those 5 regions by contributing to reduced travel costs, travel time, enhanced agricutlutal production, tourism, mineral extraction, trade and regional integration."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Lexical pattern—mistaking the word 'completed' as evidence of 'No Delay' (on-time completion), when in fact no temporal or schedule-performance information is provided to support such a conclusion.",
+      "label": "Uncertain"
+    },
+    "case_id": "en_-_tanzania_-_pcr_-road_sector_support__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "en_-_tanzania_-_pcr_-road_sector_support_project_i",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the socioeconomic context and importance of road sections 3 and 4 under Phase 1. It discusses the agricultural significance of the region and the negative consequences of poor roads on market access and community connectivity. Crucially, the only reference to delay is conditional: 'Rehabilitation of these roads, if delayed, shall result in the total collapse...' This is a hypothetical, forward-looking statement using the conditional 'if delayed' construction. There is no factual report that the project is currently behind schedule, that milestones have been missed, or that the critical path is impacted. The text describes the existing condition of the roads (which are 'bad') but this refers to the pre-rehabilitation state being the rationale for the project, not a delay in the project's execution. No schedule status, completion dates, or progress milestones are mentioned. Per the Evidence-Constrained procedure, conditional policy statements without confirmed current status fall under 'Uncertain.'",
+      "extracted_evidence": [
+        "Due to the bad roads, access to markets for agricultural products and farmers access to inputs for enhanced productivity becomes impossible.",
+        "Rehabilitation of these roads, if delayed, shall result in the total collapse of a significant part of the regional road network thereby raising consequent capital cost for rehabilitation and its associated adverse social effects."
+      ],
+      "self_diagnosis": "A likely misinterpretation would be Lexical: incorrectly latching onto the words 'bad roads' and 'if delayed' as evidence of a current project schedule delay, when in fact 'bad roads' describes the justification/baseline condition and 'if delayed' is a purely conditional hypothetical with no confirmed current occurrence.",
+      "label": "Uncertain"
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_devel__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a fragment of a project results/output framework or logframe. It lists indicators and deliverables (e.g., length of road constructed, number of reports submitted, number of people trained) but contains no actual status reporting, dates, milestones, or progress narrative. There is no statement indicating whether activities are on schedule, behind schedule, or completed. Without any modality (fact vs. possibility) or temporal evidence regarding actual progress versus planned dates, there is no basis to determine schedule status.",
+      "extracted_evidence": [
+        "Length (km) of road constructed",
+        "No. infrastructure built and PAPs compensated and/or resettled in accordance with the RAP",
+        "Design Review Report and supervision reports submitted",
+        "No of Audit reports submitted",
+        "No. of M&E reports submitted",
+        "No. of TAs provided to the PCU"
+      ],
+      "self_diagnosis": "If this were misinterpreted, it would most likely follow a Scope/Lexical pattern — mistaking a list of deliverables/indicators for actual reported progress or delay status. The text is purely a description of expected outputs, not a status report.",
+      "label": "Uncertain"
+    },
+    "case_id": "ghana_-_ar_-_eastern_corridor_road_devel__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "ghana_-_ar_-_eastern_corridor_road_development_programme_-_phase_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is solely a list of abbreviations and acronyms (e.g., ADB, EIRR, PCR, etc.). It contains no narrative content regarding the project schedule, milestones, completion dates, or progress status. There is no information about whether the project is on schedule, delayed, or facing potential risks. Therefore, no schedule-related evidence can be extracted.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the error would most likely follow a Lexical pattern—incorrectly inferring delay or status from acronyms like 'REAP – reengineering action plan' without any contextual schedule information. The conservative approach correctly avoids this.",
+      "label": "Uncertain"
+    },
+    "case_id": "in265-10__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided input contains only a glossary of abbreviations (ADB, ADF, IED1, OCR, OPEC, PCR). There is no narrative text, no schedule information, no milestone dates, and no statements regarding project progress, delays, or recovery. Step 1 (Evidence Extraction) yields no schedule-related segments. Step 2 (Modality & Scope Check) cannot be performed because there is no factual or conditional schedule content to evaluate. Step 3 (Conservative Decision) mandates 'Uncertain' when information is insufficient to determine the actual impact on the overall schedule. The absence of any substantive report content makes this a clear case of insufficient information.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the 'Lexical' pattern—erroneously inferring meaning from isolated terms in the glossary (e.g., assuming 'PCR' or institutional acronyms imply project status) rather than relying on actual reported schedule facts.",
+      "label": "Uncertain"
+    },
+    "case_id": "in265-10__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "in265-10",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provided is purely a project overview. It describes the project scope (widening 46km of road), cost estimates, funding split, planned implementation period (2013-2017), and the phased breakdown of project duration (12 months design, 24 months construction, 12 months defects liability). There is no reporting on actual progress, current status, milestone achievement, or any deviation from the schedule. No statement indicates whether the project is on track, behind, or ahead. The text only describes the planned timeline, not the realized status. Under the Modality & Scope check, all schedule-related content is planning/intention rather than factual reporting of progress. There is no factual evidence of any delay, nor any explicit statement of being 'on schedule.' Per the conservative decision rule, the absence of progress data means the impact on the actual schedule cannot be determined.",
+      "extracted_evidence": [
+        "The project is planned to be implemented over a period of four years starting from 2013 to 2017.",
+        "The project duration includes 12 months of design review, preparation of bidding documents and procurement of civil works, 24 months construction period, and 12 months defects liability period."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the Temporal pattern—mistaking planned/future timeline descriptions for actual current schedule status. There is no progress reporting to assess against the plan.",
+      "label": "Uncertain"
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilit__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt discusses risks within the project. Item (iv) mentions 'Delays in procurement works' due to understaffing (only 2 staff). While the word 'delays' appears, the framing is risk-oriented: the text describes this as a 'risk' to be reduced, and mitigation measures (strengthening the Unit, increasing staff, monitoring) are being undertaken. Item (v) addresses 'Cost overrun' purely as a risk to be mitigated via contingency funds. Modality: The procurement delay statement ('This results in delays in procurement') refers to a general procedural condition within the procurement unit, not a confirmed delay to the critical path or milestone dates of the overall project. The language is embedded in a risk-mitigation discussion ('To reduce this risk'), indicating it is treated as a manageable risk rather than a confirmed schedule slippage. Scope: This is a local operational issue (procurement unit staffing), with no stated global impact on milestones or completion dates. There is no surpassed milestone or critical-path delay reported as fact regarding the overall project schedule.",
+      "extracted_evidence": [
+        "Delays in procurement works: At the moment, the Procurement Unit at RA has only 2 staff serving several departments. This results in delays in procurement.",
+        "To reduce this risk, the RA has undertaken to strengthen the Unit by increasing staff levels necessary to effectively deliver on procurement activities.",
+        "the Bank will closely monitor the procurement activities based on the agreed Procurement Plan",
+        "Cost overrun: To reduce the risk of cost over-run... the project will provide adequate contingent funds"
+      ],
+      "self_diagnosis": "This could be a Lexical misinterpretation risk: the literal word 'delays' appears, which might tempt a 'Delay' label. However, the scope is local (procurement unit operations) and embedded in a risk-mitigation framework, not a confirmed critical-path or milestone delay for the overall project schedule. Insufficient evidence of global schedule impact.",
+      "label": "Uncertain"
+    },
+    "case_id": "malawi_-_mzuzu-nkhata_bay_road_rehebilit__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "malawi_-_mzuzu-nkhata_bay_road_rehebilitation_project_-_project_appraisal_report_compressed_0",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the project preparation and appraisal history for the Rosso-Boghé Road Construction Project, including missions in 2001-2003. The only completion-related statement refers to a previous, separate project (the Trans-Maghreb Section from Pk 76 to Atar, financed in 1996), which was 'completed within the prescribed timeframe and without cost overrun.' This pertains to a past, different project, not the current Rosso-Boghé project under review. There is no factual statement about the current schedule status of the Rosso-Boghé project, nor any milestone dates being surpassed or recovered. The text is purely preparatory/historical background. Modality: factual but scoped to a different project. There is insufficient information about the current project's schedule status.",
+      "extracted_evidence": [
+        "the Bank – at Government’s request – fielded a project preparation mission in June 2001, followed by an appraisal mission in April 2002 and an appraisal report update mission in April 2003",
+        "This project was completed within the prescribed timeframe and without cost overrun.",
+        "The Bank drew inspiration partly from this edifying experience during preparation and appraisal of the Rosso-Boghé Road Construction Project."
+      ],
+      "self_diagnosis": "The most likely misinterpretation would follow the 'Scope' pattern: erroneously applying the 'completed within the prescribed timeframe' statement (which belongs to a previous, separate 1996 project) to the current Rosso-Boghé project, leading to a false 'No Delay' label.",
+      "label": "Uncertain"
+    },
+    "case_id": "mauritania_-_pcr_road_project_1__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provides the original appraisal projection: works planned to start November 2003 and end October 2006, a 36-month timeframe. The text then states 'The actual schedule reveals the following dates:' but no actual dates or schedule data follow. Without the actual start/end dates or any explicit statement comparing them to the plan, I cannot determine whether milestones were surpassed or whether the project is delayed. The text only sets up a comparison but does not provide the comparative facts. Per the Evidence-Constrained procedure, absent definitive factual evidence of a surpassed milestone or critical-path delay, the conservative choice is 'Uncertain.'",
+      "extracted_evidence": [
+        "According to projections during the appraisal, works were to start in November 2003 and end in October 2006, representing an implementation timeframe of 36 months.",
+        "The actual schedule reveals the following dates:"
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the 'Scope/Temporal' pattern — assuming a delay exists simply because actual schedule data is being introduced, without the actual dates being present to confirm any surpassed milestone.",
+      "label": "Uncertain"
+    },
+    "case_id": "mauritania_-_pcr_road_project_1__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "mauritania_-_pcr_road_project_1",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The excerpt contains no statements about schedule status, milestones, completion dates, or delays. It is purely a meta-description of the report's purpose—explaining that it updates project component status and feeds into ADB's Project Progress Report and eventual Project Completion Report. Step 2 [Modality & Scope Check]: There is no factual assertion of delay, nor any statement of being 'on schedule' or 'recovered.' There are no possibility/risk statements either. The text is administrative boilerplate with zero schedule-substantive content. Step 3 [Conservative Decision]: With no evidence of either confirmed delay or explicit on-schedule status, the information is insufficient to determine actual schedule impact. The conservative choice is 'Uncertain.'",
+      "extracted_evidence": [
+        "This report is prepared to update the status of all project components and their implementation progress.",
+        "It is designed to feed ADB’s internal Project Progress Report and will form the basis of the draft Project Completion Report upon project completion."
+      ],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical—mistaking phrases like 'implementation progress' or 'project completion' for substantive schedule status indicators, when they are merely descriptive of the report's function.",
+      "label": "Uncertain"
+    },
+    "case_id": "mpr_january_2011_final__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text states that progress representation is 'revised based on Variation 2' and that 'As a result of the approval of Variation Order #2 the scope of the works and Contract Completion have been revised.' Step 2 - Modality & Scope Check: This is a factual statement that the Contract Completion date has been revised, but the revision stems from a Variation Order (a formal change in scope), not from an unresolved schedule slippage on the critical path. A revision of the completion date due to an approved variation is an administrative/contractual baseline change, not evidence of a delay against the (newly revised) baseline. The text does not state that any milestone has been surpassed, nor that works are behind the revised schedule. Step 3 - Conservative Decision: There is no factual evidence of current, unresolved delay relative to the schedule. The completion date change reflects scope adjustment, not delay performance. Information is insufficient to confirm an actual delay on the critical path.",
+      "extracted_evidence": [
+        "Progress of works represented in Table 4, and Figures 6, 7,8, 9, 10, 11,12 is revised based on Variation 2",
+        "As a result of the approval of Variation Order #2 the scope of the works and Contract Completion have been revised."
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the 'Lexical' pattern—mistaking the phrase 'Contract Completion have been revised' for a schedule delay, when it actually reflects a contractual baseline adjustment due to an approved scope change rather than reported delay performance.",
+      "label": "Uncertain"
+    },
+    "case_id": "mpr_january_2011_final__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "mpr_january_2011_final",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the geographic scope of the Boké-Québo road section, its area of influence (PDAI and PEAI), population statistics, beneficiary information, and total project cost. There is no information whatsoever regarding the project schedule, milestones, completion dates, or progress status. None of the text addresses whether the project is on time, delayed, or recovered. The only forward-looking statement is that a participatory process 'will be maintained until this project's completion,' which is a procedural commitment, not a schedule status. With no schedule-related evidence available, the conservative decision is 'Uncertain.'",
+      "extracted_evidence": [
+        "people living in the PDAI who were consulted and sensitized on the project design in accordance with a participatory process that will be maintained until this project’s completion",
+        "The total cost, net of taxes and customs duties, including physical and financial contingencies for the entire project is estimated at UA 99.08 million, or EUR 117.29 million."
+      ],
+      "self_diagnosis": "If misinterpreted, the error would likely follow the 'Scope' pattern — mistaking descriptive project/financial context for schedule status. There is simply insufficient information to make any schedule determination.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvem__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the project's knowledge-building objectives, monitoring and evaluation mechanisms, and dissemination plans. It discusses future-oriented activities (establishment of indicators, impact assessment, knowledge databases). There is no mention of schedule status, milestone dates, critical path, or any progress timing. The text is entirely about knowledge management and learning outcomes, not about whether the project is on time or delayed. Therefore, there is insufficient information to determine schedule status.",
+      "extracted_evidence": [
+        "a monitoring and evaluation mechanism will be established by the Executing Agency",
+        "The establishment of key impact indicators prior to project start-up and impact assessment at project completion will generate useful information",
+        "The lessons learned as well as the experience and knowledge acquired from implementing this project will be managed from a database"
+      ],
+      "self_diagnosis": "If misinterpreted, it would likely follow the 'Scope' pattern—mistaking general project descriptions for schedule-relevant facts, or the 'Lexical' pattern—reacting to keywords like 'project start-up' or 'completion' that do not actually convey timing status.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_boke-quebo_road_improvem__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_boke-quebo_road_improvement_project_phase_1_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a background/contextual narrative describing the history of the Mueda Negomano road project and related infrastructure. It references a bilateral agreement signed in 2005 and the successful completion of the Unity Bridge and adjacent roads in 2010. The only schedule-related fact is that the bridge and roads were 'successfully completed in 2010' — this is a past achievement, not a delay. The text describes the Mueda Negomano Road as 'the only missing link,' which is a statement of project scope/status rather than evidence of a delay on a critical path. There is no explicit mention of milestone dates being surpassed, no statement of current unresolved delays, and no 'on schedule' confirmation either. The modality is factual but historical/contextual, with no global schedule impact statement. Insufficient information exists to confirm an actual delay against a defined schedule.",
+      "extracted_evidence": [
+        "The construction of the bridge and roads financed entirely by the two (2) governments’ own resources was successfully completed in 2010",
+        "The road on the Tanzania side linking the unity bridge to the Tanzania road network was further paved with Bank financing leaving the Mueda Negomano Road as the only missing link."
+      ],
+      "self_diagnosis": "A potential misinterpretation would follow the 'Lexical' pattern — reading 'missing link' as evidence of a delay when it merely describes project scope/status, not a schedule slippage against a defined milestone.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgr__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is a background/context description of the Mueda–Negomano road section. It explains the strategic importance of the road, its current poor unpaved condition, traffic patterns, and travel times. It mentions that the lack of development is a 'major bottleneck' for regional trade. However, nothing in this text refers to a construction project schedule, milestones, completion dates, or whether any current works are on or behind schedule. The poor condition described is a pre-existing baseline justification for the project, not a reported delay against a project schedule. There is no factual statement about milestone dates being surpassed nor explicit statements of being on schedule. Therefore, there is insufficient information to determine actual schedule status.",
+      "extracted_evidence": [
+        "the road link to the bridge on the Mozambican side has remained unpaved and in poor condition",
+        "truckers have been known to spend even up to a week to travel the full length of the road of only 163km at worst peaks during the rainy season",
+        "the lack of development of this link has been identified as a major bottleneck to foster regional trade"
+      ],
+      "self_diagnosis": "A likely misinterpretation would follow the Lexical pattern—mistaking words like 'poor condition,' 'bottleneck,' or 'lack of development' for schedule delay signals, when in fact they describe the pre-project baseline rather than progress against a construction schedule. There is also a Scope risk: confusing the general state of the road with the status of the actual works.",
+      "label": "Uncertain"
+    },
+    "case_id": "multinational_-_mueda-negomano_road_upgr__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "multinational_-_mueda-negomano_road_upgrading_project_phase_ii_lot_a_roma-nambungale_-_35_km_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the project's beneficiaries, target population, and anticipated socio-economic benefits at completion. It contains no information about the project's schedule, milestones, completion dates, or progress status. There are no statements indicating whether the project is on time, delayed, or recovered. The text is entirely about expected impact and outcomes, not temporal scheduling.",
+      "extracted_evidence": [],
+      "self_diagnosis": "A misinterpretation here would most likely follow a 'Scope' pattern—mistaking descriptive content about project outcomes for schedule status, or a 'Lexical' pattern if the phrase 'At completion' were misread as a schedule signal when it merely refers to future projected benefits.",
+      "label": "Uncertain"
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-marar__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is purely descriptive of the project's strategic context, objectives, and expected benefits. It references policy frameworks (PDES 2017-2021, SNT 2011-2025) and anticipated contributions upon completion. There is no information whatsoever regarding the current schedule status, milestone dates, progress, or any delays. The phrase 'When completed' is conditional/future-oriented and describes intended outcomes, not a schedule status. Without any factual evidence about the timeline or progress, no determination of delay can be made.",
+      "extracted_evidence": [
+        "This project is part of the priority investments earmarked under PDES 2017-2021, (Strategic Thrusts 2 and 3) and the National Transport Strategy (SNT) for 2011-2025.",
+        "When completed, it will contribute to: (i) the accessibility of key localities in Tahoua Region..."
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Lexical pattern—mistaking date references (2017-2021, 2011-2025) or the word 'completed' for schedule-status indicators, when they merely describe policy timeframes and future objectives.",
+      "label": "Uncertain"
+    },
+    "case_id": "niger_-_tamaske-tahoua_and_tamaske-marar__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "niger_-_tamaske-tahoua_and_tamaske-mararraba_roads_development_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is purely about project rationale, justification, and need. It describes the economic and social development objectives, policy alignment, and the current poor condition of the road ('lost their asphalt surfacing,' 'impassable during the rainy season'). However, these descriptions refer to the pre-rehabilitation state of the existing infrastructure that justifies the project—not to the construction schedule status of the project itself. There is no mention of milestones, completion dates, critical path, or any temporal scheduling information. Without any schedule-related evidence, no determination of delay can be made.",
+      "extracted_evidence": [
+        "Most sections of the road have lost their asphalt surfacing, and some sections become impassable during the rainy season."
+      ],
+      "self_diagnosis": "A potential misinterpretation here would follow the Lexical pattern—mistaking words like 'impassable' or 'lost their asphalt surfacing' (descriptions of existing road condition justifying the project) for evidence of construction delays. These describe the project's need, not its schedule performance.",
+      "label": "Uncertain"
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_pr__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the Bank's history and comparative advantage in Nigeria's transport sector. It mentions financing totals, completed projects (seven satisfactorily), and five ongoing projects. There is no information about schedule status, milestones, completion dates, or any delay/on-schedule statements for any current critical-path activity. The text is purely background/institutional context. With no schedule-related evidence, the actual implementation status cannot be determined.",
+      "extracted_evidence": [
+        "Seven (7) of the projects have been completed satisfactorily, and five (5) are on-going.",
+        "The Bank therefore has significant experience in the implementation of sector projects in the country."
+      ],
+      "self_diagnosis": "A misinterpretation here would likely be Lexical—treating 'completed satisfactorily' as a No Delay signal, even though it refers to past Bank portfolio history rather than the current project's schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "nigeria_-_ar_-_ebonyi_state_ring_road_pr__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "nigeria_-_ar_-_ebonyi_state_ring_road_project",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt discusses the project's relevance and its strategic importance as a transport corridor. It describes the rehabilitation of a deteriorated road section. However, there is no mention of schedule, milestones, completion dates, timelines, progress status, or any temporal information related to delays. The text is purely about the project's significance and geographic context. There is no evidence to support either 'Delay' or 'No Delay'. Per the conservative decision rule, absent definitive schedule-related evidence, the label must default to 'Uncertain'.",
+      "extracted_evidence": [
+        "The Project was highly relevant during appraisal and continued to be so after completion",
+        "it rehabilitated the most deteriorated section of the most important road in Kazakhstan"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the 'Lexical' pattern—mistaking the phrase 'after completion' as evidence that the project finished on time, when in fact it provides no information about the actual schedule performance.",
+      "label": "Uncertain"
+    },
+    "case_id": "pcr-kaz-28403__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provides a historical record of contract milestones: award on 31 July 1997, signing on 6 November 1997, and completion on 14 August 2001. All events are reported in the past tense as completed facts. The text states the works 'were completed on 14 August 2001,' which indicates the project reached its completion milestone. However, there is no baseline or planned completion date provided against which to compare the actual completion date. Without a planned date, I cannot determine factually whether the August 2001 completion represents a delay against schedule. The excerpt simply documents that completion occurred; it makes no statement about schedule adherence, milestones being surpassed, or unresolved critical path issues. Per the conservative decision rule, absent definitive evidence of a delay (i.e., a planned date that was exceeded), I cannot assign 'Delay.' There is also no explicit statement of 'on schedule' to support 'No Delay.' The information is insufficient to determine actual schedule impact.",
+      "extracted_evidence": [
+        "The contract was awarded to a British-Turkish-Kazakh joint venture (the Contractor) on 31 July 1997 and signed on 6 November 1997.",
+        "The works were completed on 14 August 2001."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow a Scope/Lexical pattern — inferring delay or punctuality from the mere presence of dates without a baseline comparison. The text reports completion as fact but provides no planned-versus-actual comparison.",
+      "label": "Uncertain"
+    },
+    "case_id": "pcr-kaz-28403__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pcr-kaz-28403",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is purely a list of abbreviations and acronyms (a glossary/definitions section) commonly found at the beginning of project reports. It contains no narrative content describing schedule status, milestones, completion dates, or any indication of progress. There are no statements regarding 'on schedule,' 'delay,' 'recovered,' or any temporal/scope information about the actual project execution. Without any substantive evidence about the schedule, no factual determination of delay can be made.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical—mistakenly inferring delay or status from terms like 'project completion report' or 'project performance management system,' which are merely glossary definitions and carry no schedule status information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2594__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists entirely of an abbreviations glossary and a footnote listing team members. There is no substantive content describing project schedule, milestones, completion dates, or progress status. No statements regarding 'on schedule,' 'delay,' 'recovery,' or 'risk' are present. With no schedule-related evidence available, the actual status of the project schedule cannot be determined.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow a Lexical pattern—inferring delay or status from incidental terms (e.g., 'project completion report') that do not actually convey schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2594__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2594",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a list of abbreviations and acronyms (a glossary) commonly found at the beginning of a project document. It contains no narrative content regarding schedule status, milestones, completion dates, or progress. There are no statements indicating whether the project is on schedule, delayed, recovered, or at risk. Without any schedule-related evidence, applying the Evidence-Constrained procedure leads directly to the conservative default. There is no factual evidence of delay, nor any statement of being on schedule, nor any mention of risks.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the most likely error would be Lexical—mistakenly reading terms like 'monitoring framework' or 'performance monitoring system' as implying active schedule tracking or issues, when they are merely glossary definitions with no status information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-265__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a list of abbreviations and their definitions (ADB, ADF, ICT, IED1, IED2, IRM, OCR, PCR). There is no narrative content, no schedule information, no milestone dates, and no statements about project progress, delays, or recovery. Without any substantive content related to the project timeline or critical path, there is no factual evidence to support a 'Delay' or 'No Delay' classification. Per the Conservative Decision step, the absence of relevant schedule information mandates an 'Uncertain' label.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, this would most likely follow the 'Lexical' pattern—erroneously assigning a label based on isolated keywords (e.g., 'completion' in 'project completion report') without actual schedule context.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-265__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-265",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a glossary of abbreviations and acronyms commonly found at the beginning of an infrastructure project report. It contains no narrative content describing schedule status, milestones, completion dates, or any progress information. There are no statements regarding whether the project is on schedule, delayed, or facing risks. Without any substantive evidence about the project's actual progress or critical path, no factual determination of delay can be made.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Any label other than 'Uncertain' would constitute a Lexical misinterpretation—reading delay/no-delay signals into a text that contains none. The absence of evidence cannot support a 'Delay' or 'No Delay' classification.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2817b__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a glossary/legend of abbreviations and a footnote listing team members for an evaluation report. There is no content whatsoever describing construction progress, schedule status, milestones, completion dates, delays, or any temporal information about project execution. The text consists entirely of acronym definitions (ADB, ADF, IED, etc.) and personnel attributions. Per the Evidence-Constrained procedure, there is no schedule-related evidence to extract, and thus no factual basis to assert a delay. The conservative default applies.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Lexical — incorrectly inferring a schedule status from administrative/glossary text that contains no progress information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2817b__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2817b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is an abbreviations/acronyms glossary from a project document. It contains no information regarding schedule status, milestone dates, critical path progress, or any temporal indicators of completion or delay. There are no statements about being on schedule, recovered delays, or potential risks. Without any schedule-related content, it is impossible to extract evidence supporting a Delay or No Delay classification.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the error would likely follow a 'Lexical' pattern—mistaking incidental terms (e.g., 'monitoring framework,' 'completion report') for actual schedule status indicators when they are merely definitions of acronyms.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2831__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists entirely of an abbreviation glossary and a footnote listing team members. There is no substantive content describing construction progress, schedule status, milestones, completion dates, or any reference to delays. The text relates to administrative/document metadata (ADB document key and team composition) and contains no schedule-related statements whatsoever.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Lexical — a misinterpretation could occur if one mistakenly associated administrative terms with progress reporting, but no schedule evidence exists. With no extractable evidence on the schedule, the conservative default applies.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2831__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2831",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a glossary of abbreviations and acronyms (ADB, ADF, IED, IESP, OCR, PCR). There is no narrative content, no schedule information, no milestone dates, and no statements regarding progress, delays, recovery, or risks. Step 1 (Evidence Extraction) yields no schedule-related segments. Without any factual evidence regarding the project's schedule status, no determination of delay can be made. Per the Conservative Decision rule, the absence of definitive evidence mandates an 'Uncertain' label.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, this would most likely follow a Lexical pattern—erroneously inferring schedule status from acronyms (e.g., 'PCR = project completion report') that contain scheduling-related vocabulary but convey no actual progress information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2981__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the project's approval, design objectives, and scope. It mentions that the project approval was 'ahead of the schedule proposed in the country's operations business plan' — this refers to the approval timing being early, not to any construction progress. There is no information about current construction progress, milestones, or completion status. The text is entirely descriptive of the project's initiation and goals. No factual evidence of any delay on the critical path exists, nor is there any statement confirming 'On schedule' for actual project execution. Since there is insufficient information about the actual implementation status and its impact on the overall schedule, the conservative choice is 'Uncertain'.",
+      "extracted_evidence": [
+        "ADB approved a $300 million loan from ordinary capital resources for the Chhattisgarh State Road Sector Project (the project) in December 2012.",
+        "The advance project approval, which was ahead of the schedule proposed in the country’s operations business plan, took advantage of its expected high level of preparation and readiness",
+        "The project was designed to reconstruct and rehabilitate about 916 km state roads"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the Lexical pattern — the phrase 'ahead of the schedule' could be falsely read as a positive schedule status for implementation, when it actually refers only to the loan approval timing relative to a business plan, not to construction execution.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-2981__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-2981",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists entirely of abbreviation definitions (ADB, ADF, IED, etc.) and footnotes describing data sources and team member roles. There is no substantive content regarding the project's schedule, milestones, completion dates, or critical path. No statements indicate whether the project is on schedule, delayed, recovered, or at risk. Without any schedule-related information, there is no factual basis to determine delay status.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were misinterpreted, it would likely follow a Lexical pattern—mistaking the presence of administrative/evaluation terms (e.g., 'project completion report') for actual schedule status, when no schedule facts are present.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3055b__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The text states that 'Most of the works were substantially completed by the original loan closing date of 31 March 2017' and that 'The loan closing date had to be extended for completion of only residual works on some contracts.' Step 2 (Modality & Scope Check): The statement that the loan closing date 'had to be extended' is a reported fact, not a possibility. The original closing date (31 March 2017) was surpassed for residual works, which means certain works were not completed by the original deadline, requiring a factual extension. However, the scope is qualified as 'only residual works on some contracts'—a local incident rather than a global failure—while 'most of the works were substantially completed' on time. Step 3 (Conservative Decision): Despite the limited scope, there is explicit factual evidence that the original loan closing date was surpassed and the date had to be extended to complete remaining works. This constitutes a milestone/completion date being surpassed as a matter of reported fact, satisfying the Delay criterion (milestone dates surpassed). The extension is a confirmed fact, not a conditional or potential risk.",
+      "extracted_evidence": [
+        "Most of the works were substantially completed by the original loan closing date of 31 March 2017.",
+        "The loan closing date had to be extended for completion of only residual works on some contracts."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern would be Scope: the residual works are described as minor ('only residual works on some contracts') against a backdrop of substantial completion, which could lead one to under-weight the factual extension. However, the extension of the closing date is a confirmed surpassing of the original milestone, which meets the Delay threshold.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-3055b__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3055b",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists exclusively of a list of abbreviations and their definitions (a glossary/acronym key). There is no narrative text, no schedule information, no mention of milestones, completion dates, progress status, or any temporal claims. None of the entries describe the project's current state regarding timing or delay. Without any substantive schedule-related content, there is no factual evidence to support either a 'Delay' or 'No Delay' classification. Per the conservative decision rule, the absence of relevant evidence means the actual impact on the schedule cannot be determined.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the error would likely follow a 'Scope/Lexical' pattern — mistaking incidental terms like 'project completion report (PCR)' or 'design and monitoring framework' as indicators of schedule status, when they are merely glossary definitions with no temporal or factual schedule claims.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3074__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is solely a list of abbreviation definitions (a glossary/legend) commonly found at the beginning of ADB documents. There is no narrative content describing project schedule status, milestones, completion dates, or any progress information. Without any schedule-related statements, I cannot extract evidence of delay, on-schedule status, or recovery. Per the Evidence-Constrained procedure, the absence of definitive factual evidence mandates a conservative classification.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the error would most likely follow a 'Lexical' pattern—incorrectly inferring schedule status from organizational or document-type terms (e.g., 'PCR = project completion report') that mention 'completion' but carry no actual temporal or status meaning.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3074__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3074",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a list of abbreviations and their definitions (a glossary/acronym list). There is no narrative content, no mention of schedules, milestones, completion dates, progress status, or any temporal indicators. Nothing in the text addresses whether the project is on schedule, delayed, or at risk. Without any schedule-related evidence, no factual basis exists to assert a delay.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the Lexical pattern—incorrectly inferring status from the mere presence of project-related terminology (e.g., 'project completion report') without any actual schedule statement.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3189a__p0",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text consists solely of an abbreviation/acronym glossary. It contains no schedule-related statements, no milestone or completion dates, no status indicators (e.g., 'On schedule', 'Delayed', 'Recovered'), and no narrative describing project progress. There is no modality to assess (neither factual nor possibility-based statements about timing) and no scope to evaluate (no global or local schedule impacts mentioned). Per the Conservative Decision rule, in the absence of definitive factual evidence of a delay, the label must default to 'Uncertain'. The information is insufficient to determine any actual schedule impact.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the Lexical pattern—mistakenly inferring a schedule status from acronyms or domain terms (e.g., 'project completion report') that have no bearing on actual current schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3189a__p1",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-3189a",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a list of abbreviations and acronyms (a glossary) commonly found in the front matter of an Asian Development Bank or similar institutional document. It contains no information whatsoever about schedule status, milestone dates, critical path, progress, or delays. There are no statements indicating whether the project is on schedule, delayed, or facing risks. Without any schedule-related content, there is insufficient information to determine the actual delay status.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Lexical — the text contains project-related terms (e.g., 'project completion report', 'medium-term investment plan') that could be superficially associated with scheduling, but none convey actual schedule status. Any label other than Uncertain would be a lexical misinterpretation based on keyword presence rather than substantive evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3248__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is not a construction report excerpt describing schedule status. It is merely a list of abbreviations and their definitions (a glossary/legend). There are no statements regarding project milestones, completion dates, critical path activities, or any temporal status indicators such as 'on schedule,' 'delayed,' 'recovered,' or 'at risk.' Without any substantive content about the project's progress, there is no evidence to extract regarding modality (Fact vs. Possibility) or scope (Global vs. Local). Per the Conservative Decision rule, the absence of definitive factual evidence of delay mandates a non-committal classification.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Lexical — A misinterpretation could arise only if one falsely projected meaning onto abbreviation terms (e.g., 'PCR = project completion report') as if they implied a completion status, which would be an unfounded lexical inference rather than evidence-based reasoning.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-3248__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-3248",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a glossary of abbreviations and acronyms (e.g., ADB, DOR, EIRR, km, PCR, PMO, TA, VOC). There is no narrative content, no schedule information, no mention of milestones, completion dates, critical path status, or any progress indicators. Step 1 (Evidence Extraction) yields no schedule-related segments. Step 2 (Modality & Scope Check) cannot be performed because no statements of fact or possibility regarding schedule exist. Step 3 (Conservative Decision) requires defaulting to 'Uncertain' when information is insufficient to determine actual schedule impact.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow the 'Lexical' pattern — i.e., erroneously inferring a schedule status from isolated terms (such as 'project completion report') that are merely definitional and carry no temporal or status meaning.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-332__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is not a construction report excerpt describing schedule status. It is a list of abbreviations and acronyms (a glossary/legend) commonly found in ADB documentation. There is no content describing project progress, milestones, completion dates, delays, or schedule status. Step 1 (Evidence Extraction) yields no schedule-related segments. Step 2 (Modality & Scope Check) cannot be performed as there is no factual or possibility-based schedule information. Step 3 (Conservative Decision) mandates choosing 'Uncertain' when information is insufficient to determine actual impact on the schedule.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the likely pattern would be Lexical—incorrectly inferring status from the presence of terms like 'PCR' (project completion report) without any actual schedule statement.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-332__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-332",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a glossary of abbreviations and acronyms (ADB, CAREC, EIRR, etc.). It contains no information whatsoever about project schedules, milestones, completion dates, or progress status. There are no statements indicating whether the project is on schedule, delayed, or facing potential risks. Without any schedule-related evidence, it is impossible to determine the delay status. Per the decision procedure, the conservative default in the absence of definitive factual evidence is 'Uncertain.'",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow a Lexical pattern—mistaking the presence of project-related terminology (e.g., 'project completion report', 'project performance monitoring system') for actual schedule status information. These are definitional terms, not status indicators.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-453__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a glossary of abbreviations and acronyms (ADB, ADF, CAREC, ICT, IED, IED2, OCR, PCR). It contains no information whatsoever regarding project schedules, milestones, completion dates, or progress status. There are no statements about delays, recovery, or being on schedule. With no schedule-related evidence to extract, a conservative determination must default to Uncertain, as the information is insufficient to determine actual schedule impact.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the error would most likely follow a Lexical pattern—mistakenly inferring schedule status from unrelated organizational/technical acronyms (e.g., 'PCR' = project completion report) when no factual schedule data is present.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-453__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-453",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a glossary of abbreviations/acronyms (ADB, ADF, IED, IESP, OCR, OFID, PCR). It contains no information regarding project schedule, milestones, completion dates, or progress status. There is no evidence relating to delays, recovery, or on-schedule status. With no schedule-related content whatsoever, the information is insufficient to determine actual impact on the schedule.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Lexical — one might be tempted to infer status from terms like 'project completion report (PCR)' or 'evaluation,' but these are merely definitions and carry no temporal or factual schedule information. Choosing anything other than Uncertain would be an unsupported lexical inference.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-523__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt provides background on a Road Connectivity Sector I project financed by ADB in 2006. It describes the project scope (10 roads, one bridge, technical assistance) and notes a project completion report was prepared in July 2016. There is no explicit statement regarding schedule status—no mention of being 'on schedule,' delays, missed milestones, or recovery. The fact that a PCR was prepared in 2016 indicates the project reached completion, but the text does not characterize whether this was on time, late, or early relative to any planned completion date. No critical path information or milestone deadlines are provided. Without comparison to a baseline schedule or any factual statement about delay, the schedule status cannot be determined.",
+      "extracted_evidence": [
+        "In 2006, the Board of Directors of the Asian Development Bank (ADB) approved a $55.2 million grant to help finance the $80 million Road Connectivity Sector I project.",
+        "The project was to construct or upgrade 10 roads and one bridge—the first phase of the works planned under the 10-year midterm program, with the remainder planned for subsequent projects.",
+        "A project completion report (PCR) was prepared in July 2016 and is the subject of this evaluation."
+      ],
+      "self_diagnosis": "If misinterpreted, the most likely error pattern would be Temporal—inferring a delay from the gap between 2006 approval and 2016 completion report without any baseline schedule to compare against. This would be an over-commitment based on inference rather than factual evidence of delay.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-523__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-523",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists entirely of an abbreviations/glossary list (ADB, DMF, MOI, PCR, PMU, SDP, TA). There is no narrative content describing the schedule, milestones, critical path, or any progress status. No statements regarding 'On schedule,' 'delay,' 'recovered,' or any risk are present. Without substantive schedule-related content, the modality and scope cannot be assessed because no factual or conditional schedule claims exist. Per the conservative decision rule, in the absence of definitive evidence of delay, the label cannot be 'Delay,' and there is no explicit 'On schedule' statement to justify 'No Delay.' Therefore the information is insufficient.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, it would most likely be a Lexical error—mistaking an abbreviation like 'PCR – project completion report' for an actual completion status, when it is merely a glossary definition with no schedule information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-605__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt contains only a list of abbreviations and their definitions (ADB, ADF, IED, IESP, OCR, PCR). There is no substantive content describing project status, schedule, milestones, completion dates, or any progress information. Without any schedule-related statements, it is impossible to extract evidence of either delay or on-time performance. Following the Evidence-Constrained procedure, the absence of any factual schedule evidence requires a conservative classification.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Lexical — the text contains no schedule narrative at all, only a glossary of acronyms, so any label other than Uncertain would be an unsupported assumption.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-605__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-605",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt consists entirely of an abbreviations/acronyms glossary (definitions of ADB, ADF, IED, IESP, KEXIM, NDF, OCR, PCR). There is no narrative content describing the project schedule, milestones, completion dates, or progress status. Without any schedule-related statements, there is no evidence to assess modality (Fact vs. Possibility) or scope (Global vs. Local). No claim of 'on schedule,' no reported delay, and no risk language exists.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Any label other than 'Uncertain' would constitute a Lexical misinterpretation—attributing schedule meaning to a glossary that contains no progress information at all.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-626__p0",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text mentions the loan was approved in September 2010, became effective in January 2011, kept its original closing date of June 2016, but was 'financially closed in December 2016.' Step 2 - Modality & Scope Check: The original closing date was June 2016, but actual financial closure occurred in December 2016. This is reported as a matter of fact (past tense, 'was financially closed'), representing an actual occurrence rather than a possibility. The closing date of June 2016 was surpassed by six months. This is a global/project-level milestone (loan closing), not a local incident. Step 3 - Conservative Decision: The evidence is factual and definitive. The loan retained its original closing date of June 2016 but was not actually closed until December 2016, meaning the milestone date was surpassed as a reported fact. This satisfies the 'Delay' criterion: milestone or completion dates have been surpassed as a matter of reported fact.",
+      "extracted_evidence": [
+        "the loan was not extended and kept its original closing date of June 2016",
+        "the loan was financially closed in December 2016"
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Scope pattern—treating the financial closing of the loan as a purely administrative/financial event rather than a project schedule milestone. However, the surpassing of the stated closing date (June 2016 vs. actual December 2016) is factual and represents a concrete overrun of a planned date.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-626__p1",
+    "gold_label": "No Delay",
+    "doc_outcome": "No Delay",
+    "source_report": "pvr-626",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a list of abbreviation definitions (a glossary/legend). There is no schedule-related content, no mention of milestones, completion dates, progress status, or any indication of delay or on-time performance. Step 1 (Evidence Extraction) yields no schedule-related segments. Step 2 cannot be performed as there is no modality or scope to analyze. Step 3 dictates a conservative default to 'Uncertain' because the information is insufficient to determine any actual schedule impact.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, this would likely follow a Lexical pattern—mistakenly inferring meaning from abbreviation expansions (e.g., 'PCR = project completion report') as if they indicated project status, when they are merely definitions.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-654__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The report describes historical facts about the project lifecycle. The loan closing date was contractually set for 30 June 2014, but the actual loan closing date was 30 June 2016—two years later. This is reported as a matter of fact (past tense, 'actual loan closing date was'), not as a possibility. The cause is also stated factually: extended rainfall affecting work sites and contractor mobilization failures. This is a global schedule impact (the entire loan closing was pushed two years), not a local incident. There is no statement of recovery or resolution; rather, the delay was realized and the project ultimately closed two years past the planned date. The two-year slippage between planned (2014) and actual (2016) closing is definitive factual evidence of a surpassed completion milestone.",
+      "extracted_evidence": [
+        "The loan agreement for the project stated that the loan closing date was to be 30 June 2014.",
+        "The actual loan closing date was on 30 June 2016, two years later due to extended rainfall that affected the availability of appropriate work sites and the failure of some contractors to make effective use of that period for mobilization activities."
+      ],
+      "self_diagnosis": "A potential misinterpretation here would be Temporal: one might mislabel this as 'No Delay' because the project is now closed (a completed past event). However, the criteria treat a surpassed completion date as factual evidence of delay, and there is no 'Recovered/Resolved' language—the delay was actually incurred (2 years late), not avoided.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-654__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-654",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a list of abbreviations and acronyms (a glossary/legend) commonly found in ADB documents. It contains no information whatsoever about a construction project's schedule, milestones, completion dates, or progress status. There are no statements that could be classified as facts about delay, possibilities of delay, or confirmations of being on schedule. With zero schedule-related content, there is insufficient information to determine any actual impact on the overall schedule.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow a Lexical pattern—erroneously inferring schedule status from unrelated terminology. However, no schedule-relevant lexical cues exist here, so the conservative classification is Uncertain due to absence of evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-658__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The text reports past, factual events regarding the project schedule. The project completion date 'was in October 2015, 9 months after the envisioned completion' — this is a reported fact of completion occurring later than planned. The cause is identified: 'The delay in the procurement process led to a 1-year delay in starting the civil works.' This is stated definitively as a fact (past tense, indicative mood), not as a possibility or risk. The scope is global: it affected the planned closing date ('the planned closing date of June 2015 was delayed by 1 year') and the grant closing date. The modality is factual ('was delayed,' 'led to'), not conditional or speculative. Although the project appears now complete (October 2015), the delay was real and surpassed milestones — there is no statement that this delay was 'recovered' or 'resolved' in the recovery sense; rather, the completion itself occurred late. Per the criteria, milestone/completion dates were surpassed as a matter of reported fact, satisfying the Delay definition.",
+      "extracted_evidence": [
+        "The project completion date was in October 2015, 9 months after the envisioned completion.",
+        "The delay in the procurement process led to a 1-year delay in starting the civil works",
+        "the planned closing date of June 2015 was delayed by 1 year, and the grant closing date was also delayed by 1 year."
+      ],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the 'Recovery' pattern — mistaking the project's eventual completion for resolution of the delay. However, the completion itself happened 9 months late, so the delay was realized rather than recovered. A 'Temporal' misread could also occur if one treated the late completion as merely historical and irrelevant, but the criteria explicitly count surpassed milestones as factual delay.",
+      "label": "Delay"
+    },
+    "case_id": "pvr-658__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-658",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is purely a list of abbreviations and their definitions (e.g., ADB, ADF, IED, etc.). There is no information whatsoever regarding project schedules, milestones, completion dates, critical path status, or any progress indicators. Without any schedule-related content, it is impossible to apply the Modality & Scope Check or extract any evidence of delay, on-schedule status, or recovery. Following the Conservative Decision rule, the absence of definitive factual evidence of delay mandates a non-committal classification.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the Lexical pattern—mistakenly inferring schedule status from text that contains no actual progress information.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-697__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is a background/context section describing Mongolia's geography, population density, and road infrastructure statistics. It contains no information about a specific construction project's schedule, milestones, completion dates, or progress status. There are no statements indicating whether any project is on schedule, delayed, recovered, or at risk. The text is purely descriptive of pre-existing conditions and does not reference any timeline or critical path. Under the Evidence-Constrained procedure, the absence of any schedule-related evidence means there is insufficient information to determine actual schedule impact.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the likely pattern would be 'Lexical' — mistaking the description of underdeveloped/lagging infrastructure (e.g., 'road infrastructure in Mongolia lagged behind') as evidence of a project schedule delay, when in fact it describes a general state of development, not a project's progress against a timeline.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-697__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-697",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is an abbreviations/glossary list defining acronyms used in ADB documentation (e.g., Asian Development Bank, Asian Development Fund, project completion report). There is no narrative content describing schedule status, milestones, completion dates, or any progress information. Step 1 evidence extraction yields no schedule-related segments. Step 2 modality and scope check cannot be performed because no factual or possible schedule statements exist. Step 3 conservative decision dictates 'Uncertain' due to insufficient information.",
+      "extracted_evidence": [],
+      "self_diagnosis": "Lexical — a misinterpretation could arise from over-reading defined terms (e.g., 'project completion report') as indicators of project status, but these are merely glossary definitions with no schedule content.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-714__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes expected project outputs and their associated indicators along with target dates (2010 and 2012). The language is entirely forward-looking and descriptive of the project's design ('expected', 'were to be measured', 'were expected to be completed by 2012'). There is no reporting of actual progress, current status, or whether any milestone has been met or missed. No statement indicates the project is on schedule, recovered, or delayed. There is also no mention of any current risk or concern. This is purely a description of planned targets without any factual status update on schedule performance.",
+      "extracted_evidence": [
+        "These were to be measured through the following four indicators",
+        "(i) at least 966 km of roads are in good condition, with international roughness index of less than 4.5 by 2010",
+        "Indicators (ii) to (iv) were expected to be completed by 2012."
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Temporal pattern—mistaking planned future target dates (2010, 2012) for surpassed deadlines. Since the text only states planned targets without confirming actual achievement or failure, no factual delay can be established.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-714__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-714",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided text is a glossary of abbreviations and acronyms (e.g., ADB, ARS, DMF, EIRR, etc.). It contains no narrative content regarding schedule status, milestones, completion dates, or progress. There is no statement indicating whether the project is on schedule, delayed, or recovered. Under the Evidence-Constrained procedure, the absence of any schedule-related factual evidence means we cannot confirm a Delay. Per the conservative decision rule, insufficient information defaults to 'Uncertain.'",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the likely error pattern would be Lexical — mistaking domain-specific acronyms (e.g., RNDP, MFF) for substantive schedule indicators, or over-reading the absence of negative statements as 'No Delay.'",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-719__p0",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt contains only a glossary of abbreviations and acronyms (ADB, ADF, AZRM, IED, IESP, OCR, PCR). There is no narrative content, no schedule information, no milestone dates, and no statements regarding progress, delays, or recovery. Step 1 (Evidence Extraction) yields no schedule-related text segments. Step 2 (Modality & Scope Check) cannot be applied because there is no factual or hypothetical statement about timing. Step 3 (Conservative Decision) requires choosing 'Uncertain' in the absence of definitive factual evidence of delay. The information is wholly insufficient to determine any impact on the schedule.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would most likely follow the Lexical pattern—erroneously inferring a status from acronyms or absence of content rather than from explicit schedule evidence.",
+      "label": "Uncertain"
+    },
+    "case_id": "pvr-719__p1",
+    "gold_label": "Delay",
+    "doc_outcome": "Delay",
+    "source_report": "pvr-719",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The excerpt discusses the project as an opportunity to showcase competence in 'planning and financing transformational infrastructure projects with agility,' the collation and sharing of 'developmental impacts and achievements' through monitoring & evaluation consultancy, and a 'project completion report' that will 'document anticipated success stories.' Step 2 - Modality & Scope Check: None of these statements reference the schedule status. There is no mention of milestones, completion dates, critical path, on-schedule status, or any delay (past, present, or potential). The content is purely about organizational learning, reporting structures, and developmental impact. The references to a 'project completion report' and 'anticipated success stories' are forward-looking administrative/documentation statements, not schedule indicators. Step 3 - Conservative Decision: There is no factual evidence of a delay, nor any explicit statement of being on schedule, nor any resolved past delay. The information is insufficient to determine actual schedule impact, mandating an 'Uncertain' classification.",
+      "extracted_evidence": [
+        "The project accords the Bank an opportunity to showcase its competence in planning and financing transformational infrastructure projects with agility.",
+        "The developmental impacts and achievements shall be collated and shared widely with RMCs and development partners through an independent monitoring & evaluation consultancy services under the project.",
+        "The project completion report shall besides other project reports, document anticipated success stories to foster organizational learning."
+      ],
+      "self_diagnosis": "Lexical - A misinterpretation could arise from the word 'agility' being read as evidence of being on-track, or 'success stories' implying positive schedule performance. However, these are descriptive/aspirational terms unrelated to actual schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road___p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is strategic/contextual in nature, describing the Bank's Ten-Year Strategy, comparative advantage, CSP alignment, and the project's role in the Mtwara Development Corridor. There is no mention of schedule status, milestone dates, critical path, or any delay-related information. The only schedule-adjacent phrase is 'near completion road from Mbinga to Mbamba Bay,' which indicates progress on a related (different) road segment, not the project road itself, and provides no delay or on-schedule confirmation. There is insufficient information to determine actual schedule impact.",
+      "extracted_evidence": [
+        "It adds significant value to the near completion road from Mbinga to Mbamba Bay (66 km) which is part of the Bank financed project under Transport Sector Support Programme (TSSP).",
+        "The planned project is a continuation of GoT’s efforts of improving the missing links on Mtwara Corridor."
+      ],
+      "self_diagnosis": "A misinterpretation here would most likely follow the Lexical pattern—e.g., mistaking 'near completion' as a positive schedule signal or 'missing links' as a negative one, when neither describes the project schedule status.",
+      "label": "Uncertain"
+    },
+    "case_id": "tanzania_-_mnivata-newala_-_masasi_road___p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tanzania_-_mnivata-newala_-_masasi_road_upgrading_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes the scope and rationale of the PMIR financing for periodic maintenance of 2,500 km of classified roads. It explains that the roads are 10-15 years old, have been regularly maintained, and now need surface course replacement or reinforcement. There is no mention of any schedule, milestone dates, completion targets, or progress status. The text is purely descriptive of project scope and the technical justification for maintenance work. No evidence exists regarding whether the project is on schedule, behind schedule, or facing risks. The statement about needing surface replacement refers to the condition of existing roads (the reason for the project), not a delay in the current project's execution.",
+      "extracted_evidence": [
+        "PMIR will finance the periodic maintenance of 2 500 kilometres of classified roads that were upgraded under previous road projects",
+        "The surface course of these roads, the average age of which is 10 to 15 years and which have been regularly maintained since they were commissioned, now needs to be replaced or reinforced in order to extend the lifespan of the roads."
+      ],
+      "self_diagnosis": "If misinterpreted, it would likely follow a Lexical pattern—mistaking phrases like 'needs to be replaced' or 'extend the lifespan' as signals of schedule slippage, when they actually describe the technical scope/rationale of the maintenance project rather than any delay in execution.",
+      "label": "Uncertain"
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernizat__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt describes a 'Knowledge Building' component of the project, focusing on establishing key impact indicators, conducting impact assessments, and managing/disseminating knowledge through a database and reports. This is a descriptive passage about a project component and its intended outputs. There is no mention of schedule, timelines, milestones, completion dates, or any indication of progress status. The language is forward-looking and procedural ('will help to generate', 'will be managed', 'disseminated'), describing planned activities rather than actual schedule performance. There is no factual evidence of delay, nor any statement of being on schedule. The information is entirely insufficient to determine schedule status.",
+      "extracted_evidence": [
+        "the establishment of key impact indicators prior to project startup and impact assessment at project completion will help to generate useful information on PMIR outputs and outcomes",
+        "Such knowledge will be managed from a database at the General Directorate of Highways (DGPC) and disseminated through annual reports and the Bank’s website."
+      ],
+      "self_diagnosis": "If misinterpreted, the likely pattern would be Scope (mistaking a descriptive component narrative for schedule-relevant information) or Lexical (incorrectly reading procedural future-tense statements as evidence of either progress or delay).",
+      "label": "Uncertain"
+    },
+    "case_id": "tunisia_-_road_infrastructure_modernizat__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "tunisia_-_road_infrastructure_modernization_project_-_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is descriptive background about the project scope and phasing. It states that the prioritized road network is 121km, of which 42km has been completed, with the Bank financing 62km and JICA financing TCC and a flyover. There is no statement about whether these works are on schedule, behind schedule, or whether any milestone/completion date has been surpassed. The text reports progress quantities (42km completed) but provides no temporal benchmark against which to evaluate delay. There is no modality indicating fact-of-delay nor any keyword such as 'on schedule,' 'delayed,' or 'recovered.' Without a target date or scheduled completion figure to compare against, the actual impact on the overall schedule cannot be determined.",
+      "extracted_evidence": [
+        "The prioritized road network for improvement is 121km.",
+        "At present, 42km has been completed with support of the World Bank and the GoU.",
+        "The Bank will finance the improvement of 62km while JICA is financing TCC and planned city flyover project as indicated in Table 2.1."
+      ],
+      "self_diagnosis": "A likely misinterpretation would be Scope-based: inferring delay from the fact that only 42km of 121km is complete. However, this is a multi-phase program without a stated schedule baseline, so partial completion does not constitute evidence of delay.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitati__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The excerpt is entirely focused on the economic justification and design rationale of the project (KCRRP). It discusses economic impact analysis, output multipliers, job creation estimates, and a piloting strategy for bus services. There is no mention whatsoever of the project schedule, timeline, milestones, completion dates, or progress status. None of the criteria for Delay, No Delay, or any schedule-related fact are present. Without any schedule-relevant evidence, the conservative decision under the EC procedure is Uncertain.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, this would likely follow a Scope error—mistaking general project-benefit narrative for schedule status. No lexical, temporal, or recovery cues exist to support a Delay or No Delay label.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_kampala_city_roads_rehabilitati__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_kampala_city_roads_rehabilitation_project_-_project_appraisal_report",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt describes project beneficiaries, the geographic zone of influence, and the types of road users. There is no information whatsoever regarding the project schedule, milestone dates, completion targets, or progress status. No statements indicate whether the project is on schedule, behind schedule, or recovered. Under the Evidence-Constrained procedure, the absence of any schedule-related evidence means there is insufficient information to determine the actual impact on the overall schedule.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If this were a misinterpretation, it would likely follow a Scope pattern—mistakenly inferring schedule status from descriptive project context that contains no temporal or progress information.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-__p0",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_natural"
+  },
+  {
+    "response": {
+      "thought_process": "The provided excerpt is entirely about the project rationale, strategic alignment, and policy framework (RSDP, NDP, Vision 2040, Bank's Medium Term Strategy). It describes why the project is needed and how it fits into national development plans. There is no information whatsoever about the actual construction schedule, milestones, completion dates, critical path status, or progress. No segment addresses whether the project is on time, delayed, or recovered. With no schedule-related evidence available, the conservative decision per the EC procedure is 'Uncertain' due to insufficient information.",
+      "extracted_evidence": [],
+      "self_diagnosis": "If misinterpreted, the likely error pattern would be Scope — mistaking strategic/policy timeframe references (e.g., '2010/11-2014/15', 'rolled over into third phase') for actual project schedule status, when these are program planning periods unrelated to construction progress.",
+      "label": "Uncertain"
+    },
+    "case_id": "uganda_-_road_sector_support_project_4_-__p1",
+    "gold_label": null,
+    "doc_outcome": null,
+    "source_report": "uganda_-_road_sector_support_project_4_-_project_appraisal_report_-_p-ug-db0-021",
+    "category": "realdoc_natural"
+  }
+]

@@ -1,0 +1,12 @@
+[node] host=oz06 job=650 gpus=0 @ 2026-06-19 01:29:20
+[serve] starting /nfs/work/ozono/opt/ollama-amd64/bin/ollama
+[version] ollama version is 0.30.10
+[pull] magistral -> magistral_24b @ 01:29:22
+[warn] pull 'magistral' attempt 1 failed; retry in 15s
+[warn] pull 'magistral' attempt 2 failed; retry in 15s
+[warn] pull 'magistral' attempt 3 failed; retry in 15s
+[warn] pull 'magistral' attempt 4 failed; retry in 15s
+[warn] pull 'magistral' attempt 5 failed; retry in 15s
+[warn] pull 'magistral' attempt 6 failed; retry in 15s
+[ERROR] pull failed after retries: magistral
+[job-end] rc=1 @ 01:30:58

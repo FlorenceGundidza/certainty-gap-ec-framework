@@ -1,0 +1,49 @@
+[node] host=oz04 job=654 tag=qwen3:32b slug=qwen3_32b suites=sp sc SC_K=5 @ 12:22:17
+[version] ollama version is 0.30.10
+[run] qwen3_32b suite=sp @ 12:22:20
+
+=== Selective Prediction (confidence) (sp) | model=qwen3:32b ===
+  [ 1/40] case_01 (gold=Delay) -> No Delay  (11.2s)
+  [ 2/40] case_02 (gold=Delay) -> Delay  (6.6s)
+  [ 3/40] case_03 (gold=Delay) -> Delay  (5.9s)
+  [ 4/40] case_04 (gold=Delay) -> Delay  (5.0s)
+  [ 5/40] case_05 (gold=Delay) -> Delay  (9.4s)
+  [ 6/40] case_16 (gold=Delay) -> Delay  (3.2s)
+  [ 7/40] case_17 (gold=Delay) -> Delay  (5.1s)
+  [ 8/40] case_18 (gold=Delay) -> Delay  (6.3s)
+  [ 9/40] case_06 (gold=No Delay) -> No Delay  (4.0s)
+  [10/40] case_07 (gold=No Delay) -> No Delay  (3.0s)
+  [11/40] case_08 (gold=No Delay) -> No Delay  (4.8s)
+  [12/40] case_09 (gold=No Delay) -> No Delay  (4.7s)
+  [13/40] case_10 (gold=No Delay) -> No Delay  (4.2s)
+  [14/40] case_19 (gold=No Delay) -> No Delay  (5.0s)
+  [15/40] case_20 (gold=No Delay) -> No Delay  (6.2s)
+  [16/40] case_21 (gold=No Delay) -> No Delay  (4.6s)
+  [17/40] case_22 (gold=No Delay) -> No Delay  (5.2s)
+  [18/40] case_11 (gold=Uncertain) -> Uncertain  (9.7s)
+  [19/40] case_12 (gold=Uncertain) -> No Delay  (11.2s)
+  [20/40] case_13 (gold=Uncertain) -> No Delay  (7.6s)
+  [21/40] case_14 (gold=Uncertain) -> No Delay  (5.8s)
+  [22/40] case_15 (gold=Uncertain) -> No Delay  (6.9s)
+  [23/40] case_23 (gold=Delay) -> Delay  (4.9s)
+  [24/40] case_24 (gold=No Delay) -> No Delay  (5.1s)
+  [25/40] case_25 (gold=Uncertain) -> Delay  (6.4s)
+  [26/40] case_26 (gold=Delay) -> Delay  (5.2s)
+  [27/40] case_27 (gold=No Delay) -> No Delay  (6.0s)
+  [28/40] case_28 (gold=Uncertain) -> Uncertain  (13.8s)
+  [29/40] case_29 (gold=No Delay) -> No Delay  (5.6s)
+  [30/40] case_30 (gold=Delay) -> Delay  (5.0s)
+  [31/40] case_31 (gold=Uncertain) -> Delay  (8.3s)
+  [32/40] case_32 (gold=No Delay) -> No Delay  (5.0s)
+  [33/40] case_33 (gold=No Delay) -> No Delay  (5.1s)
+  [34/40] case_34 (gold=No Delay) -> No Delay  (5.3s)
+  [35/40] case_35 (gold=No Delay) -> No Delay  (4.8s)
+  [36/40] case_36 (gold=No Delay) -> No Delay  (6.7s)
+  [37/40] case_37 (gold=No Delay) -> No Delay  (5.9s)
+  [38/40] case_38 (gold=No Delay) -> No Delay  (5.7s)
+  [39/40] case_39 (gold=No Delay) -> No Delay  (4.9s)
+  [40/40] case_40 (gold=No Delay) -> No Delay  (4.8s)
+
+Saved results for qwen3_32b (suite=sp) to /nfs/work/ozono/florence-openweight/results
+[done] qwen3_32b suite=sp rc=0 @ 12:26:25
+[run] qwen3_32b suite=sc @ 12:26:25

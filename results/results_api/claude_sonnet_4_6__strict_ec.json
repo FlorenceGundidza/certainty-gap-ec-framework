@@ -1,0 +1,875 @@
+[
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report states the actual project period was 124% of the planned duration, while outputs increased to 126% of planned scope. It mentions contributing delay factors (JICA mobilization delay, flooding interruptions in 2010-2011 and 2012-2013). Critically, the final sentence states 'a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule.' Step 2 [Modality & Scope Check]: The language around the extended duration is factual — the project did take longer than originally planned. However, the report explicitly contextualizes this extension as proportional to the increased scope (124% time vs. 126% output), meaning the time overrun is attributed to scope expansion rather than pure schedule slippage. The delay factors mentioned (flooding, JICA mobilization) are reported as historical/past events. Most decisively, the closing statement is a factual claim in the past tense confirming that net delay beyond the scope-adjusted schedule was 'avoided.' This constitutes an explicit recovery/resolution statement. Step 3 [Conservative Decision]: While there were real disruptions and an extended project period, the report explicitly concludes that no net delay beyond the revised (scope-adjusted) schedule occurred. This mirrors the 'Recovered/Resolved' condition under the No Delay classification. The disruptions were local incidents that did not ultimately produce a global schedule overrun relative to the revised baseline. The evidence is definitive and factual regarding resolution, not merely speculative.",
+      "extracted_evidence": [
+        "The actual project period was longer than planned (ratio against the plan: 124%), but it was proportional to the increase in the length of the targeted roads, i.e., outputs, from planned 300km (approximate) at the appraisal to actual 376.68km (ratio against the plan: 126%)",
+        "Contributing factors behind the longer project period other than the increase in the outputs included, a delay in mobilizing the Special Assistance for Project Implementation by JICA and the interruptions of part of the construction works by the flooding in October 2010 – February 2011 and December 2012 – March 2013.",
+        "Nevertheless, a delay exceeding the schedule that was revised due to the increase in the outputs was avoided by controlling the implementation schedule."
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a Temporal/Recovery pattern — one might focus on the factual statement that the project took 124% of the planned time and the mention of real disruptions (flooding, mobilization delays), and label this as 'Delay' without fully weighing the final sentence's explicit resolution statement. The report carefully distinguishes between scope-driven schedule extension (acceptable) and unrecovered delay (which it confirms did not occur). Ignoring the scope-adjustment context and the resolution clause would be the primary error pathway.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 653,
+      "completion_tokens": 680,
+      "total_tokens": 1333
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_01",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report provides multiple concrete, factual statements about the project timeline. The planned completion was October 2005, but construction was completed in June 2012 — a confirmed, past-tense fact. The project period ran 130 months vs. the planned 50 months, representing a 260% overrun. Multiple specific causal factors are enumerated as factual occurrences (consultant selection delays, re-estimation of construction costs, optimization study, communication problems, project manager sick leave). Step 2 [Modality & Scope Check]: All statements are expressed in the past tense and as confirmed facts, not as possibilities or risks. The language used — 'was completed in June 2012,' 'project period was 260% longer,' 'spent longer than expected,' 'construction was thought to be delayed because' (with concrete reasons following), 'worsened when' — represents factual reporting of realized outcomes, not hypothetical scenarios. The scope is global: the overall project completion date was missed, not merely a local or sub-task incident. The final sentence explicitly summarizes: 'the project period was significantly longer than planned.' Step 3 [Conservative Decision]: The evidence is definitive and factual. The planned completion date of October 2005 was surpassed by approximately 80 months, and this is confirmed by the ex-post evaluation. There is no indication of recovery or resolution that brought the project back on schedule — the delay was fully realized and the project completed late. This clearly meets the 'Delay' criterion: milestone/completion dates were surpassed as a matter of reported fact. Self-Diagnosis: A misinterpretation here would most likely follow a 'Temporal' pattern — mistaking past-confirmed overruns for future/conditional risks. However, the language is unambiguously retrospective and factual, so such a misreading is not supported.",
+      "extracted_evidence": [
+        "the project period was estimated to be from the signing of the loan agreement in September 2001 up to October 2005 (4 years and two months) (50 months)",
+        "the construction was completed in June 2012 (10 years and 10 months) (130 months)",
+        "The project period was 260% longer than initially planned",
+        "The executing agency spent longer than expected selecting consultants because of the approval process within the Moroccan government",
+        "the construction was thought to be delayed because the additional financing required the construction cost to be estimated again, and there was also a project optimization study",
+        "Japanese-descended consultants were selected but had frequent communication problems with the executing agency due to the lack of experience of the yen loan project",
+        "The situation worsened when a project manager took extended sick leave during the project and there was a need for a replacement",
+        "There was also the same problem between contractors for Project (I) and the executing agency",
+        "the project period was significantly longer than planned"
+      ],
+      "self_diagnosis": "A misinterpretation would most likely follow a Temporal pattern — treating retrospectively confirmed overruns as mere future risks or conditional possibilities. However, the report is an ex-post evaluation using past-tense, factual language throughout, leaving no ambiguity about whether the delay occurred.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 748,
+      "completion_tokens": 766,
+      "total_tokens": 1514
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_02",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The report contains several schedule-relevant statements, particularly around project costs and project period. The key phrase is 'The project period was significantly longer than the initial plan due to delays in procedures, design and construction.' Step 2 - Modality & Scope Check: The statement 'The project period was significantly longer than the initial plan' is a factual, past-tense declarative statement — not a possibility or a risk. It confirms that the planned project period was exceeded. The causes are explicitly enumerated: delays in procedures, design, and construction. The scope is global — the report references the overall project period, not a localized sub-task or minor incident. The phrase 'significantly longer' further amplifies the magnitude of the deviation. Additionally, the report concludes 'the efficiency is low,' which is a formal evaluative judgment affirming the overall schedule overrun had material impact. This is not a conditional or speculative statement — it is a retrospective factual assessment. Step 3 - Conservative Decision: Given the explicit, factual, and retrospective confirmation that the project period was 'significantly longer than the initial plan due to delays,' and that this impacted the project globally (not locally), the evidence firmly supports a 'Delay' classification. There is no recovery statement, no 'on schedule' qualifier, and no conditional framing. The label 'Delay' is warranted without over-commitment.",
+      "extracted_evidence": [
+        "The project period was significantly longer than the initial plan due to delays in procedures, design and construction.",
+        "project costs exceeded the initial plan due to cost increases caused by higher land acquisition and resettlement costs as well as soil improvement work due to the discovery of soft ground.",
+        "Thus, the efficiency is low."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be Temporal — one might argue the delay is historical/resolved and no longer active. However, the report makes no recovery or resolution statement, and the formal evaluative conclusion ('efficiency is low') confirms the delay had a lasting, unmitigated impact on the project's overall performance. This rules out a Recovery misclassification pattern.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 704,
+      "completion_tokens": 508,
+      "total_tokens": 1212
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_03",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report explicitly states 'Implementation was delayed because of (i) a change in the scope of works, i.e., from 4 lanes to 6 lanes; (ii) a change in the design of bridge piles due to seismic design provisions; and (iii) uncertain geotechnical conditions encountered during the piling works for one bridge.' Step 2 [Modality & Scope Check]: The word 'delayed' is used in the simple past tense as a declarative factual statement, not a conditional or speculative one. The causes enumerated are concrete and specific: scope expansion (4 to 6 lanes), design changes to bridge piles, and geotechnical complications. These are all presented as confirmed occurrences, not risks or possibilities. However, a critical consideration arises regarding temporal resolution: the report does not explicitly state whether this delay has been 'recovered' or 'resolved,' nor does it confirm ongoing unresolved impact on the critical path or milestone dates being surpassed at the time of reporting. The phrasing 'implementation was delayed' uses past tense, which could indicate a concluded event rather than an active, unresolved delay. There is no explicit statement such as 'On schedule' or 'Recovered' to confirm resolution, but neither is there explicit confirmation that the delay remains active and unresolved on the critical path. Step 3 [Conservative Decision]: Given the ambiguity in temporal resolution — the delay is confirmed as a past fact but its current status (resolved vs. ongoing) is not definitively established — the conservative approach under the EC Decision Procedure is to treat this as 'Uncertain' rather than committing to a 'Delay' label. The evidence confirms a delay occurred, but does not unambiguously confirm it remains an active, unresolved delay at the time of reporting.",
+      "extracted_evidence": [
+        "Implementation was delayed because of (i) a change in the scope of works, i.e., from 4 lanes to 6 lanes; (ii) a change in the design of bridge piles due to seismic design provisions; and (iii) uncertain geotechnical conditions encountered during the piling works for one bridge."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here is Temporal: the past-tense phrasing 'was delayed' might be read as a currently active, unresolved delay, when it could equally describe a concluded event whose current schedule status remains unreported. Over-committing to a 'Delay' label based solely on past-tense delay language — without confirmation of ongoing impact or unresolved critical path status — would represent a Temporal pattern error.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 666,
+      "completion_tokens": 633,
+      "total_tokens": 1299
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_04",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The report states that target outcomes and outputs 'were although achieved, but with delays.' It also notes that 'physical outputs achieved within the MFF period were less than planned,' and that 'remaining outputs (M4 sections II and III from standalone loans) were initiated due to the MFF and were completed within 2 years after the MFF period.' Step 2 (Modality & Scope Check): The language used is retrospective and factual — 'were achieved,' 'were completed,' 'were less than planned.' These are historical statements describing a concluded project or program phase. Crucially, the delays mentioned are explicitly stated as having occurred ('with delays'), not as potential or speculative. However, the outputs were ultimately completed — the M4 sections II and III were finished within 2 years after the MFF period. This indicates the delays were real and confirmed, but the work has since been completed. The question is whether this constitutes an 'ongoing' delay or a 'resolved' one. Step 3 (Conservative Decision): The delays are factually confirmed ('with delays') and the physical outputs within the MFF period were 'less than planned,' which is a factual statement of underperformance. However, all outputs were ultimately completed — the standalone loans filled the gap and the work was finished. This aligns more closely with a situation where a delay occurred but the scope was eventually completed, though outside the original program boundaries (MFF period). The report does NOT explicitly state 'Recovered' or 'Resolved,' and the MFF program itself was rated 'less than effective' due to these delays. The delay is factual and confirmed within the program's scope, even if physical completion eventually occurred post-MFF. Since the delays are confirmed facts (not possibilities), and the program's rated effectiveness was directly impacted by them — yet the outputs were ultimately completed outside the original framework — there is ambiguity about whether this is an 'unresolved' delay or a 'resolved but impactful' one. The recovery was not explicitly labeled as such, and the program period itself was not completed on schedule. This leans toward a confirmed historical delay rather than an ongoing one, but the absence of explicit 'Resolved' language and the confirmed overrun of the MFF period boundary justifies a 'Delay' classification rather than 'No Delay.' The delay is a reported fact, not a possibility.",
+      "extracted_evidence": [
+        "The program is rated less than effective because the target outcomes and outputs designed at appraisal were although achieved, but with delays and through standalone loans.",
+        "The physical outputs achieved within the MFF period were less than planned.",
+        "The remaining outputs (M4 sections II and III from standalone loans) were initiated due to the MFF and were completed within 2 years after the MFF period."
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here follows a Recovery pattern — one might argue that since all outputs were eventually completed, the delay was 'resolved.' However, the report never explicitly labels the situation as 'Recovered' or 'Resolved,' and the program's own effectiveness rating was downgraded specifically because of these delays. The completion occurred outside the original program framework (post-MFF), which means the delay was real, confirmed, and caused scope to spill beyond the planned period. This prevents a 'No Delay' classification. A secondary risk is a Temporal pattern — misreading retrospective factual statements as current ongoing delays, when in fact all work is completed. The label 'Delay' is still appropriate here because the delays are confirmed historical facts that impacted the program's planned schedule and effectiveness, even if work is now done.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 850,
+      "total_tokens": 1418
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_05",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report contains multiple explicit, factual statements about schedule performance. Key phrases include 'project completion was delayed by approximately 28 months beyond the originally planned date,' confirmed by an 'ex-post evaluation' — a retrospective, post-completion assessment. Additional factual elements include specific contributing factors (land acquisition, archaeological findings, monsoon suspension) and the submission of 'revised implementation schedules on three occasions.' Step 2 [Modality & Scope Check]: The language is entirely factual and retrospective, not conditional or speculative. 'Confirmed,' 'was delayed,' and 'ex-post evaluation' are definitive past-tense, verified assertions — not possibilities or risks. The scope is explicitly global: the 28-month delay refers to 'project completion,' meaning the entire project's final milestone was missed, not a localized or isolated sub-task incident. There is no language indicating recovery or resolution within the originally planned timeframe — the revised schedules further corroborate that the delay was unresolved and required formal schedule restructuring. The 28-month overrun is substantial by any standard measure. Step 3 [Conservative Decision]: Given the definitive, ex-post-confirmed, globally-scoped factual evidence of a 28-month overrun of the project completion milestone, the evidence unambiguously supports a 'Delay' label. There is no ambiguity, conditionality, or recovery language to warrant 'Uncertain' or 'No Delay.'",
+      "extracted_evidence": [
+        "The ex-post evaluation confirmed that the project completion was delayed by approximately 28 months beyond the originally planned date.",
+        "prolonged land acquisition procedures requiring coordination among multiple government agencies",
+        "unexpected archaeological findings at two bridge sites necessitating redesign",
+        "a six-month suspension of construction activities during the monsoon season of 2014 due to unusually severe flooding",
+        "The executing agency submitted revised implementation schedules on three occasions during the project period."
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here would be a Temporal pattern error — specifically, mistaking a retrospective ex-post finding for an ongoing unresolved status. However, since 'ex-post evaluation confirmed' a completed delay event (completion date was surpassed), the factual basis for 'Delay' remains valid regardless of whether the project has since concluded. A secondary risk would be a Scope error — downgrading the finding to 'Uncertain' by treating the delay as a local incident rather than a global schedule impact. Both risks are mitigated by the explicit reference to 'project completion' and the magnitude of 28 months.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 628,
+      "total_tokens": 1214
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_16",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report provides multiple concrete, quantified statements about schedule performance. Key segments include: the actual project period of 84 months vs. planned 48 months (175% ratio), an 18-month negotiation period causing construction suspension along a 12km section, and contractor-reported difficulties with tunnel boring machine operators contributing to 'schedule slippage.' Step 2 [Modality & Scope Check]: All statements are presented in the past indicative tense ('was,' 'required,' 'extended,' 'reported'), constituting factual reporting rather than conditional or speculative language. The context is explicitly an 'ex-post evaluation,' meaning this is a retrospective assessment of completed or near-completed events — the delay has already materialized and is being measured. The scope is global: the overall project duration overran by 36 months (75% beyond plan), not a localized or minor incident. The causes (resettlement complexity, construction suspension, equipment operator shortages) are all documented as confirmed facts contributing to a realized schedule slippage. There is no language indicating recovery, resolution, or on-schedule status. Step 3 [Conservative Decision]: The evidence is unambiguous, quantified, and factual. The 84-month vs. 48-month comparison is a direct, measurable overrun. The term 'schedule slippage' is used explicitly. This is not a matter of risk or possibility — it is a confirmed, documented, and measured delay of significant magnitude affecting the overall project duration. The 'Delay' label is firmly justified without any over-inference from vague keywords.",
+      "extracted_evidence": [
+        "the actual project period was 84 months against the planned 48 months (ratio of 175%)",
+        "The delay was primarily attributed to the complexity of resettlement activities, which required the relocation of 1,247 households.",
+        "Negotiations with affected communities extended over 18 months, during which construction along a 12km section of the alignment was suspended.",
+        "The contractor also reported difficulties in sourcing qualified operators for the tunnel boring machine, which further contributed to schedule slippage."
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here would be a Temporal pattern error — mistakenly treating a past, ex-post-confirmed delay as 'Uncertain' because it occurred historically rather than being ongoing. However, the ex-post evaluation context makes clear this is a factual accounting of realized outcomes, not a forward-looking risk assessment. No such misinterpretation is applicable here; the evidence unambiguously supports 'Delay.'",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 614,
+      "total_tokens": 1212
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_17",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The report contains several schedule-related statements that need to be examined. Key segments include the extension from 5 years to 9 years and 3 months, the 18-month procurement delay due to bid challenge and re-tendering, and the 8-month construction interruption due to a contractual dispute. Step 2 (Modality & Scope Check): All statements are presented as historical facts, not possibilities or risks. The language used is declarative and past-tense: 'extended from,' 'accounted for approximately 18 months,' 'was also interrupted for approximately 8 months.' The scope is unambiguously global — the overall implementation period of the entire project is explicitly stated to have been affected, extending from 5 years to over 9 years. This is not a local incident confined to one sub-task; it impacted the project's total duration by approximately 4 years and 3 months (roughly 51 months), of which at least 26 months are directly attributed to specific delay causes. Step 3 (Conservative Decision): The evidence here is definitive and factual. There is no conditional language, no hedging with 'potential' or 'risk of,' and no indication that the delay was recovered or resolved — rather, the extended duration is presented as the realized outcome. The project completion itself was delayed by over four years. This satisfies the 'Delay' criteria unambiguously: milestone and completion dates were surpassed as a reported fact, and the delays on the critical path (procurement re-tendering and construction interruption) are explicitly confirmed. The self-diagnosis check: the most likely misinterpretation risk would be a 'Temporal' one — mistaking a past/completed delay for an ongoing one. However, the classification criteria for 'Delay' explicitly includes cases where 'completion dates have been surpassed as a matter of reported fact,' which is precisely what is described here. A 'Recovery' misinterpretation is also possible, but the text contains no language indicating resolution or recovery — the delay simply materialized into the final realized duration.",
+      "extracted_evidence": [
+        "the implementation period extended from the originally estimated 5 years to 9 years and 3 months",
+        "Procurement delays accounted for approximately 18 months of the overrun, as the initial bid evaluation for the main civil works contract was challenged by an unsuccessful bidder, resulting in a re-tendering process",
+        "Construction was also interrupted for approximately 8 months due to a contractual dispute between the main contractor and a key subcontractor regarding payment terms for earthworks",
+        "The overall project efficiency is rated as low"
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern would be Temporal — one might hesitate to label this a 'Delay' because the events are described retrospectively (the project appears to have concluded), and the delay has already materialized into the final outcome rather than being an ongoing, unresolved condition. However, the criteria explicitly cover cases where 'completion dates have been surpassed as a matter of reported fact,' making this a textbook Delay classification. A secondary risk is a Recovery misinterpretation, but there is no language in the text suggesting the schedule was ever recovered or that the original completion date was met.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 770,
+      "total_tokens": 1376
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_18",
+    "gold_label": "Delay",
+    "category": "explicit_delay"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report contains a clear, definitive statement about the project's completion status relative to schedule. Step 2 [Modality & Scope Check]: The phrase 'completed ahead of schedule' is a factual declaration (not conditional, not a possibility, not a risk), indicating the project has already reached full completion at a point earlier than planned. The scope is global — it refers to the entire 'major freeway expansion initiative,' not a local sub-task. Additional details (new lanes, upgraded interchanges, advanced traffic management systems, reduced congestion) confirm full project delivery with positive outcomes. There is no mention of any unresolved delays, overrun milestones, or critical path disruptions. Step 3 [Conservative Decision]: The evidence is unambiguous and factual. The project is explicitly described as having been completed ahead of schedule. This satisfies the 'No Delay' criteria — specifically, the text reports a status that is better than on-schedule. No delays are present, unresolved, or implied. There is no need to default to 'Uncertain' as the language is definitive and affirmative, not conditional or hedged.",
+      "extracted_evidence": [
+        "completed ahead of schedule",
+        "added new lanes, upgraded interchanges, and implemented advanced traffic management systems",
+        "resulting in reduced congestion and improved traffic flow for commuters"
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Temporal pattern error — mistakenly treating 'completed ahead of schedule' as ambiguous or only referencing a sub-component. However, the report clearly refers to the overarching initiative as a whole, and the language is fully declarative with no hedging. No such misinterpretation applies.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 530,
+      "completion_tokens": 425,
+      "total_tokens": 955
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_06",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The report excerpt describes completed construction activities — road resurfacing, traffic signal upgrades, and pedestrian feature additions — framed entirely in the past tense with positive outcome language ('successful reconstruction'). There is no mention of any schedule status, milestone dates, critical path elements, delays, risks, or recovery actions. The text is purely descriptive of completed work outcomes and benefits to the urban environment. Without any schedule-related information, it is impossible to determine whether the project is on time, delayed, or recovering from a delay. The absence of scheduling data is the defining characteristic here.",
+      "extracted_evidence": [
+        "The successful reconstruction of downtown's primary avenues included resurfacing roads, upgrading traffic signals, and adding pedestrian-friendly features, creating a safer and more efficient urban environment for residents and visitors."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Lexical one — one might infer 'successful' implies 'on schedule' and thus label this 'No Delay.' However, 'successful' refers to the quality and scope of outcomes, not temporal adherence to a schedule. No explicit schedule status language (e.g., 'on schedule,' 'completed on time,' 'no delays') is present to justify a 'No Delay' classification. This is a scope/lexical trap.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 528,
+      "completion_tokens": 324,
+      "total_tokens": 852
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_07",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report describes a bridge rehabilitation project that was 'executed seamlessly,' with positive outcomes including reinforced structural integrity, improved load-bearing capacity, and enhanced safety measures. Step 2 [Modality & Scope Check]: The key phrase 'executed seamlessly' is a factual, past-tense statement indicating successful and unimpeded completion. The temporal marker 'last year' confirms this is a fully completed project. There is no mention of any delays, overruns, missed milestones, or unresolved issues. All language is affirmative and retrospective, describing a project that concluded without incident. The scope is a single, completed project with no suggestion of ongoing or critical-path complications. Step 3 [Conservative Decision]: The text explicitly and factually describes a project that was completed without issues. The phrase 'executed seamlessly' is semantically equivalent to 'no progress issues.' There is no ambiguity, conditionality, or risk language present. The conservative decision here aligns with 'No Delay,' as the evidence definitively and factually confirms successful, issue-free execution.",
+      "extracted_evidence": [
+        "Last year's bridge rehabilitation project, executed seamlessly, reinforced structural integrity, improved load-bearing capacity, and enhanced safety measures for motorists and pedestrians alike."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Temporal pattern error — one might incorrectly flag the project as 'Uncertain' simply because the report is brief and retrospective. However, 'executed seamlessly' is a direct, unambiguous factual claim of successful completion, leaving no room for uncertainty under the defined criteria.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 405,
+      "total_tokens": 926
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_08",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The report excerpt explicitly states that the ring road expansion was completed 'ahead of schedule.' This is a definitive factual statement about the project's temporal status — not a possibility, concern, or conditional scenario. The language is unambiguous: the project not only met its schedule but surpassed it favorably. There is no evidence of any critical path delay, no missed milestones, and no unresolved scheduling issues. In fact, the report describes successful outcomes including new lanes, improved intersections, and reduced travel times, all of which reinforce the notion of a project that concluded successfully and early. The scope of the statement is global (the completion of the entire ring road expansion), not a localized incident. Under the Classification Criteria, this most closely aligns with 'No Delay,' as the project is explicitly reported as completed ahead of the original schedule. There is no ambiguity, conditionality, or insufficient information here.",
+      "extracted_evidence": [
+        "The completion of the city's ring road expansion, ahead of schedule, added new lanes, improved intersections, and reduced travel times, benefiting commuters and enhancing regional connectivity."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Lexical pattern error — one might focus on the word 'delay' in the classification task and attempt to find nuance where none exists. However, the phrase 'ahead of schedule' is unequivocally positive and factual, leaving no room for an 'Uncertain' or 'Delay' classification. The correct reading is straightforward.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 524,
+      "completion_tokens": 373,
+      "total_tokens": 897
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_09",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report describes the implementation of smart traffic lights and real-time traffic monitoring systems. Key phrases include 'completed on time,' 'optimized signal timings,' 'reduced wait times,' and 'improved overall traffic management efficiency.' Step 2 [Modality & Scope Check]: All language is factual and affirmative in nature. 'Completed on time' is a definitive factual statement indicating the milestone was met without delay. There is no conditional language, no mention of risks, no surpassed deadlines, and no unresolved issues on the critical path. The scope appears to be a successfully concluded work package with positive outcomes reported across all described metrics. Step 3 [Conservative Decision]: The evidence is unambiguous — the text explicitly confirms on-time completion. There is no basis for 'Delay' or 'Uncertain.' The conservative and accurate label here is 'No Delay,' supported by the direct factual statement 'completed on time.'",
+      "extracted_evidence": [
+        "completed on time",
+        "optimized signal timings",
+        "reduced wait times",
+        "improved overall traffic management efficiency"
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Lexical pattern error — one might focus on the complexity of the systems described (smart traffic lights, real-time monitoring) and infer risk or delay where none is stated. However, the phrase 'completed on time' is explicit and unambiguous, leaving no room for such an overreach.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 523,
+      "completion_tokens": 375,
+      "total_tokens": 898
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_10",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The report is an ex-post evaluation, meaning it is a retrospective assessment of a completed project. Step 1 identifies multiple schedule-related statements. Step 2 analysis: All extracted statements are factual ('was completed,' 'were rehabilitated,' 'mobilized on schedule,' 'without any notable deviations,' 'handed over... on the originally planned date') — these are definitive past-tense facts, not possibilities or conditionals. The scope is global: the entire project (all 14 sections, 186km) is addressed. The report explicitly confirms completion within the planned 48-month implementation period and on the originally planned handover date of March 2019. There is no mention of any delay at any point in the project lifecycle. Step 3: Given the overwhelming, unambiguous factual evidence of on-schedule completion with no deviations reported, the conservative decision here aligns clearly with 'No Delay.' The phrase 'without any notable deviations from the baseline schedule' is a direct, explicit affirmation of schedule adherence. This is not a case of a past delay being recovered — there is simply no delay of any kind reported.",
+      "extracted_evidence": [
+        "the road improvement project was completed within the planned implementation period of 48 months",
+        "All 14 road sections totaling 186km were rehabilitated as specified in the original scope",
+        "The contractor mobilized on schedule",
+        "milestone inspections were conducted at quarterly intervals without any notable deviations from the baseline schedule",
+        "the project was handed over to the provincial road maintenance authority on the originally planned date of March 2019"
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Lexical pattern — one might superficially flag 'notable deviations' as hedging language implying minor deviations existed. However, this phrase is a standard construction reporting formulation confirming schedule adherence, not a concealment of issues. The broader context (on-time handover, on-time mobilization, completed within 48 months) fully corroborates this reading, making a misclassification in the 'Uncertain' direction unwarranted.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 518,
+      "total_tokens": 1104
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_19",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The report describes a project that has already been completed. The language used is entirely factual and retrospective: 'achieved its target outputs ahead of the revised completion date,' 'completed by September 2017, approximately four months earlier than the scheduled completion date of January 2018.' There is no evidence of any delay — current, past, or potential. In fact, the project finished early. The modality is definitive fact ('completed,' 'confirmed'), not possibility or condition. The scope is global, covering the entire project (42 bridges, 267km of road). The final inspection confirmed quality compliance, leaving no unresolved issues. This clearly satisfies the 'No Delay' criterion, as there is explicit evidence of on-schedule (in fact, ahead-of-schedule) completion. There is no critical path slippage, no missed milestone, and no unresolved risk. The self-diagnosis check confirms no misinterpretation risk: the temporal framing is clear (past completion), scope is project-wide, no recovery language is needed because no delay ever occurred, and lexical choices are unambiguously positive.",
+      "extracted_evidence": [
+        "The project achieved its target outputs ahead of the revised completion date.",
+        "The construction of 42 bridges and 267km of road was completed by September 2017, approximately four months earlier than the scheduled completion date of January 2018.",
+        "The executing agency attributed the early completion to favorable weather conditions during the 2016-2017 dry season and effective coordination between the two main civil works contractors.",
+        "Final inspection confirmed that all works met the specified quality standards."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Temporal error — mistakenly treating a completed, historical project outcome as an ongoing situation and searching for latent delay signals where none exist. A secondary risk would be a Lexical error, misreading neutral coordination language as implying prior difficulties. Neither error applies in this case, as the text is unambiguous in both tense and meaning.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 581,
+      "completion_tokens": 481,
+      "total_tokens": 1062
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_20",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The report provides clear, factual, past-tense statements about the overall project timeline. Step 1 extracts explicit schedule language. Step 2 analysis: The phrase 'completed slightly ahead of schedule' is a definitive factual statement about the global project outcome (58 months actual vs. 60 months estimated). The mention of 'minor procurement delays during the initial phase' describes a localized, historical incident that was explicitly offset and resolved — not an ongoing, unresolved critical path delay. The recovery mechanism is explicitly described: accelerated construction, additional equipment and personnel. There is no evidence of any current or unresolved delay. The modality is entirely factual ('was completed,' 'was therefore'), not conditional or speculative. Step 3: The conservative decision is clear here — the text not only fails to confirm a substantial delay, it explicitly confirms the opposite. The 'No Delay' label is justified because (a) the project finished ahead of schedule globally, and (b) the past local delay is explicitly reported as resolved and offset. This is not an 'Uncertain' case because the evidence is definitive and unambiguous.",
+      "extracted_evidence": [
+        "the project period was estimated at 60 months from loan effectiveness",
+        "The actual project period from loan effectiveness to the completion of all civil works was 58 months",
+        "The project was therefore completed slightly ahead of schedule",
+        "Minor procurement delays during the initial phase were offset by accelerated construction during the final year",
+        "the contractor deployed additional equipment and personnel to ensure timely completion"
+      ],
+      "self_diagnosis": "A misinterpretation risk here would follow the 'Recovery' pattern — specifically, failing to recognize that the minor procurement delays were explicitly reported as resolved and offset, and incorrectly labeling the project as 'Delay' based solely on the presence of the word 'delays' without accounting for the full recovery narrative. The text is unambiguous in its recovery confirmation, making this misclassification risk low.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 572,
+      "completion_tokens": 473,
+      "total_tokens": 1045
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_21",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "The report describes a completed project with explicit statements confirming on-schedule delivery. Key indicators: (1) Construction commenced April 2015 and completed March 2019, explicitly stated as 'consistent with the planned implementation schedule' — this is a factual, past-tense confirmation of schedule adherence, not a conditional or uncertain statement. (2) Quarterly progress reports 'consistently showed actual progress within 5% of the baseline schedule throughout the implementation period' — this provides quantitative, longitudinal evidence of schedule compliance with no deviations flagged. (3) There is no mention of any delays, critical path disruptions, unresolved issues, or surpassed milestones. (4) The project is fully completed, so there is no ongoing delay risk to evaluate. The language is declarative and factual throughout ('was implemented as planned,' 'consistent with the planned implementation schedule'), carrying no hedging modality such as 'approximately,' 'roughly,' or 'despite challenges.' The scope is global (covering the entire project lifecycle across all 312km and 8 districts), not localized. This clearly satisfies the 'No Delay' classification criteria, as the text explicitly confirms on-schedule performance.",
+      "extracted_evidence": [
+        "The provincial road network rehabilitation project was implemented as planned.",
+        "Construction commenced in April 2015 and was completed in March 2019, consistent with the planned implementation schedule.",
+        "The quarterly progress reports submitted by the project management unit consistently showed actual progress within 5% of the baseline schedule throughout the implementation period."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Temporal pattern error — one might mistakenly flag uncertainty because the project is now historical/completed and assume insufficient current-status data. However, the completed status with explicit schedule-conformance statements actually strengthens the 'No Delay' classification rather than weakening it, as the full lifecycle outcome is known and confirmed.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 579,
+      "completion_tokens": 459,
+      "total_tokens": 1038
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_22",
+    "gold_label": "No Delay",
+    "category": "stable_progress"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The report discusses baseline traffic values (2007), target values (2013), and actual measurements (2017) for 39 road sections. It mentions that data was only available for 25 of the 39 sections due to 'cancellation, suspension, termination, and delay.' Step 2 - Modality & Scope Check: The word 'delay' appears in a list of reasons explaining why actual measurement data was unavailable for some sections. This reference to 'delay' is contextually ambiguous — it is mentioned as one of several possible reasons among a group of sections, not as a definitive, confirmed critical-path delay affecting the overall project schedule. The text does not explicitly confirm which sections were delayed, how many, or whether any delay is unresolved or currently affecting the project. There is no statement that a milestone or completion date has been missed as a reported fact for the project as a whole. The primary focus of the excerpt is on data availability and performance measurement comparison, not on schedule status. Step 3 - Conservative Decision: Because 'delay' is mentioned only incidentally as one of multiple possible reasons for missing data (alongside cancellation, suspension, and termination), and because there is no explicit confirmation that a delay exists on the critical path or that any project milestone date has been definitively surpassed, the evidence is insufficient to classify this as a confirmed 'Delay.' The information is ambiguous and does not provide a clear global schedule impact. Therefore, 'Uncertain' is the appropriate label.",
+      "extracted_evidence": [
+        "among these sections, the actual value for only 25 sections was available, as shown below (Table 3), due to reasons such as cancellation, suspension, termination, and delay.",
+        "The target value (1 year after the project completion) in 2013 was 88–804 vehicles/day depending on the section, totaling to 7,739 vehicles/day",
+        "These values were set for the 39 road sections initially targeted at the time of appraisal."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Lexical pattern — where the presence of the word 'delay' in the text is treated as confirmation of a project-level schedule delay, when in fact it is used as one item in a list of administrative/operational reasons for data unavailability, without any confirmed scope, timeline, or critical-path impact specified.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 691,
+      "completion_tokens": 575,
+      "total_tokens": 1266
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_11",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 - Evidence Extraction: The text is primarily a policy alignment document discussing Japan's ODA strategy for Sri Lanka and its consistency with project objectives. The only schedule-related reference is the mention of 'delay in rural development' in a historical/contextual framing. Step 2 - Modality & Scope Check: The phrase 'one of the factors that had caused delay in rural development' is written in the past perfect tense ('had caused'), indicating a historical observation used to justify policy rationale, not a current project schedule status report. There are no references to milestone dates being missed, critical path disruptions, or current unresolved delays. The text does not report on the construction schedule, progress, or completion status of either target project. Step 3 - Conservative Decision: The document is a policy consistency justification, not a schedule performance report. The singular delay-adjacent phrase is retrospective and contextual, describing a systemic rural development issue that motivated the project design, not a finding about the project's own schedule. There is wholly insufficient information to classify this as a Delay. The 'Uncertain' label is most appropriate given that no schedule data is actually presented.",
+      "extracted_evidence": [
+        "JICA's Country Assistance Strategy for Sri Lanka (2002) included its policy to support the improvement of skills of the executing agencies in planning and maintenance for the development of the provincial/rural road network which was one of the factors that had caused delay in rural development.",
+        "At the time of the appraisal for the Rural Road Improvement Project, the Country Assistance Program for Sri Lanka (April 2004) had not yet been prepared.",
+        "The aim of this project was to improve the significantly deteriorated surface of provincial/rural roads, and to develop the basic economic infrastructure for daily life."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be Lexical — a superficial reading of the word 'delay' in the phrase 'had caused delay in rural development' could trigger an incorrect 'Delay' label. However, this phrase is temporally retrospective (past perfect tense), contextual in scope (systemic rural development, not the specific project schedule), and serves as a policy motivation rather than a schedule finding. No actual project schedule data, milestone dates, or progress status are reported anywhere in this excerpt.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 861,
+      "completion_tokens": 543,
+      "total_tokens": 1404
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_12",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The report excerpt is focused entirely on resettlement policy, compensation mechanisms, grievance redress procedures, and legal frameworks related to land acquisition. There is no mention of construction schedules, milestones, critical path activities, or project completion dates. The only reference to delay is a general observation that 'litigation causes unnecessary delay and cost overrun in many projects,' which is a conditional/historical observation about legal proceedings in general — not a confirmed, current delay on this specific project. This is a policy/procedural document segment, not a schedule status report. There is insufficient evidence to classify the project's schedule status as either delayed or on track.",
+      "extracted_evidence": [
+        "Experience shows that the litigation causes unnecessary delay and cost overrun in many projects.",
+        "the PMU of SASEC-II will constitute a committee for grievance redress that will provide a forum for people to express to their dissatisfaction over compensation and R & R provisions in RP."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Lexical one — the word 'delay' appears in the text, which could trigger a false positive classification as 'Delay.' However, this reference is a general, historical observation about litigation in projects broadly, not a confirmed factual statement about a current schedule delay on this specific project's critical path.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 807,
+      "completion_tokens": 322,
+      "total_tokens": 1129
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_13",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "The text exclusively describes procedural and administrative responsibilities of the implementing NGO (INGO). It outlines what the INGO 'will' do in the future — preparing reports, collecting information, designing an MIS system, and adjusting work programs. The phrase 'in case of delay or problems' is a conditional/hypothetical construct, not a confirmation of any actual delay currently occurring. There is no mention of any specific milestone being missed, no critical path disruption reported as fact, and no statement indicating that the project is behind schedule. The language throughout is prospective and policy-descriptive ('will prepare,' 'will be designed and developed'), not retrospective or factual regarding schedule status.",
+      "extracted_evidence": [
+        "The implementing NGO (INGO) will prepare monthly/quarterly reports on the progress of RP Implementation.",
+        "The INGO office will collect information from the project site and assimilate in the form of monthly progress of RP implementation and adjust the work programs where necessary, in case of delay or problems.",
+        "An automated MIS will be designed and developed by the INGO to monitor the output indicators at the project field offices and headquarter level."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a **Lexical** error — specifically, treating the word 'delay' in the conditional phrase 'in case of delay or problems' as confirmation of an actual delay. This is a classic false positive triggered by keyword matching without evaluating the conditional/hypothetical modality of the sentence.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 369,
+      "total_tokens": 954
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_14",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The report mentions a delay related to the Transport Sector Plan approval (2016 vs. 2011 required), and delayed implementation of some reforms (road transport management and asset maintenance mechanisms). Step 2 (Modality & Scope Check): The Transport Sector Plan delay is confirmed as a factual, historical event, but the report explicitly states 'The delay did not significantly impact the project.' This is a factual recovery/mitigation statement that neutralizes the delay's global impact. The second delay regarding implementation of some reforms (road transport management and asset maintenance mechanisms) is scoped to specific covenant-level reform items, not the overall project critical path. The language 'has been delayed pending ongoing discussions' confirms a current, unresolved local delay, but only within a limited scope of regulatory reforms, not the project's overall schedule or completion. Step 3 (Conservative Decision): While there are confirmed factual delays, they are either explicitly declared non-impactful on the project or are local in scope (specific reform mechanisms), not affecting the project's overall critical path or completion milestones. The report otherwise describes substantial compliance with covenants, no overdue financial statements, and no pending financial management issues. The evidence does not support a 'Substantial Delay' classification at the project level. However, given that there are active, unresolved local delays in reform implementation, a 'Delay' label at a narrow scope is defensible, but globally the project does not appear substantially delayed. The conservative interpretation given the explicit statement that the delay 'did not significantly impact the project' and the localized nature of the remaining delays leans toward 'Uncertain' regarding substantial delay.",
+      "extracted_evidence": [
+        "The delay was caused by the government's request to include sea and air transport in the plan.",
+        "The delay did not significantly impact the project.",
+        "implementation of some reforms (e.g., road transport management and asset maintenance mechanisms) has been delayed pending ongoing discussions within the National Infrastructure Development Steering Committee.",
+        "Almost all loan covenants were complied with.",
+        "No audited project financial statements are overdue, and no financial management issues are pending."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Scope error — treating localized, reform-level delays as evidence of a project-wide substantial delay. The report explicitly qualifies the primary delay as non-impactful on the project overall, and the remaining delays are confined to specific regulatory reform mechanisms rather than the project's critical path or completion milestones.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 761,
+      "completion_tokens": 595,
+      "total_tokens": 1356
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_15",
+    "gold_label": "Uncertain",
+    "category": "implicit_risk"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report explicitly states a 'cumulative delay of approximately 14 months,' a 6-month suspension of the northern bypass section, and a revised completion date pushed from December 2018 to February 2020. Step 2 [Modality & Scope Check]: All statements are presented as established facts ('was suspended,' 'was unable to fully recover,' 'was pushed'), not as possibilities or risks. The scope is explicitly global — the 'overall project completion date' was directly impacted. While the contractual dispute was resolved and the southern section completed on schedule, the report is unambiguous that the northern section delay was NOT fully recovered, and the overall project completion date was materially shifted by approximately 14 months. The recovery was partial, not full. The language 'unable to fully recover the lost time' and 'overall project completion date was pushed' confirms the delay was not resolved at the project level. Step 3 [Conservative Decision]: The evidence is definitive, factual, and globally scoped. The overall completion milestone was formally missed (December 2018 became February 2020). This is a clear, confirmed, unrecovered delay on the critical path. There is no ambiguity that would warrant an 'Uncertain' label. The partial recovery of the southern section does not neutralize the global delay. This satisfies the 'Delay' criteria: milestone dates were surpassed and the delay remains unresolved in terms of the original project schedule.",
+      "extracted_evidence": [
+        "The project experienced a cumulative delay of approximately 14 months.",
+        "Construction of the northern bypass section was suspended for 6 months due to a contractual dispute with the main contractor over unit rates for rock excavation.",
+        "the contractor was unable to fully recover the lost time.",
+        "the overall project completion date was pushed from December 2018 to February 2020 due to the unrecovered delay on the northern section."
+      ],
+      "self_diagnosis": "A misinterpretation risk here could follow the Recovery pattern — one might incorrectly conclude that because the dispute was 'resolved through arbitration' and the southern section was 'completed on schedule,' the project as a whole recovered. However, the text explicitly negates this interpretation with 'unable to fully recover' and 'overall project completion date was pushed,' making any Recovery misread unsupportable by the text.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 563,
+      "total_tokens": 1174
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_23",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The report describes a past delay (4-month procurement delay in specialized bridge equipment) that affected bridge works at three locations. However, the critical phrase is 'At the time of the ex-post evaluation, it was confirmed that all project components were completed by the originally planned date of June 2020.' This is an explicit, factual confirmation that the project was completed on schedule despite the interim disruption. The executing agency's mitigation measures (reorganizing construction sequence, accelerating with double shifts) successfully absorbed the 4-month delay. The delay was real and documented, but it is categorically reported as resolved — the final completion date was met. Under the classification criteria, this aligns with 'No Delay' because 'a past delay existed but is now explicitly reported as Recovered or Resolved.' The completion by the originally planned date constitutes definitive evidence of recovery. There is no residual unresolved delay on the critical path, and no milestone has been surpassed without recovery. The scope of the initial delay was local (bridge works at three locations) and was absorbed through schedule reorganization and acceleration — never escalating to a global, unresolved impact on overall project completion.",
+      "extracted_evidence": [
+        "the project encountered a 4-month delay in the procurement of specialized bridge construction equipment due to export restrictions imposed by the supplier's country of origin",
+        "This delay affected the commencement of bridge works at three locations along the alignment",
+        "the executing agency reorganized the construction sequence to prioritize road sections that did not require bridge access",
+        "the bridge contractor subsequently accelerated works by operating double shifts",
+        "At the time of the ex-post evaluation, it was confirmed that all project components were completed by the originally planned date of June 2020"
+      ],
+      "self_diagnosis": "A misinterpretation risk here would follow a Temporal pattern — specifically, conflating a past, resolved delay with a current, unresolved one. A hasty reading might latch onto '4-month delay' as a keyword and label this 'Delay' without accounting for the explicit recovery confirmation at the ex-post evaluation stage. The text is temporally structured: disruption occurred during implementation, mitigation was applied, and the outcome at evaluation time was full on-schedule completion.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 526,
+      "total_tokens": 1130
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_24",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The report contains several schedule-related statements: (a) construction progress on Lots 2 and 3 is 'approximately 3 months behind the baseline schedule,' (b) the cause is attributed to 'late issuance of right-of-way clearances,' (c) the executing agency 'expressed confidence that the delay could be recovered' through extended dry-season construction, (d) 'No revised implementation schedule had been issued at the time of the review,' and (e) 'the contractor's mobilization plan for the affected sections had not yet been updated.' Step 2 (Modality & Scope Check): The 3-month slippage on Lots 2 and 3 is stated as a factual, currently unresolved condition — not a risk or possibility. The causal factor (late right-of-way clearances) is also stated as a fact. However, the scope is explicitly limited to Lots 2 and 3, raising a question about whether this constitutes a 'global' critical path impact on the overall project. Critically, the recovery narrative is expressed in conditional/aspirational terms: 'could be recovered' and 'expressed confidence' — these are forward-looking possibilities, not confirmed outcomes. The absence of a revised schedule and an updated mobilization plan confirms the delay remains unresolved at the time of reporting. There is no statement of 'Recovered' or 'Resolved.' The delay on Lots 2 and 3 is a confirmed, ongoing fact with no documented mitigation plan formalized yet. While scope is partially local (two specific lots), right-of-way clearances are typically on the critical path in infrastructure projects, and the absence of any revised schedule suggests the delay has not been absorbed at the project level. The evidence supports a factual, current, and unresolved delay rather than a mere risk or uncertainty. Step 3 (Conservative Decision): The evidence clearly crosses the threshold from 'Uncertain' to 'Delay': the 3-month lag is stated as a present fact, the cause is confirmed, no recovery plan has been formalized, and confidence in recovery is unsubstantiated by any updated documentation. The label 'Delay' is warranted.",
+      "extracted_evidence": [
+        "construction progress on Lots 2 and 3 was approximately 3 months behind the baseline schedule",
+        "primarily due to the late issuance of right-of-way clearances by the district land office",
+        "expressed confidence that the delay could be recovered through an extended dry-season construction window",
+        "No revised implementation schedule had been issued at the time of the review",
+        "the contractor's mobilization plan for the affected sections had not yet been updated"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here follows a Recovery pattern — one might overweight the executing agency's expressed confidence in recovery and prematurely classify this as 'No Delay' or 'Uncertain.' However, confidence in future recovery is explicitly aspirational ('could be recovered'), unsupported by any formalized documentation (no revised schedule, no updated mobilization plan), and does not constitute a confirmed resolved status. The delay is a present, factual, and unresolved condition as of the reporting date.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 760,
+      "total_tokens": 1369
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_25",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The report provides concrete, factual statements about project duration and delays. Key segments are extracted below. Step 2 (Modality & Scope Check): All statements are presented as historical facts ('was 72 months,' 'were attributable,' 'was completed'), not possibilities or conditions. The scope is explicitly global — the overall project period is being described. The language is entirely in the past tense describing a completed project outcome. The 72-month actual duration against a 54-month planned duration represents an 18-month net overrun on the overall schedule. The report explicitly confirms the project was 'completed significantly behind schedule' despite acceleration efforts. There is no recovery statement — the acceleration reduced the delay from 24 months to 18 months, but did not eliminate it. The delay is unambiguously confirmed as a factual, realized, and global outcome. Step 3 (Conservative Decision): Given that the text uses definitive factual language, confirms a specific and quantified schedule overrun (133% of planned duration, 18-month net delay), and explicitly states the project was 'completed significantly behind schedule,' this constitutes clear, unambiguous evidence of a Delay. The acceleration effort is noted but explicitly stated to have been insufficient to recover the schedule. There is no basis for an 'Uncertain' label as all information is confirmatory and factual, not conditional or speculative.",
+      "extracted_evidence": [
+        "The overall project period was 72 months against the planned 54 months (ratio of 133%).",
+        "12 months of the delay were attributable to the suspension of works during a period of civil unrest in the project area",
+        "a further 6 months to the re-tendering of the supervision consultant contract after the original consultant's contract was terminated for non-performance",
+        "the contractor accelerated works during the final phase, reducing what would have been a 24-month delay to 18 months",
+        "Despite the acceleration, the project was completed significantly behind schedule."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Temporal pattern error — one might incorrectly treat this as 'Resolved' or 'No Delay' because the project is described as completed and the acceleration did reduce the delay. However, completion of a project does not equate to recovery from delay; the text explicitly confirms the project finished 18 months late. The word 'Despite' is a strong lexical signal that the acceleration was insufficient, ruling out a Recovery misclassification.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 596,
+      "total_tokens": 1212
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_26",
+    "gold_label": "Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 involves extracting all schedule-relevant text. The report describes a 5-week stop-work order interruption on the elevated expressway section, contractor demobilization, resource redirection, subsequent resumption of work, and ultimately completion within the original contract period with the final completion certificate issued on the scheduled date of 15 November 2021. Step 2 requires modality and scope analysis: The stop-work order and 5-week interruption are stated as historical facts ('was interrupted,' 'demobilized'), not possibilities. However, the report also explicitly states as fact that construction 'resumed and was completed within the original contract period' and that 'the final completion certificate was issued on the scheduled date of 15 November 2021, confirming that all works were delivered within the contractual timeframe.' The scope of the disruption was local (the elevated section only), and the contractor mitigated impact by redirecting resources. The global project outcome is explicitly confirmed as on-time completion. Step 3 applies the conservative decision rule: While a real interruption occurred, the report explicitly and unambiguously states recovery and on-time delivery. This satisfies the 'No Delay' criteria under the classification definition — specifically the sub-case where 'a past delay existed but is now explicitly reported as Recovered or Resolved.' The final completion certificate language is definitive factual confirmation of no net schedule delay to the overall project. There is no residual ambiguity about current unresolved delay; the works are complete and certified on the contractual date.",
+      "extracted_evidence": [
+        "Construction of the elevated expressway section was interrupted for approximately 5 weeks when the municipal authority issued a stop-work order pending resolution of a drainage easement encroachment.",
+        "The contractor demobilized from the affected section and redirected resources to at-grade road works at other locations within the project scope.",
+        "Following the issuance of an amended easement agreement, construction of the elevated section resumed and was completed within the original contract period.",
+        "The final completion certificate was issued on the scheduled date of 15 November 2021, confirming that all works were delivered within the contractual timeframe."
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here follows the Temporal pattern — one could incorrectly weight the historical 5-week stop-work interruption as evidence of 'Delay' without accounting for the explicitly stated recovery and on-time final completion. The report's language is unambiguous: the disruption was a local, past event that was fully recovered, and the global project outcome was on-schedule delivery confirmed by an issued completion certificate. Treating the interruption as a current or unresolved delay would be a Temporal misreading of a concluded and recovered incident.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 643,
+      "total_tokens": 1253
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_27",
+    "gold_label": "No Delay",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 identifies several key schedule-related facts: embankment works are behind (62% actual vs. 78% planned), causes are identified (groundwater/dewatering issues and equipment breakdowns), a recovery plan has been submitted but NOT yet approved, and critically, the critical path activity (piling for bridge abutments) has NOT yet been affected. Step 2 requires modality and scope analysis: The delay in embankment works is a confirmed FACT (16-percentage-point shortfall), not a possibility. However, the report explicitly states the critical path activity has not yet been affected — this is a crucial scoping qualifier. The embankment shortfall represents a LOCAL INCIDENT on a non-critical-path activity at this point in time. The recovery plan is pending approval, meaning remediation is possible but unconfirmed. The classification criteria for 'Delay' requires explicit evidence of current, unresolved delays ON THE CRITICAL PATH. Step 3 applies the conservative decision rule: While there is a factual, confirmed delay on the embankment works, the report explicitly excludes the critical path from impact at the reporting date. The situation is therefore one where a real local delay exists with risk of escalating to the critical path, but has not yet done so. This does not meet the threshold of 'Substantial Delay' on the critical path. However, it is not cleanly 'No Delay' either, as a confirmed shortfall exists and the recovery plan is unresolved. 'Uncertain' is the most defensible label: the current critical path is unaffected, but the unresolved recovery plan and confirmed local slippage create genuine ambiguity about future critical path impact.",
+      "extracted_evidence": [
+        "the contractor had fallen behind on the embankment works for the approach road to the new river crossing, with actual progress at 62% against a planned 78%",
+        "The report attributed the shortfall to higher-than-expected groundwater levels requiring additional dewatering, and to intermittent equipment breakdowns",
+        "The contractor submitted a recovery plan proposing extended working hours and the deployment of additional compaction equipment",
+        "The executing agency was reviewing the recovery plan at the time of the report and had not yet approved it",
+        "The report noted that the critical path activity — piling for the bridge abutments — had not yet been affected"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a Scope error — conflating a confirmed local/non-critical-path delay with a project-wide or critical-path delay. A careless reading of '62% vs. 78% planned' could trigger a 'Delay' label without weighing the explicit statement that the critical path remains unaffected. The unresolved recovery plan could also tempt a 'Delay' label prematurely. The correct discipline is to respect the report's own scoping language, which draws a clear distinction between the embankment shortfall and the critical path status.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 692,
+      "total_tokens": 1317
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_28",
+    "gold_label": "Uncertain",
+    "category": "mixed_signal"
+  },
+  {
+    "response": {
+      "thought_process": "The report presents a situation where the actual project duration (78 months) significantly exceeded the original planned duration (48 months). However, the text explicitly provides a causal explanation: the extension was 'entirely attributable' to a formally approved scope increase — three supplementary road sections totaling 84km, incorporated via a loan amendment approved in 2015. This is a scope change event, not a schedule slippage event. Critically, the report then introduces a revised implementation schedule that accounts for this scope increase, and explicitly states the project was 'completed within the adjusted timeframe.' Furthermore, the executing agency is quoted as confirming 'no delays were experienced relative to the revised schedule.' \n\nModality Check: The language used is declarative and factual ('was completed,' 'confirmed that no delays were experienced'), not conditional or speculative. There are no hedging terms like 'potential,' 'risk,' or 'possible.' \n\nScope Check: The original schedule overrun is explicitly attributed to scope expansion — a formally approved amendment — rather than execution failure or critical path slippage. The governing baseline for delay assessment has been formally revised. \n\nRecovery/Resolution Pattern: This is not a 'recovered delay' scenario; rather, the baseline itself was legitimately revised, and performance against that revised baseline is reported as on-time. The executing agency's confirmation further reinforces this. \n\nConclusion: There is no factual evidence of an unresolved delay against the operative (revised) schedule. The explicit statements of on-time completion against the revised schedule and the agency confirmation satisfy the 'No Delay' classification criteria.",
+      "extracted_evidence": [
+        "The actual project period was 78 months against the originally planned 48 months.",
+        "this extension was entirely attributable to the addition of three supplementary road sections (totaling 84km) that were incorporated into the project scope through a loan amendment approved in 2015.",
+        "the project was completed within the adjusted timeframe.",
+        "The executing agency confirmed that no delays were experienced relative to the revised schedule."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here follows the Scope/Baseline pattern — one might incorrectly anchor on the raw duration discrepancy (78 vs. 48 months) and label it a delay without accounting for the formally revised baseline. The decisive counter-evidence is the explicit agency confirmation and the statement of completion within the adjusted timeframe, which together unambiguously resolve any ambiguity. No over-commitment risk in applying 'No Delay' here.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 601,
+      "total_tokens": 1187
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_29",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report contains several key schedule-related statements. The revised implementation schedule was extended by 18 months to accommodate the expanded scope. The actual project period then exceeded even this revised schedule by 11 months. Two root causes are identified: late approval of detailed engineering designs and discovery of contaminated soil requiring remediation. Step 2 [Modality & Scope Check]: The language used is factual and retrospective, not conditional or speculative. 'The actual project period exceeded even the revised schedule by 11 months' is a definitive statement of fact — not a risk, possibility, or concern. The phrase 'exceeded even the revised schedule' implies that the project has already run past the revised completion date, meaning a milestone/completion date has been surpassed as a matter of reported fact. The scope is global — this is not a localized incident; it directly affects the overall project completion timeline. Both causal factors (late design approval and soil contamination remediation) are presented as confirmed, historical facts that contributed to this overrun. There is no language indicating recovery or resolution of this delay. Step 3 [Conservative Decision]: Given that the evidence is explicitly factual, retrospective, and of global schedule impact — stating a concrete number of months by which the project exceeded its revised schedule — the 'Delay' label is clearly warranted. There is no ambiguity, conditionality, or uncertainty in the language. The 11-month overrun beyond the revised schedule constitutes a Substantial Delay.",
+      "extracted_evidence": [
+        "The revised implementation schedule allocated an additional 18 months for the expanded scope.",
+        "However, the actual project period exceeded even the revised schedule by 11 months.",
+        "The executing agency attributed the additional delay to the late approval of detailed engineering designs for the interchange by the national highway authority.",
+        "and to the discovery of contaminated soil at the interchange site requiring remediation before construction could proceed."
+      ],
+      "self_diagnosis": "A potential misinterpretation risk here would be a Temporal pattern error — one might mistakenly treat this as 'Uncertain' by conflating the causal factors (design approval delays, soil contamination) as ongoing risks rather than recognizing that the report is describing a completed, factual overrun. However, the phrase 'the actual project period exceeded even the revised schedule by 11 months' is unambiguously retrospective and factual, ruling out any Uncertain classification.",
+      "label": "Delay"
+    },
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 571,
+      "total_tokens": 1162
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_30",
+    "gold_label": "Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): Key schedule-related segments are identified and extracted below. Step 2 (Modality & Scope Check): The report contains several distinct schedule situations that must be analyzed separately. First, the original road sections are explicitly stated to be 'progressing according to schedule' — this is a factual, affirmative statement of no delay for the original scope. Second, the additional feeder road works 'had not yet commenced due to pending environmental clearances' — this is a factual statement of a standstill on a specific work package. However, this work package was added via scope revision and a 12-month schedule extension was already processed to accommodate it. The critical question is whether non-commencement of the feeder roads constitutes a 'critical path delay' to the overall project. Third, 'It was not yet clear whether the feeder road works could be completed within the extended timeframe' — this is explicitly conditional and forward-looking, expressing uncertainty about future completion, not a confirmed overrun of a deadline. The feeder road works not having commenced is a factual local incident, but the extended schedule has not yet been breached. There is no statement that a milestone date has been surpassed. The uncertainty about whether the extended timeframe is sufficient introduces risk, but risk is not a confirmed delay. The scope change and loan amendment suggest the project framework has been formally adapted. The non-commencement is concerning but occurs within a newly extended schedule window. No language definitively states the revised completion date will be missed. Step 3 (Conservative Decision): Given that (a) original scope is on schedule, (b) the extended timeline has not been confirmed as breached, and (c) the only forward-looking statement is one of uncertainty ('not yet clear'), the appropriate label is 'Uncertain.' There is insufficient definitive evidence to label this a confirmed 'Delay,' but the situation cannot be called 'No Delay' either given the non-commencement of feeder works and the open question about feasibility.",
+      "extracted_evidence": [
+        "the implementation schedule was extended by 12 months",
+        "the original road sections were progressing according to schedule",
+        "the additional feeder road works had not yet commenced due to pending environmental clearances",
+        "It was not yet clear whether the feeder road works could be completed within the extended timeframe"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a Scope/Temporal conflation error — incorrectly treating the non-commencement of the newly added feeder roads (a local, scope-expanded work package still within its extended window) as equivalent to a confirmed global critical path delay. A hasty reading of 'had not yet commenced' as definitive evidence of delay would be a Lexical over-commitment error, ignoring that the extended schedule has not been formally breached and that the uncertainty statement is explicitly forward-looking rather than confirmatory.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 678,
+      "total_tokens": 1274
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_31",
+    "gold_label": "Uncertain",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report mentions a 24-month extension to the loan closing date via a supplementary agreement, original road construction completed 3 months ahead of schedule, additional facilities completed within the extended period, and the executing agency reporting overall delivery within the revised implementation schedule. Step 2 [Modality & Scope Check]: The 24-month extension is a factual event, but it is explicitly attributed to scope expansion (addition of 12 roadside rest areas and 8 weighbridge stations), not to delays in the original work. This is a scope-driven schedule revision, not a delay-driven one. The original components were completed AHEAD of schedule (-3 months), which is the opposite of a delay. The additional facilities were completed within the extended period. The executing agency explicitly confirmed delivery within the revised schedule. All statements are factual and retrospective, describing a completed project. There is no evidence of unresolved delays, missed milestones, or critical path disruptions. The schedule extension was a planned accommodation for added scope, not a recovery from delay. Step 3 [Conservative Decision]: The evidence is clear and consistent — the project was delivered on the revised schedule, with original components even finishing early. There is no ambiguity suggesting delay. The label 'No Delay' is well-supported by explicit factual statements. The extension of the loan closing date could superficially be misread as a delay indicator, but the report explicitly ties it to scope expansion, not schedule failure.",
+      "extracted_evidence": [
+        "A supplementary agreement extended the loan closing date by 24 months to accommodate the additional works.",
+        "The original road construction components were completed 3 months ahead of the original schedule.",
+        "The additional facilities were completed within the extended period.",
+        "The executing agency reported that the overall project was delivered within the revised implementation schedule."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Scope/Temporal conflation — treating the 24-month loan closing date extension as evidence of delay, when it is explicitly and factually attributed to a scope expansion rather than any schedule slippage. A careless reading might anchor on 'extended by 24 months' and label this a delay without accounting for the causal explanation provided in the same sentence.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 536,
+      "total_tokens": 1123
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_32",
+    "gold_label": "No Delay",
+    "category": "scope_change"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 (Evidence Extraction): The report contains several key schedule-related statements. A 3-month delay is explicitly confirmed for Lot 1 due to late delivery of precast concrete segments. However, the report explicitly qualifies this delay as affecting only a 'non-critical path activity.' The critical path activities (foundation works for interchange structures) are stated to have 'proceeded on schedule.' The project management unit confirms the overall project completion date 'remained unchanged.' Step 2 (Modality & Scope Check): The 3-month delay is a confirmed FACT, not a possibility or risk. However, its SCOPE is explicitly limited to a non-critical path activity — meaning it has no bearing on the overall project schedule. The critical path is explicitly stated as unaffected. The overall completion date is confirmed unchanged. This is a LOCAL INCIDENT with no GLOBAL IMPACT. The language throughout is declarative and factual, not conditional or speculative. Step 3 (Conservative Decision): While a delay did occur, the classification criteria for 'Delay' requires 'explicit evidence of current, unresolved delays on the CRITICAL PATH.' The report explicitly negates this by (a) placing the delay off the critical path, (b) confirming critical path activities are on schedule, and (c) confirming the completion date is unchanged. This does not satisfy the 'Delay' classification. It also does not qualify as 'Uncertain' because the information is sufficient and explicit. The most accurate label is 'No Delay' in terms of project-level schedule impact, consistent with the confirmed and explicit statements from both the supervision consultant and the project management unit.",
+      "extracted_evidence": [
+        "construction of Lot 1 (the northern highway section) experienced a 3-month delay due to the late delivery of precast concrete segments from the fabrication yard",
+        "the delay affected only a non-critical path activity, and the overall project schedule was not impacted",
+        "The critical path activities — foundation works for the interchange structures — proceeded on schedule throughout the reporting period",
+        "The project management unit confirmed that the overall project completion date remained unchanged"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a SCOPE error — specifically, anchoring on the factual existence of the '3-month delay' keyword and classifying it as a project-level 'Delay' without accounting for the explicit critical path exclusion. The report carefully and deliberately scopes the delay to a non-critical activity, which a hasty lexical scan might overlook. This would be a Scope/Lexical misinterpretation pattern.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 612,
+      "total_tokens": 1197
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_33",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 involves extracting all schedule-related text segments. The report mentions a 5-month procurement delay for traffic signal equipment, engagement of an alternative supplier, completion of all intersection improvements before the planned commissioning date, and an explicit statement that the project was completed on time. Step 2 requires modality and scope analysis: The procurement delay is stated as a confirmed historical fact ('was delayed by approximately 5 months'). However, the scope of this delay is explicitly characterized as a local/resolved incident — it did not propagate to the critical path or the overall project schedule. The report explicitly states that civil works were sequenced to accommodate later signal installation, meaning the procurement delay was absorbed by schedule float or parallel sequencing. Crucially, the report contains two definitive recovery/resolution statements: 'all intersection improvements were completed before the planned commissioning date' and 'The project was completed on time.' Step 3 requires conservative decision-making: While a factual delay did occur at the procurement sub-level, the classification criteria distinguish between local incidents and critical path impacts. The report explicitly reports full recovery and on-time completion. Under the 'No Delay' definition, 'A past delay existed but is now explicitly reported as Recovered or Resolved' precisely matches this scenario. The procurement delay was a local incident that was resolved without affecting the global project schedule. Labeling this as 'Delay' would constitute a Scope misinterpretation — conflating a sub-component incident with an unresolved critical path delay.",
+      "extracted_evidence": [
+        "procurement of traffic signal equipment for 23 intersections was delayed by approximately 5 months due to the supplier's failure to meet delivery deadlines",
+        "The executing agency engaged an alternative supplier for the remaining equipment",
+        "all intersection improvements were completed before the planned commissioning date, as the civil works at the intersection sites had been sequenced to allow for later installation of signal equipment",
+        "The project was completed on time"
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a 'Scope' error — seizing on the confirmed 5-month procurement delay as evidence of a project-level delay, while ignoring the explicit statements of on-time completion and the contextual explanation that the delay was absorbed through schedule sequencing. A secondary risk is a 'Recovery' pattern error — failing to recognize that the text explicitly confirms resolution of the delay at both the sub-component and overall project level.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 581,
+      "completion_tokens": 571,
+      "total_tokens": 1152
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_34",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1: Evidence Extraction — The report states a '4-month delay to the bridge construction' due to unforeseen geological conditions requiring pile foundation redesign. However, it also explicitly states 'The project completion date was not affected' and that 'this bridge was not on the critical path.' Step 2: Modality & Scope Check — The 4-month delay is a confirmed fact ('resulted in a 4-month delay'), not a possibility. However, the scope is explicitly local/isolated: the bridge was off the critical path, a temporary bypass mitigated traffic impact, and the overall project completion date was unaffected. The delay is therefore a 'Local Incident' with no 'Global Impact.' The report further confirms the bridge was completed before the defects liability period, meaning the local delay was also resolved. Step 3: Conservative Decision — While there is a factual delay on record, it is explicitly scoped to a non-critical element and explicitly reported as having no effect on the overall project completion. The classification criteria for 'Delay' requires evidence of delays 'on the critical path' and impacts to 'milestone or completion dates.' Neither condition is met here. The criteria for 'No Delay' requires the text to explicitly state no progress issues or that a delay was recovered — the report effectively confirms resolution by stating the project completion date was not affected and the bridge finished before the defects liability period. This most closely aligns with 'No Delay' at the project/schedule level, though a local delay factually occurred.",
+      "extracted_evidence": [
+        "the bridge subcontractor encountered unforeseen geological conditions at the pier locations for Bridge No. 7, requiring a redesign of the pile foundations",
+        "The redesign and additional piling works resulted in a 4-month delay to the bridge construction",
+        "this bridge was not on the critical path, as the road sections on either side of the bridge could be opened to traffic using a temporary bypass",
+        "The project completion date was not affected",
+        "the bridge was completed before the defects liability period commenced"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a Scope error — latching onto the confirmed factual language '4-month delay' and labeling the entire project as 'Delay' without adequately weighing the explicit critical path exclusion and the explicit statement that project completion was unaffected. A secondary risk is a Lexical error — treating 'delay to the bridge construction' as synonymous with 'project delay,' when the report carefully distinguishes the two. The correct reading requires recognizing that the delay is local, non-critical, and explicitly neutralized at the project level.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 624,
+      "total_tokens": 1218
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_35",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 identifies two distinct temporal phases in this report: (1) a mid-term review period where a 6-month delay in the resettlement action plan was confirmed as fact, and (2) an ex-post evaluation period where the outcome is explicitly stated. Step 2 modality analysis reveals the following: The 6-month resettlement delay was a confirmed fact ('running 6 months behind'), but this was a local/component-level delay, not necessarily a global project delay. The concern about road construction commencement was expressed as a risk ('could affect'), not a confirmed impact. Critically, the ex-post evaluation — which represents the final, authoritative reporting point — explicitly confirms that (a) road construction 'commenced on the revised date,' (b) was 'completed within the overall project period,' and (c) the delay was 'absorbed' through construction sequencing adjustments. Step 3 conservative decision: Although a factual delay existed at the component level (resettlement plan), the report explicitly states this was resolved and that the overall project was completed within its period. This mirrors the 'Recovery/Resolution' pattern under the 'No Delay' classification criteria, as the past delay is explicitly reported as absorbed and overcome with no residual impact on the overall schedule. The label therefore cannot be 'Delay' because the final confirmed status is completion within the project period. It cannot be 'Uncertain' because the outcome is definitively stated. 'No Delay' is the most accurate label at the project level, given explicit confirmation of recovery.",
+      "extracted_evidence": [
+        "the resettlement action plan for the southern corridor was running 6 months behind the original schedule due to delays in census verification and compensation disbursement",
+        "The review team expressed concern that this could affect the commencement of road construction in the affected sections",
+        "at the time of the ex-post evaluation, it was confirmed that road construction in the southern corridor had commenced on the revised date and was completed within the overall project period",
+        "the resettlement delay was absorbed by adjusting the construction sequencing to prioritize sections where land was already available"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a Temporal pattern error — anchoring on the confirmed mid-term delay ('6 months behind') without accounting for the subsequent explicit recovery confirmation at the ex-post evaluation stage. A hasty reader might label this 'Delay' based on the early factual evidence alone, ignoring that the report's final authoritative finding supersedes the interim status. The recovery is not vague or conditional; it is explicitly confirmed.",
+      "label": "No Delay"
+    },
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 610,
+      "total_tokens": 1223
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_36",
+    "gold_label": "No Delay",
+    "category": "partial_impact"
+  },
+  {
+    "response": {
+      "thought_process": "The report covers the period October–December 2018 and describes routine construction activities: earthworks completed on Section 3 (14,200 cubic meters), base course placement commenced on Sections 1 and 2, asphalt mix design materials submitted for review, environmental compliance confirmed, and workforce deployment noted. Critically, the report contains no language whatsoever referencing schedule status — there is no mention of delays, milestones being missed, critical path impacts, recovery plans, or even a baseline schedule comparison. There is also no statement of 'on schedule' or 'no progress issues.' The text is purely descriptive of physical progress and compliance activities. Without any schedule-related language, it is impossible to determine whether the project is ahead, on, or behind schedule. The absence of schedule information is itself insufficient evidence to support either a 'Delay' or 'No Delay' label.",
+      "extracted_evidence": [
+        "approximately 14,200 cubic meters of earthworks were completed on Section 3",
+        "base course placement commenced on Sections 1 and 2",
+        "Material testing results for asphalt mix design were submitted to the supervision consultant for review",
+        "The environmental monitoring report for the quarter confirmed compliance with all environmental management plan requirements",
+        "A total of 387 workers were deployed across the three active construction sites"
+      ],
+      "self_diagnosis": "The most likely misinterpretation risk here is a Lexical pattern error — one might infer 'progress is being made, therefore no delay,' or conversely, 'only partial activities are described, therefore something must be wrong.' Both inferences would be unsupported projection onto neutral, descriptive text. No schedule baseline, milestone date, or schedule status language is present to anchor any such conclusion.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 422,
+      "total_tokens": 1016
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_37",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "thought_process": "The report excerpt describes routine construction activities observed during a monthly site inspection on 15 March 2020. Let me analyze each segment carefully: (1) Subgrade preparation is 'in progress' with compaction testing 'meeting specification requirements' — this indicates normal, compliant work. (2) A second asphalt paving crew has been mobilized for the southern section — this could indicate an acceleration measure, but no context is given to confirm whether this is a response to a delay or simply a planned resource deployment. (3) Bridge girder fabrication is 'proceeding' — a neutral status descriptor with no reference to schedule. (4) Quality assurance documentation was reviewed and found 'satisfactory' — a positive compliance note. (5) Weather was 'favorable' — no weather-related delay implied. Critically, the report contains NO explicit reference to: scheduled milestones, planned vs. actual progress comparisons, critical path status, any delays past or present, recovery actions, or any schedule deviation. The mobilization of a second crew is a potential signal worth noting, but without baseline schedule context, it cannot be interpreted as a confirmed delay response. The overall tone is descriptive and neutral, documenting ongoing activities without any schedule performance commentary whatsoever. The absence of schedule language makes this insufficient to determine actual schedule status — this is a classic 'insufficient information' scenario rather than confirmed delay or confirmed on-schedule status.",
+      "extracted_evidence": [
+        "Subgrade preparation on the northern approach road was in progress, with compaction testing results meeting specification requirements.",
+        "The contractor had mobilized a second asphalt paving crew for the southern section.",
+        "Bridge girder fabrication at the off-site yard was reported to be proceeding.",
+        "Quality assurance documentation for the completed drainage structures was reviewed and found satisfactory.",
+        "Weather conditions during the month were favorable for construction."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a **Scope/Lexical** error — specifically, over-reading the mobilization of a second asphalt paving crew as implicit evidence of a delay-recovery measure, when the text provides no baseline schedule data to support that inference. The report is purely activity-descriptive and makes zero reference to schedule performance, planned milestones, or critical path impacts. Assigning any definitive label beyond 'Uncertain' would require importing assumptions not present in the text.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 561,
+      "total_tokens": 1150
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_38",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "thought_process": "Step 1 [Evidence Extraction]: The report describes the status of several project components: engineering design submission (28 Feb 2019), scope details (156km, 23 bridges, 4 interchanges), SEIA completion and disclosure, and procurement documents under preparation. Step 2 [Modality & Scope Check]: All statements are factual descriptions of activities completed or in progress. However, critically, there is NO explicit mention of any scheduled milestone dates, target deadlines, baseline schedule, or any comparison between planned vs. actual progress. The report does not state whether the design submission on 28 Feb 2019 was on time, late, or early. It does not indicate whether procurement document preparation is behind schedule. The phrase 'under preparation' could indicate normal progress or a delay, but without a baseline schedule reference, it is impossible to determine. There is no mention of delays, recoveries, risks, or schedule status language of any kind. Step 3 [Conservative Decision]: Without any reference to a planned schedule, completion targets, or explicit delay/on-schedule language, it is impossible to determine whether the project is delayed or on track. The absence of delay language does not confirm 'No Delay,' as the criteria require an explicit 'On schedule' or equivalent statement. This is a classic case of insufficient information — the report is purely descriptive of activities without schedule performance context.",
+      "extracted_evidence": [
+        "the detailed engineering design for Phase 2 of the highway improvement project was submitted to the ministry for approval on 28 February 2019",
+        "The design covers a total of 156km across four provinces and includes 23 bridges and 4 interchanges",
+        "The social and environmental impact assessment was completed and disclosed to the public as required under the loan agreement",
+        "Procurement documents for the first three construction lots were under preparation by the project management consultant"
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be Lexical — a reviewer might incorrectly infer 'No Delay' simply because no delay language appears in the text, or conversely infer a delay from the passive, procedural tone and the fact that procurement is still 'under preparation.' Neither inference is supported by the evidence. The report lacks any schedule baseline reference, making any directional label an over-commitment.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 544,
+      "total_tokens": 1130
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_39",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  },
+  {
+    "response": {
+      "thought_process": "The report excerpt describes a stakeholder consultation meeting held on 12 July 2017, focusing on land acquisition, compensation concerns, and community relocation issues. Step 1 - Evidence Extraction: The text contains no explicit schedule-related statements. There are no references to milestones, completion dates, critical path activities, or any temporal schedule indicators. Step 2 - Modality & Scope Check: The content is entirely procedural and social/administrative in nature, documenting a community engagement event. While land acquisition and resettlement concerns *could* theoretically affect a project schedule, the text makes no such connection explicitly. The concerns raised (compensation rates, health center relocation) are unresolved issues noted for inclusion in an updated resettlement action plan, but no schedule impact is stated or implied in factual terms. Step 3 - Conservative Decision: Under the Evidence-Constrained procedure, there is no factual basis to assign a 'Delay' label. The text neither confirms a delay nor explicitly states 'on schedule.' The absence of any schedule-related language means the classification must be 'Uncertain' — specifically due to information insufficiency rather than confirmed risk indicators.",
+      "extracted_evidence": [
+        "A stakeholder consultation meeting was held on 12 July 2017 at the district administration office to present the proposed alignment and discuss land acquisition requirements with representatives of the affected communities.",
+        "The main concerns raised by participants related to compensation rates for agricultural land and the relocation of a community health center that falls within the proposed right of way.",
+        "The project management unit committed to addressing these concerns in the updated resettlement action plan."
+      ],
+      "self_diagnosis": "The most likely misinterpretation pattern here would be a Scope error — specifically, inferring a schedule delay from unresolved social/administrative concerns (land acquisition, resettlement) without any explicit evidence that these concerns have actually impacted the critical path or caused a milestone to be missed. A hasty analyst might conflate 'unresolved stakeholder issues' with 'confirmed delay,' but this would be an unjustified inferential leap beyond what the text states.",
+      "label": "Uncertain"
+    },
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 498,
+      "total_tokens": 1093
+    },
+    "model": "claude-sonnet-4-6",
+    "case_id": "case_40",
+    "gold_label": "No Delay",
+    "category": "no_schedule_routine"
+  }
+]
